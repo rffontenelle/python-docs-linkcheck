@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       SPHINXOPTS:
-        description: 'Sphinx options (--keep-going already included)'
+        description: 'Sphinx options'
         required: false
         type: string
 
@@ -17,8 +17,6 @@ jobs:
     steps:
       - name: Check out this repo
         uses: actions/checkout@v3
-        with:
-          path: repo
 
       - name: Check out CPython
         uses: actions/checkout@v3
@@ -48,12 +46,7 @@ jobs:
         run: |
           cp \
             cpython/Doc/build/linkcheck/output.txt \
-            repo/linkcheck.txt
-
-      - name: Commit changes
-        if: ${{ always() }}
-        run: |
-          cd repo
+            linkcheck.txt
           git config user.name github-actions
           git config user.email github-actions@github.com
           git status
