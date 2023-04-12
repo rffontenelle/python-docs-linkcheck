@@ -11,6 +11,9 @@ on:
         required: false
         type: string
 
+permissions:
+  contents: write
+
 jobs:
   linkcheck:
     runs-on: ubuntu-latest
@@ -39,10 +42,9 @@ jobs:
       - name: Run linkcheck
         run: |
           make -C cpython/Doc linkcheck \
-            SPHINXOPTS="--keep-going ${{ github.events.inputs.SPHINXOPTS }}"
+            SPHINXOPTS="--keep-going ${{ github.events.inputs.SPHINXOPTS }}" || true
 
       - name: Store log
-        if: ${{ always() }}
         run: |
           cp \
             cpython/Doc/build/linkcheck/output.txt \
