@@ -41,8 +41,7 @@ jobs:
 
       - name: Run linkcheck
         run: |
-          make -C cpython/Doc linkcheck \
-            SPHINXOPTS="--keep-going ${{ github.events.inputs.SPHINXOPTS }}" || true
+          make -C cpython/Doc linkcheck SPHINXOPTS="--keep-going ${{ github.event.inputs.SPHINXOPTS }}" || true
 
       - name: Store log
         run: |
@@ -53,7 +52,7 @@ jobs:
           git config user.email github-actions@github.com
           git status
           git add linkcheck.txt
-          git commit --allow-empty -m "Update linkcheck log"
+          git commit --allow-empty -m "Update linkcheck log" -m "SPHINXOPTS used: "--keep-going ${{ github.event.inputs.SPHINXOPTS }}""
           git push
 
       - name: Upload output as artifact
