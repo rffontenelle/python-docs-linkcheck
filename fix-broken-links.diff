@@ -19,7 +19,7 @@ index e99b801d0a..57779c24b4 100644
 +linkcheck_ignore = [
 +  r'https://bugs.python.org/(issue)?\d+',
 +  # Code sample in Misc/News.d/
-+  r'https://',
++  #r'https://',
 +  # The crawler gets "Anchor not found"
 +  r'https://github.com.+?#L\d+',
 +  r'https://devguide.python.org.+?#.*'
