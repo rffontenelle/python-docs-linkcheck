@@ -52,7 +52,7 @@ jobs:
           git config user.email github-actions@github.com
           git status
           git add linkcheck.txt
-          git commit --allow-empty -m "Update linkcheck log" -m "SPHINXOPTS used: "--keep-going ${{ github.event.inputs.SPHINXOPTS }}""
+          git commit --allow-empty -m "Update linkcheck log" -m "SPHINXOPTS used: '--keep-going ${{ github.event.inputs.SPHINXOPTS }}'"
           git push
 
       - name: Upload output as artifact
