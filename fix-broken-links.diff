@@ -1,8 +1,8 @@
 diff --git a/Doc/conf.py b/Doc/conf.py
-index e99b801d0a..57779c24b4 100644
+index e99b801d0a..5dab16be63 100644
 --- a/Doc/conf.py
 +++ b/Doc/conf.py
-@@ -254,8 +254,25 @@
+@@ -254,8 +254,28 @@
  # Options for the link checker
  # ----------------------------
  
@@ -18,17 +18,43 @@ index e99b801d0a..57779c24b4 100644
 -linkcheck_ignore = [r'https://bugs.python.org/(issue)?\d+']
 +linkcheck_ignore = [
 +  r'https://bugs.python.org/(issue)?\d+',
-+  # Code sample in Misc/News.d/
-+  #r'https://',
++  # A code sample in Misc/News.d/
++  'https:\/\/$',
 +  # The crawler gets "Anchor not found"
-+  r'https://github.com.+?#L\d+',
-+  r'https://devguide.python.org.+?#.*'
++  r'https://github.com.+?#.*',
++  r'https://devguide.python.org.+?/#.*'
 +  # Robot crawlers not allowed: "403 Client Error: Forbidden"
-+  r'https://support.enthought.com/hc/en-us/.*'
++  r'https://support.enthought.com/hc/.*'
++  # SSLError CertificateError, although is valie
++  r'https://unix.org/version2/whatsnew/lp64_wp.html'
++  r'http(s)?://www.upfrontsoftware.co.za'
 +]
  
  
  # Options for extensions
+diff --git a/Doc/distributing/index.rst b/Doc/distributing/index.rst
+index 21389adedf..d237f8f082 100644
+--- a/Doc/distributing/index.rst
++++ b/Doc/distributing/index.rst
+@@ -129,14 +129,10 @@ involved in creating and publishing a project:
+ * `Uploading the project to the Python Package Index`_
+ * `The .pypirc file`_
+ 
+-.. _Project structure: \
+-    https://packaging.python.org/tutorials/packaging-projects/#packaging-python-projects
+-.. _Building and packaging the project: \
+-   https://packaging.python.org/tutorials/packaging-projects/#creating-the-package-files
+-.. _Uploading the project to the Python Package Index: \
+-   https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives
+-.. _The .pypirc file: \
+-   https://packaging.python.org/specifications/pypirc/
++.. _Project structure: https://packaging.python.org/tutorials/packaging-projects/#packaging-python-projects
++.. _Building and packaging the project: https://packaging.python.org/tutorials/packaging-projects/#creating-the-package-files
++.. _Uploading the project to the Python Package Index: https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives
++.. _The .pypirc file: https://packaging.python.org/specifications/pypirc/
+ 
+ 
+ How do I...?
 diff --git a/Doc/faq/library.rst b/Doc/faq/library.rst
 index a9cde45657..3be39cd781 100644
 --- a/Doc/faq/library.rst
