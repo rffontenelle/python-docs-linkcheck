@@ -4,6 +4,9 @@
 name: Linkcheck
 
 on:
+  push:
+    paths:
+      - '*.diff'
   workflow_dispatch:
     inputs:
       SPHINXOPTS:
