@@ -9,6 +9,14 @@ on:
       - '*.diff'
   workflow_dispatch:
     inputs:
+      patchfile:
+        type: choice
+        description: Patch to apply
+        default: all
+        options:
+        - 'fix-broken-links'
+        - 'fix-most-redirects'
+        - 'all'
       SPHINXOPTS:
         description: 'Sphinx options'
         required: false
@@ -39,10 +47,18 @@ jobs:
           cache-dependency-path: 'cpython/Doc/requirements.txt'
 
       - name: Apply fix-broken-links patch
+        if:  inputs.patchfile == "fix-broken-links" || inputs.patchfile == 'all' 
         run: |
           cd cpython
           cat ../fix-broken-links.diff
           git apply ../fix-broken-links.diff
+
+      - name: Apply fix-most-redirects patch
+        if:  inputs.patchfile == "fix-most-redirects" || inputs.patchfile == 'all' 
+        run: |
+          cd cpython
+          cat ../fix-most-redirects.diff
+          git apply ../fix-most-redirects.diff
 
       - name: Make virtual environment
         run: |
@@ -56,13 +72,18 @@ jobs:
         run: |
           touch log-broken.txt log-redir-permanently.txt log-redir-with-found.txt
           srcfile="cpython/Doc/build/linkcheck/output.txt "
-          grep ' \[broken] ' ${srcfile} > log-broken.txt
-          grep ' \[redirected permanently] ' ${srcfile} > log-redir-permanently.txt
-          grep ' \[redirected with Found] ' ${srcfile} > log-redir-with-found.txt
-          sed '/\[broken]/d;/\[redirected with Found]/d;/\[redirected permanently]/d'
-            ${srcfile} > log-others.txt
+          grep ' \[broken] ' ${srcfile} > log-broken.txt || true
+          grep ' \[redirected permanently] ' ${srcfile} > log-redir-permanently.txt || true
+          grep ' \[redirected with Found] ' ${srcfile} > log-redir-with-found.txt || true
+          sed '/\[broken]/d;/\[redirected with Found]/d;/\[redirected permanently]/d' ${srcfile} > log-others.txt
           cp ${srcfile} linkcheck.txt
-      - name: Store log
+
+      - run: cat log-broken.txt
+      - run: cat log-redir-permanently.txt
+      - run: cat log-redir-with-found.txt
+      - run: cat log-others.txt
+
+      - name: Commit and push logs
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
