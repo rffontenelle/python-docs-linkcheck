@@ -9,14 +9,6 @@ on:
       - '*.diff'
   workflow_dispatch:
     inputs:
-      patchfile:
-        type: choice
-        description: Patch to apply
-        default: all
-        options:
-        - 'fix-broken-links'
-        - 'fix-most-redirects'
-        - 'all'
       SPHINXOPTS:
         description: 'Sphinx options'
         required: false
@@ -46,15 +38,13 @@ jobs:
           cache: 'pip'
           cache-dependency-path: 'cpython/Doc/requirements.txt'
 
-      - name: Apply fix-broken-links patch
-        if:  ${{ inputs.patchfile }} == "fix-broken-links" || ${{ inputs.patchfile }} == 'all' 
-        run: |
-          cd cpython
-          cat ../fix-broken-links.diff
-          git apply ../fix-broken-links.diff
+#      - name: Apply fix-broken-links patch
+#        run: |
+#          cd cpython
+#          cat ../fix-broken-links.diff
+#          git apply ../fix-broken-links.diff
 
       - name: Apply fix-most-redirects patch
-        if:  ${{ inputs.patchfile }} == "fix-most-redirects" || ${{ inputs.patchfile }} == 'all' 
         run: |
           cd cpython
           cat ../fix-most-redirects.diff
