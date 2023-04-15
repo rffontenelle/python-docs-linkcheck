@@ -41,6 +41,7 @@ jobs:
       - name: Apply fix-broken-links patch
         run: |
           cd cpython
+          cat ../fix-broken-links.diff
           git apply ../fix-broken-links.diff
 
       - name: Make virtual environment
@@ -51,6 +52,20 @@ jobs:
         run: |
           make -C cpython/Doc linkcheck SPHINXOPTS="--keep-going ${{ github.event.inputs.SPHINXOPTS }}" || true
 
+      - name: Split log
+        run: |
+          grep ' \[broken] ' \
+            cpython/Doc/build/linkcheck/output.txt \
+            > log-broken.txt
+          grep ' \[redirected permanently] ' \
+            cpython/Doc/build/linkcheck/output.txt \
+            > log-redir-permanently.txt
+          grep ' \[redirected with Found] ' \
+            cpython/Doc/build/linkcheck/output.txt \
+            > log-redir-with-found.txt
+          sed '/\[broken]/d;/\[redirected with Found]/d;/\[redirected permanently]/d'
+            cpython/Doc/build/linkcheck/output.txt
+            > log-others.txt
       - name: Store log
         run: |
           cp \
@@ -59,7 +74,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git status
-          git add linkcheck.txt
+          git add *.txt
           git commit --allow-empty -m "Update linkcheck log" -m "SPHINXOPTS used: '--keep-going ${{ github.event.inputs.SPHINXOPTS }}'"
           git push
 
