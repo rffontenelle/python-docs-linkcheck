@@ -38,17 +38,17 @@ jobs:
           cache: 'pip'
           cache-dependency-path: 'cpython/Doc/requirements.txt'
 
-      - name: Apply fix-broken-links patch
-        run: |
-          cd cpython
-          cat ../fix-broken-links.diff
-          git apply ../fix-broken-links.diff
-
       - name: Apply fix-most-redirects patch
         run: |
           cd cpython
           cat ../fix-most-redirects.diff
           git apply ../fix-most-redirects.diff
+
+      - name: Apply fix-broken-links patch
+        run: |
+          cd cpython
+          cat ../fix-broken-links.diff
+          git apply ../fix-broken-links.diff
 
       - name: Make virtual environment
         run: |
