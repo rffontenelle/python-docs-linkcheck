@@ -1,52 +1,23 @@
-distributing/index.rst:130: [broken]  https://packaging.python.org/specifications/pypirc/: 
-distributing/index.rst:128: [broken]  https://packaging.python.org/tutorials/packaging-projects/#creating-the-package-files: 
-distributing/index.rst:127: [broken]  https://packaging.python.org/tutorials/packaging-projects/#packaging-python-projects: 
-distributing/index.rst:129: [broken]  https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives: 
 whatsnew/2.3.rst:1334: [redirected permanently] http://idlefork.sourceforge.net to https://idlefork.sourceforge.net/
-license.rst:189: [redirected with Found] http://hdl.handle.net/1895.22/1013 to http://www.handle.net/python_licenses/python1.6.1-2-23-01.html
 whatsnew/3.5.rst:425: [redirected permanently] http://mypy-lang.org to https://mypy-lang.org/
 faq/programming.rst:64: [redirected permanently] http://mypy-lang.org/ to https://mypy-lang.org/
 whatsnew/2.1.rst:611: [redirected permanently] http://pyunit.sourceforge.net/ to https://pyunit.sourceforge.net/
 whatsnew/2.0.rst:935: [redirected permanently] http://pyxml.sourceforge.net/topics/howto/xml-howto.html to https://pyxml.sourceforge.net/topics/howto/xml-howto.html
-whatsnew/2.4.rst:692: [redirected with Found] http://speleotrove.com/decimal/ to https://speleotrove.com/decimal/
 whatsnew/2.6.rst:2366: [redirected permanently] http://tipc.sourceforge.net/ to https://tipc.sourceforge.net/
 whatsnew/3.6.rst:240: [redirected permanently] http://www.mypy-lang.org/ to https://www.mypy-lang.org/
 reference/datamodel.rst:1564: [redirected permanently] http://www.ocert.org/advisories/ocert-2011-003.html to http://ocert.org/advisories/ocert-2011-003.html
 library/zipfile.rst:132: [redirected permanently] http://www.info-zip.org/ to https://infozip.sourceforge.net/
 whatsnew/changelog.rst:38796: [redirected permanently] http://www.python.org/ to https://www.python.org/
-license.rst:305: [redirected with Found] http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/MT2002/emt19937ar.html to http://www.math.sci.hiroshima-u.ac.jp/m-mat/MT/MT2002/emt19937ar.html
-library/stdtypes.rst:1607: [broken] http://www.unicode.org/versions/Unicode15.0.0/ch03.pdf#G53253: 'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte
-whatsnew/changelog.rst:18219: [broken] https://: Invalid URL 'https://': No host supplied
-library/xmlrpc.client.rst:171: [redirected with Found] http://xmlrpc.scripting.com/spec.html to http://xmlrpc.com/spec.md
-whatsnew/2.2.rst:959: [redirected with Found] http://xmlrpc.scripting.com/ to http://xmlrpc.com/
 library/hashlib.rst:737: [redirected permanently] https://131002.net/blake/ to https://www.aumasson.jp/
 library/hashlib.rst:340: [redirected permanently] https://blake2.net to https://www.blake2.net/
-library/gettext.rst:444: [redirected with Found] https://babel.pocoo.org/ to https://babel.pocoo.org/en/latest/
 library/hashlib.rst:629: [redirected permanently] https://blake2.net/#qa to https://www.blake2.net/#qa
 library/hashlib.rst:434: [redirected permanently] https://blake2.net/blake2_20130129.pdf to https://www.blake2.net/blake2_20130129.pdf
-whatsnew/2.6.rst:174: [broken] http://www.upfrontsoftware.co.za: HTTPSConnectionPool(host='www.upfrontsoftware.co.za', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'www.upfrontsoftware.co.za' doesn't match either of 'agibase.com', 'gazette.co.za', 'icinga.siyavula.com', 'icinga.upfronthosting.co.za', 'lists.agibase.com', 'test.agibase.com', 'upfrontsoftware.co.za', 'www.agibase.com', 'www.gazette.co.za'")))
-howto/urllib2.rst:457: [broken] http://www.voidspace.org.uk/python/articles/authentication.shtml: HTTPConnectionPool(host='www.voidspace.org.uk', port=80): Max retries exceeded with url: /python/articles/authentication.shtml (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f319f447160>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
-extending/extending.rst:25: [redirected with Found] https://cffi.readthedocs.io/ to https://cffi.readthedocs.io/en/latest/
-howto/pyporting.rst:376: [redirected with Found] https://caniusepython3.com to https://pypi.org/project/caniusepython3/
-extending/index.rst:28: [redirected with Found] https://cffi.readthedocs.io to https://cffi.readthedocs.io/en/latest/
 whatsnew/3.2.rst:786: [redirected permanently] https://code.activestate.com/recipes/498245 to https://code.activestate.com:443/recipes/498245/
 whatsnew/3.2.rst:786: [redirected permanently] https://code.activestate.com/recipes/577479 to https://code.activestate.com:443/recipes/577479/
 library/sys.rst:788: [redirected permanently] https://code.activestate.com/recipes/577504 to https://code.activestate.com:443/recipes/577504/
-library/trace.rst:19: [redirected with Found] https://coverage.readthedocs.io/ to https://coverage.readthedocs.io/en/7.2.3/
 library/hashlib.rst:621: [redirected permanently] https://csrc.nist.gov/publications/detail/sp/800-106/final to https://csrc.nist.gov/publications/detail/sp/800-106/archive/2009-02-25
-library/tkinter.ttk.rst:27: [redirected with Found] https://core.tcl.tk/tips/doc/trunk/tip/48.md to https://core.tcl-lang.org/tips/doc/trunk/tip/48.md
 library/plistlib.rst:49: [redirected permanently] https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/PropertyLists/ to https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/PropertyLists/
-using/mac.rst:20: [broken] https://developer.apple.com/documentation/macos-release-notes/macos-12_3-release-notes#Python: Anchor 'Python' not found
-howto/functional.rst:1238: [redirected with Found] https://developer.ibm.com/articles/l-prog/ to https://developer.ibm.com/technologies/linux/articles/
 whatsnew/2.4.rst:758: [redirected permanently] https://developer.gnome.org/glib/stable/ to https://docs.gtk.org/glib/
-howto/functional.rst:1238: [redirected with Found] https://developer.ibm.com/tutorials/l-prog2/ to https://developer.ibm.com/technologies/linux/tutorials/
-howto/functional.rst:1238: [redirected with Found] https://developer.ibm.com/tutorials/l-prog3/ to https://developer.ibm.com/technologies/linux/tutorials/
-bugs.rst:39: [broken] https://devguide.python.org/docquality/#helping-with-documentation: Anchor 'helping-with-documentation' not found
-whatsnew/3.4.rst:1962: [broken] https://devguide.python.org/coverage/#measuring-coverage-of-c-code-with-gcov-and-lcov: Anchor 'measuring-coverage-of-c-code-with-gcov-and-lcov' not found
-bugs.rst:41: [broken] https://devguide.python.org/documenting/#translating: Anchor 'translating' not found
-using/unix.rst:69: [broken] https://devguide.python.org/setup/#get-the-source-code: Anchor 'get-the-source-code' not found
-library/gc.rst:101: [broken] https://devguide.python.org/garbage_collector/#collecting-the-oldest-generation: Anchor 'collecting-the-oldest-generation' not found
-howto/logging-cookbook.rst:1923: [redirected with Found] https://docs.djangoproject.com/en/stable/topics/logging/#configuring-logging to https://docs.djangoproject.com/en/4.2/topics/logging/#configuring-logging
 library/ctypes.rst:1389: [redirected permanently] https://docs.microsoft.com/cpp/build/reference/dependents to https://learn.microsoft.com/en-us/cpp/build/reference/dependents?view=msvc-170
 using/windows.rst:477: [redirected permanently] https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist#visual-studio-2015-2017-2019-and-2022 to https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022
 library/asyncio-eventloop.rst:1716: [redirected permanently] https://docs.microsoft.com/en-ca/windows/desktop/FileIO/i-o-completion-ports to https://learn.microsoft.com/en-ca/windows/win32/fileio/i-o-completion-ports
@@ -55,26 +26,11 @@ using/windows.rst:1229: [redirected permanently] https://docs.microsoft.com/en-u
 using/windows.rst:625: [redirected permanently] https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/set_1 to https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/set_1
 using/windows.rst:627: [redirected permanently] https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/setx to https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/setx
 using/windows.rst:394: [redirected permanently] https://docs.microsoft.com/en-us/windows/msix/desktop/desktop-to-uwp-behind-the-scenes to https://learn.microsoft.com/en-us/windows/msix/desktop/desktop-to-uwp-behind-the-scenes
-library/unittest.rst:61: [redirected with Found] https://docs.pytest.org/ to https://docs.pytest.org/en/7.3.x/
 using/windows.rst:1223: [redirected permanently] https://docs.microsoft.com/en-us/windows/win32/com/component-object-model--com--portal to https://learn.microsoft.com/en-us/windows/win32/com/component-object-model--com--portal
-tutorial/whatnow.rst:36: [redirected with Found] https://docs.python.org to https://docs.python.org/3/
 using/windows.rst:622: [redirected permanently] https://docs.microsoft.com/en-us/windows/win32/procthread/environment-variables to https://learn.microsoft.com/en-us/windows/win32/procthread/environment-variables
 library/os.rst:4594: [redirected permanently] https://docs.microsoft.com/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes to https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes
-whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ja/ to https://docs.python.org/ja/3/
-whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/fr/ to https://docs.python.org/fr/3/
-whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ko/ to https://docs.python.org/ko/3/
-whatsnew/changelog.rst:19567: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
-whatsnew/3.8.rst:77: [broken] https://en.wikipedia.org/wiki/Walrus#/media/File:Pacific_Walrus_-_Bull_(8247646168).jpg: Anchor '/media/File:Pacific_Walrus_-_Bull_(8247646168).jpg' not found
-whatsnew/changelog.rst:16451: [broken] https://fishshell.com/docs/current/commands.html#source: Anchor 'source' not found
-whatsnew/3.11.rst:1320: [broken] https://github.com/faster-cpython/ideas#published-results: Anchor 'published-results' not found
-howto/isolating-extensions.rst:203: [redirected with Found] https://github.com/python/cpython/blob/master/Modules/xxlimited.c to https://github.com/python/cpython/blob/main/Modules/xxlimited.c
 library/venv.rst:93: [redirected permanently] https://go.microsoft.com/fwlink/?LinkID=135170 to https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.3
-library/ast.rst:2272: [redirected with Found] https://greentreesnakes.readthedocs.io/ to https://greentreesnakes.readthedocs.io/en/latest/
-faq/library.rst:626: [redirected with Found] https://groups.google.com/groups?selm=34A04430.CF9@ohioee.com to https://groups.google.com/g/comp.lang.python/c/LJPQHowhlsQ/m/OsoXBiShALIJ
-library/importlib.metadata.rst:62: [redirected with Found] https://importlib-metadata.readthedocs.io/ to https://importlib-metadata.readthedocs.io/en/latest/
-whatsnew/changelog.rst:15620: [broken] https://importlib-metadata.readthedocs.io/en/latest/changelog%20(links).html#v1-5-0: 404 Client Error: Not Found for url: https://importlib-metadata.readthedocs.io/en/latest/changelog%20(links).html
 library/unittest.rst:71: [redirected permanently] https://jenkins.io/ to https://www.jenkins.io/
-library/2to3.rst:482: [redirected with Found] https://libcst.readthedocs.io/ to https://libcst.readthedocs.io/en/latest/
 using/mac.rst:62: [redirected permanently] https://macvim-dev.github.io/macvim/ to https://macvim.org/macvim/
 faq/general.rst:354: [redirected permanently] https://mail.python.org/mailman/listinfo/python-dev/ to https://mail.python.org/mailman3/lists/python-dev.python.org/
 faq/general.rst:215: [redirected permanently] https://mail.python.org/mailman/listinfo/python-announce-list to https://mail.python.org/mailman3/lists/python-announce-list.python.org/
@@ -82,7 +38,6 @@ library/os.rst:3864: [redirected permanently] https://msdn.microsoft.com/44228cf
 library/os.rst:2944: [redirected permanently] https://msdn.microsoft.com/en-us/library/aa363788 to https://learn.microsoft.com/en-us/windows/win32/api/fileapi/ns-fileapi-by_handle_file_information?redirectedfrom=MSDN
 library/winreg.rst:650: [redirected permanently] https://msdn.microsoft.com/en-us/library/aa384129(v=VS.85).aspx to https://learn.microsoft.com/en-us/windows/win32/winprog64/accessing-an-alternate-registry-view?redirectedfrom=MSDN
 library/msilib.rst:131: [redirected permanently] https://msdn.microsoft.com/en-us/library/bb432265.aspx to https://learn.microsoft.com/en-us/windows/win32/api/fci/nf-fci-fcicreate?redirectedfrom=MSDN
-howto/functional.rst:1210: [broken] https://mitpress.mit.edu/sicp/: 404 Client Error: Not Found for url: https://mitpress.mit.edu/sicp/
 library/subprocess.rst:977: [redirected permanently] https://msdn.microsoft.com/en-us/library/ms633548(v=vs.85).aspx to https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-showwindow?redirectedfrom=MSDN
 library/subprocess.rst:939: [redirected permanently] https://msdn.microsoft.com/en-us/library/ms686331(v=vs.85).aspx to https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa?redirectedfrom=MSDN
 library/winreg.rst:415: [redirected permanently] https://msdn.microsoft.com/en-us/library/ms724878%28v=VS.85%29.aspx to https://learn.microsoft.com/en-us/windows/win32/sysinfo/registry-key-security-and-access-rights?redirectedfrom=MSDN
@@ -127,99 +82,36 @@ library/stat.rst:403: [redirected permanently] https://msdn.microsoft.com/en-us/
 library/test.rst:1039: [redirected permanently] https://msdn.microsoft.com/en-us/library/windows/desktop/ms680621.aspx to https://learn.microsoft.com/en-us/windows/win32/api/errhandlingapi/nf-errhandlingapi-seterrormode?redirectedfrom=MSDN
 library/subprocess.rst:989: [redirected permanently] https://msdn.microsoft.com/en-us/library/windows/desktop/ms686880(v=vs.85).aspx to https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute?redirectedfrom=MSDN
 library/os.rst:1214: [redirected permanently] https://msdn.microsoft.com/en-us/library/z0kc8e3z.aspx to https://learn.microsoft.com/en-us/cpp/c-runtime-library/reference/open-wopen?redirectedfrom=MSDN&view=msvc-170
-library/typing.rst:47: [redirected with Found] https://mypy.readthedocs.io/ to https://mypy.readthedocs.io/en/stable/
-whatsnew/2.7.rst:1834: [redirected with Found] https://nose.readthedocs.io/ to https://nose.readthedocs.io/en/latest/
-library/random.rst:578: [redirected with Found] https://nbviewer.jupyter.org/url/norvig.com/ipython/Probability.ipynb to https://nbviewer.org/url/norvig.com/ipython/Probability.ipynb
 whatsnew/3.3.rst:1894: [redirected permanently] https://oss.oracle.com/projects/rds/ to https://oss.oracle.com:443/
-installing/index.rst:107: [redirected with Found] https://packaging.python.org to https://packaging.python.org/en/latest/
-library/random.rst:571: [redirected with Found] https://nbviewer.jupyter.org/url/norvig.com/ipython/Economics.ipynb to https://nbviewer.org/url/norvig.com/ipython/Economics.ipynb
-library/__main__.rst:193: [redirected with Found] https://packaging.python.org/ to https://packaging.python.org/en/latest/
-distributing/index.rst:110: [redirected with Found] https://packaging.python.org/guides/tool-recommendations/#packaging-tool-recommendations to https://packaging.python.org/en/latest/guides/tool-recommendations/#packaging-tool-recommendations
-library/venv.rst:37: [redirected with Found] https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment to https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment
-install/index.rst:34: [redirected with Found] https://packaging.python.org/guides/tool-recommendations/ to https://packaging.python.org/en/latest/guides/tool-recommendations/
-distributing/index.rst:170: [redirected with Found] https://packaging.python.org/guides/packaging-binary-extensions/ to https://packaging.python.org/en/latest/guides/packaging-binary-extensions/
-installing/index.rst:239: [redirected with Found] https://packaging.python.org/extensions/ to https://packaging.python.org/en/latest/guides/packaging-binary-extensions/
-installing/index.rst:116: [redirected with Found] https://packaging.python.org/installing/ to https://packaging.python.org/en/latest/tutorials/installing-packages/
-installing/index.rst:69: [redirected with Found] https://packaging.python.org/installing/#creating-virtual-environments to https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments
-installing/index.rst:134: [redirected with Found] https://packaging.python.org/installing/#requirements-for-installing-packages to https://packaging.python.org/en/latest/tutorials/installing-packages/#requirements-for-installing-packages
-library/2to3.rst:482: [redirected with Found] https://parso.readthedocs.io/ to https://parso.readthedocs.io/en/latest/
-extending/newtypes_tutorial.rst:223: [redirected with Found] https://packaging.python.org/tutorials/distributing-packages/ to https://packaging.python.org/en/latest/tutorials/packaging-projects/
-library/ast.rst:2289: [redirected with Found] https://parso.readthedocs.io to https://parso.readthedocs.io/en/latest/
-installing/index.rst:150: [redirected with Found] https://packaging.python.org/science/ to https://packaging.python.org/en/latest/guides/installing-scientific-packages/
 howto/perf_profiling.rst:11: [redirected permanently] https://perf.wiki.kernel.org to https://perf.wiki.kernel.org/index.php/Main_Page
-library/__main__.rst:167: [redirected with Found] https://pip.pypa.io/ to https://pip.pypa.io/en/stable/
-library/unittest.mock-examples.rst:1317: [redirected with Found] https://pyhamcrest.readthedocs.io/ to https://pyhamcrest.readthedocs.io/en/latest/
-faq/programming.rst:100: [redirected with Found] https://pyinstaller.org/ to https://pyinstaller.org/en/stable/
-whatsnew/2.5.rst:333: [redirected with Found] https://pylib.readthedocs.io/ to https://pylib.readthedocs.io/en/latest/
-library/intro.rst:89: [redirected with Found] https://pyodide.org/ to https://pyodide.org/en/stable/
 library/importlib.metadata.rst:176: [redirected permanently] https://pypi.org/project/backports.entry_points_selectable to https://pypi.org/project/backports.entry-points-selectable/
-whatsnew/2.7.rst:1834: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/7.3.x/
 reference/introduction.rst:72: [redirected permanently] https://pypy.org/ to https://www.pypy.org/
-howto/pyporting.rst:36: [redirected with Found] https://python-modernize.readthedocs.io/ to https://python-modernize.readthedocs.io/en/latest/
 whatsnew/3.11.rst:219: [redirected permanently] https://python.org to https://www.python.org/
-library/urllib.request.rst:21: [redirected with Found] https://requests.readthedocs.io/en/master/ to https://requests.readthedocs.io/en/latest/
-distributing/index.rst:50: [redirected with Found] https://setuptools.readthedocs.io/en/latest/ to https://setuptools.pypa.io/en/latest/
-library/importlib.resources.rst:35: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html to https://setuptools.pypa.io/en/latest/pkg_resources.html
-library/importlib.metadata.rst:16: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#entry-points to https://setuptools.pypa.io/en/latest/pkg_resources.html#entry-points
-library/importlib.resources.rst:35: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#basic-resource-access to https://setuptools.pypa.io/en/latest/pkg_resources.html#basic-resource-access
 whatsnew/2.6.rst:1436: [redirected permanently] https://schemers.org/Documents/Standards/R5RS/HTML/r5rs-Z-H-9.html#%_sec_6.2 to https://conservatory.scheme.org/schemers/Documents/Standards/R5RS/HTML/r5rs-Z-H-9.html#%_sec_6.2
-library/importlib.metadata.rst:16: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#metadata-api to https://setuptools.pypa.io/en/latest/pkg_resources.html#metadata-api
-extending/building.rst:53: [redirected with Found] https://setuptools.readthedocs.io/en/latest/setuptools.html to https://setuptools.pypa.io/en/latest/setuptools.html
-whatsnew/2.7.rst:2105: [broken] https://sourceware.org/gdb/current/onlinedocs/gdb/Python.html: 404 Client Error: Not Found for url: https://sourceware.org/gdb/current/onlinedocs/gdb/Python.html
-whatsnew/changelog.rst:1725: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
-using/windows.rst:554: [broken] https://support.enthought.com/hc/en-us/articles/360038600051-Canopy-GUI-end-of-life-transition-to-the-Enthought-Deployment-Manager-EDM-and-Visual-Studio-Code: 403 Client Error: Forbidden for url: https://support.enthought.com/hc/en-us/articles/360038600051-Canopy-GUI-end-of-life-transition-to-the-Enthought-Deployment-Manager-EDM-and-Visual-Studio-Code
 faq/windows.rst:283: [redirected permanently] https://support.microsoft.com/en-us/help/3118401/ to https://support.microsoft.com/en-us/topic/update-for-universal-c-runtime-in-windows-322bf30f-4735-bb94-3949-49f5c49f4732
-library/readline.rst:20: [broken] https://tiswww.cwru.edu/php/chet/readline/rluserman.html#SEC9: Anchor 'SEC9' not found
 whatsnew/3.11.rst:76: [redirected permanently] https://toml.io/ to https://toml.io/en/
 library/asyncio-eventloop.rst:532: [redirected permanently] https://tools.ietf.org/html/rfc6555 to https://datatracker.ietf.org/doc/html/rfc6555
 library/http.client.rst:356: [redirected permanently] https://tools.ietf.org/html/rfc7231#section-4.3.6 to https://datatracker.ietf.org/doc/html/rfc7231#section-4.3.6
 library/struct.rst:173: [redirected permanently] https://tools.ietf.org/html/rfc1700 to https://datatracker.ietf.org/doc/html/rfc1700
-library/typing.rst:52: [redirected with Found] https://typing.readthedocs.io/ to https://typing.readthedocs.io/en/latest/
 library/unittest.mock-examples.rst:1074: [redirected permanently] https://twistedmatrix.com/documents/11.0.0/api/twisted.python.components.html to https://twisted.org/documents/11.0.0/api/twisted.python.components.html
-whatsnew/2.5.rst:879: [broken] https://unix.org/version2/whatsnew/lp64_wp.html: HTTPSConnectionPool(host='unix.org', port=443): Max retries exceeded with url: /version2/whatsnew/lp64_wp.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
-faq/library.rst:780: [broken] https://twistedmatrix.com/trac/: 404 Client Error: Not Found for url: https://twisted.org/trac/
 library/ssl.rst:1722: [redirected permanently] https://vincent.bernat.im/en/blog/2011-ssl-perfect-forward-secrecy to https://vincent.bernat.ch/en/blog/2011-ssl-perfect-forward-secrecy
-distributing/index.rst:56: [redirected with Found] https://wheel.readthedocs.io/ to https://wheel.readthedocs.io/en/stable/
-library/wsgiref.rst:32: [redirected with Found] https://wsgi.readthedocs.io/ to https://wsgi.readthedocs.io/en/latest/
 using/windows.rst:545: [redirected permanently] https://www.activestate.com/activepython/ to https://www.activestate.com/products/python/
 whatsnew/3.2.rst:2601: [redirected permanently] https://www.activestate.com/activetcl/downloads to https://www.activestate.com/products/tcl/
-library/tkinter.rst:93: [redirected with Found] https://wiki.tcl-lang.org/37432 to https://wiki.tcl-lang.org/page/Tcl+Package+User+Guide
 using/windows.rst:549: [redirected permanently] https://www.anaconda.com/download/ to https://www.anaconda.com/products/distribution
 faq/extending.rst:50: [redirected permanently] https://www.boost.org/libs/python/doc/index.html to https://www.boost.org/doc/libs/1_82_0/libs/python/doc/html/index.html
-whatsnew/2.2.rst:634: [redirected with Found] https://www.cs.arizona.edu/icon/docs/ipd266.htm to https://www2.cs.arizona.edu/icon/docs/ipd266.htm
 whatsnew/2.2.rst:634: [redirected permanently] https://www.cs.arizona.edu/icon/ to https://www2.cs.arizona.edu/icon/
-license.rst:13: [redirected with Found] https://www.cwi.nl/ to https://www.cwi.nl/en/
 faq/extending.rst:44: [redirected permanently] https://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/ to https://www.csse.canterbury.ac.nz/greg.ewing/python/Pyrex/
 library/select.rst:508: [redirected permanently] https://www.freebsd.org/cgi/man.cgi?query=kqueue&sektion=2 to https://man.freebsd.org/cgi/man.cgi?query=kqueue&sektion=2
 library/os.rst:4594: [redirected permanently] https://www.freebsd.org/cgi/man.cgi?time(3) to https://man.freebsd.org/cgi/man.cgi?time(3)
 library/resource.rst:243: [redirected permanently] https://www.freebsd.org/cgi/man.cgi?query=tuning&sektion=7 to https://man.freebsd.org/cgi/man.cgi?query=tuning&sektion=7
-whatsnew/3.2.rst:2521: [redirected with Found] https://www.mercurial-scm.org/wiki/QuickStart to https://wiki.mercurial-scm.org/QuickStart
-whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https://openexr.com/en/latest/
-whatsnew/changelog.rst:22382: [broken] https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html: 404 Client Error: Not Found for url: https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html
-distributing/index.rst:37: [redirected with Found] https://www.pypa.io/ to https://www.pypa.io/en/latest/
-whatsnew/changelog.rst:5181: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/#documentation-strings
 whatsnew/3.8.rst:2228: [redirected permanently] https://www.python.org/downloads/mac-osx/ to https://www.python.org/downloads/macos/
 faq/general.rst:36: [redirected permanently] https://www.python.org/psf/ to https://www.python.org/psf-landing/
 faq/general.rst:57: [redirected permanently] https://www.python.org/psf/license/ to https://docs.python.org/3/license.html
 faq/general.rst:337: [redirected permanently] https://www.redhat.com to https://www.redhat.com/en
-about.rst:6: [redirected with Found] https://www.sphinx-doc.org/ to https://www.sphinx-doc.org/en/master/
-faq/library.rst:181: [redirected with Found] https://www.sphinx-doc.org to https://www.sphinx-doc.org/en/master/
 library/statistics.rst:24: [redirected permanently] https://www.scipy.org/ to https://scipy.org/
 library/sqlite3.rst:47: [redirected permanently] https://www.sqlite.org to https://www.sqlite.org/index.html
-library/tkinter.rst:484: [redirected with Found] https://www.tcl.tk/man/tcl8.6/TkCmd/options.htm to https://www.tcl.tk/man/tcl8.6/TkCmd/options.html
-library/tkinter.rst:51: [redirected with Found] https://www.tcl.tk/man/tcl8.6/TkCmd/contents.htm to https://www.tcl.tk/man/tcl8.6/TkCmd/contents.html
-library/tkinter.rst:476: [redirected with Found] https://www.tcl.tk/man/tcl8.6/TkCmd/grid.htm to https://www.tcl.tk/man/tcl8.6/TkCmd/grid.html
-whatsnew/2.7.rst:1808: [redirected with Found] https://www.tcl.tk/man/tcl8.5/TkCmd/ttk_intro.htm to https://www.tcl.tk/man/tcl8.5/TkCmd/ttk_intro.html
-library/tkinter.rst:476: [redirected with Found] https://www.tcl.tk/man/tcl8.6/TkCmd/ttk_button.htm to https://www.tcl.tk/man/tcl8.6/TkCmd/ttk_button.html
-library/tkinter.rst:484: [redirected with Found] https://www.tcl.tk/man/tcl8.6/TkCmd/ttk_widget.htm to https://www.tcl.tk/man/tcl8.6/TkCmd/ttk_widget.html
-library/tkinter.rst:489: [redirected with Found] https://www.tcl.tk/man/tcl8.6/TkCmd/winfo.htm to https://www.tcl.tk/man/tcl8.6/TkCmd/winfo.html
-library/tkinter.rst:46: [redirected with Found] https://www.tkdocs.com/shipman/ to https://tkdocs.com/shipman/
-library/stdtypes.rst:1906: [broken] https://www.unicode.org/versions/Unicode15.0.0/ch03.pdf#G34078: 'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte
-library/stdtypes.rst:1767: [broken] https://www.unicode.org/versions/Unicode15.0.0/ch04.pdf#G91002: 'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte
 library/xmlrpc.client.rst:166: [redirected permanently] https://www.tldp.org/HOWTO/XML-RPC-HOWTO/index.html to https://tldp.org/HOWTO/XML-RPC-HOWTO/index.html
 whatsnew/3.5.rst:2214: [redirected permanently] https://www.visualstudio.com/ to https://visualstudio.microsoft.com/
-howto/unicode.rst:42: [redirected with Found] https://www.unicode.org/versions/latest/#Summary to https://www.unicode.org/versions/Unicode15.0.0/#Summary
 license.rst:22: [redirected permanently] https://www.zope.org/ to https://www.zope.dev/
-library/zipfile.rst:10: [broken] https://github.com/python/cpython/tree/main/Lib/zipfile.py: 404 Client Error: Not Found for url: https://github.com/python/cpython/tree/main/Lib/zipfile.py
 whatsnew/changelog.rst:27868: [redirected permanently] https://github.com/python/performance to https://github.com/python/pyperformance
 whatsnew/3.11.rst:2491: [redirected permanently] https://github.com/python/pythoncapi_compat to https://github.com/python/pythoncapi-compat
