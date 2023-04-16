@@ -1,3 +1,0 @@
-whatsnew/changelog.rst:16451: [broken] https://fishshell.com/docs/current/commands.html#source: Anchor 'source' not found
-whatsnew/changelog.rst:15620: [broken] https://importlib-metadata.readthedocs.io/en/latest/changelog%20(links).html#v1-5-0: 404 Client Error: Not Found for url: https://importlib-metadata.readthedocs.io/en/latest/changelog%20(links).html
-whatsnew/changelog.rst:22382: [broken] https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html: 404 Client Error: Not Found for url: https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html
