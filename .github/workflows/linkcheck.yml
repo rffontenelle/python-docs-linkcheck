@@ -38,10 +38,10 @@ jobs:
             fix-broken-links: 'fix-broken-links-310.diff'
           - branch: '3.8'
             fix-most-redirects: 'fix-most-redirects-310.diff'
-            fix-broken-links: 'fix-broken-links-310.diff'
+            fix-broken-links: 'fix-broken-links-38.diff'
           - branch: '3.7'
             fix-most-redirects: 'fix-most-redirects-310.diff'
-            fix-broken-links: 'fix-broken-links-310.diff'
+            fix-broken-links: 'fix-broken-links-37.diff'
       fail-fast: false
     steps:
       - name: Check out this repo
