@@ -23,6 +23,25 @@ jobs:
     strategy:
       matrix:
         branch: ['main', '3.11', '3.10', '3.9', '3.8', '3.7']
+        include:
+          - branch: 'main'
+            fix-broken-links: 'fix-broken-links.diff'
+            fix-most-redirects: 'fix-most-redirects.diff'
+          - branch: '3.11'
+            fix-broken-links: 'fix-broken-links-311.diff'
+            fix-most-redirects: 'fix-most-redirects.diff'
+          - branch: '3.10'
+            fix-broken-links: 'fix-broken-links.diff'
+            fix-most-redirects: 'fix-most-redirects.diff'
+          - branch: '3.9'
+            fix-broken-links: 'fix-broken-links.diff'
+            fix-most-redirects: 'fix-most-redirects.diff'
+          - branch: '3.8'
+            fix-broken-links: 'fix-broken-links.diff'
+            fix-most-redirects: 'fix-most-redirects.diff'
+          - branch: '3.7'
+            fix-broken-links: 'fix-broken-links.diff'
+            fix-most-redirects: 'fix-most-redirects.diff'
       fail-fast: false
     steps:
       - name: Check out this repo
@@ -46,14 +65,14 @@ jobs:
       - name: Apply fix-most-redirects patch
         run: |
           cd cpython
-          cat ../fix-most-redirects.diff
-          git apply ../fix-most-redirects.diff
+          cat ../${{ matrix.fix-most-redirects }}
+          git apply ../${{ matrix.fix-most-redirects }}
 
       - name: Apply fix-broken-links patch
         run: |
           cd cpython
-          cat ../fix-broken-links.diff
-          git apply ../fix-broken-links.diff
+          cat ../${{ matrix.fix-broken-links }}
+          git apply ../${{ matrix.fix-broken-links }}
 
       - name: Make virtual environment
         run: |
@@ -79,14 +98,14 @@ jobs:
       - run: cat ${{ matrix.branch }}-log-redir-with-found.txt
       - run: cat ${{ matrix.branch }}-log-others.txt
 
-      #- name: Commit and push logs
-      #  run: |
-      #    git config user.name github-actions
-      #    git config user.email github-actions@github.com
-      #    git status
-      #    git add *.txt
-      #    git commit --allow-empty -m "Update linkcheck log" -m "SPHINXOPTS used: '--keep-going ${{ github.event.inputs.SPHINXOPTS }}'"
-      #    git push
+      - name: Commit and push logs
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git status
+          git add *.txt
+          git commit --allow-empty -m "Update linkcheck log" -m "SPHINXOPTS used: '--keep-going ${{ github.event.inputs.SPHINXOPTS }}'"
+          git push
 
       - name: Upload output as artifact
         if: ${{ always() }}
