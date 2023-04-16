@@ -25,23 +25,23 @@ jobs:
         branch: ['main', '3.11', '3.10', '3.9', '3.8', '3.7']
         include:
           - branch: 'main'
-            fix-broken-links: 'fix-broken-links.diff'
             fix-most-redirects: 'fix-most-redirects.diff'
+            fix-broken-links: 'fix-broken-links.diff'
           - branch: '3.11'
+            fix-most-redirects: 'fix-most-redirects.diff'
             fix-broken-links: 'fix-broken-links-311.diff'
-            fix-most-redirects: 'fix-most-redirects.diff'
           - branch: '3.10'
-            fix-broken-links: 'fix-broken-links.diff'
             fix-most-redirects: 'fix-most-redirects.diff'
+            fix-broken-links: 'fix-broken-links-311.diff'
           - branch: '3.9'
-            fix-broken-links: 'fix-broken-links.diff'
             fix-most-redirects: 'fix-most-redirects.diff'
+            fix-broken-links: 'fix-broken-links-311.diff'
           - branch: '3.8'
-            fix-broken-links: 'fix-broken-links.diff'
             fix-most-redirects: 'fix-most-redirects.diff'
+            fix-broken-links: 'fix-broken-links-311.diff'
           - branch: '3.7'
-            fix-broken-links: 'fix-broken-links.diff'
             fix-most-redirects: 'fix-most-redirects.diff'
+            fix-broken-links: 'fix-broken-links-311.diff'
       fail-fast: false
     steps:
       - name: Check out this repo
