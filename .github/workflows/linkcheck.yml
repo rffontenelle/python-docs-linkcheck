@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        branch: ['main', '3.11', '3.10', '3.9', '3.8', '3.7']
+        branch: ['main', '3.11']
         include:
           - branch: 'main'
             fix-most-redirects: 'fix-most-redirects.diff'
@@ -30,18 +30,6 @@ jobs:
           - branch: '3.11'
             fix-most-redirects: 'fix-most-redirects.diff'
             fix-broken-links: 'fix-broken-links-311.diff'
-          - branch: '3.10'
-            fix-most-redirects: 'fix-most-redirects-310.diff'
-            fix-broken-links: 'fix-broken-links-310.diff'
-          - branch: '3.9'
-            fix-most-redirects: 'fix-most-redirects-310.diff'
-            fix-broken-links: 'fix-broken-links-310.diff'
-          - branch: '3.8'
-            fix-most-redirects: 'fix-most-redirects-310.diff'
-            fix-broken-links: 'fix-broken-links-38.diff'
-          - branch: '3.7'
-            fix-most-redirects: 'fix-most-redirects-310.diff'
-            fix-broken-links: 'fix-broken-links-37.diff'
       fail-fast: false
     steps:
       - name: Check out this repo
