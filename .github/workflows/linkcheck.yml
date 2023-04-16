@@ -17,10 +17,6 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
-  cancel-in-progress: true
-
 jobs:
   linkcheck:
     runs-on: ubuntu-latest
@@ -50,6 +46,8 @@ jobs:
     steps:
       - name: Check out this repo
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false
 
       - name: Check out CPython
         uses: actions/checkout@v3
@@ -102,6 +100,23 @@ jobs:
       - run: cat ${{ matrix.branch }}-log-redir-with-found.txt
       - run: cat ${{ matrix.branch }}-log-others.txt
 
+      - name: Upload output as artifact
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ matrix.branch }}-logs
+          path: ${{ matrix.branch }}-*.txt
+
+  push:
+    runs-on: ubuntu-latest
+    needs: linkcheck
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v3
+      
+      - name: Download logs
+        uses: actions/download-artifact@v3
+        
       - name: Commit and push logs
         run: |
           git config user.name github-actions
@@ -110,10 +125,3 @@ jobs:
           git add *.txt
           git commit --allow-empty -m "Update linkcheck log" -m "SPHINXOPTS used: '--keep-going ${{ github.event.inputs.SPHINXOPTS }}'"
           git push
-
-      - name: Upload output as artifact
-        if: ${{ always() }}
-        uses: actions/upload-artifact@v3
-        with:
-          name: ${{ matrix.branch }}-linkcheck-output
-          path: cpython/Doc/build/linkcheck/output.txt
