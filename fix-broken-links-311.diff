@@ -1,3 +1,5 @@
+diff --git a/Doc/conf.py b/Doc/conf.py
+index 0092236..b8b40e7 100644
 --- a/Doc/conf.py
 +++ b/Doc/conf.py
 @@ -251,8 +251,29 @@
