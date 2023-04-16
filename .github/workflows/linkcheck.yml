@@ -39,13 +39,13 @@ jobs:
             fix-broken-links: 'fix-broken-links-310.diff'
           - branch: '3.9'
             fix-most-redirects: 'fix-most-redirects-310.diff'
-            fix-broken-links: 'fix-broken-links-311.diff'
+            fix-broken-links: 'fix-broken-links-310.diff'
           - branch: '3.8'
             fix-most-redirects: 'fix-most-redirects-310.diff'
-            fix-broken-links: 'fix-broken-links-311.diff'
+            fix-broken-links: 'fix-broken-links-310.diff'
           - branch: '3.7'
             fix-most-redirects: 'fix-most-redirects-310.diff'
-            fix-broken-links: 'fix-broken-links-311.diff'
+            fix-broken-links: 'fix-broken-links-310.diff'
       fail-fast: false
     steps:
       - name: Check out this repo
@@ -66,13 +66,13 @@ jobs:
           cache: 'pip'
           cache-dependency-path: 'cpython/Doc/requirements.txt'
 
-      - name: Apply fix-most-redirects patch
+      - name: Apply ${{ matrix.fix-most-redirects }}
         run: |
           cd cpython
           cat ../${{ matrix.fix-most-redirects }}
           git apply ../${{ matrix.fix-most-redirects }}
 
-      - name: Apply fix-broken-links patch
+      - name: Apply ${{ matrix.fix-broken-links }}
         run: |
           cd cpython
           cat ../${{ matrix.fix-broken-links }}
