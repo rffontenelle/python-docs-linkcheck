@@ -17,6 +17,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
 jobs:
   linkcheck:
     runs-on: ubuntu-latest
@@ -32,7 +36,7 @@ jobs:
             fix-broken-links: 'fix-broken-links-311.diff'
           - branch: '3.10'
             fix-most-redirects: 'fix-most-redirects-310.diff'
-            fix-broken-links: 'fix-broken-links-311.diff'
+            fix-broken-links: 'fix-broken-links-310.diff'
           - branch: '3.9'
             fix-most-redirects: 'fix-most-redirects-310.diff'
             fix-broken-links: 'fix-broken-links-311.diff'
