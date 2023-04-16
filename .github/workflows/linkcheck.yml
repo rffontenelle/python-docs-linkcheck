@@ -20,6 +20,10 @@ permissions:
 jobs:
   linkcheck:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        branch: ['main', '3.11', '3.10', '3.9', '3.8', '3.7']
+      fail-fast: false
     steps:
       - name: Check out this repo
         uses: actions/checkout@v3
@@ -29,6 +33,7 @@ jobs:
         with:
           repository: python/cpython
           persist-credentials: false
+          ref: ${{ matrix.branch }}
           path: cpython
 
       - name: Set up Python 3.9
@@ -60,31 +65,32 @@ jobs:
 
       - name: Split log
         run: |
-          touch log-broken.txt log-redir-permanently.txt log-redir-with-found.txt
-          srcfile="cpython/Doc/build/linkcheck/output.txt "
-          grep ' \[broken] ' ${srcfile} > log-broken.txt || true
-          grep ' \[redirected permanently] ' ${srcfile} > log-redir-permanently.txt || true
-          grep ' \[redirected with Found] ' ${srcfile} > log-redir-with-found.txt || true
-          sed '/\[broken]/d;/\[redirected with Found]/d;/\[redirected permanently]/d' ${srcfile} > log-others.txt
-          cp ${srcfile} linkcheck.txt
+          BRANCH=${{ matrix.branch }}
+          SRCFILE="cpython/Doc/build/linkcheck/output.txt "
+          touch ${BRANCH}-log-broken.txt ${BRANCH}-log-redir-permanently.txt ${BRANCH}-log-redir-with-found.txt          
+          grep ' \[broken] ' ${SRCFILE} > ${BRANCH}-log-broken.txt || true
+          grep ' \[redirected permanently] ' ${SRCFILE} > ${BRANCH}-log-redir-permanently.txt || true
+          grep ' \[redirected with Found] ' ${SRCFILE} > ${BRANCH}-log-redir-with-found.txt || true
+          sed '/\[broken]/d;/\[redirected with Found]/d;/\[redirected permanently]/d' ${SRCFILE} > ${BRANCH}-log-others.txt
+          cp ${SRCFILE} ${BRANCH}-linkcheck.txt
 
-      - run: cat log-broken.txt
-      - run: cat log-redir-permanently.txt
-      - run: cat log-redir-with-found.txt
-      - run: cat log-others.txt
+      - run: cat ${{ matrix.branch }}-log-broken.txt
+      - run: cat ${{ matrix.branch }}-log-redir-permanently.txt
+      - run: cat ${{ matrix.branch }}-log-redir-with-found.txt
+      - run: cat ${{ matrix.branch }}-log-others.txt
 
-      - name: Commit and push logs
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git status
-          git add *.txt
-          git commit --allow-empty -m "Update linkcheck log" -m "SPHINXOPTS used: '--keep-going ${{ github.event.inputs.SPHINXOPTS }}'"
-          git push
+      #- name: Commit and push logs
+      #  run: |
+      #    git config user.name github-actions
+      #    git config user.email github-actions@github.com
+      #    git status
+      #    git add *.txt
+      #    git commit --allow-empty -m "Update linkcheck log" -m "SPHINXOPTS used: '--keep-going ${{ github.event.inputs.SPHINXOPTS }}'"
+      #    git push
 
       - name: Upload output as artifact
         if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
-          name: linkcheck-output
+          name: ${{ matrix.branch }}-linkcheck-output
           path: cpython/Doc/build/linkcheck/output.txt
