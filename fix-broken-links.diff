@@ -197,3 +197,54 @@ index 810a2cd253..36afcb163f 100644
    When you begin debugging an executable program P, GDB will look for
    a file named ``P-gdb.py`` and automatically read it.  Dave Malcolm
    contributed a :file:`python-gdb.py` that adds a number of
+diff --git a/Misc/NEWS.d/3.7.0b2.rst b/Misc/NEWS.d/3.7.0b2.rst
+index b2ade206bd..465714acdb 100644
+--- a/Misc/NEWS.d/3.7.0b2.rst
++++ b/Misc/NEWS.d/3.7.0b2.rst
+@@ -357,7 +357,7 @@ Wirtel
+ 
+ Add TLSVersion constants and SSLContext.maximum_version / minimum_version
+ attributes. The new API wraps OpenSSL 1.1
+-https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html
++https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_set_min_proto_version.html
+ feature.
+ 
+ ..
+diff --git a/Misc/NEWS.d/3.8.0a1.rst b/Misc/NEWS.d/3.8.0a1.rst
+index 991bbc1286..aabba586dc 100644
+--- a/Misc/NEWS.d/3.8.0a1.rst
++++ b/Misc/NEWS.d/3.8.0a1.rst
+@@ -5951,7 +5951,7 @@ Wirtel
+ 
+ Add TLSVersion constants and SSLContext.maximum_version / minimum_version
+ attributes. The new API wraps OpenSSL 1.1
+-https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html
++https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_set_min_proto_version.html
+ feature.
+ 
+ ..
+diff --git a/Misc/NEWS.d/3.9.0a2.rst b/Misc/NEWS.d/3.9.0a2.rst
+index 226ea0d3df..a03eb10f1d 100644
+--- a/Misc/NEWS.d/3.9.0a2.rst
++++ b/Misc/NEWS.d/3.9.0a2.rst
+@@ -686,7 +686,7 @@ added.
+ 
+ Update documentation to state that to activate virtual environments under
+ fish one should use `source`, not `.` as documented at
+-https://fishshell.com/docs/current/commands.html#source.
++https://fishshell.com/docs/current/cmds/source.html.
+ 
+ ..
+ 
+diff --git a/Misc/NEWS.d/3.9.0a4.rst b/Misc/NEWS.d/3.9.0a4.rst
+index 2aef8b26b0..019b34c408 100644
+--- a/Misc/NEWS.d/3.9.0a4.rst
++++ b/Misc/NEWS.d/3.9.0a4.rst
+@@ -392,7 +392,7 @@ The distutils ``bdist_msi`` command is deprecated in Python 3.9, use
+ Improved performance of zipfile.Path for files with a large number of
+ entries. Also improved performance and fixed minor issue as published with
+ `importlib_metadata 1.5
+-<https://importlib-metadata.readthedocs.io/en/latest/changelog%20(links).html#v1-5-0>`_.
++<https://importlib-metadata.readthedocs.io/en/latest/history.html#v1-5-0>`_.
+ 
+ ..
