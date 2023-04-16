@@ -110,6 +110,6 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git status
-          git add *.txt
+          git add *-logs/*.txt
           git commit --allow-empty -m "Update linkcheck log" -m "SPHINXOPTS used: '--keep-going ${{ github.event.inputs.SPHINXOPTS }}'"
           git push
