@@ -1,3 +1,28 @@
-library/intro.rst:101: [broken] https://emscripten.org/docs/porting/networking.html>: 404 Client Error: Not Found for url: https://emscripten.org/docs/porting/networking.html%3E
-howto/logging.rst:336: [broken] https://groups.google.com/forum/#!forum/comp.lang.python: Anchor '!forum/comp.lang.python' not found
-library/zipfile.rst:10: [broken] https://github.com/python/cpython/tree/3.11/Lib/zipfile/: 404 Client Error: Not Found for url: https://github.com/python/cpython/tree/3.11/Lib/zipfile/
+distributing/index.rst:128: [broken]  https://packaging.python.org/tutorials/packaging-projects/#packaging-python-projects: 
+distributing/index.rst:129: [broken]  https://packaging.python.org/tutorials/packaging-projects/#creating-the-package-files: 
+distributing/index.rst:130: [broken]  https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives: 
+distributing/index.rst:131: [broken]  https://packaging.python.org/specifications/pypirc/: 
+faq/library.rst:780: [broken] https://twistedmatrix.com/trac/: 404 Client Error: Not Found for url: https://twisted.org/trac/
+howto/functional.rst:1210: [broken] https://mitpress.mit.edu/sicp/: 404 Client Error: Not Found for url: https://mitpress.mit.edu/sicp/
+howto/urllib2.rst:457: [broken] http://www.voidspace.org.uk/python/articles/authentication.shtml: HTTPConnectionPool(host='www.voidspace.org.uk', port=80): Max retries exceeded with url: /python/articles/authentication.shtml (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff2c3d7c880>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+library/hashlib.rst:747: [broken] https://cr.yp.to/chacha.html: HTTPSConnectionPool(host='cr.yp.to', port=443): Max retries exceeded with url: /chacha.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff2cde32370>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+library/mailbox.rst:434: [broken] https://cr.yp.to/proto/maildir.html: HTTPSConnectionPool(host='cr.yp.to', port=443): Max retries exceeded with url: /proto/maildir.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff2cd7f9160>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+library/readline.rst:20: [broken] https://tiswww.cwru.edu/php/chet/readline/rluserman.html#SEC9: Anchor 'SEC9' not found
+whatsnew/2.7.rst:2104: [broken] https://sourceware.org/gdb/current/onlinedocs/gdb/Python.html: 404 Client Error: Not Found for url: https://sourceware.org/gdb/current/onlinedocs/gdb/Python.html
+whatsnew/3.9.rst:773: [broken] https://bugs.python.org/issue?@action=redirect&bpo=37986: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/82167
+whatsnew/changelog.rst:11648: [broken] https://bugs.python.org/issue?@action=redirect&bpo=36290: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/80471
+whatsnew/changelog.rst:11741: [broken] https://bugs.python.org/issue?@action=redirect&bpo=41085: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/85257
+whatsnew/changelog.rst:11760: [broken] https://bugs.python.org/issue?@action=redirect&bpo=40964: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/85136
+whatsnew/changelog.rst:13450: [broken] https://importlib-metadata.readthedocs.io/en/latest/changelog%20(links).html#v1-5-0: 404 Client Error: Not Found for url: https://importlib-metadata.readthedocs.io/en/latest/changelog%20(links).html
+whatsnew/changelog.rst:13795: [broken] https://bugs.python.org/issue?@action=redirect&bpo=39389: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/83570
+whatsnew/changelog.rst:14133: [broken] https://bugs.python.org/issue?@action=redirect&bpo=38994: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/83175
+whatsnew/changelog.rst:14281: [broken] https://fishshell.com/docs/current/commands.html#source: Anchor 'source' not found
+whatsnew/changelog.rst:14870: [broken] https://bugs.python.org/issue?@action=redirect&bpo=38332: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/82513
+whatsnew/changelog.rst:15094: [broken] https://bugs.python.org/issue?@action=redirect&bpo=37950: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/82131
+whatsnew/changelog.rst:15420: [broken] https://bugs.python.org/issue?@action=redirect&bpo=37266: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/81447
+whatsnew/changelog.rst:15735: [broken] https://bugs.python.org/issue?@action=redirect&bpo=38502: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/82683
+whatsnew/changelog.rst:17699: [broken] https://bugs.python.org/issue?@action=redirect&bpo=36282: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/80463
+whatsnew/changelog.rst:17819: [broken] https://bugs.python.org/issue?@action=redirect&bpo=36106: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/80287
+whatsnew/changelog.rst:19480: [broken] https://bugs.python.org/issue?@action=redirect&bpo=34213: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/78394
+whatsnew/changelog.rst:20215: [broken] https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html: 404 Client Error: Not Found for url: https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html
+whatsnew/changelog.rst:7421: [broken] https://bugs.python.org/issue?@action=redirect&bpo=35183: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/79364
