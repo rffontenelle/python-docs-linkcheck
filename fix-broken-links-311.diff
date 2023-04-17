@@ -2,7 +2,7 @@ diff --git a/Doc/conf.py b/Doc/conf.py
 index 0092236..b8b40e7 100644
 --- a/Doc/conf.py
 +++ b/Doc/conf.py
-@@ -251,8 +251,29 @@
+@@ -251,8 +251,31 @@
      r'https://github.com/python/cpython/tree/.*': 'https://github.com/python/cpython/blob/.*'
  }
  
@@ -12,6 +12,8 @@ index 0092236..b8b40e7 100644
 +linkcheck_anchors_ignore = [
 +    # match any anchor that starts with a '/' since this is an invalid HTML anchor
 +    r'\/.*',
++    # match any anchor that starts with a '!'
++    r'\!.*',
 +]
 +
  # Ignore certain URLs.
@@ -108,6 +110,19 @@ index 69af3c3a85..61ba6bd722 100644
  
  When authentication is required, the server sends a header (as well as the 401
  error code) requesting authentication.  This specifies the authentication scheme
+diff --git a/Doc/library/intro.rst b/Doc/library/intro.rst
+index 1020924038e9..5a4c9b8b16ab 100644
+--- a/Doc/library/intro.rst
++++ b/Doc/library/intro.rst
+@@ -114,7 +114,7 @@ DOM APIs as well as limited networking capabilities with JavaScript's
+ 
+ .. _WebAssembly: https://webassembly.org/
+ .. _Emscripten: https://emscripten.org/
+-.. _Emscripten Networking: https://emscripten.org/docs/porting/networking.html>
++.. _Emscripten Networking: https://emscripten.org/docs/porting/networking.html
+ .. _WASI: https://wasi.dev/
+ .. _wasmtime: https://wasmtime.dev/
+ .. _Pyodide: https://pyodide.org/
 diff --git a/Doc/library/readline.rst b/Doc/library/readline.rst
 index 4d485d25b5..8fb0eca8df 100644
 --- a/Doc/library/readline.rst
@@ -121,19 +136,6 @@ index 4d485d25b5..8fb0eca8df 100644
  in the GNU Readline manual for information about the format and
  allowable constructs of that file, and the capabilities of the
  Readline library in general.
-diff --git a/Doc/library/zipfile.rst b/Doc/library/zipfile.rst
-index e2a085d6e9..6f4826cb06 100644
---- a/Doc/library/zipfile.rst
-+++ b/Doc/library/zipfile.rst
-@@ -7,7 +7,7 @@
- .. moduleauthor:: James C. Ahlstrom <jim@interet.com>
- .. sectionauthor:: James C. Ahlstrom <jim@interet.com>
- 
--**Source code:** :source:`Lib/zipfile.py`
-+**Source code:** :source:`Lib/zipfile/`
- 
- --------------
- 
 diff --git a/Doc/whatsnew/2.7.rst b/Doc/whatsnew/2.7.rst
 index 810a2cd253..36afcb163f 100644
 --- a/Doc/whatsnew/2.7.rst
