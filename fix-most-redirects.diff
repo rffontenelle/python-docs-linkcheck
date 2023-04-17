@@ -1,22 +1,21 @@
 diff --git a/Doc/conf.py b/Doc/conf.py
-index e99b801d0a..fc97d07a8a 100644
+index e99b801d0a..5a735336b7 100644
 --- a/Doc/conf.py
 +++ b/Doc/conf.py
-@@ -254,9 +254,14 @@
-# Options for the link checker
-# ----------------------------
-
-# Ignore certain URLs.
-linkcheck_ignore = [r'https://bugs.python.org/(issue)?\d+']
-
-linkcheck_allowed_redirects = {
-    # bpo-NNNN -> BPO -> GH Issues
-    r'https://bugs.python.org/issue\?@action=redirect&bpo=\d+': 'https://github.com/python/cpython/issues/\d+',
-    # GH-NNNN used to refer to pull requests
-    r'https://github.com/python/cpython/issues/\d+': 'https://github.com/python/cpython/pull/\d+',
-    # :source:`something` linking files in the repository
-    r'https://github.com/python/cpython/tree/.*': 'https://github.com/python/cpython/blob/.*'
-}
-
-# Options for extensions
-# ----------------------
+@@ -254,8 +254,14 @@
+ # Options for the link checker
+ # ----------------------------
+ 
+-# Ignore certain URLs.
+-linkcheck_ignore = [r'https://bugs.python.org/(issue)?\d+']
++linkcheck_allowed_redirects = {
++    # bpo-NNNN -> BPO -> GH Issues
++    r'https://bugs.python.org/issue\?@action=redirect&bpo=\d+': 'https://github.com/python/cpython/issues/\d+',
++    # GH-NNNN used to refer to pull requests
++    r'https://github.com/python/cpython/issues/\d+': 'https://github.com/python/cpython/pull/\d+',
++    # :source:`something` linking files in the repository
++    r'https://github.com/python/cpython/tree/.*': 'https://github.com/python/cpython/blob/.*'
++}
+ 
+ 
+ # Options for extensions
