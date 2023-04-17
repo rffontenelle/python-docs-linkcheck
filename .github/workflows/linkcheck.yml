@@ -75,13 +75,13 @@ jobs:
       - name: Split log
         run: |
           BRANCH=${{ matrix.branch }}
-          SRCFILE="cpython/Doc/build/linkcheck/output.txt "
+          SRCFILE="cpython/Doc/build/linkcheck/output.txt"
           touch ${BRANCH}-log-broken.txt ${BRANCH}-log-redir-permanently.txt ${BRANCH}-log-redir-with-found.txt          
-          grep ' \[broken] ' ${SRCFILE} > ${BRANCH}-log-broken.txt || true
-          grep ' \[redirected permanently] ' ${SRCFILE} > ${BRANCH}-log-redir-permanently.txt || true
-          grep ' \[redirected with Found] ' ${SRCFILE} > ${BRANCH}-log-redir-with-found.txt || true
-          sed '/\[broken]/d;/\[redirected with Found]/d;/\[redirected permanently]/d' ${SRCFILE} > ${BRANCH}-log-others.txt
-          cp ${SRCFILE} ${BRANCH}-linkcheck.txt
+          grep ' \[broken] ' ${SRCFILE} | sort > ${BRANCH}-log-broken.txt || true
+          grep ' \[redirected permanently] ' ${SRCFILE} | sort > ${BRANCH}-log-redir-permanently.txt || true
+          grep ' \[redirected with Found] ' ${SRCFILE} | sort > ${BRANCH}-log-redir-with-found.txt || true
+          sed '/\[broken]/d;/\[redirected with Found]/d;/\[redirected permanently]/d' ${SRCFILE} | sort > ${BRANCH}-log-others.txt
+          sort ${SRCFILE} > ${BRANCH}-linkcheck.txt
 
       - run: cat ${{ matrix.branch }}-log-broken.txt
       - run: cat ${{ matrix.branch }}-log-redir-permanently.txt
