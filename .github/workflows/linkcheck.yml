@@ -112,4 +112,5 @@ jobs:
           git status
           git add *-logs/*.txt
           git commit --allow-empty -m "Update linkcheck log" -m "SPHINXOPTS used: '--keep-going ${{ github.event.inputs.SPHINXOPTS }}'"
+          git pull --rebase
           git push
