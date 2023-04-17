@@ -39,7 +39,7 @@ howto/logging-cookbook.rst:1923: [redirected with Found] https://docs.djangoproj
 howto/pyporting.rst:36: [redirected with Found] https://python-modernize.readthedocs.io/ to https://python-modernize.readthedocs.io/en/latest/
 howto/pyporting.rst:376: [redirected with Found] https://caniusepython3.com to https://pypi.org/project/caniusepython3/
 howto/unicode.rst:42: [redirected with Found] https://www.unicode.org/versions/latest/#Summary to https://www.unicode.org/versions/Unicode15.0.0/#Summary
-howto/urllib2.rst:457: [broken] http://www.voidspace.org.uk/python/articles/authentication.shtml: HTTPConnectionPool(host='www.voidspace.org.uk', port=80): Max retries exceeded with url: /python/articles/authentication.shtml (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff2c3d7c880>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+howto/urllib2.rst:457: [broken] http://www.voidspace.org.uk/python/articles/authentication.shtml: HTTPConnectionPool(host='www.voidspace.org.uk', port=80): Max retries exceeded with url: /python/articles/authentication.shtml (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0a2c09e760>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
 installing/index.rst:108: [redirected with Found] https://packaging.python.org to https://packaging.python.org/en/latest/
 installing/index.rst:117: [redirected with Found] https://packaging.python.org/installing/ to https://packaging.python.org/en/latest/tutorials/installing-packages/
 installing/index.rst:135: [redirected with Found] https://packaging.python.org/installing/#requirements-for-installing-packages to https://packaging.python.org/en/latest/tutorials/installing-packages/#requirements-for-installing-packages
@@ -61,7 +61,6 @@ library/hashlib.rst:440: [redirected permanently] https://blake2.net/blake2_2013
 library/hashlib.rst:626: [redirected permanently] https://csrc.nist.gov/publications/detail/sp/800-106/final to https://csrc.nist.gov/publications/detail/sp/800-106/archive/2009-02-25
 library/hashlib.rst:634: [redirected permanently] https://blake2.net/#qa to https://www.blake2.net/#qa
 library/hashlib.rst:742: [redirected permanently] https://131002.net/blake/ to https://www.aumasson.jp/
-library/hashlib.rst:747: [broken] https://cr.yp.to/chacha.html: HTTPSConnectionPool(host='cr.yp.to', port=443): Max retries exceeded with url: /chacha.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff2cde32370>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
 library/http.client.rst:23: [redirected with Found] https://requests.readthedocs.io/en/master/ to https://requests.readthedocs.io/en/latest/
 library/importlib.metadata.rst:16: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#entry-points to https://setuptools.pypa.io/en/latest/pkg_resources.html#entry-points
 library/importlib.metadata.rst:16: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#metadata-api to https://setuptools.pypa.io/en/latest/pkg_resources.html#metadata-api
@@ -69,7 +68,6 @@ library/importlib.metadata.rst:62: [redirected with Found] https://importlib-met
 library/importlib.resources.rst:26: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html to https://setuptools.pypa.io/en/latest/pkg_resources.html
 library/importlib.resources.rst:26: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#basic-resource-access to https://setuptools.pypa.io/en/latest/pkg_resources.html#basic-resource-access
 library/intro.rst:89: [redirected with Found] https://pyodide.org/ to https://pyodide.org/en/stable/
-library/mailbox.rst:434: [broken] https://cr.yp.to/proto/maildir.html: HTTPSConnectionPool(host='cr.yp.to', port=443): Max retries exceeded with url: /proto/maildir.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff2cd7f9160>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
 library/msilib.rst:131: [redirected permanently] https://msdn.microsoft.com/en-us/library/bb432265.aspx to https://learn.microsoft.com/en-us/windows/win32/api/fci/nf-fci-fcicreate?redirectedfrom=MSDN
 library/msilib.rst:131: [redirected permanently] https://msdn.microsoft.com/en-us/library/windows/desktop/aa379205.aspx to https://learn.microsoft.com/en-us/windows/win32/api/rpcdce/nf-rpcdce-uuidcreate?redirectedfrom=MSDN
 library/msilib.rst:131: [redirected permanently] https://msdn.microsoft.com/en-us/library/windows/desktop/aa379352.aspx to https://learn.microsoft.com/en-us/windows/win32/api/rpcdce/nf-rpcdce-uuidtostring?redirectedfrom=MSDN
@@ -166,7 +164,7 @@ using/mac.rst:62: [redirected permanently] https://macvim-dev.github.io/macvim/ 
 using/windows.rst:1210: [redirected permanently] https://docs.microsoft.com/en-us/windows/win32/com/component-object-model--com--portal to https://learn.microsoft.com/en-us/windows/win32/com/component-object-model--com--portal
 using/windows.rst:1216: [redirected permanently] https://docs.microsoft.com/en-us/cpp/mfc/mfc-desktop-applications to https://learn.microsoft.com/en-us/cpp/mfc/mfc-desktop-applications?view=msvc-170
 using/windows.rst:381: [redirected permanently] https://docs.microsoft.com/en-us/windows/msix/desktop/desktop-to-uwp-behind-the-scenes to https://learn.microsoft.com/en-us/windows/msix/desktop/desktop-to-uwp-behind-the-scenes
-using/windows.rst:464: [redirected permanently] https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist#visual-studio-2015-2017-2019-and-2022 to https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022
+using/windows.rst:464: [redirected permanently] https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist#visual-studio-2015-2017-2019-and-2022 to https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022
 using/windows.rst:532: [redirected permanently] https://www.activestate.com/activepython/ to https://www.activestate.com/products/python/
 using/windows.rst:536: [redirected permanently] https://www.anaconda.com/download/ to https://www.anaconda.com/products/distribution
 using/windows.rst:609: [redirected permanently] https://docs.microsoft.com/en-us/windows/win32/procthread/environment-variables to https://learn.microsoft.com/en-us/windows/win32/procthread/environment-variables
@@ -202,26 +200,13 @@ whatsnew/3.6.rst:240: [redirected permanently] http://www.mypy-lang.org/ to http
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/fr/ to https://docs.python.org/fr/3/
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ja/ to https://docs.python.org/ja/3/
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ko/ to https://docs.python.org/ko/3/
+whatsnew/3.8.rst:2225: [redirected permanently] https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html to https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i74960hq-processor-6m-cache-up-to-3-80-ghz.html
 whatsnew/3.8.rst:2225: [redirected permanently] https://www.python.org/downloads/mac-osx/ to https://www.python.org/downloads/macos/
-whatsnew/3.9.rst:773: [broken] https://bugs.python.org/issue?@action=redirect&bpo=37986: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/82167
-whatsnew/changelog.rst:11648: [broken] https://bugs.python.org/issue?@action=redirect&bpo=36290: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/80471
-whatsnew/changelog.rst:11741: [broken] https://bugs.python.org/issue?@action=redirect&bpo=41085: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/85257
-whatsnew/changelog.rst:11760: [broken] https://bugs.python.org/issue?@action=redirect&bpo=40964: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/85136
 whatsnew/changelog.rst:13450: [broken] https://importlib-metadata.readthedocs.io/en/latest/changelog%20(links).html#v1-5-0: 404 Client Error: Not Found for url: https://importlib-metadata.readthedocs.io/en/latest/changelog%20(links).html
-whatsnew/changelog.rst:13795: [broken] https://bugs.python.org/issue?@action=redirect&bpo=39389: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/83570
-whatsnew/changelog.rst:14133: [broken] https://bugs.python.org/issue?@action=redirect&bpo=38994: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/83175
 whatsnew/changelog.rst:14281: [broken] https://fishshell.com/docs/current/commands.html#source: Anchor 'source' not found
-whatsnew/changelog.rst:14870: [broken] https://bugs.python.org/issue?@action=redirect&bpo=38332: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/82513
-whatsnew/changelog.rst:15094: [broken] https://bugs.python.org/issue?@action=redirect&bpo=37950: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/82131
-whatsnew/changelog.rst:15420: [broken] https://bugs.python.org/issue?@action=redirect&bpo=37266: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/81447
-whatsnew/changelog.rst:15735: [broken] https://bugs.python.org/issue?@action=redirect&bpo=38502: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/82683
 whatsnew/changelog.rst:17398: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
-whatsnew/changelog.rst:17699: [broken] https://bugs.python.org/issue?@action=redirect&bpo=36282: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/80463
-whatsnew/changelog.rst:17819: [broken] https://bugs.python.org/issue?@action=redirect&bpo=36106: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/80287
-whatsnew/changelog.rst:19480: [broken] https://bugs.python.org/issue?@action=redirect&bpo=34213: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/78394
 whatsnew/changelog.rst:20215: [broken] https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html: 404 Client Error: Not Found for url: https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html
 whatsnew/changelog.rst:25701: [redirected permanently] https://github.com/python/performance to https://github.com/python/pyperformance
 whatsnew/changelog.rst:3011: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/#documentation-strings
 whatsnew/changelog.rst:36629: [redirected permanently] http://www.python.org/ to https://www.python.org/
 whatsnew/changelog.rst:431: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
-whatsnew/changelog.rst:7421: [broken] https://bugs.python.org/issue?@action=redirect&bpo=35183: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/79364

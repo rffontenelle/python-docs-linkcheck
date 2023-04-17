@@ -56,7 +56,6 @@ library/hashlib.rst:434: [redirected permanently] https://blake2.net/blake2_2013
 library/hashlib.rst:621: [redirected permanently] https://csrc.nist.gov/publications/detail/sp/800-106/final to https://csrc.nist.gov/publications/detail/sp/800-106/archive/2009-02-25
 library/hashlib.rst:629: [redirected permanently] https://blake2.net/#qa to https://www.blake2.net/#qa
 library/hashlib.rst:737: [redirected permanently] https://131002.net/blake/ to https://www.aumasson.jp/
-library/hashlib.rst:742: [broken] https://cr.yp.to/chacha.html: HTTPSConnectionPool(host='cr.yp.to', port=443): Max retries exceeded with url: /chacha.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f4dd1113550>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
 library/http.client.rst:356: [redirected permanently] https://tools.ietf.org/html/rfc7231#section-4.3.6 to https://datatracker.ietf.org/doc/html/rfc7231#section-4.3.6
 library/importlib.metadata.rst:16: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#entry-points to https://setuptools.pypa.io/en/latest/pkg_resources.html#entry-points
 library/importlib.metadata.rst:16: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#metadata-api to https://setuptools.pypa.io/en/latest/pkg_resources.html#metadata-api
@@ -65,7 +64,6 @@ library/importlib.metadata.rst:62: [redirected with Found] https://importlib-met
 library/importlib.resources.rst:35: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html to https://setuptools.pypa.io/en/latest/pkg_resources.html
 library/importlib.resources.rst:35: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#basic-resource-access to https://setuptools.pypa.io/en/latest/pkg_resources.html#basic-resource-access
 library/intro.rst:89: [redirected with Found] https://pyodide.org/ to https://pyodide.org/en/stable/
-library/mailbox.rst:434: [broken] https://cr.yp.to/proto/maildir.html: HTTPSConnectionPool(host='cr.yp.to', port=443): Max retries exceeded with url: /proto/maildir.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f4dd10956d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
 library/msilib.rst:131: [redirected permanently] https://msdn.microsoft.com/en-us/library/bb432265.aspx to https://learn.microsoft.com/en-us/windows/win32/api/fci/nf-fci-fcicreate?redirectedfrom=MSDN
 library/msilib.rst:131: [redirected permanently] https://msdn.microsoft.com/en-us/library/windows/desktop/aa379205.aspx to https://learn.microsoft.com/en-us/windows/win32/api/rpcdce/nf-rpcdce-uuidcreate?redirectedfrom=MSDN
 library/msilib.rst:131: [redirected permanently] https://msdn.microsoft.com/en-us/library/windows/desktop/aa379352.aspx to https://learn.microsoft.com/en-us/windows/win32/api/rpcdce/nf-rpcdce-uuidtostring?redirectedfrom=MSDN
@@ -178,8 +176,6 @@ whatsnew/2.4.rst:758: [redirected permanently] https://developer.gnome.org/glib/
 whatsnew/2.5.rst:333: [redirected with Found] https://pylib.readthedocs.io/ to https://pylib.readthedocs.io/en/latest/
 whatsnew/2.6.rst:1436: [redirected permanently] https://schemers.org/Documents/Standards/R5RS/HTML/r5rs-Z-H-9.html#%_sec_6.2 to https://conservatory.scheme.org/schemers/Documents/Standards/R5RS/HTML/r5rs-Z-H-9.html#%_sec_6.2
 whatsnew/2.6.rst:2366: [redirected permanently] http://tipc.sourceforge.net/ to https://tipc.sourceforge.net/
-whatsnew/2.7.rst:1203: [broken] https://bugs.python.org/issue?@action=redirect&bpo=6595: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/50844
-whatsnew/2.7.rst:1514: [broken] https://bugs.python.org/issue?@action=redirect&bpo=8104: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/52351
 whatsnew/2.7.rst:1808: [redirected with Found] https://www.tcl.tk/man/tcl8.5/TkCmd/ttk_intro.htm to https://www.tcl.tk/man/tcl8.5/TkCmd/ttk_intro.html
 whatsnew/2.7.rst:1834: [redirected with Found] https://nose.readthedocs.io/ to https://nose.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1834: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/7.3.x/
@@ -190,9 +186,7 @@ whatsnew/3.2.rst:2521: [redirected with Found] https://www.mercurial-scm.org/wik
 whatsnew/3.2.rst:2601: [redirected permanently] https://www.activestate.com/activetcl/downloads to https://www.activestate.com/products/tcl/
 whatsnew/3.2.rst:786: [redirected permanently] https://code.activestate.com/recipes/498245 to https://code.activestate.com:443/recipes/498245/
 whatsnew/3.2.rst:786: [redirected permanently] https://code.activestate.com/recipes/577479 to https://code.activestate.com:443/recipes/577479/
-whatsnew/3.3.rst:1541: [broken] https://bugs.python.org/issue?@action=redirect&bpo=6064: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/50314
 whatsnew/3.3.rst:1894: [redirected permanently] https://oss.oracle.com/projects/rds/ to https://oss.oracle.com:443/
-whatsnew/3.4.rst:1460: [broken] https://bugs.python.org/issue?@action=redirect&bpo=8813: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/53059
 whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https://openexr.com/en/latest/
 whatsnew/3.5.rst:2214: [redirected permanently] https://www.visualstudio.com/ to https://visualstudio.microsoft.com/
 whatsnew/3.5.rst:425: [redirected permanently] http://mypy-lang.org to https://mypy-lang.org/
@@ -201,17 +195,8 @@ whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/fr/ to htt
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ja/ to https://docs.python.org/ja/3/
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ko/ to https://docs.python.org/ko/3/
 whatsnew/3.8.rst:2228: [redirected permanently] https://www.python.org/downloads/mac-osx/ to https://www.python.org/downloads/macos/
-whatsnew/changelog.rst:14228: [broken] https://bugs.python.org/issue?@action=redirect&bpo=40328: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/84508
-whatsnew/changelog.rst:14723: [broken] https://bugs.python.org/issue?@action=redirect&bpo=40091: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/84272
 whatsnew/changelog.rst:1725: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
 whatsnew/changelog.rst:19567: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
 whatsnew/changelog.rst:27868: [redirected permanently] https://github.com/python/performance to https://github.com/python/pyperformance
-whatsnew/changelog.rst:36302: [broken] https://bugs.python.org/issue?@action=redirect&bpo=9858: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/54067
 whatsnew/changelog.rst:38796: [redirected permanently] http://www.python.org/ to https://www.python.org/
-whatsnew/changelog.rst:5042: [broken] https://bugs.python.org/issue?@action=redirect&bpo=46681: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/90839
 whatsnew/changelog.rst:5181: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/#documentation-strings
-whatsnew/changelog.rst:6637: [broken] https://bugs.python.org/issue?@action=redirect&bpo=46576: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/90734
-whatsnew/changelog.rst:695: [broken] https://github.com/python/cpython/issues/88233: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/88233
-whatsnew/changelog.rst:7843: [broken] https://bugs.python.org/issue?@action=redirect&bpo=45417: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/89580
-whatsnew/changelog.rst:7971: [broken] https://bugs.python.org/issue?@action=redirect&bpo=45449: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/89612
-whatsnew/changelog.rst:9620: [broken] https://bugs.python.org/issue?@action=redirect&bpo=40620: 500 Server Error: Internal Server Error for url: https://github.com/python/cpython/issues/84800

@@ -89,7 +89,7 @@ using/mac.rst:62: [redirected permanently] https://macvim-dev.github.io/macvim/ 
 using/windows.rst:1210: [redirected permanently] https://docs.microsoft.com/en-us/windows/win32/com/component-object-model--com--portal to https://learn.microsoft.com/en-us/windows/win32/com/component-object-model--com--portal
 using/windows.rst:1216: [redirected permanently] https://docs.microsoft.com/en-us/cpp/mfc/mfc-desktop-applications to https://learn.microsoft.com/en-us/cpp/mfc/mfc-desktop-applications?view=msvc-170
 using/windows.rst:381: [redirected permanently] https://docs.microsoft.com/en-us/windows/msix/desktop/desktop-to-uwp-behind-the-scenes to https://learn.microsoft.com/en-us/windows/msix/desktop/desktop-to-uwp-behind-the-scenes
-using/windows.rst:464: [redirected permanently] https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist#visual-studio-2015-2017-2019-and-2022 to https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022
+using/windows.rst:464: [redirected permanently] https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist#visual-studio-2015-2017-2019-and-2022 to https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022
 using/windows.rst:532: [redirected permanently] https://www.activestate.com/activepython/ to https://www.activestate.com/products/python/
 using/windows.rst:536: [redirected permanently] https://www.anaconda.com/download/ to https://www.anaconda.com/products/distribution
 using/windows.rst:609: [redirected permanently] https://docs.microsoft.com/en-us/windows/win32/procthread/environment-variables to https://learn.microsoft.com/en-us/windows/win32/procthread/environment-variables
@@ -112,6 +112,7 @@ whatsnew/3.3.rst:1893: [redirected permanently] https://oss.oracle.com/projects/
 whatsnew/3.5.rst:2214: [redirected permanently] https://www.visualstudio.com/ to https://visualstudio.microsoft.com/
 whatsnew/3.5.rst:425: [redirected permanently] http://mypy-lang.org to https://mypy-lang.org/
 whatsnew/3.6.rst:240: [redirected permanently] http://www.mypy-lang.org/ to https://www.mypy-lang.org/
+whatsnew/3.8.rst:2225: [redirected permanently] https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html to https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i74960hq-processor-6m-cache-up-to-3-80-ghz.html
 whatsnew/3.8.rst:2225: [redirected permanently] https://www.python.org/downloads/mac-osx/ to https://www.python.org/downloads/macos/
 whatsnew/changelog.rst:25701: [redirected permanently] https://github.com/python/performance to https://github.com/python/pyperformance
 whatsnew/changelog.rst:36629: [redirected permanently] http://www.python.org/ to https://www.python.org/
