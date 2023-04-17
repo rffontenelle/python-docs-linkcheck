@@ -2,12 +2,10 @@ diff --git a/Doc/conf.py b/Doc/conf.py
 index 7b99bac144..7e83993b1d 100644
 --- a/Doc/conf.py
 +++ b/Doc/conf.py
-@@ -263,9 +263,29 @@
+@@ -263,9 +263,27 @@
      r'https://github.com/python/cpython/tree/.*': 'https://github.com/python/cpython/blob/.*'
  }
- 
--# Ignore certain URLs.
--linkcheck_ignore = [r'https://bugs.python.org/(issue)?\d+']
+
 +# ignore linkcheck anchors for /#/$ANCHOR since it is used for
 +# dynamic pages such as http://buildbot.python.org/all/#/console
 +# http://www.sphinx-doc.org/en/stable/config.html?highlight=linkcheck#confval-linkcheck_anchors_ignore
