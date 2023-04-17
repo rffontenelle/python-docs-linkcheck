@@ -2,7 +2,7 @@ diff --git a/Doc/conf.py b/Doc/conf.py
 index 0092236..b8b40e7 100644
 --- a/Doc/conf.py
 +++ b/Doc/conf.py
-@@ -251,8 +251,31 @@
+@@ -251,8 +251,30 @@
      r'https://github.com/python/cpython/tree/.*': 'https://github.com/python/cpython/blob/.*'
  }
  
@@ -16,8 +16,7 @@ index 0092236..b8b40e7 100644
 +    r'\!.*',
 +]
 +
- # Ignore certain URLs.
--linkcheck_ignore = [r'https://bugs.python.org/(issue)?\d+']
++# Ignore certain URLs.
 +linkcheck_ignore = [
 +    #r'https://bugs.python.org/(issue)?\d+',
 +    # A code sample in Misc/News.d/
