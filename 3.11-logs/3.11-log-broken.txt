@@ -1,1 +1,0 @@
-whatsnew/changelog.rst:13342: [broken] https://bugs.python.org/issue?@action=redirect&bpo=39606: 502 Server Error: Bad Gateway for url: https://github.com/python/cpython/issues/83787

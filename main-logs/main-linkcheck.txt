@@ -116,7 +116,6 @@ whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ja/ to htt
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ko/ to https://docs.python.org/ko/3/
 whatsnew/3.8.rst:2228: [redirected permanently] https://www.python.org/downloads/mac-osx/ to https://www.python.org/downloads/macos/
 whatsnew/changelog.rst:1733: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
-whatsnew/changelog.rst:18227: [broken] https://: Invalid URL 'https://': No host supplied
 whatsnew/changelog.rst:19575: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
 whatsnew/changelog.rst:27876: [redirected permanently] https://github.com/python/performance to https://github.com/python/pyperformance
 whatsnew/changelog.rst:5189: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/#documentation-strings

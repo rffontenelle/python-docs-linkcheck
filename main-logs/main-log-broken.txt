@@ -1,1 +1,0 @@
-whatsnew/changelog.rst:18227: [broken] https://: Invalid URL 'https://': No host supplied
