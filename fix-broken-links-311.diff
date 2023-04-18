@@ -1,8 +1,8 @@
 diff --git a/Doc/conf.py b/Doc/conf.py
-index 238b37c00c..2c57228c9c 100644
+index d89470973d..2c57228c9c 100644
 --- a/Doc/conf.py
 +++ b/Doc/conf.py
-@@ -251,6 +251,29 @@
+@@ -251,6 +251,30 @@
      r'https://github.com/python/cpython/tree/.*': 'https://github.com/python/cpython/blob/.*'
  }
  
@@ -29,9 +29,10 @@ index 238b37c00c..2c57228c9c 100644
 +    r'http(s)?://www.upfrontsoftware.co.za',
 +]
 +
- 
++
  # Options for extensions
  # ----------------------
+ 
 diff --git a/Doc/distributing/index.rst b/Doc/distributing/index.rst
 index 136cf4e77b..8e70c24e70 100644
 --- a/Doc/distributing/index.rst
