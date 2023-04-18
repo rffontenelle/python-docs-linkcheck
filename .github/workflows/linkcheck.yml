@@ -70,7 +70,7 @@ jobs:
 
       - name: Run linkcheck
         run: |
-          make -C cpython/Doc linkcheck SPHINXOPTS="--keep-going ${{ github.event.inputs.SPHINXOPTS }}" || true
+          make -C cpython/Doc linkcheck SPHINXOPTS="--keep-going ${{ github.event.inputs.SPHINXOPTS }}"
 
       - name: Split log
         run: |
