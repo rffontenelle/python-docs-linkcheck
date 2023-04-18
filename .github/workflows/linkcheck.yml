@@ -25,11 +25,9 @@ jobs:
         branch: ['main', '3.11']
         include:
           - branch: 'main'
-            fix-most-redirects: 'fix-most-redirects.diff'
             fix-broken-links: 'fix-broken-links.diff'
             fix-redir-permanently: 'fix-redir-permanently.diff'
           - branch: '3.11'
-            fix-most-redirects: 'fix-most-redirects.diff'
             fix-broken-links: 'fix-broken-links-311.diff'
             fix-redir-permanently: 'fix-redir-permanently.diff'
       fail-fast: false
@@ -53,12 +51,6 @@ jobs:
           python-version: '3.9'
           cache: 'pip'
           cache-dependency-path: 'cpython/Doc/requirements.txt'
-
-      - name: Apply ${{ matrix.fix-most-redirects }}
-        run: |
-          cd cpython
-          cat ../${{ matrix.fix-most-redirects }}
-          git apply ../${{ matrix.fix-most-redirects }}
 
       - name: Apply ${{ matrix.fix-broken-links }}
         run: |
