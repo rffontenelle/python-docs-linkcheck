@@ -1,0 +1,277 @@
+diff --git a/Doc/conf.py b/Doc/conf.py
+index bbd47203e1..eab22be5b2 100644
+--- a/Doc/conf.py
++++ b/Doc/conf.py
+@@ -260,7 +260,13 @@
+     # GH-NNNN used to refer to pull requests
+     r'https://github.com/python/cpython/issues/\d+': 'https://github.com/python/cpython/pull/\d+',
+     # :source:`something` linking files in the repository
+-    r'https://github.com/python/cpython/tree/.*': 'https://github.com/python/cpython/blob/.*'
++    r'https://github.com/python/cpython/tree/.*': 'https://github.com/python/cpython/blob/.*',
++    # Intentional HTTP use in Misc/NEWS.d/3.5.0a1.rst
++    r'http://www.python.org/$': 'https://www.python.org/$',
++    # Microsoft's redirects to learn.microsoft.com
++    r'https://msdn.microsoft.com/.*': 'https://learn.microsoft.com/.*',
++    r'https://docs.microsoft.com/': 'https://learn.microsoft.com/.*',
++    r'https://go.microsoft.com/fwlink/?LinkID=\d+': 'https://learn.microsoft.com/.*',
+ }
+ 
+ linkcheck_anchors_ignore = [
+diff --git a/Doc/faq/general.rst b/Doc/faq/general.rst
+index 6256deb579..7918587fb5 100644
+--- a/Doc/faq/general.rst
++++ b/Doc/faq/general.rst
+@@ -215,7 +215,7 @@ every day, and Usenet readers are often more able to cope with this volume.
+ Announcements of new software releases and events can be found in
+ comp.lang.python.announce, a low-traffic moderated list that receives about five
+ postings per day.  It's available as `the python-announce mailing list
+-<https://mail.python.org/mailman/listinfo/python-announce-list>`_.
++<https://mail.python.org/mailman3/lists/python-announce-list.python.org/>`_.
+ 
+ More info about other mailing lists and newsgroups
+ can be found at https://www.python.org/community/lists/.
+@@ -352,7 +352,7 @@ titled "Python X.Y Release Schedule", where X.Y is a version that hasn't been
+ publicly released yet.
+ 
+ New development is discussed on `the python-dev mailing list
+-<https://mail.python.org/mailman/listinfo/python-dev/>`_.
++<https://mail.python.org/mailman3/lists/python-dev.python.org/>`_.
+ 
+ 
+ Is it reasonable to propose incompatible changes to Python?
+diff --git a/Doc/library/hashlib.rst b/Doc/library/hashlib.rst
+index f8d10c0c29..6275f96f7d 100644
+--- a/Doc/library/hashlib.rst
++++ b/Doc/library/hashlib.rst
+@@ -432,7 +432,7 @@ Constructor functions also accept the following tree hashing parameters:
+    :alt: Explanation of tree mode parameters.
+ 
+ See section 2.10 in `BLAKE2 specification
+-<https://blake2.net/blake2_20130129.pdf>`_ for comprehensive review of tree
++<https://www.blake2.net/blake2_20130129.pdf>`_ for comprehensive review of tree
+ hashing.
+ 
+ 
+@@ -619,7 +619,7 @@ on the hash function used in digital signatures.
+     by the signer.
+ 
+     (`NIST SP-800-106 "Randomized Hashing for Digital Signatures"
+-    <https://csrc.nist.gov/publications/detail/sp/800-106/final>`_)
++    <https://csrc.nist.gov/publications/detail/sp/800-106/archive/2009-02-25>`_)
+ 
+ In BLAKE2 the salt is processed as a one-time input to the hash function during
+ initialization, rather than as an input to each compression function.
+@@ -628,7 +628,7 @@ initialization, rather than as an input to each compression function.
+ 
+     *Salted hashing* (or just hashing) with BLAKE2 or any other general-purpose
+     cryptographic hash function, such as SHA-256, is not suitable for hashing
+-    passwords.  See `BLAKE2 FAQ <https://blake2.net/#qa>`_ for more
++    passwords.  See `BLAKE2 FAQ <https://www.blake2.net/#qa>`_ for more
+     information.
+ ..
+ 
+@@ -764,9 +764,9 @@ Domain Dedication 1.0 Universal:
+ 
+ * *Alexandr Sokolovskiy*
+ 
+-.. _BLAKE2: https://blake2.net
++.. _BLAKE2: https://www.blake2.net
+ .. _HMAC: https://en.wikipedia.org/wiki/Hash-based_message_authentication_code
+-.. _BLAKE: https://131002.net/blake/
++.. _BLAKE: https://web.archive.org/web/20200918190133/https://131002.net/blake/
+ .. _SHA-3: https://en.wikipedia.org/wiki/NIST_hash_function_competition
+ .. _ChaCha: https://cr.yp.to/chacha.html
+ .. _pyblake2: https://pythonhosted.org/pyblake2/
+@@ -782,7 +782,7 @@ Domain Dedication 1.0 Universal:
+    Module :mod:`base64`
+       Another way to encode binary hashes for non-binary environments.
+ 
+-   https://blake2.net
++   https://www.blake2.net
+       Official BLAKE2 website.
+ 
+    https://csrc.nist.gov/csrc/media/publications/fips/180/2/archive/2002-08-01/documents/fips180-2.pdf
+diff --git a/Doc/library/plistlib.rst b/Doc/library/plistlib.rst
+index 7aad15ec91..732ef35368 100644
+--- a/Doc/library/plistlib.rst
++++ b/Doc/library/plistlib.rst
+@@ -46,7 +46,7 @@ or :class:`datetime.datetime` objects.
+ 
+ .. seealso::
+ 
+-   `PList manual page <https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/PropertyLists/>`_
++   `PList manual page <https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/PropertyLists/>`_
+       Apple's documentation of the file format.
+ 
+ 
+diff --git a/Doc/library/sys.rst b/Doc/library/sys.rst
+index e37d57edce..e452d57467 100644
+--- a/Doc/library/sys.rst
++++ b/Doc/library/sys.rst
+@@ -785,7 +785,7 @@ always available.
+    additional garbage collector overhead if the object is managed by the garbage
+    collector.
+ 
+-   See `recursive sizeof recipe <https://code.activestate.com/recipes/577504>`_
++   See `recursive sizeof recipe <https://code.activestate.com/recipes/577504/>`_
+    for an example of using :func:`getsizeof` recursively to find the size of
+    containers and all their contents.
+ 
+diff --git a/Doc/library/unittest.rst b/Doc/library/unittest.rst
+index a7c74cfa4f..aa22650c2b 100644
+--- a/Doc/library/unittest.rst
++++ b/Doc/library/unittest.rst
+@@ -72,7 +72,7 @@ test runner
+    a GUI tool for test discovery and execution.  This is intended largely for ease of use
+    for those new to unit testing.  For production environments it is
+    recommended that tests be driven by a continuous integration system such as
+-   `Buildbot <https://buildbot.net/>`_, `Jenkins <https://jenkins.io/>`_,
++   `Buildbot <https://buildbot.net/>`_, `Jenkins <https://www.jenkins.io/>`_,
+    `GitHub Actions <https://github.com/features/actions>`_, or
+    `AppVeyor <https://www.appveyor.com/>`_.
+ 
+diff --git a/Doc/library/zipfile.rst b/Doc/library/zipfile.rst
+index 6f4826cb06..45f3d340bd 100644
+--- a/Doc/library/zipfile.rst
++++ b/Doc/library/zipfile.rst
+@@ -128,7 +128,7 @@ The module defines the following items:
+       Documentation on the ZIP file format by Phil Katz, the creator of the format and
+       algorithms used.
+ 
+-   `Info-ZIP Home Page <http://www.info-zip.org/>`_
++   `Info-ZIP Home Page <https://infozip.sourceforge.net/>`_
+       Information about the Info-ZIP project's ZIP archive programs and development
+       libraries.
+ 
+diff --git a/Doc/reference/datamodel.rst b/Doc/reference/datamodel.rst
+index 9f91ade35e..1b59aec548 100644
+--- a/Doc/reference/datamodel.rst
++++ b/Doc/reference/datamodel.rst
+@@ -1564,7 +1564,7 @@ Basic customization
+       This is intended to provide protection against a denial-of-service caused
+       by carefully chosen inputs that exploit the worst case performance of a
+       dict insertion, O(n\ :sup:`2`) complexity.  See
+-      http://www.ocert.org/advisories/ocert-2011-003.html for details.
++      http://ocert.org/advisories/ocert-2011-003.html for details.
+ 
+       Changing hash values affects the iteration order of sets.
+       Python has never made guarantees about this ordering
+diff --git a/Doc/using/mac.rst b/Doc/using/mac.rst
+index 9ae0270eae..69cd5c92d8 100644
+--- a/Doc/using/mac.rst
++++ b/Doc/using/mac.rst
+@@ -66,7 +66,7 @@ number of standard Unix command line editors, :program:`vim` and
+ :program:`BBEdit` or :program:`TextWrangler` from Bare Bones Software (see
+ http://www.barebones.com/products/bbedit/index.html) are good choices, as is
+ :program:`TextMate` (see https://macromates.com/). Other editors include
+-:program:`Gvim` (https://macvim-dev.github.io/macvim/) and :program:`Aquamacs`
++:program:`Gvim` (https://macvim.org/macvim/) and :program:`Aquamacs`
+ (http://aquamacs.org/).
+ 
+ To run your script from the Terminal window you must make sure that
+diff --git a/Doc/whatsnew/2.0.rst b/Doc/whatsnew/2.0.rst
+index 4bcb2acae1..0eefefd863 100644
+--- a/Doc/whatsnew/2.0.rst
++++ b/Doc/whatsnew/2.0.rst
+@@ -933,7 +933,7 @@ using it::
+    parser.parse( 'hamlet.xml' )
+ 
+ For more information, consult the Python documentation, or the XML HOWTO at
+-http://pyxml.sourceforge.net/topics/howto/xml-howto.html.
++https://pyxml.sourceforge.net/topics/howto/xml-howto.html.
+ 
+ 
+ DOM Support
+diff --git a/Doc/whatsnew/2.1.rst b/Doc/whatsnew/2.1.rst
+index 0136de5877..676da702b3 100644
+--- a/Doc/whatsnew/2.1.rst
++++ b/Doc/whatsnew/2.1.rst
+@@ -613,7 +613,7 @@ New and Improved Modules
+   framework based on running embedded examples in docstrings and comparing the
+   results against the expected output.  PyUnit, contributed by Steve Purcell, is a
+   unit testing framework inspired by JUnit, which was in turn an adaptation of
+-  Kent Beck's Smalltalk testing framework.  See http://pyunit.sourceforge.net/ for
++  Kent Beck's Smalltalk testing framework.  See https://pyunit.sourceforge.net/ for
+   more information about PyUnit.
+ 
+ * The :mod:`difflib` module contains a class, :class:`SequenceMatcher`, which
+diff --git a/Doc/whatsnew/2.3.rst b/Doc/whatsnew/2.3.rst
+index c6e2003e92..6ab8a357a6 100644
+--- a/Doc/whatsnew/2.3.rst
++++ b/Doc/whatsnew/2.3.rst
+@@ -1332,7 +1332,7 @@ complete list of changes, or look through the CVS logs for all the details.
+   (Contributed by Kevin O'Connor.)
+ 
+ * The IDLE integrated development environment has been updated using the code
+-  from the IDLEfork project (http://idlefork.sourceforge.net).  The most notable feature is
++  from the IDLEfork project (https://idlefork.sourceforge.net).  The most notable feature is
+   that the code being developed is now executed in a subprocess, meaning that
+   there's no longer any need for manual ``reload()`` operations. IDLE's core code
+   has been incorporated into the standard library as the :mod:`idlelib` package.
+diff --git a/Doc/whatsnew/2.4.rst b/Doc/whatsnew/2.4.rst
+index 63e819876c..98dc83fe93 100644
+--- a/Doc/whatsnew/2.4.rst
++++ b/Doc/whatsnew/2.4.rst
+@@ -756,7 +756,7 @@ API that perform ASCII-only conversions, ignoring the locale setting:
+   :c:expr:`double` to an ASCII string.
+ 
+ The code for these functions came from the GLib library
+-(https://developer.gnome.org/glib/stable/), whose developers kindly
++(https://developer-old.gnome.org/glib/2.26/), whose developers kindly
+ relicensed the relevant functions and donated them to the Python Software
+ Foundation.  The :mod:`locale` module  can now change the numeric locale,
+ letting extensions such as GTK+  produce the correct results.
+diff --git a/Doc/whatsnew/2.6.rst b/Doc/whatsnew/2.6.rst
+index 34f2656f76..8032d5789b 100644
+--- a/Doc/whatsnew/2.6.rst
++++ b/Doc/whatsnew/2.6.rst
+@@ -2363,7 +2363,7 @@ changes, or look through the Subversion logs for all the details.
+   negotiation itself.  (Patch contributed by Bill Fenner;
+   :issue:`829951`.)
+ 
+-* The :mod:`socket` module now supports TIPC (http://tipc.sourceforge.net/),
++* The :mod:`socket` module now supports TIPC (https://tipc.sourceforge.net/),
+   a high-performance non-IP-based protocol designed for use in clustered
+   environments.  TIPC addresses are 4- or 5-tuples.
+   (Contributed by Alberto Bertogli; :issue:`1646`.)
+diff --git a/Doc/whatsnew/3.2.rst b/Doc/whatsnew/3.2.rst
+index 1b1455b72b..e9d008d97c 100644
+--- a/Doc/whatsnew/3.2.rst
++++ b/Doc/whatsnew/3.2.rst
+@@ -785,8 +785,8 @@ functools
+ 
+   (Contributed by Raymond Hettinger and incorporating design ideas from Jim
+   Baker, Miki Tebeka, and Nick Coghlan; see `recipe 498245
+-  <https://code.activestate.com/recipes/498245>`_\, `recipe 577479
+-  <https://code.activestate.com/recipes/577479>`_\, :issue:`10586`, and
++  <https://code.activestate.com/recipes/498245/>`_\, `recipe 577479
++  <https://code.activestate.com/recipes/577479/>`_\, :issue:`10586`, and
+   :issue:`10593`.)
+ 
+ * The :func:`functools.wraps` decorator now adds a :attr:`__wrapped__` attribute
+diff --git a/Doc/whatsnew/3.5.rst b/Doc/whatsnew/3.5.rst
+index f872579ef5..1521e26bc0 100644
+--- a/Doc/whatsnew/3.5.rst
++++ b/Doc/whatsnew/3.5.rst
+@@ -425,7 +425,7 @@ are declared in the annotations::
+ While these annotations are available at runtime through the usual
+ :attr:`__annotations__` attribute, *no automatic type checking happens at
+ runtime*.  Instead, it is assumed that a separate off-line type checker
+-(e.g. `mypy <http://mypy-lang.org>`_) will be used for on-demand
++(e.g. `mypy <https://mypy-lang.org>`_) will be used for on-demand
+ source code analysis.
+ 
+ The type system supports unions, generic types, and a special type
+diff --git a/Doc/whatsnew/3.6.rst b/Doc/whatsnew/3.6.rst
+index e4294c88b5..c7faaebfed 100644
+--- a/Doc/whatsnew/3.6.rst
++++ b/Doc/whatsnew/3.6.rst
+@@ -238,7 +238,7 @@ and the ``__annotations__`` attribute.
+       and Guido van Rossum. Implemented by Ivan Levkivskyi.
+ 
+    Tools that use or will use the new syntax:
+-   `mypy <http://www.mypy-lang.org/>`_,
++   `mypy <https://www.mypy-lang.org/>`_,
+    `pytype <https://github.com/google/pytype>`_, PyCharm, etc.
+ 
+ 
