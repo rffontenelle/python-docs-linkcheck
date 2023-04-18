@@ -27,9 +27,11 @@ jobs:
           - branch: 'main'
             fix-most-redirects: 'fix-most-redirects.diff'
             fix-broken-links: 'fix-broken-links.diff'
+            fix-redir-permanently: 'fix-redir-permanently.diff'
           - branch: '3.11'
             fix-most-redirects: 'fix-most-redirects.diff'
             fix-broken-links: 'fix-broken-links-311.diff'
+            fix-redir-permanently: 'fix-redir-permanently.diff'
       fail-fast: false
     steps:
       - name: Check out this repo
@@ -63,6 +65,12 @@ jobs:
           cd cpython
           cat ../${{ matrix.fix-broken-links }}
           git apply ../${{ matrix.fix-broken-links }}
+
+      - name: Apply ${{ matrix.fix-redir-permanently }}
+        run: |
+          cd cpython
+          cat ../${{ matrix.fix-redir-permanently }}
+          git apply ../${{ matrix.fix-redir-permanently }}
 
       - name: Make virtual environment
         run: |
