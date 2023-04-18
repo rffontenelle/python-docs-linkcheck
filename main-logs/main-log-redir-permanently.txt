@@ -18,7 +18,7 @@ library/ssl.rst:1722: [redirected permanently] https://vincent.bernat.im/en/blog
 library/statistics.rst:24: [redirected permanently] https://www.scipy.org/ to https://scipy.org/
 library/struct.rst:173: [redirected permanently] https://tools.ietf.org/html/rfc1700 to https://datatracker.ietf.org/doc/html/rfc1700
 library/unittest.mock-examples.rst:1074: [redirected permanently] https://twistedmatrix.com/documents/11.0.0/api/twisted.python.components.html to https://twisted.org/documents/11.0.0/api/twisted.python.components.html
-library/venv.rst:93: [redirected permanently] https://go.microsoft.com/fwlink/?LinkID=135170 to https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.3
+library/venv.rst:97: [redirected permanently] https://go.microsoft.com/fwlink/?LinkID=135170 to https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.3
 library/xmlrpc.client.rst:166: [redirected permanently] https://www.tldp.org/HOWTO/XML-RPC-HOWTO/index.html to https://tldp.org/HOWTO/XML-RPC-HOWTO/index.html
 license.rst:22: [redirected permanently] https://www.zope.org/ to https://www.zope.dev/
 reference/introduction.rst:72: [redirected permanently] https://pypy.org/ to https://www.pypy.org/
@@ -34,4 +34,4 @@ whatsnew/3.2.rst:2601: [redirected permanently] https://www.activestate.com/acti
 whatsnew/3.3.rst:1894: [redirected permanently] https://oss.oracle.com/projects/rds/ to https://oss.oracle.com:443/
 whatsnew/3.5.rst:2214: [redirected permanently] https://www.visualstudio.com/ to https://visualstudio.microsoft.com/
 whatsnew/3.8.rst:2228: [redirected permanently] https://www.python.org/downloads/mac-osx/ to https://www.python.org/downloads/macos/
-whatsnew/changelog.rst:27873: [redirected permanently] https://github.com/python/performance to https://github.com/python/pyperformance
+whatsnew/changelog.rst:27876: [redirected permanently] https://github.com/python/performance to https://github.com/python/pyperformance

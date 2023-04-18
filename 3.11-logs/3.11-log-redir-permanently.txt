@@ -33,6 +33,5 @@ whatsnew/3.11.rst:78: [redirected permanently] https://toml.io/ to https://toml.
 whatsnew/3.2.rst:2599: [redirected permanently] https://www.activestate.com/activetcl/downloads to https://www.activestate.com/products/tcl/
 whatsnew/3.3.rst:1893: [redirected permanently] https://oss.oracle.com/projects/rds/ to https://oss.oracle.com:443/
 whatsnew/3.5.rst:2214: [redirected permanently] https://www.visualstudio.com/ to https://visualstudio.microsoft.com/
-whatsnew/3.8.rst:2225: [redirected permanently] https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html to https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i74960hq-processor-6m-cache-up-to-3-80-ghz.html
 whatsnew/3.8.rst:2225: [redirected permanently] https://www.python.org/downloads/mac-osx/ to https://www.python.org/downloads/macos/
 whatsnew/changelog.rst:25701: [redirected permanently] https://github.com/python/performance to https://github.com/python/pyperformance
