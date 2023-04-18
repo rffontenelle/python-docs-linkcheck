@@ -1,8 +1,8 @@
 diff --git a/Doc/conf.py b/Doc/conf.py
-index 60404fd382..56b692b949 100644
+index 60404fd382..40cf1a37c6 100644
 --- a/Doc/conf.py
 +++ b/Doc/conf.py
-@@ -263,6 +263,26 @@
+@@ -263,6 +263,24 @@
      r'https://github.com/python/cpython/tree/.*': 'https://github.com/python/cpython/blob/.*'
  }
  
@@ -13,8 +13,6 @@ index 60404fd382..56b692b949 100644
 +]
 +
 +linkcheck_ignore = [
-+    # A code sample in Misc/NEWS.d/3.9.0a1.rst
-+    'https:\/\/$',
 +    # The crawler gets "Anchor not found"
 +    r'https://github.com.+?#.*',
 +    r'https://devguide.python.org.+?/#.*',
@@ -231,6 +229,19 @@ index 991bbc1286..aabba586dc 100644
  feature.
  
  ..
+diff --git a/Misc/NEWS.d/3.9.0a1.rst b/Misc/NEWS.d/3.9.0a1.rst
+index 6336205838..0888a5c430 100644
+--- a/Misc/NEWS.d/3.9.0a1.rst
++++ b/Misc/NEWS.d/3.9.0a1.rst
+@@ -4887,7 +4887,7 @@ Fix use of registry values to launch Python from Microsoft Store app.
+ .. section: Windows
+ 
+ Fix memory leak on Windows in creating an SSLContext object or running
+-urllib.request.urlopen('https://...').
++``urllib.request.urlopen('https://...')``.
+ 
+ ..
+ 
 diff --git a/Misc/NEWS.d/3.9.0a2.rst b/Misc/NEWS.d/3.9.0a2.rst
 index 226ea0d3df..a03eb10f1d 100644
 --- a/Misc/NEWS.d/3.9.0a2.rst
