@@ -34,4 +34,4 @@ whatsnew/3.2.rst:2601: [redirected permanently] https://www.activestate.com/acti
 whatsnew/3.3.rst:1894: [redirected permanently] https://oss.oracle.com/projects/rds/ to https://oss.oracle.com:443/
 whatsnew/3.5.rst:2214: [redirected permanently] https://www.visualstudio.com/ to https://visualstudio.microsoft.com/
 whatsnew/3.8.rst:2228: [redirected permanently] https://www.python.org/downloads/mac-osx/ to https://www.python.org/downloads/macos/
-whatsnew/changelog.rst:27876: [redirected permanently] https://github.com/python/performance to https://github.com/python/pyperformance
+whatsnew/changelog.rst:27879: [redirected permanently] https://github.com/python/performance to https://github.com/python/pyperformance

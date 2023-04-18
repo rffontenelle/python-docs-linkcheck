@@ -1,0 +1,1 @@
+library/json.rst:19: [broken] https://www.ecma-international.org/publications-and-standards/standards/ecma-404/: 508 Server Error: Loop Detected for url: https://www.ecma-international.org/publications-and-standards/standards/ecma-404/
