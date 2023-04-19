@@ -1,8 +1,8 @@
 diff --git a/Doc/conf.py b/Doc/conf.py
-index c5618928fd..2083dd91b4 100644
+index d89470973d..9e04f9227d 100644
 --- a/Doc/conf.py
 +++ b/Doc/conf.py
-@@ -248,7 +248,21 @@
+@@ -248,9 +248,45 @@
      # GH-NNNN used to refer to pull requests
      r'https://github.com/python/cpython/issues/\d+': 'https://github.com/python/cpython/pull/\d+',
      # :source:`something` linking files in the repository
@@ -13,18 +13,68 @@ index c5618928fd..2083dd91b4 100644
 +    # Microsoft's redirects to learn.microsoft.com
 +    r'https://msdn.microsoft.com/.*': 'https://learn.microsoft.com/.*',
 +    r'https://docs.microsoft.com/.*': 'https://learn.microsoft.com/.*',
-+    r'https://go.microsoft.com/fwlink/?LinkID=\d+': 'https://learn.microsoft.com/.*',
++    r'https://go.microsoft.com/fwlink/\?LinkID=\d+': 'https://learn.microsoft.com/.*',
++    # Language redirects
++    r'https://toml.io': 'https://toml.io/en/',
++    r'https://www.redhat.com': 'https://www.redhat.com/en',
 +    # Other redirects
 +    r'https://tools.ietf.org/html/rfc\d+': 'https://datatracker.ietf.org/doc/html/rfc\d+',
 +    r'https://www.boost.org/libs/.+': 'https://www.boost.org/doc/libs/\d_\d+_\d/.+',
 +    r'https://support.microsoft.com/en-us/help/\d+': 'https://support.microsoft.com/en-us/topic/.+',
 +    r'https://perf.wiki.kernel.org/': 'https://perf.wiki.kernel.org/index.php/Main_Page',
-+    # Language redirects
-+    r'https://toml.io': 'https://toml.io/en/',
-+    r'https://www.redhat.com': 'https://www.redhat.com/en/',
++    r'https://www.sqlite.org': 'https://www.sqlite.org/index.html'
  }
  
- linkcheck_anchors_ignore = [
++linkcheck_anchors_ignore = [
++    # ignore anchors that starts with a '/', e.g. Wikipedia media:
++    # https://en.wikipedia.org/wiki/Walrus#/media/File:Pacific_Walrus_-_Bull_(8247646168).jpg
++    r'\/.*',
++    # ignore anchors that starts with a '!', e.g. Google Groups:
++    # https://groups.google.com/forum/#!forum/comp.lang.python
++    r'\!.*',
++]
++
++linkcheck_ignore = [
++    # The crawler gets "Anchor not found"
++    r'https://github.com.+?#.*',
++    r'https://devguide.python.org.+?/#.*',
++    r'https://developer.apple.com/documentation/.+?#.*',
++    # Robot crawlers not allowed: "403 Client Error: Forbidden"
++    r'https://support.enthought.com/hc/.*',
++    # SSLError CertificateError, although is valid
++    r'https://unix.org/version2/whatsnew/lp64_wp.html',
++]
++
++
+ # Options for extensions
+ # ----------------------
+ 
+diff --git a/Doc/distributing/index.rst b/Doc/distributing/index.rst
+index 136cf4e77b..6186898df1 100644
+--- a/Doc/distributing/index.rst
++++ b/Doc/distributing/index.rst
+@@ -130,14 +130,14 @@ involved in creating and publishing a project:
+ * `Uploading the project to the Python Package Index`_
+ * `The .pypirc file`_
+ 
+-.. _Project structure: \
++.. _Project structure:
+     https://packaging.python.org/tutorials/packaging-projects/#packaging-python-projects
+-.. _Building and packaging the project: \
+-   https://packaging.python.org/tutorials/packaging-projects/#creating-the-package-files
+-.. _Uploading the project to the Python Package Index: \
+-   https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives
+-.. _The .pypirc file: \
+-   https://packaging.python.org/specifications/pypirc/
++.. _Building and packaging the project:
++    https://packaging.python.org/tutorials/packaging-projects/#creating-the-package-files
++.. _Uploading the project to the Python Package Index:
++    https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives
++.. _The .pypirc file:
++    https://packaging.python.org/specifications/pypirc/
+ 
+ 
+ How do I...?
 diff --git a/Doc/faq/extending.rst b/Doc/faq/extending.rst
 index 07282639e4..bc3080f60e 100644
 --- a/Doc/faq/extending.rst
@@ -60,6 +110,19 @@ index 6256deb579..7918587fb5 100644
  
  
  Is it reasonable to propose incompatible changes to Python?
+diff --git a/Doc/faq/library.rst b/Doc/faq/library.rst
+index a9cde45657..597caaa778 100644
+--- a/Doc/faq/library.rst
++++ b/Doc/faq/library.rst
+@@ -780,7 +780,7 @@ socket to :meth:`select.select` to check if it's writable.
+    The :mod:`asyncio` module provides a general purpose single-threaded and
+    concurrent asynchronous library, which can be used for writing non-blocking
+    network code.
+-   The third-party `Twisted <https://twistedmatrix.com/trac/>`_ library is
++   The third-party `Twisted <https://twisted.org/>`_ library is
+    a popular and feature-rich alternative.
+ 
+ 
 diff --git a/Doc/faq/programming.rst b/Doc/faq/programming.rst
 index 38f9b17161..ab5618db84 100644
 --- a/Doc/faq/programming.rst
@@ -73,6 +136,21 @@ index 38f9b17161..ab5618db84 100644
  `Pyre <https://pyre-check.org/>`_, and
  `Pytype <https://github.com/google/pytype>`_ can check type hints in Python
  source code.
+diff --git a/Doc/howto/functional.rst b/Doc/howto/functional.rst
+index e68bc2ebb1..64f2293b21 100644
+--- a/Doc/howto/functional.rst
++++ b/Doc/howto/functional.rst
+@@ -1208,8 +1208,8 @@ General
+ -------
+ 
+ **Structure and Interpretation of Computer Programs**, by Harold Abelson and
+-Gerald Jay Sussman with Julie Sussman.  Full text at
+-https://mitpress.mit.edu/sicp/.  In this classic textbook of computer science,
++Gerald Jay Sussman with Julie Sussman.  The book can be found at
++https://mitpress.mit.edu/sicp.  In this classic textbook of computer science,
+ chapters 2 and 3 discuss the use of sequences and streams to organize the data
+ flow inside a program.  The book uses Scheme for its examples, but many of the
+ design approaches described in these chapters are applicable to functional-style
 diff --git a/Doc/howto/pyporting.rst b/Doc/howto/pyporting.rst
 index add1c11be5..baea3e85c3 100644
 --- a/Doc/howto/pyporting.rst
@@ -86,6 +164,28 @@ index add1c11be5..baea3e85c3 100644
  .. _Porting to Python 3: http://python3porting.com/
  .. _Pylint: https://pypi.org/project/pylint
  
+diff --git a/Doc/howto/urllib2.rst b/Doc/howto/urllib2.rst
+index 69af3c3a85..61ba6bd722 100644
+--- a/Doc/howto/urllib2.rst
++++ b/Doc/howto/urllib2.rst
+@@ -86,7 +86,7 @@ response::
+ 
+     import urllib.request
+ 
+-    req = urllib.request.Request('http://www.voidspace.org.uk')
++    req = urllib.request.Request('http://python.org/')
+     with urllib.request.urlopen(req) as response:
+        the_page = response.read()
+ 
+@@ -458,7 +458,7 @@ To illustrate creating and installing a handler we will use the
+ ``HTTPBasicAuthHandler``. For a more detailed discussion of this subject --
+ including an explanation of how Basic Authentication works - see the `Basic
+ Authentication Tutorial
+-<http://www.voidspace.org.uk/python/articles/authentication.shtml>`_.
++<https://web.archive.org/web/20201215133350/http://www.voidspace.org.uk/python/articles/authentication.shtml>`__.
+ 
+ When authentication is required, the server sends a header (as well as the 401
+ error code) requesting authentication.  This specifies the authentication scheme
 diff --git a/Doc/library/hashlib.rst b/Doc/library/hashlib.rst
 index a96fc8b8ff..bea862d796 100644
 --- a/Doc/library/hashlib.rst
@@ -164,6 +264,19 @@ index 7aad15ec91..732ef35368 100644
        Apple's documentation of the file format.
  
  
+diff --git a/Doc/library/readline.rst b/Doc/library/readline.rst
+index 4d485d25b5..8fb0eca8df 100644
+--- a/Doc/library/readline.rst
++++ b/Doc/library/readline.rst
+@@ -19,7 +19,7 @@ function.
+ 
+ Readline keybindings may be configured via an initialization file, typically
+ ``.inputrc`` in your home directory.  See `Readline Init File
+-<https://tiswww.cwru.edu/php/chet/readline/rluserman.html#SEC9>`_
++<https://tiswww.cwru.edu/php/chet/readline/rluserman.html#Readline-Init-File>`_
+ in the GNU Readline manual for information about the format and
+ allowable constructs of that file, and the capabilities of the
+ Readline library in general.
 diff --git a/Doc/library/resource.rst b/Doc/library/resource.rst
 index e7bf45d7d5..a5324c82c6 100644
 --- a/Doc/library/resource.rst
@@ -177,6 +290,32 @@ index e7bf45d7d5..a5324c82c6 100644
     for a complete description of this sysctl.
  
     .. availability:: FreeBSD.
+diff --git a/Doc/library/select.rst b/Doc/library/select.rst
+index 2890706bab..b0891b0c8f 100644
+--- a/Doc/library/select.rst
++++ b/Doc/library/select.rst
+@@ -505,7 +505,7 @@ Kqueue Objects
+ Kevent Objects
+ --------------
+ 
+-https://www.freebsd.org/cgi/man.cgi?query=kqueue&sektion=2
++https://man.freebsd.org/cgi/man.cgi?query=kqueue&sektion=2
+ 
+ .. attribute:: kevent.ident
+ 
+diff --git a/Doc/library/ssl.rst b/Doc/library/ssl.rst
+index 6ac08fd654..289dd0b51d 100644
+--- a/Doc/library/ssl.rst
++++ b/Doc/library/ssl.rst
+@@ -1814,7 +1814,7 @@ to speed up repeated connections from the same clients.
+    .. versionadded:: 3.3
+ 
+    .. seealso::
+-      `SSL/TLS & Perfect Forward Secrecy <https://vincent.bernat.im/en/blog/2011-ssl-perfect-forward-secrecy>`_
++      `SSL/TLS & Perfect Forward Secrecy <https://vincent.bernat.ch/en/blog/2011-ssl-perfect-forward-secrecy>`_
+          Vincent Bernat.
+ 
+ .. method:: SSLContext.wrap_socket(sock, server_side=False, \
 diff --git a/Doc/library/statistics.rst b/Doc/library/statistics.rst
 index 78c4bc521f..03867b3d39 100644
 --- a/Doc/library/statistics.rst
@@ -203,6 +342,19 @@ index 3d1506f553..6f90e6b422 100644
     for an example of using :func:`getsizeof` recursively to find the size of
     containers and all their contents.
  
+diff --git a/Doc/library/unittest.mock-examples.rst b/Doc/library/unittest.mock-examples.rst
+index f9a207bad6..895b9f9f07 100644
+--- a/Doc/library/unittest.mock-examples.rst
++++ b/Doc/library/unittest.mock-examples.rst
+@@ -1074,7 +1074,7 @@ subclass.
+ Sometimes this is inconvenient. For example, `one user
+ <https://code.google.com/archive/p/mock/issues/105>`_ is subclassing mock to
+ created a `Twisted adaptor
+-<https://twistedmatrix.com/documents/11.0.0/api/twisted.python.components.html>`_.
++<https://twisted.org/documents/11.0.0/api/twisted.python.components.html>`_.
+ Having this applied to attributes too actually causes errors.
+ 
+ ``Mock`` (in all its flavours) uses a method called ``_get_child_mock`` to create
 diff --git a/Doc/library/unittest.rst b/Doc/library/unittest.rst
 index 82fded4ab0..c2ed7acaf5 100644
 --- a/Doc/library/unittest.rst
@@ -215,6 +367,19 @@ index 82fded4ab0..c2ed7acaf5 100644
 +   `Buildbot <https://buildbot.net/>`_, `Jenkins <https://www.jenkins.io/>`_,
     `GitHub Actions <https://github.com/features/actions>`_, or
     `AppVeyor <https://www.appveyor.com/>`_.
+ 
+diff --git a/Doc/library/xmlrpc.client.rst b/Doc/library/xmlrpc.client.rst
+index bd2c49a6ed..146c4fd768 100644
+--- a/Doc/library/xmlrpc.client.rst
++++ b/Doc/library/xmlrpc.client.rst
+@@ -161,7 +161,7 @@ between conformable Python objects and XML on the wire.
+ 
+ .. seealso::
+ 
+-   `XML-RPC HOWTO <https://www.tldp.org/HOWTO/XML-RPC-HOWTO/index.html>`_
++   `XML-RPC HOWTO <https://tldp.org/HOWTO/XML-RPC-HOWTO/index.html>`_
+       A good description of XML-RPC operation and client software in several languages.
+       Contains pretty much everything an XML-RPC client developer needs to know.
  
 diff --git a/Doc/library/zipfile.rst b/Doc/library/zipfile.rst
 index 9e8e9c3cc2..f486757544 100644
@@ -294,6 +459,19 @@ index 9ae0270eae..69cd5c92d8 100644
  (http://aquamacs.org/).
  
  To run your script from the Terminal window you must make sure that
+diff --git a/Doc/using/windows.rst b/Doc/using/windows.rst
+index 50c220d775..3e5ddf2c2a 100644
+--- a/Doc/using/windows.rst
++++ b/Doc/using/windows.rst
+@@ -528,7 +528,7 @@ Besides the standard CPython distribution, there are modified packages including
+ additional functionality.  The following is a list of popular versions and their
+ key features:
+ 
+-`ActivePython <https://www.activestate.com/activepython/>`_
++`ActivePython <https://www.activestate.com/products/python/>`_
+     Installer with multi-platform compatibility, documentation, PyWin32
+ 
+ `Anaconda <https://www.anaconda.com/download/>`_
 diff --git a/Doc/whatsnew/2.0.rst b/Doc/whatsnew/2.0.rst
 index 6b16dfd468..cd9fa89ca8 100644
 --- a/Doc/whatsnew/2.0.rst
@@ -338,9 +516,22 @@ index 0c3bfda193..82aff0be1e 100644
  
     sentence := "Store it in the neighboring harbor"
 diff --git a/Doc/whatsnew/2.3.rst b/Doc/whatsnew/2.3.rst
-index c6e2003e92..6ab8a357a6 100644
+index c6e2003e92..af489d7cb4 100644
 --- a/Doc/whatsnew/2.3.rst
 +++ b/Doc/whatsnew/2.3.rst
+@@ -218,10 +218,10 @@ queen threatens another) and the Knight's Tour (a route that takes a knight to
+ every square of an $NxN$ chessboard without visiting any square twice).
+ 
+ The idea of generators comes from other programming languages, especially Icon
+-(https://www.cs.arizona.edu/icon/), where the idea of generators is central.  In
++(https://www2.cs.arizona.edu/icon/), where the idea of generators is central.  In
+ Icon, every expression and function call behaves like a generator.  One example
+ from "An Overview of the Icon Programming Language" at
+-https://www.cs.arizona.edu/icon/docs/ipd266.htm gives an idea of what this looks
++https://www2.cs.arizona.edu/icon/docs/ipd266.htm gives an idea of what this looks
+ like::
+ 
+    sentence := "Store it in the neighboring harbor"
 @@ -1332,7 +1332,7 @@ complete list of changes, or look through the CVS logs for all the details.
    (Contributed by Kevin O'Connor.)
  
@@ -364,9 +555,18 @@ index 63e819876c..98dc83fe93 100644
  Foundation.  The :mod:`locale` module  can now change the numeric locale,
  letting extensions such as GTK+  produce the correct results.
 diff --git a/Doc/whatsnew/2.6.rst b/Doc/whatsnew/2.6.rst
-index 4ee2aacb10..84bb651e68 100644
+index 34f2656f76..84bb651e68 100644
 --- a/Doc/whatsnew/2.6.rst
 +++ b/Doc/whatsnew/2.6.rst
+@@ -172,7 +172,7 @@ this edition of "What's New in Python" links to the bug/patch
+ item for each change.
+ 
+ Hosting of the Python bug tracker is kindly provided by
+-`Upfront Systems <http://www.upfrontsoftware.co.za>`__
++`Upfront Systems <https://upfrontsoftware.co.za>`__
+ of Stellenbosch, South Africa.  Martin von Löwis put a
+ lot of effort into importing existing bugs and patches from
+ SourceForge; his scripts for this import operation are at
 @@ -1433,7 +1433,7 @@ one, :func:`math.trunc`, that's been backported to Python 2.6.
  
     `Scheme's numerical tower <https://www.gnu.org/software/guile/manual/html_node/Numerical-Tower.html#Numerical-Tower>`__, from the Guile manual.
@@ -385,6 +585,19 @@ index 4ee2aacb10..84bb651e68 100644
    a high-performance non-IP-based protocol designed for use in clustered
    environments.  TIPC addresses are 4- or 5-tuples.
    (Contributed by Alberto Bertogli; :issue:`1646`.)
+diff --git a/Doc/whatsnew/2.7.rst b/Doc/whatsnew/2.7.rst
+index 82f5ea3b31..1acb09cf92 100644
+--- a/Doc/whatsnew/2.7.rst
++++ b/Doc/whatsnew/2.7.rst
+@@ -2103,7 +2103,7 @@ Changes to Python's build process and to the C API include:
+ 
+ * The latest release of the GNU Debugger, GDB 7, can be `scripted
+   using Python
+-  <https://sourceware.org/gdb/current/onlinedocs/gdb/Python.html>`__.
++  <https://web.archive.org/web/20110715084810/http://sourceware.org/gdb/current/onlinedocs/gdb/Python.html>`__.
+   When you begin debugging an executable program P, GDB will look for
+   a file named ``P-gdb.py`` and automatically read it.  Dave Malcolm
+   contributed a :file:`python-gdb.py` that adds a number of
 diff --git a/Doc/whatsnew/3.11.rst b/Doc/whatsnew/3.11.rst
 index a38a80a501..1bbf5a4606 100644
 --- a/Doc/whatsnew/3.11.rst
@@ -524,4 +737,69 @@ index e99c45ec7f..24a1c4c83e 100644
 +use the new Python benchmark suite https://github.com/python/pyperformance
  which is more reliable and includes a portable version of pybench working on
  Python 2 and Python 3.
+ 
+diff --git a/Misc/NEWS.d/3.7.0b2.rst b/Misc/NEWS.d/3.7.0b2.rst
+index b2ade206bd..9590914599 100644
+--- a/Misc/NEWS.d/3.7.0b2.rst
++++ b/Misc/NEWS.d/3.7.0b2.rst
+@@ -357,7 +357,7 @@ Wirtel
+ 
+ Add TLSVersion constants and SSLContext.maximum_version / minimum_version
+ attributes. The new API wraps OpenSSL 1.1
+-https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html
++https://web.archive.org/web/20180309043602/https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html
+ feature.
+ 
+ ..
+diff --git a/Misc/NEWS.d/3.8.0a1.rst b/Misc/NEWS.d/3.8.0a1.rst
+index d95055a59d..c9ca4b8404 100644
+--- a/Misc/NEWS.d/3.8.0a1.rst
++++ b/Misc/NEWS.d/3.8.0a1.rst
+@@ -5951,7 +5951,7 @@ Wirtel
+ 
+ Add TLSVersion constants and SSLContext.maximum_version / minimum_version
+ attributes. The new API wraps OpenSSL 1.1
+-https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html
++https://web.archive.org/web/20180309043602/https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html
+ feature.
+ 
+ ..
+diff --git a/Misc/NEWS.d/3.9.0a1.rst b/Misc/NEWS.d/3.9.0a1.rst
+index 63d77fd3ac..2525696c58 100644
+--- a/Misc/NEWS.d/3.9.0a1.rst
++++ b/Misc/NEWS.d/3.9.0a1.rst
+@@ -4887,7 +4887,7 @@ Fix use of registry values to launch Python from Microsoft Store app.
+ .. section: Windows
+ 
+ Fix memory leak on Windows in creating an SSLContext object or running
+-urllib.request.urlopen('https://...').
++``urllib.request.urlopen('https://...')``.
+ 
+ ..
+ 
+diff --git a/Misc/NEWS.d/3.9.0a2.rst b/Misc/NEWS.d/3.9.0a2.rst
+index 226ea0d3df..a03eb10f1d 100644
+--- a/Misc/NEWS.d/3.9.0a2.rst
++++ b/Misc/NEWS.d/3.9.0a2.rst
+@@ -686,7 +686,7 @@ added.
+ 
+ Update documentation to state that to activate virtual environments under
+ fish one should use `source`, not `.` as documented at
+-https://fishshell.com/docs/current/commands.html#source.
++https://fishshell.com/docs/current/cmds/source.html.
+ 
+ ..
+ 
+diff --git a/Misc/NEWS.d/3.9.0a4.rst b/Misc/NEWS.d/3.9.0a4.rst
+index 2aef8b26b0..019b34c408 100644
+--- a/Misc/NEWS.d/3.9.0a4.rst
++++ b/Misc/NEWS.d/3.9.0a4.rst
+@@ -392,7 +392,7 @@ The distutils ``bdist_msi`` command is deprecated in Python 3.9, use
+ Improved performance of zipfile.Path for files with a large number of
+ entries. Also improved performance and fixed minor issue as published with
+ `importlib_metadata 1.5
+-<https://importlib-metadata.readthedocs.io/en/latest/changelog%20(links).html#v1-5-0>`_.
++<https://importlib-metadata.readthedocs.io/en/latest/history.html#v1-5-0>`_.
+ 
+ ..
  

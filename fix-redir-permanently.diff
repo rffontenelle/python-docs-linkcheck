@@ -1,8 +1,8 @@
 diff --git a/Doc/conf.py b/Doc/conf.py
-index 40cf1a37c6..06214c9232 100644
+index 40cf1a37c6..369df85a52 100644
 --- a/Doc/conf.py
 +++ b/Doc/conf.py
-@@ -260,7 +260,21 @@
+@@ -260,7 +260,22 @@
      # GH-NNNN used to refer to pull requests
      r'https://github.com/python/cpython/issues/\d+': 'https://github.com/python/cpython/pull/\d+',
      # :source:`something` linking files in the repository
@@ -13,15 +13,16 @@ index 40cf1a37c6..06214c9232 100644
 +    # Microsoft's redirects to learn.microsoft.com
 +    r'https://msdn.microsoft.com/.*': 'https://learn.microsoft.com/.*',
 +    r'https://docs.microsoft.com/.*': 'https://learn.microsoft.com/.*',
-+    r'https://go.microsoft.com/fwlink/?LinkID=\d+': 'https://learn.microsoft.com/.*',
++    r'https://go.microsoft.com/fwlink/\?LinkID=\d+': 'https://learn.microsoft.com/.*',
++    # Language redirects
++    r'https://toml.io': 'https://toml.io/en/',
++    r'https://www.redhat.com': 'https://www.redhat.com/en',
 +    # Other redirects
 +    r'https://tools.ietf.org/html/rfc\d+': 'https://datatracker.ietf.org/doc/html/rfc\d+',
 +    r'https://www.boost.org/libs/.+': 'https://www.boost.org/doc/libs/\d_\d+_\d/.+',
 +    r'https://support.microsoft.com/en-us/help/\d+': 'https://support.microsoft.com/en-us/topic/.+',
 +    r'https://perf.wiki.kernel.org/': 'https://perf.wiki.kernel.org/index.php/Main_Page',
-+    # Language redirects
-+    r'https://toml.io': 'https://toml.io/en/',
-+    r'https://www.redhat.com': 'https://www.redhat.com/en/',
++    r'https://www.sqlite.org': 'https://www.sqlite.org/index.html'
  }
  
  linkcheck_anchors_ignore = [
@@ -190,6 +191,32 @@ index e7bf45d7d5..a5324c82c6 100644
     for a complete description of this sysctl.
  
     .. availability:: FreeBSD.
+diff --git a/Doc/library/select.rst b/Doc/library/select.rst
+index 2890706bab..b0891b0c8f 100644
+--- a/Doc/library/select.rst
++++ b/Doc/library/select.rst
+@@ -505,7 +505,7 @@ Kqueue Objects
+ Kevent Objects
+ --------------
+ 
+-https://www.freebsd.org/cgi/man.cgi?query=kqueue&sektion=2
++https://man.freebsd.org/cgi/man.cgi?query=kqueue&sektion=2
+ 
+ .. attribute:: kevent.ident
+ 
+diff --git a/Doc/library/ssl.rst b/Doc/library/ssl.rst
+index 4b60b7c643..18a6c5ab48 100644
+--- a/Doc/library/ssl.rst
++++ b/Doc/library/ssl.rst
+@@ -1719,7 +1719,7 @@ to speed up repeated connections from the same clients.
+    .. versionadded:: 3.3
+ 
+    .. seealso::
+-      `SSL/TLS & Perfect Forward Secrecy <https://vincent.bernat.im/en/blog/2011-ssl-perfect-forward-secrecy>`_
++      `SSL/TLS & Perfect Forward Secrecy <https://vincent.bernat.ch/en/blog/2011-ssl-perfect-forward-secrecy>`_
+          Vincent Bernat.
+ 
+ .. method:: SSLContext.wrap_socket(sock, server_side=False, \
 diff --git a/Doc/library/statistics.rst b/Doc/library/statistics.rst
 index f934b0e031..395b324c86 100644
 --- a/Doc/library/statistics.rst
@@ -216,6 +243,19 @@ index e37d57edce..e452d57467 100644
     for an example of using :func:`getsizeof` recursively to find the size of
     containers and all their contents.
  
+diff --git a/Doc/library/unittest.mock-examples.rst b/Doc/library/unittest.mock-examples.rst
+index f9a207bad6..895b9f9f07 100644
+--- a/Doc/library/unittest.mock-examples.rst
++++ b/Doc/library/unittest.mock-examples.rst
+@@ -1074,7 +1074,7 @@ subclass.
+ Sometimes this is inconvenient. For example, `one user
+ <https://code.google.com/archive/p/mock/issues/105>`_ is subclassing mock to
+ created a `Twisted adaptor
+-<https://twistedmatrix.com/documents/11.0.0/api/twisted.python.components.html>`_.
++<https://twisted.org/documents/11.0.0/api/twisted.python.components.html>`_.
+ Having this applied to attributes too actually causes errors.
+ 
+ ``Mock`` (in all its flavours) uses a method called ``_get_child_mock`` to create
 diff --git a/Doc/library/unittest.rst b/Doc/library/unittest.rst
 index a7c74cfa4f..aa22650c2b 100644
 --- a/Doc/library/unittest.rst
@@ -228,6 +268,19 @@ index a7c74cfa4f..aa22650c2b 100644
 +   `Buildbot <https://buildbot.net/>`_, `Jenkins <https://www.jenkins.io/>`_,
     `GitHub Actions <https://github.com/features/actions>`_, or
     `AppVeyor <https://www.appveyor.com/>`_.
+ 
+diff --git a/Doc/library/xmlrpc.client.rst b/Doc/library/xmlrpc.client.rst
+index bd2c49a6ed..146c4fd768 100644
+--- a/Doc/library/xmlrpc.client.rst
++++ b/Doc/library/xmlrpc.client.rst
+@@ -161,7 +161,7 @@ between conformable Python objects and XML on the wire.
+ 
+ .. seealso::
+ 
+-   `XML-RPC HOWTO <https://www.tldp.org/HOWTO/XML-RPC-HOWTO/index.html>`_
++   `XML-RPC HOWTO <https://tldp.org/HOWTO/XML-RPC-HOWTO/index.html>`_
+       A good description of XML-RPC operation and client software in several languages.
+       Contains pretty much everything an XML-RPC client developer needs to know.
  
 diff --git a/Doc/library/zipfile.rst b/Doc/library/zipfile.rst
 index 6f4826cb06..45f3d340bd 100644
@@ -307,6 +360,19 @@ index 9ae0270eae..69cd5c92d8 100644
  (http://aquamacs.org/).
  
  To run your script from the Terminal window you must make sure that
+diff --git a/Doc/using/windows.rst b/Doc/using/windows.rst
+index 1c4e41c0e0..f98beb7139 100644
+--- a/Doc/using/windows.rst
++++ b/Doc/using/windows.rst
+@@ -541,7 +541,7 @@ Besides the standard CPython distribution, there are modified packages including
+ additional functionality.  The following is a list of popular versions and their
+ key features:
+ 
+-`ActivePython <https://www.activestate.com/activepython/>`_
++`ActivePython <https://www.activestate.com/products/python/>`_
+     Installer with multi-platform compatibility, documentation, PyWin32
+ 
+ `Anaconda <https://www.anaconda.com/download/>`_
 diff --git a/Doc/whatsnew/2.0.rst b/Doc/whatsnew/2.0.rst
 index 4bcb2acae1..0eefefd863 100644
 --- a/Doc/whatsnew/2.0.rst
@@ -351,9 +417,22 @@ index 0c3bfda193..82aff0be1e 100644
  
     sentence := "Store it in the neighboring harbor"
 diff --git a/Doc/whatsnew/2.3.rst b/Doc/whatsnew/2.3.rst
-index c6e2003e92..6ab8a357a6 100644
+index c6e2003e92..af489d7cb4 100644
 --- a/Doc/whatsnew/2.3.rst
 +++ b/Doc/whatsnew/2.3.rst
+@@ -218,10 +218,10 @@ queen threatens another) and the Knight's Tour (a route that takes a knight to
+ every square of an $NxN$ chessboard without visiting any square twice).
+ 
+ The idea of generators comes from other programming languages, especially Icon
+-(https://www.cs.arizona.edu/icon/), where the idea of generators is central.  In
++(https://www2.cs.arizona.edu/icon/), where the idea of generators is central.  In
+ Icon, every expression and function call behaves like a generator.  One example
+ from "An Overview of the Icon Programming Language" at
+-https://www.cs.arizona.edu/icon/docs/ipd266.htm gives an idea of what this looks
++https://www2.cs.arizona.edu/icon/docs/ipd266.htm gives an idea of what this looks
+ like::
+ 
+    sentence := "Store it in the neighboring harbor"
 @@ -1332,7 +1332,7 @@ complete list of changes, or look through the CVS logs for all the details.
    (Contributed by Kevin O'Connor.)
  
