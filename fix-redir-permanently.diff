@@ -1,22 +1,39 @@
 diff --git a/Doc/conf.py b/Doc/conf.py
-index bbd47203e1..eab22be5b2 100644
+index 40cf1a37c6..fe697b9e6c 100644
 --- a/Doc/conf.py
 +++ b/Doc/conf.py
-@@ -260,7 +260,13 @@
+@@ -260,7 +260,17 @@
      # GH-NNNN used to refer to pull requests
      r'https://github.com/python/cpython/issues/\d+': 'https://github.com/python/cpython/pull/\d+',
      # :source:`something` linking files in the repository
 -    r'https://github.com/python/cpython/tree/.*': 'https://github.com/python/cpython/blob/.*'
 +    r'https://github.com/python/cpython/tree/.*': 'https://github.com/python/cpython/blob/.*',
-+    # Intentional HTTP use in Misc/NEWS.d/3.5.0a1.rst
++    # Intentional HTTP use at Misc/NEWS.d/3.5.0a1.rst
 +    r'http://www.python.org/$': 'https://www.python.org/$',
 +    # Microsoft's redirects to learn.microsoft.com
 +    r'https://msdn.microsoft.com/.*': 'https://learn.microsoft.com/.*',
-+    r'https://docs.microsoft.com/': 'https://learn.microsoft.com/.*',
++    r'https://docs.microsoft.com/.*': 'https://learn.microsoft.com/.*',
 +    r'https://go.microsoft.com/fwlink/?LinkID=\d+': 'https://learn.microsoft.com/.*',
++    # Other redirects
++    r'https://tools.ietf.org/html/rfc\d+': 'https://datatracker.ietf.org/doc/html/rfc\d+',
++    r'https://www.boost.org/libs/.+': 'https://www.boost.org/doc/libs/\d_\d+_\d/.+',
++    r'https://support.microsoft.com/en-us/help/\d+': 'https://support.microsoft.com/en-us/topic/.+',
  }
  
  linkcheck_anchors_ignore = [
+diff --git a/Doc/faq/extending.rst b/Doc/faq/extending.rst
+index 07282639e4..bc3080f60e 100644
+--- a/Doc/faq/extending.rst
++++ b/Doc/faq/extending.rst
+@@ -42,7 +42,7 @@ on what you're trying to do.
+ .. XXX make sure these all work
+ 
+ `Cython <https://cython.org>`_ and its relative `Pyrex
+-<https://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/>`_ are compilers
++<https://www.csse.canterbury.ac.nz/greg.ewing/python/Pyrex/>`_ are compilers
+ that accept a slightly modified form of Python and generate the corresponding
+ C code.  Cython and Pyrex make it possible to write an extension without having
+ to learn Python's C API.
 diff --git a/Doc/faq/general.rst b/Doc/faq/general.rst
 index 6256deb579..7918587fb5 100644
 --- a/Doc/faq/general.rst
@@ -39,6 +56,32 @@ index 6256deb579..7918587fb5 100644
  
  
  Is it reasonable to propose incompatible changes to Python?
+diff --git a/Doc/faq/programming.rst b/Doc/faq/programming.rst
+index 38f9b17161..ab5618db84 100644
+--- a/Doc/faq/programming.rst
++++ b/Doc/faq/programming.rst
+@@ -61,7 +61,7 @@ Yes.
+ `Pyflakes <https://github.com/PyCQA/pyflakes>`_ do basic checking that will
+ help you catch bugs sooner.
+ 
+-Static type checkers such as `Mypy <http://mypy-lang.org/>`_,
++Static type checkers such as `Mypy <https://mypy-lang.org/>`_,
+ `Pyre <https://pyre-check.org/>`_, and
+ `Pytype <https://github.com/google/pytype>`_ can check type hints in Python
+ source code.
+diff --git a/Doc/howto/pyporting.rst b/Doc/howto/pyporting.rst
+index add1c11be5..baea3e85c3 100644
+--- a/Doc/howto/pyporting.rst
++++ b/Doc/howto/pyporting.rst
+@@ -438,7 +438,7 @@ to make sure everything functions as expected in both versions of Python.
+ .. _Futurize: https://python-future.org/automatic_conversion.html
+ .. _importlib2: https://pypi.org/project/importlib2
+ .. _Modernize: https://python-modernize.readthedocs.io/
+-.. _mypy: http://mypy-lang.org/
++.. _mypy: https://mypy-lang.org/
+ .. _Porting to Python 3: http://python3porting.com/
+ .. _Pylint: https://pypi.org/project/pylint
+ 
 diff --git a/Doc/library/hashlib.rst b/Doc/library/hashlib.rst
 index f8d10c0c29..6275f96f7d 100644
 --- a/Doc/library/hashlib.rst
@@ -91,6 +134,32 @@ index f8d10c0c29..6275f96f7d 100644
        Official BLAKE2 website.
  
     https://csrc.nist.gov/csrc/media/publications/fips/180/2/archive/2002-08-01/documents/fips180-2.pdf
+diff --git a/Doc/library/importlib.metadata.rst b/Doc/library/importlib.metadata.rst
+index 6e08410199..a22c730317 100644
+--- a/Doc/library/importlib.metadata.rst
++++ b/Doc/library/importlib.metadata.rst
+@@ -178,7 +178,7 @@ The "selectable" entry points were introduced in ``importlib_metadata``
+ no parameters and always returned a dictionary of entry points, keyed
+ by group. With ``importlib_metadata`` 5.0 and Python 3.12,
+ ``entry_points`` always returns an ``EntryPoints`` object. See
+-`backports.entry_points_selectable <https://pypi.org/project/backports.entry_points_selectable>`_
++`backports.entry-points-selectable <https://pypi.org/project/backports.entry-points-selectable>`_
+ for compatibility options.
+ 
+ 
+diff --git a/Doc/library/os.rst b/Doc/library/os.rst
+index 7bb501c594..d62270ba98 100644
+--- a/Doc/library/os.rst
++++ b/Doc/library/os.rst
+@@ -4592,7 +4592,7 @@ written in Python, such as a mail server's external command delivery program.
+    :attr:`!children_system`, and :attr:`!elapsed` in that order.
+ 
+    See the Unix manual page
+-   :manpage:`times(2)` and `times(3) <https://www.freebsd.org/cgi/man.cgi?time(3)>`_ manual page on Unix or `the GetProcessTimes MSDN
++   :manpage:`times(2)` and `times(3) <https://man.freebsd.org/cgi/man.cgi?time(3)>`_ manual page on Unix or `the GetProcessTimes MSDN
+    <https://docs.microsoft.com/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes>`_
+    on Windows. On Windows, only :attr:`!user` and :attr:`!system` are known; the other attributes are zero.
+ 
 diff --git a/Doc/library/plistlib.rst b/Doc/library/plistlib.rst
 index 7aad15ec91..732ef35368 100644
 --- a/Doc/library/plistlib.rst
@@ -104,6 +173,32 @@ index 7aad15ec91..732ef35368 100644
        Apple's documentation of the file format.
  
  
+diff --git a/Doc/library/resource.rst b/Doc/library/resource.rst
+index e7bf45d7d5..a5324c82c6 100644
+--- a/Doc/library/resource.rst
++++ b/Doc/library/resource.rst
+@@ -244,7 +244,7 @@ platform.
+    used by all of this user id's processes.
+    This limit is enforced only if bit 1 of the vm.overcommit sysctl is set.
+    Please see
+-   `tuning(7) <https://www.freebsd.org/cgi/man.cgi?query=tuning&sektion=7>`__
++   `tuning(7) <https://man.freebsd.org/cgi/man.cgi?query=tuning&sektion=7>`__
+    for a complete description of this sysctl.
+ 
+    .. availability:: FreeBSD.
+diff --git a/Doc/library/statistics.rst b/Doc/library/statistics.rst
+index f934b0e031..395b324c86 100644
+--- a/Doc/library/statistics.rst
++++ b/Doc/library/statistics.rst
+@@ -22,7 +22,7 @@ This module provides functions for calculating mathematical statistics of
+ numeric (:class:`~numbers.Real`-valued) data.
+ 
+ The module is not intended to be a competitor to third-party libraries such
+-as `NumPy <https://numpy.org>`_, `SciPy <https://www.scipy.org/>`_, or
++as `NumPy <https://numpy.org>`_, `SciPy <https://scipy.org/>`_, or
+ proprietary full-featured statistics packages aimed at professional
+ statisticians such as Minitab, SAS and Matlab. It is aimed at the level of
+ graphing and scientific calculators.
 diff --git a/Doc/library/sys.rst b/Doc/library/sys.rst
 index e37d57edce..e452d57467 100644
 --- a/Doc/library/sys.rst
@@ -156,6 +251,19 @@ index 9f91ade35e..1b59aec548 100644
  
        Changing hash values affects the iteration order of sets.
        Python has never made guarantees about this ordering
+diff --git a/Doc/using/cmdline.rst b/Doc/using/cmdline.rst
+index b35e8454fa..9d4042ce5a 100644
+--- a/Doc/using/cmdline.rst
++++ b/Doc/using/cmdline.rst
+@@ -370,7 +370,7 @@ Miscellaneous options
+    Hash randomization is intended to provide protection against a
+    denial-of-service caused by carefully chosen inputs that exploit the worst
+    case performance of a dict construction, O(n\ :sup:`2`) complexity.  See
+-   http://www.ocert.org/advisories/ocert-2011-003.html for details.
++   http://ocert.org/advisories/ocert-2011-003.html for details.
+ 
+    :envvar:`PYTHONHASHSEED` allows you to set a fixed value for the hash
+    seed secret.
 diff --git a/Doc/using/mac.rst b/Doc/using/mac.rst
 index 9ae0270eae..69cd5c92d8 100644
 --- a/Doc/using/mac.rst
@@ -195,6 +303,23 @@ index 0136de5877..676da702b3 100644
    more information about PyUnit.
  
  * The :mod:`difflib` module contains a class, :class:`SequenceMatcher`, which
+diff --git a/Doc/whatsnew/2.2.rst b/Doc/whatsnew/2.2.rst
+index 0c3bfda193..82aff0be1e 100644
+--- a/Doc/whatsnew/2.2.rst
++++ b/Doc/whatsnew/2.2.rst
+@@ -632,10 +632,10 @@ queen threatens another) and the Knight's Tour (a route that takes a knight to
+ every square of an $NxN$ chessboard without visiting any square twice).
+ 
+ The idea of generators comes from other programming languages, especially Icon
+-(https://www.cs.arizona.edu/icon/), where the idea of generators is central.  In
++(https://www2.cs.arizona.edu/icon/), where the idea of generators is central.  In
+ Icon, every expression and function call behaves like a generator.  One example
+ from "An Overview of the Icon Programming Language" at
+-https://www.cs.arizona.edu/icon/docs/ipd266.htm gives an idea of what this looks
++https://www2.cs.arizona.edu/icon/docs/ipd266.htm gives an idea of what this looks
+ like::
+ 
+    sentence := "Store it in the neighboring harbor"
 diff --git a/Doc/whatsnew/2.3.rst b/Doc/whatsnew/2.3.rst
 index c6e2003e92..6ab8a357a6 100644
 --- a/Doc/whatsnew/2.3.rst
@@ -222,9 +347,18 @@ index 63e819876c..98dc83fe93 100644
  Foundation.  The :mod:`locale` module  can now change the numeric locale,
  letting extensions such as GTK+  produce the correct results.
 diff --git a/Doc/whatsnew/2.6.rst b/Doc/whatsnew/2.6.rst
-index 34f2656f76..8032d5789b 100644
+index 4ee2aacb10..84bb651e68 100644
 --- a/Doc/whatsnew/2.6.rst
 +++ b/Doc/whatsnew/2.6.rst
+@@ -1433,7 +1433,7 @@ one, :func:`math.trunc`, that's been backported to Python 2.6.
+ 
+    `Scheme's numerical tower <https://www.gnu.org/software/guile/manual/html_node/Numerical-Tower.html#Numerical-Tower>`__, from the Guile manual.
+ 
+-   `Scheme's number datatypes <https://schemers.org/Documents/Standards/R5RS/HTML/r5rs-Z-H-9.html#%_sec_6.2>`__ from the R5RS Scheme specification.
++   `Scheme's number datatypes <https://conservatory.scheme.org/schemers/Documents/Standards/R5RS/HTML/r5rs-Z-H-9.html#%_sec_6.2>`__ from the R5RS Scheme specification.
+ 
+ 
+ The :mod:`fractions` Module
 @@ -2363,7 +2363,7 @@ changes, or look through the Subversion logs for all the details.
    negotiation itself.  (Patch contributed by Bill Fenner;
    :issue:`829951`.)
@@ -234,6 +368,37 @@ index 34f2656f76..8032d5789b 100644
    a high-performance non-IP-based protocol designed for use in clustered
    environments.  TIPC addresses are 4- or 5-tuples.
    (Contributed by Alberto Bertogli; :issue:`1646`.)
+diff --git a/Doc/whatsnew/3.11.rst b/Doc/whatsnew/3.11.rst
+index 10fcfb6a0b..2614644c6b 100644
+--- a/Doc/whatsnew/3.11.rst
++++ b/Doc/whatsnew/3.11.rst
+@@ -74,7 +74,7 @@ New built-in features:
+ New standard library modules:
+ 
+ * :pep:`680`: :mod:`tomllib` —
+-  Support for parsing `TOML <https://toml.io/>`_ in the Standard Library
++  Support for parsing `TOML <https://toml.io/en/>`_ in the Standard Library
+ 
+ Interpreter improvements:
+ 
+@@ -220,7 +220,7 @@ The copy of the :ref:`launcher` included with Python 3.11 has been significantly
+ updated. It now supports company/tag syntax as defined in :pep:`514` using the
+ ``-V:<company>/<tag>`` argument instead of the limited ``-<major>.<minor>``.
+ This allows launching distributions other than ``PythonCore``,
+-the one hosted on `python.org <https://python.org>`_.
++the one hosted on `python.org <https://www.python.org>`_.
+ 
+ When using ``-V:`` selectors, either company or tag can be omitted, but all
+ installs will be searched. For example, ``-V:OtherPython/`` will select the
+@@ -2489,7 +2489,7 @@ Porting to Python 3.11
+       #endif
+ 
+   Or use the `pythoncapi_compat project
+-  <https://github.com/python/pythoncapi_compat>`__ to get these two
++  <https://github.com/python/pythoncapi-compat>`__ to get these two
+   functions on older Python versions.
+ 
+ * Changes of the :c:type:`PyThreadState` structure members:
 diff --git a/Doc/whatsnew/3.2.rst b/Doc/whatsnew/3.2.rst
 index 1b1455b72b..e9d008d97c 100644
 --- a/Doc/whatsnew/3.2.rst
@@ -250,7 +415,7 @@ index 1b1455b72b..e9d008d97c 100644
  
  * The :func:`functools.wraps` decorator now adds a :attr:`__wrapped__` attribute
 diff --git a/Doc/whatsnew/3.5.rst b/Doc/whatsnew/3.5.rst
-index f872579ef5..1521e26bc0 100644
+index f872579ef5..b9a368145f 100644
 --- a/Doc/whatsnew/3.5.rst
 +++ b/Doc/whatsnew/3.5.rst
 @@ -425,7 +425,7 @@ are declared in the annotations::
@@ -262,6 +427,15 @@ index f872579ef5..1521e26bc0 100644
  source code analysis.
  
  The type system supports unions, generic types, and a special type
+@@ -2212,7 +2212,7 @@ for details.)
+ The :c:member:`PyTypeObject.tp_finalize` slot is now part of the stable ABI.
+ 
+ Windows builds now require Microsoft Visual C++ 14.0, which
+-is available as part of `Visual Studio 2015 <https://www.visualstudio.com/>`_.
++is available as part of `Visual Studio 2015 <https://web.archive.org/web/20150924233002/https://www.visualstudio.com//>`_.
+ 
+ Extension modules now include a platform information tag in their filename on
+ some platforms (the tag is optional, and CPython will import extensions without
 diff --git a/Doc/whatsnew/3.6.rst b/Doc/whatsnew/3.6.rst
 index e4294c88b5..c7faaebfed 100644
 --- a/Doc/whatsnew/3.6.rst
@@ -274,4 +448,30 @@ index e4294c88b5..c7faaebfed 100644
 +   `mypy <https://www.mypy-lang.org/>`_,
     `pytype <https://github.com/google/pytype>`_, PyCharm, etc.
  
+ 
+diff --git a/Doc/whatsnew/3.8.rst b/Doc/whatsnew/3.8.rst
+index 37a6cf24e5..85e088b64a 100644
+--- a/Doc/whatsnew/3.8.rst
++++ b/Doc/whatsnew/3.8.rst
+@@ -2229,7 +2229,7 @@ The benchmarks were measured on an
+ `Intel® Core™ i7-4960HQ processor
+ <https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html>`_
+ running the macOS 64-bit builds found at
+-`python.org <https://www.python.org/downloads/mac-osx/>`_.
++`python.org <https://www.python.org/downloads/macos/>`_.
+ The benchmark script displays timings in nanoseconds.
+ 
+ 
+diff --git a/Misc/NEWS.d/3.7.0a1.rst b/Misc/NEWS.d/3.7.0a1.rst
+index 9bada1b76b..ef93454784 100644
+--- a/Misc/NEWS.d/3.7.0a1.rst
++++ b/Misc/NEWS.d/3.7.0a1.rst
+@@ -6255,7 +6255,7 @@ Fix python-gdb.py didn't support new dict implementation.
+ .. section: Tools/Demos
+ 
+ The pybench and pystone microbenchmark have been removed from Tools. Please
+-use the new Python benchmark suite https://github.com/python/performance
++use the new Python benchmark suite https://github.com/python/pyperformance
+ which is more reliable and includes a portable version of pybench working on
+ Python 2 and Python 3.
  
