@@ -1,8 +1,8 @@
 diff --git a/Doc/conf.py b/Doc/conf.py
-index 40cf1a37c6..06214c9232 100644
+index c5618928fd..2083dd91b4 100644
 --- a/Doc/conf.py
 +++ b/Doc/conf.py
-@@ -260,7 +260,21 @@
+@@ -248,7 +248,21 @@
      # GH-NNNN used to refer to pull requests
      r'https://github.com/python/cpython/issues/\d+': 'https://github.com/python/cpython/pull/\d+',
      # :source:`something` linking files in the repository
@@ -87,10 +87,10 @@ index add1c11be5..baea3e85c3 100644
  .. _Pylint: https://pypi.org/project/pylint
  
 diff --git a/Doc/library/hashlib.rst b/Doc/library/hashlib.rst
-index f8d10c0c29..6275f96f7d 100644
+index a96fc8b8ff..bea862d796 100644
 --- a/Doc/library/hashlib.rst
 +++ b/Doc/library/hashlib.rst
-@@ -432,7 +432,7 @@ Constructor functions also accept the following tree hashing parameters:
+@@ -438,7 +438,7 @@ Constructor functions also accept the following tree hashing parameters:
     :alt: Explanation of tree mode parameters.
  
  See section 2.10 in `BLAKE2 specification
@@ -99,7 +99,7 @@ index f8d10c0c29..6275f96f7d 100644
  hashing.
  
  
-@@ -619,7 +619,7 @@ on the hash function used in digital signatures.
+@@ -624,7 +624,7 @@ on the hash function used in digital signatures.
      by the signer.
  
      (`NIST SP-800-106 "Randomized Hashing for Digital Signatures"
@@ -108,7 +108,7 @@ index f8d10c0c29..6275f96f7d 100644
  
  In BLAKE2 the salt is processed as a one-time input to the hash function during
  initialization, rather than as an input to each compression function.
-@@ -628,7 +628,7 @@ initialization, rather than as an input to each compression function.
+@@ -633,7 +633,7 @@ initialization, rather than as an input to each compression function.
  
      *Salted hashing* (or just hashing) with BLAKE2 or any other general-purpose
      cryptographic hash function, such as SHA-256, is not suitable for hashing
@@ -117,7 +117,7 @@ index f8d10c0c29..6275f96f7d 100644
      information.
  ..
  
-@@ -764,9 +764,9 @@ Domain Dedication 1.0 Universal:
+@@ -769,9 +769,9 @@ Domain Dedication 1.0 Universal:
  
  * *Alexandr Sokolovskiy*
  
@@ -129,7 +129,7 @@ index f8d10c0c29..6275f96f7d 100644
  .. _SHA-3: https://en.wikipedia.org/wiki/NIST_hash_function_competition
  .. _ChaCha: https://cr.yp.to/chacha.html
  .. _pyblake2: https://pythonhosted.org/pyblake2/
-@@ -782,7 +782,7 @@ Domain Dedication 1.0 Universal:
+@@ -787,7 +787,7 @@ Domain Dedication 1.0 Universal:
     Module :mod:`base64`
        Another way to encode binary hashes for non-binary environments.
  
@@ -138,24 +138,11 @@ index f8d10c0c29..6275f96f7d 100644
        Official BLAKE2 website.
  
     https://csrc.nist.gov/csrc/media/publications/fips/180/2/archive/2002-08-01/documents/fips180-2.pdf
-diff --git a/Doc/library/importlib.metadata.rst b/Doc/library/importlib.metadata.rst
-index 6e08410199..a22c730317 100644
---- a/Doc/library/importlib.metadata.rst
-+++ b/Doc/library/importlib.metadata.rst
-@@ -178,7 +178,7 @@ The "selectable" entry points were introduced in ``importlib_metadata``
- no parameters and always returned a dictionary of entry points, keyed
- by group. With ``importlib_metadata`` 5.0 and Python 3.12,
- ``entry_points`` always returns an ``EntryPoints`` object. See
--`backports.entry_points_selectable <https://pypi.org/project/backports.entry_points_selectable>`_
-+`backports.entry-points-selectable <https://pypi.org/project/backports.entry-points-selectable>`_
- for compatibility options.
- 
- 
 diff --git a/Doc/library/os.rst b/Doc/library/os.rst
-index 7bb501c594..d62270ba98 100644
+index 7b7ab860da..19e5bee34e 100644
 --- a/Doc/library/os.rst
 +++ b/Doc/library/os.rst
-@@ -4592,7 +4592,7 @@ written in Python, such as a mail server's external command delivery program.
+@@ -4364,7 +4364,7 @@ written in Python, such as a mail server's external command delivery program.
     :attr:`!children_system`, and :attr:`!elapsed` in that order.
  
     See the Unix manual page
@@ -191,7 +178,7 @@ index e7bf45d7d5..a5324c82c6 100644
  
     .. availability:: FreeBSD.
 diff --git a/Doc/library/statistics.rst b/Doc/library/statistics.rst
-index f934b0e031..395b324c86 100644
+index 78c4bc521f..03867b3d39 100644
 --- a/Doc/library/statistics.rst
 +++ b/Doc/library/statistics.rst
 @@ -22,7 +22,7 @@ This module provides functions for calculating mathematical statistics of
@@ -204,10 +191,10 @@ index f934b0e031..395b324c86 100644
  statisticians such as Minitab, SAS and Matlab. It is aimed at the level of
  graphing and scientific calculators.
 diff --git a/Doc/library/sys.rst b/Doc/library/sys.rst
-index e37d57edce..e452d57467 100644
+index 3d1506f553..6f90e6b422 100644
 --- a/Doc/library/sys.rst
 +++ b/Doc/library/sys.rst
-@@ -785,7 +785,7 @@ always available.
+@@ -781,7 +781,7 @@ always available.
     additional garbage collector overhead if the object is managed by the garbage
     collector.
  
@@ -217,7 +204,7 @@ index e37d57edce..e452d57467 100644
     containers and all their contents.
  
 diff --git a/Doc/library/unittest.rst b/Doc/library/unittest.rst
-index a7c74cfa4f..aa22650c2b 100644
+index 82fded4ab0..c2ed7acaf5 100644
 --- a/Doc/library/unittest.rst
 +++ b/Doc/library/unittest.rst
 @@ -72,7 +72,7 @@ test runner
@@ -230,7 +217,7 @@ index a7c74cfa4f..aa22650c2b 100644
     `AppVeyor <https://www.appveyor.com/>`_.
  
 diff --git a/Doc/library/zipfile.rst b/Doc/library/zipfile.rst
-index 6f4826cb06..45f3d340bd 100644
+index 9e8e9c3cc2..f486757544 100644
 --- a/Doc/library/zipfile.rst
 +++ b/Doc/library/zipfile.rst
 @@ -128,7 +128,7 @@ The module defines the following items:
@@ -243,7 +230,7 @@ index 6f4826cb06..45f3d340bd 100644
        libraries.
  
 diff --git a/Doc/license.rst b/Doc/license.rst
-index 005d048b6e..816658b73d 100644
+index 37a3d4fa9e..3ba393b037 100644
 --- a/Doc/license.rst
 +++ b/Doc/license.rst
 @@ -22,7 +22,7 @@ Virginia where he released several versions of the software.
@@ -256,10 +243,10 @@ index 005d048b6e..816658b73d 100644
  specifically to own Python-related Intellectual Property.  Zope Corporation is a
  sponsoring member of the PSF.
 diff --git a/Doc/reference/datamodel.rst b/Doc/reference/datamodel.rst
-index 9f91ade35e..1b59aec548 100644
+index 3f0c99cd09..277b9e5aa2 100644
 --- a/Doc/reference/datamodel.rst
 +++ b/Doc/reference/datamodel.rst
-@@ -1564,7 +1564,7 @@ Basic customization
+@@ -1563,7 +1563,7 @@ Basic customization
        This is intended to provide protection against a denial-of-service caused
        by carefully chosen inputs that exploit the worst case performance of a
        dict insertion, O(n\ :sup:`2`) complexity.  See
@@ -282,10 +269,10 @@ index 914a11556c..81f0a5c5d4 100644
  Each of these implementations varies in some way from the language as documented
  in this manual, or introduces specific information beyond what's covered in the
 diff --git a/Doc/using/cmdline.rst b/Doc/using/cmdline.rst
-index b35e8454fa..9d4042ce5a 100644
+index 01f3af3917..ecc877f502 100644
 --- a/Doc/using/cmdline.rst
 +++ b/Doc/using/cmdline.rst
-@@ -370,7 +370,7 @@ Miscellaneous options
+@@ -367,7 +367,7 @@ Miscellaneous options
     Hash randomization is intended to provide protection against a
     denial-of-service caused by carefully chosen inputs that exploit the worst
     case performance of a dict construction, O(n\ :sup:`2`) complexity.  See
@@ -308,7 +295,7 @@ index 9ae0270eae..69cd5c92d8 100644
  
  To run your script from the Terminal window you must make sure that
 diff --git a/Doc/whatsnew/2.0.rst b/Doc/whatsnew/2.0.rst
-index 4bcb2acae1..0eefefd863 100644
+index 6b16dfd468..cd9fa89ca8 100644
 --- a/Doc/whatsnew/2.0.rst
 +++ b/Doc/whatsnew/2.0.rst
 @@ -933,7 +933,7 @@ using it::
@@ -399,10 +386,10 @@ index 4ee2aacb10..84bb651e68 100644
    environments.  TIPC addresses are 4- or 5-tuples.
    (Contributed by Alberto Bertogli; :issue:`1646`.)
 diff --git a/Doc/whatsnew/3.11.rst b/Doc/whatsnew/3.11.rst
-index 10fcfb6a0b..9a3457e609 100644
+index a38a80a501..1bbf5a4606 100644
 --- a/Doc/whatsnew/3.11.rst
 +++ b/Doc/whatsnew/3.11.rst
-@@ -74,7 +74,7 @@ New built-in features:
+@@ -76,7 +76,7 @@ New built-in features:
  New standard library modules:
  
  * :pep:`680`: :mod:`tomllib` —
@@ -411,7 +398,7 @@ index 10fcfb6a0b..9a3457e609 100644
  
  Interpreter improvements:
  
-@@ -220,7 +220,7 @@ The copy of the :ref:`launcher` included with Python 3.11 has been significantly
+@@ -222,7 +222,7 @@ The copy of the :ref:`launcher` included with Python 3.11 has been significantly
  updated. It now supports company/tag syntax as defined in :pep:`514` using the
  ``-V:<company>/<tag>`` argument instead of the limited ``-<major>.<minor>``.
  This allows launching distributions other than ``PythonCore``,
@@ -420,7 +407,7 @@ index 10fcfb6a0b..9a3457e609 100644
  
  When using ``-V:`` selectors, either company or tag can be omitted, but all
  installs will be searched. For example, ``-V:OtherPython/`` will select the
-@@ -553,7 +553,7 @@ Other CPython Implementation Changes
+@@ -555,7 +555,7 @@ Other CPython Implementation Changes
  New Modules
  ===========
  
@@ -429,7 +416,7 @@ index 10fcfb6a0b..9a3457e609 100644
    See :pep:`680` for more details.
    (Contributed by Taneli Hukkinen in :issue:`40059`.)
  
-@@ -2489,7 +2489,7 @@ Porting to Python 3.11
+@@ -2491,7 +2491,7 @@ Porting to Python 3.11
        #endif
  
    Or use the `pythoncapi_compat project
@@ -438,7 +425,7 @@ index 10fcfb6a0b..9a3457e609 100644
    functions on older Python versions.
  
  * Changes of the :c:type:`PyThreadState` structure members:
-@@ -2541,8 +2541,8 @@ Porting to Python 3.11
+@@ -2543,8 +2543,8 @@ Porting to Python 3.11
        }
        #endif
  
@@ -450,10 +437,10 @@ index 10fcfb6a0b..9a3457e609 100644
  
  * Distributors are encouraged to build Python with the optimized Blake2
 diff --git a/Doc/whatsnew/3.2.rst b/Doc/whatsnew/3.2.rst
-index 1b1455b72b..e9d008d97c 100644
+index 3becd3f719..50bcb308e7 100644
 --- a/Doc/whatsnew/3.2.rst
 +++ b/Doc/whatsnew/3.2.rst
-@@ -785,8 +785,8 @@ functools
+@@ -783,8 +783,8 @@ functools
  
    (Contributed by Raymond Hettinger and incorporating design ideas from Jim
    Baker, Miki Tebeka, and Nick Coghlan; see `recipe 498245
@@ -465,7 +452,7 @@ index 1b1455b72b..e9d008d97c 100644
  
  * The :func:`functools.wraps` decorator now adds a :attr:`__wrapped__` attribute
 diff --git a/Doc/whatsnew/3.5.rst b/Doc/whatsnew/3.5.rst
-index f872579ef5..b9a368145f 100644
+index f9cceecbcb..6db9dbc4cb 100644
 --- a/Doc/whatsnew/3.5.rst
 +++ b/Doc/whatsnew/3.5.rst
 @@ -425,7 +425,7 @@ are declared in the annotations::
@@ -487,7 +474,7 @@ index f872579ef5..b9a368145f 100644
  Extension modules now include a platform information tag in their filename on
  some platforms (the tag is optional, and CPython will import extensions without
 diff --git a/Doc/whatsnew/3.6.rst b/Doc/whatsnew/3.6.rst
-index e4294c88b5..c7faaebfed 100644
+index f138fa5c0e..e303e6cba9 100644
 --- a/Doc/whatsnew/3.6.rst
 +++ b/Doc/whatsnew/3.6.rst
 @@ -238,7 +238,7 @@ and the ``__annotations__`` attribute.
@@ -500,10 +487,10 @@ index e4294c88b5..c7faaebfed 100644
  
  
 diff --git a/Doc/whatsnew/3.8.rst b/Doc/whatsnew/3.8.rst
-index 37a6cf24e5..85e088b64a 100644
+index 4e2dbe3b53..e99a9f7634 100644
 --- a/Doc/whatsnew/3.8.rst
 +++ b/Doc/whatsnew/3.8.rst
-@@ -2229,7 +2229,7 @@ The benchmarks were measured on an
+@@ -2226,7 +2226,7 @@ The benchmarks were measured on an
  `Intel® Core™ i7-4960HQ processor
  <https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html>`_
  running the macOS 64-bit builds found at
@@ -526,7 +513,7 @@ index e974ee3a3f..fd86db9630 100644
  
  Deprecated
 diff --git a/Misc/NEWS.d/3.7.0a1.rst b/Misc/NEWS.d/3.7.0a1.rst
-index 9bada1b76b..ef93454784 100644
+index e99c45ec7f..24a1c4c83e 100644
 --- a/Misc/NEWS.d/3.7.0a1.rst
 +++ b/Misc/NEWS.d/3.7.0a1.rst
 @@ -6255,7 +6255,7 @@ Fix python-gdb.py didn't support new dict implementation.
