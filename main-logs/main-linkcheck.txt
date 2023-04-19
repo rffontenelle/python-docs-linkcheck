@@ -4,7 +4,7 @@ distributing/index.rst:127: [redirected with Found] https://packaging.python.org
 distributing/index.rst:128: [redirected with Found] https://packaging.python.org/tutorials/packaging-projects/#creating-the-package-files to https://packaging.python.org/en/latest/tutorials/packaging-projects/#creating-the-package-files
 distributing/index.rst:129: [redirected with Found] https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives to https://packaging.python.org/en/latest/tutorials/packaging-projects/#uploading-the-distribution-archives
 distributing/index.rst:130: [redirected with Found] https://packaging.python.org/specifications/pypirc/ to https://packaging.python.org/en/latest/specifications/pypirc/
-distributing/index.rst:166: [redirected with Found] https://packaging.python.org/guides/packaging-binary-extensions/ to https://packaging.python.org/en/latest/guides/packaging-binary-extensions/
+distributing/index.rst:170: [redirected with Found] https://packaging.python.org/guides/packaging-binary-extensions/ to https://packaging.python.org/en/latest/guides/packaging-binary-extensions/
 distributing/index.rst:37: [redirected with Found] https://www.pypa.io/ to https://www.pypa.io/en/latest/
 distributing/index.rst:50: [redirected with Found] https://setuptools.readthedocs.io/en/latest/ to https://setuptools.pypa.io/en/latest/
 distributing/index.rst:56: [redirected with Found] https://wheel.readthedocs.io/ to https://wheel.readthedocs.io/en/stable/
@@ -55,7 +55,6 @@ library/importlib.metadata.rst:62: [redirected with Found] https://importlib-met
 library/importlib.resources.rst:35: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html to https://setuptools.pypa.io/en/latest/pkg_resources.html
 library/importlib.resources.rst:35: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#basic-resource-access to https://setuptools.pypa.io/en/latest/pkg_resources.html#basic-resource-access
 library/intro.rst:89: [redirected with Found] https://pyodide.org/ to https://pyodide.org/en/stable/
-library/json.rst:19: [broken] https://www.ecma-international.org/publications-and-standards/standards/ecma-404/: 508 Server Error: Loop Detected for url: https://www.ecma-international.org/publications-and-standards/standards/ecma-404/
 library/os.rst:4594: [redirected permanently] https://www.freebsd.org/cgi/man.cgi?time(3) to https://man.freebsd.org/cgi/man.cgi?time(3)
 library/random.rst:571: [redirected with Found] https://nbviewer.jupyter.org/url/norvig.com/ipython/Economics.ipynb to https://nbviewer.org/url/norvig.com/ipython/Economics.ipynb
 library/random.rst:578: [redirected with Found] https://nbviewer.jupyter.org/url/norvig.com/ipython/Probability.ipynb to https://nbviewer.org/url/norvig.com/ipython/Probability.ipynb
@@ -94,7 +93,6 @@ reference/introduction.rst:72: [redirected permanently] https://pypy.org/ to htt
 tutorial/whatnow.rst:36: [redirected with Found] https://docs.python.org to https://docs.python.org/3/
 using/cmdline.rst:370: [redirected permanently] http://www.ocert.org/advisories/ocert-2011-003.html to http://ocert.org/advisories/ocert-2011-003.html
 using/windows.rst:545: [redirected permanently] https://www.activestate.com/activepython/ to https://www.activestate.com/products/python/
-using/windows.rst:549: [redirected permanently] https://www.anaconda.com/download/ to https://www.anaconda.com/products/distribution
 whatsnew/2.2.rst:634: [redirected permanently] https://www.cs.arizona.edu/icon/ to https://www2.cs.arizona.edu/icon/
 whatsnew/2.2.rst:634: [redirected with Found] https://www.cs.arizona.edu/icon/docs/ipd266.htm to https://www2.cs.arizona.edu/icon/docs/ipd266.htm
 whatsnew/2.2.rst:959: [redirected with Found] http://xmlrpc.scripting.com/ to http://xmlrpc.com/
@@ -116,7 +114,7 @@ whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/fr/ to htt
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ja/ to https://docs.python.org/ja/3/
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ko/ to https://docs.python.org/ko/3/
 whatsnew/3.8.rst:2228: [redirected permanently] https://www.python.org/downloads/mac-osx/ to https://www.python.org/downloads/macos/
-whatsnew/changelog.rst:1736: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
-whatsnew/changelog.rst:19578: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
-whatsnew/changelog.rst:27879: [redirected permanently] https://github.com/python/performance to https://github.com/python/pyperformance
-whatsnew/changelog.rst:5192: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/#documentation-strings
+whatsnew/changelog.rst:1739: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
+whatsnew/changelog.rst:19581: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
+whatsnew/changelog.rst:27882: [redirected permanently] https://github.com/python/performance to https://github.com/python/pyperformance
+whatsnew/changelog.rst:5195: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/#documentation-strings

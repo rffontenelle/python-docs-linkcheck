@@ -4,7 +4,7 @@ distributing/index.rst:128: [redirected with Found] https://packaging.python.org
 distributing/index.rst:129: [redirected with Found] https://packaging.python.org/tutorials/packaging-projects/#creating-the-package-files to https://packaging.python.org/en/latest/tutorials/packaging-projects/#creating-the-package-files
 distributing/index.rst:130: [redirected with Found] https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives to https://packaging.python.org/en/latest/tutorials/packaging-projects/#uploading-the-distribution-archives
 distributing/index.rst:131: [redirected with Found] https://packaging.python.org/specifications/pypirc/ to https://packaging.python.org/en/latest/specifications/pypirc/
-distributing/index.rst:167: [redirected with Found] https://packaging.python.org/guides/packaging-binary-extensions/ to https://packaging.python.org/en/latest/guides/packaging-binary-extensions/
+distributing/index.rst:171: [redirected with Found] https://packaging.python.org/guides/packaging-binary-extensions/ to https://packaging.python.org/en/latest/guides/packaging-binary-extensions/
 distributing/index.rst:37: [redirected with Found] https://bitbucket.org/pypa/ to https://id.atlassian.com/login?application=bitbucket&continue=https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%252Fpypa%252Fworkspace%252Foverview%26redirectCount%3D1
 distributing/index.rst:37: [redirected with Found] https://www.pypa.io/ to https://www.pypa.io/en/latest/
 distributing/index.rst:51: [redirected with Found] https://setuptools.readthedocs.io/en/latest/ to https://setuptools.pypa.io/en/latest/

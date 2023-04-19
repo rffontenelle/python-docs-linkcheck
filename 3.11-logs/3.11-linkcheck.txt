@@ -4,7 +4,7 @@ distributing/index.rst:128: [redirected with Found] https://packaging.python.org
 distributing/index.rst:129: [redirected with Found] https://packaging.python.org/tutorials/packaging-projects/#creating-the-package-files to https://packaging.python.org/en/latest/tutorials/packaging-projects/#creating-the-package-files
 distributing/index.rst:130: [redirected with Found] https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives to https://packaging.python.org/en/latest/tutorials/packaging-projects/#uploading-the-distribution-archives
 distributing/index.rst:131: [redirected with Found] https://packaging.python.org/specifications/pypirc/ to https://packaging.python.org/en/latest/specifications/pypirc/
-distributing/index.rst:167: [redirected with Found] https://packaging.python.org/guides/packaging-binary-extensions/ to https://packaging.python.org/en/latest/guides/packaging-binary-extensions/
+distributing/index.rst:171: [redirected with Found] https://packaging.python.org/guides/packaging-binary-extensions/ to https://packaging.python.org/en/latest/guides/packaging-binary-extensions/
 distributing/index.rst:37: [redirected with Found] https://bitbucket.org/pypa/ to https://id.atlassian.com/login?application=bitbucket&continue=https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%252Fpypa%252Fworkspace%252Foverview%26redirectCount%3D1
 distributing/index.rst:37: [redirected with Found] https://www.pypa.io/ to https://www.pypa.io/en/latest/
 distributing/index.rst:51: [redirected with Found] https://setuptools.readthedocs.io/en/latest/ to https://setuptools.pypa.io/en/latest/
@@ -95,7 +95,6 @@ reference/introduction.rst:72: [redirected permanently] https://pypy.org/ to htt
 tutorial/whatnow.rst:36: [redirected with Found] https://docs.python.org to https://docs.python.org/3/
 using/cmdline.rst:367: [redirected permanently] http://www.ocert.org/advisories/ocert-2011-003.html to http://ocert.org/advisories/ocert-2011-003.html
 using/windows.rst:532: [redirected permanently] https://www.activestate.com/activepython/ to https://www.activestate.com/products/python/
-using/windows.rst:536: [redirected permanently] https://www.anaconda.com/download/ to https://www.anaconda.com/products/distribution
 whatsnew/2.2.rst:634: [redirected permanently] https://www.cs.arizona.edu/icon/ to https://www2.cs.arizona.edu/icon/
 whatsnew/2.2.rst:634: [redirected with Found] https://www.cs.arizona.edu/icon/docs/ipd266.htm to https://www2.cs.arizona.edu/icon/docs/ipd266.htm
 whatsnew/2.2.rst:959: [redirected with Found] http://xmlrpc.scripting.com/ to http://xmlrpc.com/
@@ -117,7 +116,6 @@ whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/fr/ to htt
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ja/ to https://docs.python.org/ja/3/
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ko/ to https://docs.python.org/ko/3/
 whatsnew/3.8.rst:2225: [redirected permanently] https://www.python.org/downloads/mac-osx/ to https://www.python.org/downloads/macos/
-whatsnew/changelog.rst:10919: [broken] https://bugs.python.org/issue?@action=redirect&bpo=41670: 502 Server Error: Bad Gateway for url: https://github.com/python/cpython/issues/85836
 whatsnew/changelog.rst:17398: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
 whatsnew/changelog.rst:25701: [redirected permanently] https://github.com/python/performance to https://github.com/python/pyperformance
 whatsnew/changelog.rst:3011: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/#documentation-strings

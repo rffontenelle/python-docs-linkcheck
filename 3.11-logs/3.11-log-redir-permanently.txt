@@ -24,7 +24,6 @@ license.rst:22: [redirected permanently] https://www.zope.org/ to https://www.zo
 reference/introduction.rst:72: [redirected permanently] https://pypy.org/ to https://www.pypy.org/
 using/cmdline.rst:367: [redirected permanently] http://www.ocert.org/advisories/ocert-2011-003.html to http://ocert.org/advisories/ocert-2011-003.html
 using/windows.rst:532: [redirected permanently] https://www.activestate.com/activepython/ to https://www.activestate.com/products/python/
-using/windows.rst:536: [redirected permanently] https://www.anaconda.com/download/ to https://www.anaconda.com/products/distribution
 whatsnew/2.2.rst:634: [redirected permanently] https://www.cs.arizona.edu/icon/ to https://www2.cs.arizona.edu/icon/
 whatsnew/2.6.rst:1436: [redirected permanently] https://schemers.org/Documents/Standards/R5RS/HTML/r5rs-Z-H-9.html#%_sec_6.2 to https://conservatory.scheme.org/schemers/Documents/Standards/R5RS/HTML/r5rs-Z-H-9.html#%_sec_6.2
 whatsnew/3.11.rst:221: [redirected permanently] https://python.org to https://www.python.org/

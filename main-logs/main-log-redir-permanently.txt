@@ -24,7 +24,6 @@ license.rst:22: [redirected permanently] https://www.zope.org/ to https://www.zo
 reference/introduction.rst:72: [redirected permanently] https://pypy.org/ to https://www.pypy.org/
 using/cmdline.rst:370: [redirected permanently] http://www.ocert.org/advisories/ocert-2011-003.html to http://ocert.org/advisories/ocert-2011-003.html
 using/windows.rst:545: [redirected permanently] https://www.activestate.com/activepython/ to https://www.activestate.com/products/python/
-using/windows.rst:549: [redirected permanently] https://www.anaconda.com/download/ to https://www.anaconda.com/products/distribution
 whatsnew/2.2.rst:634: [redirected permanently] https://www.cs.arizona.edu/icon/ to https://www2.cs.arizona.edu/icon/
 whatsnew/2.6.rst:1436: [redirected permanently] https://schemers.org/Documents/Standards/R5RS/HTML/r5rs-Z-H-9.html#%_sec_6.2 to https://conservatory.scheme.org/schemers/Documents/Standards/R5RS/HTML/r5rs-Z-H-9.html#%_sec_6.2
 whatsnew/3.11.rst:219: [redirected permanently] https://python.org to https://www.python.org/
@@ -34,4 +33,4 @@ whatsnew/3.2.rst:2601: [redirected permanently] https://www.activestate.com/acti
 whatsnew/3.3.rst:1894: [redirected permanently] https://oss.oracle.com/projects/rds/ to https://oss.oracle.com:443/
 whatsnew/3.5.rst:2214: [redirected permanently] https://www.visualstudio.com/ to https://visualstudio.microsoft.com/
 whatsnew/3.8.rst:2228: [redirected permanently] https://www.python.org/downloads/mac-osx/ to https://www.python.org/downloads/macos/
-whatsnew/changelog.rst:27879: [redirected permanently] https://github.com/python/performance to https://github.com/python/pyperformance
+whatsnew/changelog.rst:27882: [redirected permanently] https://github.com/python/performance to https://github.com/python/pyperformance
