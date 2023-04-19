@@ -28,43 +28,44 @@ index 60404fd382..40cf1a37c6 100644
  # ----------------------
  
 diff --git a/Doc/distributing/index.rst b/Doc/distributing/index.rst
-index 21389adedf..d237f8f082 100644
+index 21389adedf..9196852009 100644
 --- a/Doc/distributing/index.rst
 +++ b/Doc/distributing/index.rst
-@@ -129,14 +129,10 @@ involved in creating and publishing a project:
+@@ -129,14 +129,14 @@ involved in creating and publishing a project:
  * `Uploading the project to the Python Package Index`_
  * `The .pypirc file`_
  
 -.. _Project structure: \
--    https://packaging.python.org/tutorials/packaging-projects/#packaging-python-projects
++.. _Project structure:
+     https://packaging.python.org/tutorials/packaging-projects/#packaging-python-projects
 -.. _Building and packaging the project: \
 -   https://packaging.python.org/tutorials/packaging-projects/#creating-the-package-files
 -.. _Uploading the project to the Python Package Index: \
 -   https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives
 -.. _The .pypirc file: \
 -   https://packaging.python.org/specifications/pypirc/
-+.. _Project structure: https://packaging.python.org/tutorials/packaging-projects/#packaging-python-projects
-+.. _Building and packaging the project: https://packaging.python.org/tutorials/packaging-projects/#creating-the-package-files
-+.. _Uploading the project to the Python Package Index: https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives
-+.. _The .pypirc file: https://packaging.python.org/specifications/pypirc/
++.. _Building and packaging the project:
++    https://packaging.python.org/tutorials/packaging-projects/#creating-the-package-files
++.. _Uploading the project to the Python Package Index:
++    https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives
++.. _The .pypirc file:
++    https://packaging.python.org/specifications/pypirc/
  
  
  How do I...?
 diff --git a/Doc/faq/library.rst b/Doc/faq/library.rst
-index a9cde45657..3be39cd781 100644
+index a9cde45657..597caaa778 100644
 --- a/Doc/faq/library.rst
 +++ b/Doc/faq/library.rst
-@@ -780,8 +780,8 @@ socket to :meth:`select.select` to check if it's writable.
+@@ -780,7 +780,7 @@ socket to :meth:`select.select` to check if it's writable.
     The :mod:`asyncio` module provides a general purpose single-threaded and
     concurrent asynchronous library, which can be used for writing non-blocking
     network code.
 -   The third-party `Twisted <https://twistedmatrix.com/trac/>`_ library is
--   a popular and feature-rich alternative.
-+   The third-party `Twisted <https://twisted.org/>`_ library is a popular and
-+   feature-rich alternative.
++   The third-party `Twisted <https://twisted.org/>`_ library is
+    a popular and feature-rich alternative.
  
  
- Databases
 diff --git a/Doc/howto/functional.rst b/Doc/howto/functional.rst
 index 38a651b0f9..5cf12cc52b 100644
 --- a/Doc/howto/functional.rst
@@ -116,7 +117,7 @@ index 4d485d25b5..8fb0eca8df 100644
  allowable constructs of that file, and the capabilities of the
  Readline library in general.
 diff --git a/Doc/library/stdtypes.rst b/Doc/library/stdtypes.rst
-index bcfc6e5cfc..179bea870d 100644
+index bcfc6e5cfc..aea2410bae 100644
 --- a/Doc/library/stdtypes.rst
 +++ b/Doc/library/stdtypes.rst
 @@ -1605,8 +1605,8 @@ expression support in the :mod:`re` module).
@@ -126,7 +127,7 @@ index bcfc6e5cfc..179bea870d 100644
 -   `described in section 3.13 of the Unicode Standard
 -   <http://www.unicode.org/versions/Unicode15.0.0/ch03.pdf#G53253>`__.
 +   `described in section 3.13 'Default Case Folding' of the Unicode Standard
-+   <http://www.unicode.org/versions/Unicode15.0.0/ch03.pdf>`__.
++   <https://www.unicode.org/versions/Unicode15.0.0/ch03.pdf>`__.
  
     .. versionadded:: 3.3
  
@@ -204,7 +205,7 @@ index 810a2cd253..36afcb163f 100644
    a file named ``P-gdb.py`` and automatically read it.  Dave Malcolm
    contributed a :file:`python-gdb.py` that adds a number of
 diff --git a/Misc/NEWS.d/3.7.0b2.rst b/Misc/NEWS.d/3.7.0b2.rst
-index b2ade206bd..465714acdb 100644
+index b2ade206bd..9590914599 100644
 --- a/Misc/NEWS.d/3.7.0b2.rst
 +++ b/Misc/NEWS.d/3.7.0b2.rst
 @@ -357,7 +357,7 @@ Wirtel
@@ -212,12 +213,12 @@ index b2ade206bd..465714acdb 100644
  Add TLSVersion constants and SSLContext.maximum_version / minimum_version
  attributes. The new API wraps OpenSSL 1.1
 -https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html
-+https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_set_min_proto_version.html
++https://web.archive.org/web/20180309043602/https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html
  feature.
  
  ..
 diff --git a/Misc/NEWS.d/3.8.0a1.rst b/Misc/NEWS.d/3.8.0a1.rst
-index 991bbc1286..aabba586dc 100644
+index 991bbc1286..db2eba32e6 100644
 --- a/Misc/NEWS.d/3.8.0a1.rst
 +++ b/Misc/NEWS.d/3.8.0a1.rst
 @@ -5951,7 +5951,7 @@ Wirtel
@@ -225,7 +226,7 @@ index 991bbc1286..aabba586dc 100644
  Add TLSVersion constants and SSLContext.maximum_version / minimum_version
  attributes. The new API wraps OpenSSL 1.1
 -https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html
-+https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_set_min_proto_version.html
++https://web.archive.org/web/20180309043602/https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html
  feature.
  
  ..

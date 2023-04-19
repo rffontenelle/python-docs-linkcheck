@@ -31,43 +31,44 @@ index d89470973d..c5618928fd 100644
  # ----------------------
  
 diff --git a/Doc/distributing/index.rst b/Doc/distributing/index.rst
-index 136cf4e77b..8e70c24e70 100644
+index 136cf4e77b..6186898df1 100644
 --- a/Doc/distributing/index.rst
 +++ b/Doc/distributing/index.rst
-@@ -130,14 +130,10 @@ involved in creating and publishing a project:
+@@ -130,14 +130,14 @@ involved in creating and publishing a project:
  * `Uploading the project to the Python Package Index`_
  * `The .pypirc file`_
  
 -.. _Project structure: \
--    https://packaging.python.org/tutorials/packaging-projects/#packaging-python-projects
++.. _Project structure:
+     https://packaging.python.org/tutorials/packaging-projects/#packaging-python-projects
 -.. _Building and packaging the project: \
 -   https://packaging.python.org/tutorials/packaging-projects/#creating-the-package-files
 -.. _Uploading the project to the Python Package Index: \
 -   https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives
 -.. _The .pypirc file: \
 -   https://packaging.python.org/specifications/pypirc/
-+.. _Project structure: https://packaging.python.org/tutorials/packaging-projects/#packaging-python-projects
-+.. _Building and packaging the project: https://packaging.python.org/tutorials/packaging-projects/#creating-the-package-files
-+.. _Uploading the project to the Python Package Index: https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives
-+.. _The .pypirc file: https://packaging.python.org/specifications/pypirc/
++.. _Building and packaging the project:
++    https://packaging.python.org/tutorials/packaging-projects/#creating-the-package-files
++.. _Uploading the project to the Python Package Index:
++    https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives
++.. _The .pypirc file:
++    https://packaging.python.org/specifications/pypirc/
  
  
  How do I...?
 diff --git a/Doc/faq/library.rst b/Doc/faq/library.rst
-index a9cde45657..3be39cd781 100644
+index a9cde45657..597caaa778 100644
 --- a/Doc/faq/library.rst
 +++ b/Doc/faq/library.rst
-@@ -780,8 +780,8 @@ socket to :meth:`select.select` to check if it's writable.
+@@ -780,7 +780,7 @@ socket to :meth:`select.select` to check if it's writable.
     The :mod:`asyncio` module provides a general purpose single-threaded and
     concurrent asynchronous library, which can be used for writing non-blocking
     network code.
 -   The third-party `Twisted <https://twistedmatrix.com/trac/>`_ library is
--   a popular and feature-rich alternative.
-+   The third-party `Twisted <https://twisted.org/>`_ library is a popular and
-+   feature-rich alternative.
++   The third-party `Twisted <https://twisted.org/>`_ library is
+    a popular and feature-rich alternative.
  
  
- Databases
 diff --git a/Doc/howto/functional.rst b/Doc/howto/functional.rst
 index e68bc2ebb1..64f2293b21 100644
 --- a/Doc/howto/functional.rst
@@ -105,19 +106,6 @@ index 69af3c3a85..61ba6bd722 100644
  
  When authentication is required, the server sends a header (as well as the 401
  error code) requesting authentication.  This specifies the authentication scheme
-diff --git a/Doc/library/intro.rst b/Doc/library/intro.rst
-index 1020924038..5a4c9b8b16 100644
---- a/Doc/library/intro.rst
-+++ b/Doc/library/intro.rst
-@@ -114,7 +114,7 @@ DOM APIs as well as limited networking capabilities with JavaScript's
- 
- .. _WebAssembly: https://webassembly.org/
- .. _Emscripten: https://emscripten.org/
--.. _Emscripten Networking: https://emscripten.org/docs/porting/networking.html>
-+.. _Emscripten Networking: https://emscripten.org/docs/porting/networking.html
- .. _WASI: https://wasi.dev/
- .. _wasmtime: https://wasmtime.dev/
- .. _Pyodide: https://pyodide.org/
 diff --git a/Doc/library/readline.rst b/Doc/library/readline.rst
 index 4d485d25b5..8fb0eca8df 100644
 --- a/Doc/library/readline.rst
@@ -158,7 +146,7 @@ index 82f5ea3b31..1acb09cf92 100644
    a file named ``P-gdb.py`` and automatically read it.  Dave Malcolm
    contributed a :file:`python-gdb.py` that adds a number of
 diff --git a/Misc/NEWS.d/3.7.0b2.rst b/Misc/NEWS.d/3.7.0b2.rst
-index b2ade206bd..465714acdb 100644
+index b2ade206bd..9590914599 100644
 --- a/Misc/NEWS.d/3.7.0b2.rst
 +++ b/Misc/NEWS.d/3.7.0b2.rst
 @@ -357,7 +357,7 @@ Wirtel
@@ -166,12 +154,12 @@ index b2ade206bd..465714acdb 100644
  Add TLSVersion constants and SSLContext.maximum_version / minimum_version
  attributes. The new API wraps OpenSSL 1.1
 -https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html
-+https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_set_min_proto_version.html
++https://web.archive.org/web/20180309043602/https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html
  feature.
  
  ..
 diff --git a/Misc/NEWS.d/3.8.0a1.rst b/Misc/NEWS.d/3.8.0a1.rst
-index d95055a59d..05b2779e5e 100644
+index d95055a59d..c9ca4b8404 100644
 --- a/Misc/NEWS.d/3.8.0a1.rst
 +++ b/Misc/NEWS.d/3.8.0a1.rst
 @@ -5951,7 +5951,7 @@ Wirtel
@@ -179,7 +167,7 @@ index d95055a59d..05b2779e5e 100644
  Add TLSVersion constants and SSLContext.maximum_version / minimum_version
  attributes. The new API wraps OpenSSL 1.1
 -https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html
-+https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_set_min_proto_version.html
++https://web.archive.org/web/20180309043602/https://www.openssl.org/docs/man1.1.0/ssl/SSL_CTX_set_min_proto_version.html
  feature.
  
  ..
