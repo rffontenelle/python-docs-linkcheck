@@ -1,6 +1,0 @@
-faq/general.rst:36: [redirected permanently] https://www.python.org/psf/ to https://www.python.org/psf-landing/
-faq/general.rst:57: [redirected permanently] https://www.python.org/psf/license/ to https://docs.python.org/3/license.html
-howto/functional.rst:1210: [redirected permanently] https://mitpress.mit.edu/sicp to https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/
-howto/perf_profiling.rst:11: [redirected permanently] https://perf.wiki.kernel.org to https://perf.wiki.kernel.org/index.php/Main_Page
-whatsnew/3.2.rst:2601: [redirected permanently] https://www.activestate.com/activetcl/downloads to https://www.activestate.com/products/tcl/
-whatsnew/3.3.rst:1894: [redirected permanently] https://oss.oracle.com/projects/rds/ to https://oss.oracle.com:443/

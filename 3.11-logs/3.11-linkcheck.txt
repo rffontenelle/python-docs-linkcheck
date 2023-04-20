@@ -10,19 +10,13 @@ distributing/index.rst:37: [redirected with Found] https://www.pypa.io/ to https
 distributing/index.rst:51: [redirected with Found] https://setuptools.readthedocs.io/en/latest/ to https://setuptools.pypa.io/en/latest/
 distributing/index.rst:57: [redirected with Found] https://wheel.readthedocs.io/ to https://wheel.readthedocs.io/en/stable/
 distutils/_setuptools_disclaimer.rst:3: [redirected with Found] https://setuptools.readthedocs.io/en/latest/setuptools.html to https://setuptools.pypa.io/en/latest/setuptools.html
-distutils/apiref.rst:1022: [redirected permanently] http://nfs.sourceforge.net/#section_d to https://nfs.sourceforge.net/#section_d
-distutils/examples.rst:261: [redirected permanently] http://docutils.sourceforge.net to https://docutils.sourceforge.io/
 distutils/index.rst:26: [redirected with Found] https://packaging.python.org/guides/tool-recommendations/ to https://packaging.python.org/en/latest/guides/tool-recommendations/
-distutils/setupscript.rst:644: [redirected permanently] http://docutils.sourceforge.net/ to https://docutils.sourceforge.io/
 extending/extending.rst:25: [redirected with Found] https://cffi.readthedocs.io/ to https://cffi.readthedocs.io/en/latest/
 extending/index.rst:28: [redirected with Found] https://cffi.readthedocs.io to https://cffi.readthedocs.io/en/latest/
 extending/newtypes_tutorial.rst:223: [redirected with Found] https://packaging.python.org/tutorials/distributing-packages/ to https://packaging.python.org/en/latest/tutorials/packaging-projects/
-faq/general.rst:36: [redirected permanently] https://www.python.org/psf/ to https://www.python.org/psf-landing/
-faq/general.rst:57: [redirected permanently] https://www.python.org/psf/license/ to https://docs.python.org/3/license.html
 faq/library.rst:181: [redirected with Found] https://www.sphinx-doc.org to https://www.sphinx-doc.org/en/master/
 faq/library.rst:626: [redirected with Found] https://groups.google.com/groups?selm=34A04430.CF9@ohioee.com to https://groups.google.com/g/comp.lang.python/c/LJPQHowhlsQ/m/OsoXBiShALIJ
 faq/programming.rst:100: [redirected with Found] https://pyinstaller.org/ to https://pyinstaller.org/en/stable/
-howto/functional.rst:1210: [redirected permanently] https://mitpress.mit.edu/sicp to https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/
 howto/functional.rst:1236: [redirected with Found] https://developer.ibm.com/articles/l-prog/ to https://developer.ibm.com/technologies/linux/articles/
 howto/functional.rst:1236: [redirected with Found] https://developer.ibm.com/tutorials/l-prog2/ to https://developer.ibm.com/technologies/linux/tutorials/
 howto/functional.rst:1236: [redirected with Found] https://developer.ibm.com/tutorials/l-prog3/ to https://developer.ibm.com/technologies/linux/tutorials/
@@ -82,8 +76,6 @@ whatsnew/2.7.rst:1807: [redirected with Found] https://www.tcl.tk/man/tcl8.5/TkC
 whatsnew/2.7.rst:1833: [redirected with Found] https://nose.readthedocs.io/ to https://nose.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1833: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/7.3.x/
 whatsnew/3.2.rst:2519: [redirected with Found] https://www.mercurial-scm.org/wiki/QuickStart to https://wiki.mercurial-scm.org/QuickStart
-whatsnew/3.2.rst:2599: [redirected permanently] https://www.activestate.com/activetcl/downloads to https://www.activestate.com/products/tcl/
-whatsnew/3.3.rst:1893: [redirected permanently] https://oss.oracle.com/projects/rds/ to https://oss.oracle.com:443/
 whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https://openexr.com/en/latest/
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/fr/ to https://docs.python.org/fr/3/
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ja/ to https://docs.python.org/ja/3/

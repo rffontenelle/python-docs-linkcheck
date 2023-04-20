@@ -1,8 +1,0 @@
-distutils/apiref.rst:1022: [redirected permanently] http://nfs.sourceforge.net/#section_d to https://nfs.sourceforge.net/#section_d
-distutils/examples.rst:261: [redirected permanently] http://docutils.sourceforge.net to https://docutils.sourceforge.io/
-distutils/setupscript.rst:644: [redirected permanently] http://docutils.sourceforge.net/ to https://docutils.sourceforge.io/
-faq/general.rst:36: [redirected permanently] https://www.python.org/psf/ to https://www.python.org/psf-landing/
-faq/general.rst:57: [redirected permanently] https://www.python.org/psf/license/ to https://docs.python.org/3/license.html
-howto/functional.rst:1210: [redirected permanently] https://mitpress.mit.edu/sicp to https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/
-whatsnew/3.2.rst:2599: [redirected permanently] https://www.activestate.com/activetcl/downloads to https://www.activestate.com/products/tcl/
-whatsnew/3.3.rst:1893: [redirected permanently] https://oss.oracle.com/projects/rds/ to https://oss.oracle.com:443/
