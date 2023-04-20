@@ -1,8 +1,8 @@
 diff --git a/Doc/conf.py b/Doc/conf.py
-index 40cf1a37c6..369df85a52 100644
+index 40cf1a37c6..227f162be5 100644
 --- a/Doc/conf.py
 +++ b/Doc/conf.py
-@@ -260,7 +260,22 @@
+@@ -260,7 +260,25 @@
      # GH-NNNN used to refer to pull requests
      r'https://github.com/python/cpython/issues/\d+': 'https://github.com/python/cpython/pull/\d+',
      # :source:`something` linking files in the repository
@@ -21,8 +21,11 @@ index 40cf1a37c6..369df85a52 100644
 +    r'https://tools.ietf.org/html/rfc\d+': 'https://datatracker.ietf.org/doc/html/rfc\d+',
 +    r'https://www.boost.org/libs/.+': 'https://www.boost.org/doc/libs/\d_\d+_\d/.+',
 +    r'https://support.microsoft.com/en-us/help/\d+': 'https://support.microsoft.com/en-us/topic/.+',
-+    r'https://perf.wiki.kernel.org/': 'https://perf.wiki.kernel.org/index.php/Main_Page',
-+    r'https://www.sqlite.org': 'https://www.sqlite.org/index.html'
++    r'https://perf.wiki.kernel.org$': 'https://perf.wiki.kernel.org/index.php/Main_Page',
++    r'https://www.sqlite.org': 'https://www.sqlite.org/index.html',
++    r'https://mitpress.mit.edu/sicp$': 'https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/',
++    r'https://www.python.org/psf/': 'https://www.python.org/psf-landing/',
++    r'https://www.python.org/psf/license/': 'https://docs.python.org/3/license.html',
  }
  
  linkcheck_anchors_ignore = [
@@ -529,7 +532,7 @@ index 10fcfb6a0b..9a3457e609 100644
  
  * Distributors are encouraged to build Python with the optimized Blake2
 diff --git a/Doc/whatsnew/3.2.rst b/Doc/whatsnew/3.2.rst
-index 1b1455b72b..e9d008d97c 100644
+index 1b1455b72b..8dbe2a1d82 100644
 --- a/Doc/whatsnew/3.2.rst
 +++ b/Doc/whatsnew/3.2.rst
 @@ -785,8 +785,8 @@ functools
@@ -543,6 +546,28 @@ index 1b1455b72b..e9d008d97c 100644
    :issue:`10593`.)
  
  * The :func:`functools.wraps` decorator now adds a :attr:`__wrapped__` attribute
+@@ -2603,7 +2603,7 @@ Also, there were a number of updates to the Mac OS X build, see
+ for details.  For users running a 32/64-bit
+ build, there is a known problem with the default Tcl/Tk on Mac OS X 10.6.
+ Accordingly, we recommend installing an updated alternative such as
+-`ActiveState Tcl/Tk 8.5.9 <https://www.activestate.com/activetcl/downloads>`_\.
++`ActiveState Tcl/Tk 8.5.9 <https://web.archive.org/web/20101208191259/https://www.activestate.com/activetcl/downloads>`_\.
+ See https://www.python.org/download/mac/tcltk/ for additional details.
+ 
+ Porting to Python 3.2
+diff --git a/Doc/whatsnew/3.3.rst b/Doc/whatsnew/3.3.rst
+index 9e8d42469b..5b6c3dcd45 100644
+--- a/Doc/whatsnew/3.3.rst
++++ b/Doc/whatsnew/3.3.rst
+@@ -1893,7 +1893,7 @@ socket
+ 
+ * The :class:`~socket.socket` class now supports the PF_RDS protocol family
+   (https://en.wikipedia.org/wiki/Reliable_Datagram_Sockets and
+-  https://oss.oracle.com/projects/rds/).
++  `https://oss.oracle.com/projects/rds <https://web.archive.org/web/20130115155505/https://oss.oracle.com/projects/rds/>`__).
+ 
+ * The :class:`~socket.socket` class now supports the ``PF_SYSTEM`` protocol
+   family on OS X.  (Contributed by Michael Goderbauer in :issue:`13777`.)
 diff --git a/Doc/whatsnew/3.5.rst b/Doc/whatsnew/3.5.rst
 index f872579ef5..b9a368145f 100644
 --- a/Doc/whatsnew/3.5.rst

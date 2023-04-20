@@ -1,8 +1,8 @@
 diff --git a/Doc/conf.py b/Doc/conf.py
-index c5618928fd..9e04f9227d 100644
+index c5618928fd..275c0f5788 100644
 --- a/Doc/conf.py
 +++ b/Doc/conf.py
-@@ -248,7 +248,22 @@
+@@ -248,7 +248,25 @@
      # GH-NNNN used to refer to pull requests
      r'https://github.com/python/cpython/issues/\d+': 'https://github.com/python/cpython/pull/\d+',
      # :source:`something` linking files in the repository
@@ -21,11 +21,50 @@ index c5618928fd..9e04f9227d 100644
 +    r'https://tools.ietf.org/html/rfc\d+': 'https://datatracker.ietf.org/doc/html/rfc\d+',
 +    r'https://www.boost.org/libs/.+': 'https://www.boost.org/doc/libs/\d_\d+_\d/.+',
 +    r'https://support.microsoft.com/en-us/help/\d+': 'https://support.microsoft.com/en-us/topic/.+',
-+    r'https://perf.wiki.kernel.org/': 'https://perf.wiki.kernel.org/index.php/Main_Page',
-+    r'https://www.sqlite.org': 'https://www.sqlite.org/index.html'
++    r'https://perf.wiki.kernel.org$': 'https://perf.wiki.kernel.org/index.php/Main_Page',
++    r'https://www.sqlite.org': 'https://www.sqlite.org/index.html',
++    r'https://mitpress.mit.edu/sicp$': 'https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/',
++    r'https://www.python.org/psf/': 'https://www.python.org/psf-landing/',
++    r'https://www.python.org/psf/license/': 'https://docs.python.org/3/license.html',
  }
  
  linkcheck_anchors_ignore = [
+diff --git a/Doc/distutils/apiref.rst b/Doc/distutils/apiref.rst
+index 87c9285555..56bed7d63f 100644
+--- a/Doc/distutils/apiref.rst
++++ b/Doc/distutils/apiref.rst
+@@ -1021,7 +1021,7 @@ directories.
+ 
+    Files in *src* that begin with :file:`.nfs` are skipped (more information on
+    these files is available in answer D2 of the `NFS FAQ page
+-   <http://nfs.sourceforge.net/#section_d>`_).
++   <https://nfs.sourceforge.net/#section_d>`_).
+ 
+    .. versionchanged:: 3.3.1
+       NFS files are ignored.
+diff --git a/Doc/distutils/examples.rst b/Doc/distutils/examples.rst
+index e492b7f605..49e4b6e4b9 100644
+--- a/Doc/distutils/examples.rst
++++ b/Doc/distutils/examples.rst
+@@ -337,4 +337,4 @@ loads its values::
+ .. % \section{Putting it all together}
+ 
+ 
+-.. _docutils: http://docutils.sourceforge.net
++.. _docutils: https://docutils.sourceforge.io
+diff --git a/Doc/distutils/setupscript.rst b/Doc/distutils/setupscript.rst
+index 4386a60b66..8635c91162 100644
+--- a/Doc/distutils/setupscript.rst
++++ b/Doc/distutils/setupscript.rst
+@@ -642,7 +642,7 @@ Notes:
+ 
+ 'long string'
+     Multiple lines of plain text in reStructuredText format (see
+-    http://docutils.sourceforge.net/).
++    https://docutils.sourceforge.io/).
+ 
+ 'list of strings'
+     See below.
 diff --git a/Doc/faq/extending.rst b/Doc/faq/extending.rst
 index 07282639e4..bc3080f60e 100644
 --- a/Doc/faq/extending.rst
@@ -516,7 +555,7 @@ index a38a80a501..1bbf5a4606 100644
  
  * Distributors are encouraged to build Python with the optimized Blake2
 diff --git a/Doc/whatsnew/3.2.rst b/Doc/whatsnew/3.2.rst
-index 3becd3f719..50bcb308e7 100644
+index 3becd3f719..8e2f9e2716 100644
 --- a/Doc/whatsnew/3.2.rst
 +++ b/Doc/whatsnew/3.2.rst
 @@ -783,8 +783,8 @@ functools
@@ -530,6 +569,28 @@ index 3becd3f719..50bcb308e7 100644
    :issue:`10593`.)
  
  * The :func:`functools.wraps` decorator now adds a :attr:`__wrapped__` attribute
+@@ -2601,7 +2601,7 @@ Also, there were a number of updates to the Mac OS X build, see
+ for details.  For users running a 32/64-bit
+ build, there is a known problem with the default Tcl/Tk on Mac OS X 10.6.
+ Accordingly, we recommend installing an updated alternative such as
+-`ActiveState Tcl/Tk 8.5.9 <https://www.activestate.com/activetcl/downloads>`_\.
++`ActiveState Tcl/Tk 8.5.9 <https://web.archive.org/web/20101208191259/https://www.activestate.com/activetcl/downloads>`_\.
+ See https://www.python.org/download/mac/tcltk/ for additional details.
+ 
+ Porting to Python 3.2
+diff --git a/Doc/whatsnew/3.3.rst b/Doc/whatsnew/3.3.rst
+index 96a632577b..74cfa8385c 100644
+--- a/Doc/whatsnew/3.3.rst
++++ b/Doc/whatsnew/3.3.rst
+@@ -1892,7 +1892,7 @@ socket
+ 
+ * The :class:`~socket.socket` class now supports the PF_RDS protocol family
+   (https://en.wikipedia.org/wiki/Reliable_Datagram_Sockets and
+-  https://oss.oracle.com/projects/rds/).
++  `https://oss.oracle.com/projects/rds <https://web.archive.org/web/20130115155505/https://oss.oracle.com/projects/rds/>`__).
+ 
+ * The :class:`~socket.socket` class now supports the ``PF_SYSTEM`` protocol
+   family on OS X.  (Contributed by Michael Goderbauer in :issue:`13777`.)
 diff --git a/Doc/whatsnew/3.5.rst b/Doc/whatsnew/3.5.rst
 index f9cceecbcb..6db9dbc4cb 100644
 --- a/Doc/whatsnew/3.5.rst
