@@ -15,7 +15,7 @@ on:
         type: string
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   linkcheck:
@@ -70,7 +70,7 @@ jobs:
 
       - name: Run linkcheck
         run: |
-          make -C cpython/Doc linkcheck SPHINXOPTS="--keep-going ${{ github.event.inputs.SPHINXOPTS }}" || true
+          make -C cpython/Doc linkcheck SPHINXOPTS="--keep-going ${{ github.event.inputs.SPHINXOPTS }}" SPHINXERRORHANDLING=""
 
       - name: Split log
         run: |
@@ -98,6 +98,8 @@ jobs:
   push:
     runs-on: ubuntu-latest
     needs: linkcheck
+    permissions:
+      contents: write
     steps:
       - name: Check out this repo
         uses: actions/checkout@v3
