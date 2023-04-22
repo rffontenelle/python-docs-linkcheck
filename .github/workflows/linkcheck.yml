@@ -25,7 +25,6 @@ jobs:
         branch: ['main', '3.11']
         include:
           - branch: 'main'
-            fix-broken-links: 'fix-broken-links.diff'
             fix-redir-permanently: 'fix-redir-permanently.diff'
           - branch: '3.11'
             fix-broken-links: 'fix-broken-links-311.diff'
