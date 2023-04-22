@@ -52,13 +52,15 @@ jobs:
           cache: 'pip'
           cache-dependency-path: 'cpython/Doc/requirements.txt'
 
-      - name: Apply ${{ matrix.fix-broken-links }}
+      - name: Apply fix-broken-links
+        if: matrix.fix-broken-links != ""
         run: |
           cd cpython
           cat ../${{ matrix.fix-broken-links }}
           git apply ../${{ matrix.fix-broken-links }}
 
-      - name: Apply ${{ matrix.fix-redir-permanently }}
+      - name: Apply fix-redir-permanently
+        if: matrix.fix-redir-permanently != ""
         run: |
           cd cpython
           cat ../${{ matrix.fix-redir-permanently }}
