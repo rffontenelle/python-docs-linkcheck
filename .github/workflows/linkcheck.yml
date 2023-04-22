@@ -52,14 +52,14 @@ jobs:
           cache-dependency-path: 'cpython/Doc/requirements.txt'
 
       - name: Apply fix-broken-links
-        if: matrix.fix-broken-links == 0
+        if: matrix.fix-broken-links != 0
         run: |
           cd cpython
           cat ../${{ matrix.fix-broken-links }}
           git apply ../${{ matrix.fix-broken-links }}
 
       - name: Apply fix-redir-permanently
-        if: matrix.fix-redir-permanently == 0
+        if: matrix.fix-redir-permanently != 0
         run: |
           cd cpython
           cat ../${{ matrix.fix-redir-permanently }}
