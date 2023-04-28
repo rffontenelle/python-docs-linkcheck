@@ -4,7 +4,7 @@ distributing/index.rst:128: [redirected with Found] https://packaging.python.org
 distributing/index.rst:129: [redirected with Found] https://packaging.python.org/tutorials/packaging-projects/#creating-the-package-files to https://packaging.python.org/en/latest/tutorials/packaging-projects/#creating-the-package-files
 distributing/index.rst:130: [redirected with Found] https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives to https://packaging.python.org/en/latest/tutorials/packaging-projects/#uploading-the-distribution-archives
 distributing/index.rst:131: [redirected with Found] https://packaging.python.org/specifications/pypirc/ to https://packaging.python.org/en/latest/specifications/pypirc/
-distributing/index.rst:171: [redirected with Found] https://packaging.python.org/guides/packaging-binary-extensions/ to https://packaging.python.org/en/latest/guides/packaging-binary-extensions/
+distributing/index.rst:167: [redirected with Found] https://packaging.python.org/guides/packaging-binary-extensions/ to https://packaging.python.org/en/latest/guides/packaging-binary-extensions/
 distributing/index.rst:37: [redirected with Found] https://bitbucket.org/pypa/ to https://id.atlassian.com/login?application=bitbucket&continue=https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%252Fpypa%252Fworkspace%252Foverview%26redirectCount%3D1
 distributing/index.rst:37: [redirected with Found] https://www.pypa.io/ to https://www.pypa.io/en/latest/
 distributing/index.rst:51: [redirected with Found] https://setuptools.readthedocs.io/en/latest/ to https://setuptools.pypa.io/en/latest/
@@ -22,6 +22,7 @@ howto/functional.rst:1236: [redirected with Found] https://developer.ibm.com/tut
 howto/functional.rst:1236: [redirected with Found] https://developer.ibm.com/tutorials/l-prog3/ to https://developer.ibm.com/technologies/linux/tutorials/
 howto/isolating-extensions.rst:203: [redirected with Found] https://github.com/python/cpython/blob/master/Modules/xxlimited.c to https://github.com/python/cpython/blob/main/Modules/xxlimited.c
 howto/logging-cookbook.rst:1923: [redirected with Found] https://docs.djangoproject.com/en/stable/topics/logging/#configuring-logging to https://docs.djangoproject.com/en/4.2/topics/logging/#configuring-logging
+howto/logging.rst:336: [broken] https://groups.google.com/forum/#!forum/comp.lang.python: Anchor '!forum/comp.lang.python' not found
 howto/pyporting.rst:36: [redirected with Found] https://python-modernize.readthedocs.io/ to https://python-modernize.readthedocs.io/en/latest/
 howto/pyporting.rst:376: [redirected with Found] https://caniusepython3.com to https://pypi.org/project/caniusepython3/
 howto/unicode.rst:42: [redirected with Found] https://www.unicode.org/versions/latest/#Summary to https://www.unicode.org/versions/Unicode15.0.0/#Summary
@@ -57,7 +58,7 @@ library/tkinter.rst:489: [redirected with Found] https://www.tcl.tk/man/tcl8.6/T
 library/tkinter.rst:51: [redirected with Found] https://www.tcl.tk/man/tcl8.6/TkCmd/contents.htm to https://www.tcl.tk/man/tcl8.6/TkCmd/contents.html
 library/tkinter.rst:93: [redirected with Found] https://wiki.tcl-lang.org/37432 to https://wiki.tcl-lang.org/page/Tcl+Package+User+Guide
 library/tkinter.ttk.rst:27: [redirected with Found] https://core.tcl.tk/tips/doc/trunk/tip/48.md to https://core.tcl-lang.org/tips/doc/trunk/tip/48.md
-library/trace.rst:19: [redirected with Found] https://coverage.readthedocs.io/ to https://coverage.readthedocs.io/en/7.2.3/
+library/trace.rst:19: [redirected with Found] https://coverage.readthedocs.io/ to https://coverage.readthedocs.io/en/7.2.4/
 library/typing.rst:47: [redirected with Found] https://mypy.readthedocs.io/ to https://mypy.readthedocs.io/en/stable/
 library/typing.rst:52: [redirected with Found] https://typing.readthedocs.io/ to https://typing.readthedocs.io/en/latest/
 library/unittest.mock-examples.rst:1317: [redirected with Found] https://pyhamcrest.readthedocs.io/ to https://pyhamcrest.readthedocs.io/en/latest/
@@ -80,6 +81,7 @@ whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https:
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/fr/ to https://docs.python.org/fr/3/
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ja/ to https://docs.python.org/ja/3/
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ko/ to https://docs.python.org/ko/3/
-whatsnew/changelog.rst:17402: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
-whatsnew/changelog.rst:3015: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/#documentation-strings
-whatsnew/changelog.rst:435: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
+whatsnew/3.8.rst:2225: [redirected permanently] https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html to https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i74960hq-processor-6m-cache-up-to-3-80-ghz.html
+whatsnew/changelog.rst:17443: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
+whatsnew/changelog.rst:3056: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/#documentation-strings
+whatsnew/changelog.rst:476: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
