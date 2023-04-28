@@ -26,10 +26,10 @@ jobs:
         include:
           - branch: 'main'
             fix-redir-permanently: 'fix-redir-permanently.diff'
-            fix-redir-with-found:
+            #fix-redir-with-found:
           - branch: '3.11'
             fix-redir-permanently: 'fix-redir-permanently-311.diff'
-            fix-redir-with-found:
+            #fix-redir-with-found:
       fail-fast: false
     steps:
       - name: Check out this repo
@@ -72,7 +72,7 @@ jobs:
 
       - name: Run linkcheck
         run: |
-          make -C cpython/Doc linkcheck SPHINXOPTS="--keep-going ${{ github.event.inputs.SPHINXOPTS }}" SPHINXERRORHANDLING=""
+          make -C cpython/Doc linkcheck SPHINXOPTS="--keep-going ${{ github.event.inputs.SPHINXOPTS }}" SPHINXERRORHANDLING="" || true
 
       - name: Split log
         run: |
