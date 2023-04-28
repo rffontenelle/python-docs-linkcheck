@@ -26,9 +26,10 @@ jobs:
         include:
           - branch: 'main'
             fix-redir-permanently: 'fix-redir-permanently.diff'
+            fix-redir-with-found:
           - branch: '3.11'
-            fix-broken-links: 'fix-broken-links-311.diff'
             fix-redir-permanently: 'fix-redir-permanently-311.diff'
+            fix-redir-with-found:
       fail-fast: false
     steps:
       - name: Check out this repo
@@ -51,13 +52,6 @@ jobs:
           cache: 'pip'
           cache-dependency-path: 'cpython/Doc/requirements.txt'
 
-      - name: Apply fix-broken-links
-        if: matrix.fix-broken-links != 0
-        run: |
-          cd cpython
-          cat ../${{ matrix.fix-broken-links }}
-          git apply ../${{ matrix.fix-broken-links }}
-
       - name: Apply fix-redir-permanently
         if: matrix.fix-redir-permanently != 0
         run: |
@@ -65,6 +59,13 @@ jobs:
           cat ../${{ matrix.fix-redir-permanently }}
           git apply ../${{ matrix.fix-redir-permanently }}
 
+      - name: Apply fix-redir-with-found
+        if: matrix.fix-redir-with-found != 0
+        run: |
+          cd cpython
+          cat ../${{ matrix.fix-redir-with-found }}
+          git apply ../${{ matrix.fix-redir-with-found }}
+      
       - name: Make virtual environment
         run: |
           make -C cpython/Doc venv
