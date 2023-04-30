@@ -1,1 +1,0 @@
-whatsnew/3.8.rst:2225: [redirected permanently] https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html to https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i74960hq-processor-6m-cache-up-to-3-80-ghz.html

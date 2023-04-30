@@ -54,7 +54,7 @@ library/tkinter.rst:489: [redirected with Found] https://www.tcl.tk/man/tcl8.6/T
 library/tkinter.rst:51: [redirected with Found] https://www.tcl.tk/man/tcl8.6/TkCmd/contents.htm to https://www.tcl.tk/man/tcl8.6/TkCmd/contents.html
 library/tkinter.rst:93: [redirected with Found] https://wiki.tcl-lang.org/37432 to https://wiki.tcl-lang.org/page/Tcl+Package+User+Guide
 library/tkinter.ttk.rst:27: [redirected with Found] https://core.tcl.tk/tips/doc/trunk/tip/48.md to https://core.tcl-lang.org/tips/doc/trunk/tip/48.md
-library/trace.rst:19: [redirected with Found] https://coverage.readthedocs.io/ to https://coverage.readthedocs.io/en/7.2.4/
+library/trace.rst:19: [redirected with Found] https://coverage.readthedocs.io/ to https://coverage.readthedocs.io/en/7.2.5/
 library/typing.rst:47: [redirected with Found] https://mypy.readthedocs.io/ to https://mypy.readthedocs.io/en/stable/
 library/typing.rst:52: [redirected with Found] https://typing.readthedocs.io/ to https://typing.readthedocs.io/en/latest/
 library/unittest.mock-examples.rst:1317: [redirected with Found] https://pyhamcrest.readthedocs.io/ to https://pyhamcrest.readthedocs.io/en/latest/
@@ -75,9 +75,10 @@ whatsnew/2.7.rst:1834: [redirected with Found] https://nose.readthedocs.io/ to h
 whatsnew/2.7.rst:1834: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/7.3.x/
 whatsnew/3.2.rst:2521: [redirected with Found] https://www.mercurial-scm.org/wiki/QuickStart to https://wiki.mercurial-scm.org/QuickStart
 whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https://openexr.com/en/latest/
+whatsnew/3.5.rst:2214: [redirected with Found] https://visualstudio.microsoft.com/en/vs/older-downloads/#visual-studio-2015-and-other-products to https://visualstudio.microsoft.com/vs/older-downloads/#visual-studio-2015-and-other-products
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/fr/ to https://docs.python.org/fr/3/
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ja/ to https://docs.python.org/ja/3/
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ko/ to https://docs.python.org/ko/3/
-whatsnew/changelog.rst:1927: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
-whatsnew/changelog.rst:19769: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
-whatsnew/changelog.rst:5383: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/#documentation-strings
+whatsnew/changelog.rst:1937: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
+whatsnew/changelog.rst:19779: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
+whatsnew/changelog.rst:5393: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/#documentation-strings
