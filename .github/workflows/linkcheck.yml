@@ -52,6 +52,11 @@ jobs:
           cache: 'pip'
           cache-dependency-path: 'cpython/Doc/requirements.txt'
 
+      - name: Install dependencies
+        run: |
+          pip install -U pip
+          pip install flake8
+      
       - name: Apply fix-redir-permanently
         if: matrix.fix-redir-permanently != 0
         run: |
@@ -65,6 +70,11 @@ jobs:
           cd cpython
           cat ../${{ matrix.fix-redir-with-found }}
           git apply ../${{ matrix.fix-redir-with-found }}
+      
+      # Exclude other reported issues, to get e.g. W605 invalid escape sequence '\d'
+      - name: Flake8 on Doc/conf.py
+        run: |
+          flake8 Doc/conf.py --ignore E122,E501,E401,E402,F401,W291
       
       - name: Make virtual environment
         run: |
