@@ -1,8 +1,8 @@
 diff --git a/Doc/conf.py b/Doc/conf.py
-index c5618928fd..275c0f5788 100644
+index c5618928fd..5a4a8f9720 100644
 --- a/Doc/conf.py
 +++ b/Doc/conf.py
-@@ -248,7 +248,25 @@
+@@ -248,7 +248,23 @@
      # GH-NNNN used to refer to pull requests
      r'https://github.com/python/cpython/issues/\d+': 'https://github.com/python/cpython/pull/\d+',
      # :source:`something` linking files in the repository
@@ -18,14 +18,12 @@ index c5618928fd..275c0f5788 100644
 +    r'https://toml.io': 'https://toml.io/en/',
 +    r'https://www.redhat.com': 'https://www.redhat.com/en',
 +    # Other redirects
-+    r'https://tools.ietf.org/html/rfc\d+': 'https://datatracker.ietf.org/doc/html/rfc\d+',
 +    r'https://www.boost.org/libs/.+': 'https://www.boost.org/doc/libs/\d_\d+_\d/.+',
 +    r'https://support.microsoft.com/en-us/help/\d+': 'https://support.microsoft.com/en-us/topic/.+',
 +    r'https://perf.wiki.kernel.org$': 'https://perf.wiki.kernel.org/index.php/Main_Page',
 +    r'https://www.sqlite.org': 'https://www.sqlite.org/index.html',
 +    r'https://mitpress.mit.edu/sicp$': 'https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/',
 +    r'https://www.python.org/psf/': 'https://www.python.org/psf-landing/',
-+    r'https://www.python.org/psf/license/': 'https://docs.python.org/3/license.html',
  }
  
  linkcheck_anchors_ignore = [
@@ -43,7 +41,7 @@ index 87c9285555..56bed7d63f 100644
     .. versionchanged:: 3.3.1
        NFS files are ignored.
 diff --git a/Doc/distutils/examples.rst b/Doc/distutils/examples.rst
-index e492b7f605..49e4b6e4b9 100644
+index e492b7f605..36fc3ba019 100644
 --- a/Doc/distutils/examples.rst
 +++ b/Doc/distutils/examples.rst
 @@ -337,4 +337,4 @@ loads its values::
@@ -51,7 +49,7 @@ index e492b7f605..49e4b6e4b9 100644
  
  
 -.. _docutils: http://docutils.sourceforge.net
-+.. _docutils: https://docutils.sourceforge.io
++.. _docutils: https://docutils.sourceforge.net
 diff --git a/Doc/distutils/setupscript.rst b/Doc/distutils/setupscript.rst
 index 4386a60b66..8635c91162 100644
 --- a/Doc/distutils/setupscript.rst
@@ -79,9 +77,20 @@ index 07282639e4..bc3080f60e 100644
  C code.  Cython and Pyrex make it possible to write an extension without having
  to learn Python's C API.
 diff --git a/Doc/faq/general.rst b/Doc/faq/general.rst
-index 6256deb579..7918587fb5 100644
+index 6256deb579..a9b2622e02 100644
 --- a/Doc/faq/general.rst
 +++ b/Doc/faq/general.rst
+@@ -54,8 +54,8 @@ commercial use, to sell copies of Python in source or binary form (modified or
+ unmodified), or to sell products that incorporate Python in some form.  We would
+ still like to know about all commercial use of Python, of course.
+ 
+-See `the PSF license page <https://www.python.org/psf/license/>`_ to find further
+-explanations and a link to the full text of the license.
++See `the license page <https://docs.python.org/3/license.html>`_ to find further
++explanations and the full text of the PSF License.
+ 
+ The Python logo is trademarked, and in certain cases permission is required to
+ use it.  Consult `the Trademark Usage Policy
 @@ -215,7 +215,7 @@ every day, and Usenet readers are often more able to cope with this volume.
  Announcements of new software releases and events can be found in
  comp.lang.python.announce, a low-traffic moderated list that receives about five
@@ -125,6 +134,19 @@ index add1c11be5..baea3e85c3 100644
 +.. _mypy: https://mypy-lang.org/
  .. _Porting to Python 3: http://python3porting.com/
  .. _Pylint: https://pypi.org/project/pylint
+ 
+diff --git a/Doc/library/asyncio-eventloop.rst b/Doc/library/asyncio-eventloop.rst
+index fa1b2b5368..00b26a23c0 100644
+--- a/Doc/library/asyncio-eventloop.rst
++++ b/Doc/library/asyncio-eventloop.rst
+@@ -515,7 +515,7 @@ Opening network connections
+       specifies requirements for algorithms that reduce this user-visible
+       delay and provides an algorithm.
+ 
+-      For more information: https://tools.ietf.org/html/rfc6555
++      For more information: https://datatracker.ietf.org/doc/html/rfc6555
+ 
+    .. versionchanged:: 3.11
  
 diff --git a/Doc/library/hashlib.rst b/Doc/library/hashlib.rst
 index a96fc8b8ff..bea862d796 100644
@@ -256,6 +278,16 @@ index 78c4bc521f..03867b3d39 100644
  proprietary full-featured statistics packages aimed at professional
  statisticians such as Minitab, SAS and Matlab. It is aimed at the level of
  graphing and scientific calculators.
+diff --git a/Doc/library/struct.rst b/Doc/library/struct.rst
+index 12f247462f..9db13d58c6 100644
+--- a/Doc/library/struct.rst
++++ b/Doc/library/struct.rst
+@@ -602,4 +602,4 @@ The :mod:`struct` module also defines the following type:
+ 
+ .. _ieee 754 standard: https://en.wikipedia.org/wiki/IEEE_754-2008_revision
+ 
+-.. _IETF RFC 1700: https://tools.ietf.org/html/rfc1700
++.. _IETF RFC 1700: https://datatracker.ietf.org/doc/html/rfc1700
 diff --git a/Doc/library/sys.rst b/Doc/library/sys.rst
 index 3d1506f553..6f90e6b422 100644
 --- a/Doc/library/sys.rst
@@ -504,7 +536,7 @@ index 4ee2aacb10..84bb651e68 100644
    environments.  TIPC addresses are 4- or 5-tuples.
    (Contributed by Alberto Bertogli; :issue:`1646`.)
 diff --git a/Doc/whatsnew/3.11.rst b/Doc/whatsnew/3.11.rst
-index a38a80a501..1bbf5a4606 100644
+index a38a80a501..003d77835f 100644
 --- a/Doc/whatsnew/3.11.rst
 +++ b/Doc/whatsnew/3.11.rst
 @@ -76,7 +76,7 @@ New built-in features:
@@ -525,15 +557,6 @@ index a38a80a501..1bbf5a4606 100644
  
  When using ``-V:`` selectors, either company or tag can be omitted, but all
  installs will be searched. For example, ``-V:OtherPython/`` will select the
-@@ -555,7 +555,7 @@ Other CPython Implementation Changes
- New Modules
- ===========
- 
--* :mod:`tomllib`: For parsing `TOML <https://toml.io/>`_.
-+* :mod:`tomllib`: For parsing `TOML <https://toml.io>`_.
-   See :pep:`680` for more details.
-   (Contributed by Taneli Hukkinen in :issue:`40059`.)
- 
 @@ -2491,7 +2491,7 @@ Porting to Python 3.11
        #endif
  

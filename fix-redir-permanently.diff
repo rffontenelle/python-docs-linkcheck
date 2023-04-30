@@ -1,8 +1,8 @@
 diff --git a/Doc/conf.py b/Doc/conf.py
-index 40cf1a37c6..227f162be5 100644
+index 42c23bf77c..903bd80b61 100644
 --- a/Doc/conf.py
 +++ b/Doc/conf.py
-@@ -260,7 +260,25 @@
+@@ -267,7 +267,23 @@
      # GH-NNNN used to refer to pull requests
      r'https://github.com/python/cpython/issues/\d+': 'https://github.com/python/cpython/pull/\d+',
      # :source:`something` linking files in the repository
@@ -18,14 +18,12 @@ index 40cf1a37c6..227f162be5 100644
 +    r'https://toml.io': 'https://toml.io/en/',
 +    r'https://www.redhat.com': 'https://www.redhat.com/en',
 +    # Other redirects
-+    r'https://tools.ietf.org/html/rfc\d+': 'https://datatracker.ietf.org/doc/html/rfc\d+',
 +    r'https://www.boost.org/libs/.+': 'https://www.boost.org/doc/libs/\d_\d+_\d/.+',
 +    r'https://support.microsoft.com/en-us/help/\d+': 'https://support.microsoft.com/en-us/topic/.+',
 +    r'https://perf.wiki.kernel.org$': 'https://perf.wiki.kernel.org/index.php/Main_Page',
 +    r'https://www.sqlite.org': 'https://www.sqlite.org/index.html',
 +    r'https://mitpress.mit.edu/sicp$': 'https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/',
 +    r'https://www.python.org/psf/': 'https://www.python.org/psf-landing/',
-+    r'https://www.python.org/psf/license/': 'https://docs.python.org/3/license.html',
  }
  
  linkcheck_anchors_ignore = [
@@ -43,9 +41,20 @@ index 07282639e4..bc3080f60e 100644
  C code.  Cython and Pyrex make it possible to write an extension without having
  to learn Python's C API.
 diff --git a/Doc/faq/general.rst b/Doc/faq/general.rst
-index 6256deb579..7918587fb5 100644
+index 6256deb579..a9b2622e02 100644
 --- a/Doc/faq/general.rst
 +++ b/Doc/faq/general.rst
+@@ -54,8 +54,8 @@ commercial use, to sell copies of Python in source or binary form (modified or
+ unmodified), or to sell products that incorporate Python in some form.  We would
+ still like to know about all commercial use of Python, of course.
+ 
+-See `the PSF license page <https://www.python.org/psf/license/>`_ to find further
+-explanations and a link to the full text of the license.
++See `the license page <https://docs.python.org/3/license.html>`_ to find further
++explanations and the full text of the PSF License.
+ 
+ The Python logo is trademarked, and in certain cases permission is required to
+ use it.  Consult `the Trademark Usage Policy
 @@ -215,7 +215,7 @@ every day, and Usenet readers are often more able to cope with this volume.
  Announcements of new software releases and events can be found in
  comp.lang.python.announce, a low-traffic moderated list that receives about five
@@ -89,6 +98,19 @@ index add1c11be5..baea3e85c3 100644
 +.. _mypy: https://mypy-lang.org/
  .. _Porting to Python 3: http://python3porting.com/
  .. _Pylint: https://pypi.org/project/pylint
+ 
+diff --git a/Doc/library/asyncio-eventloop.rst b/Doc/library/asyncio-eventloop.rst
+index e982cc166a..8d0022cc66 100644
+--- a/Doc/library/asyncio-eventloop.rst
++++ b/Doc/library/asyncio-eventloop.rst
+@@ -529,7 +529,7 @@ Opening network connections
+       specifies requirements for algorithms that reduce this user-visible
+       delay and provides an algorithm.
+ 
+-      For more information: https://tools.ietf.org/html/rfc6555
++      For more information: https://datatracker.ietf.org/doc/html/rfc6555
+ 
+    .. versionchanged:: 3.11
  
 diff --git a/Doc/library/hashlib.rst b/Doc/library/hashlib.rst
 index f8d10c0c29..6275f96f7d 100644
@@ -142,8 +164,21 @@ index f8d10c0c29..6275f96f7d 100644
        Official BLAKE2 website.
  
     https://csrc.nist.gov/csrc/media/publications/fips/180/2/archive/2002-08-01/documents/fips180-2.pdf
+diff --git a/Doc/library/http.client.rst b/Doc/library/http.client.rst
+index 38821b32c9..abdc6b447a 100644
+--- a/Doc/library/http.client.rst
++++ b/Doc/library/http.client.rst
+@@ -354,7 +354,7 @@ HTTPConnection Objects
+    the CONNECT request.
+ 
+    As HTTP/1.1 is used for HTTP CONNECT tunnelling request, `as per the RFC
+-   <https://tools.ietf.org/html/rfc7231#section-4.3.6>`_, a HTTP ``Host:``
++   <https://datatracker.ietf.org/doc/html/rfc7231#section-4.3.6>`_, a HTTP ``Host:``
+    header must be provided, matching the authority-form of the request target
+    provided as the destination for the CONNECT request. If a HTTP ``Host:``
+    header is not provided via the headers argument, one is generated and
 diff --git a/Doc/library/importlib.metadata.rst b/Doc/library/importlib.metadata.rst
-index 6e08410199..a22c730317 100644
+index b306d5f55a..2f7c5c0727 100644
 --- a/Doc/library/importlib.metadata.rst
 +++ b/Doc/library/importlib.metadata.rst
 @@ -178,7 +178,7 @@ The "selectable" entry points were introduced in ``importlib_metadata``
@@ -156,10 +191,10 @@ index 6e08410199..a22c730317 100644
  
  
 diff --git a/Doc/library/os.rst b/Doc/library/os.rst
-index 7bb501c594..d62270ba98 100644
+index 50e951c631..76623c6305 100644
 --- a/Doc/library/os.rst
 +++ b/Doc/library/os.rst
-@@ -4592,7 +4592,7 @@ written in Python, such as a mail server's external command delivery program.
+@@ -4593,7 +4593,7 @@ written in Python, such as a mail server's external command delivery program.
     :attr:`!children_system`, and :attr:`!elapsed` in that order.
  
     See the Unix manual page
@@ -233,11 +268,21 @@ index f934b0e031..395b324c86 100644
  proprietary full-featured statistics packages aimed at professional
  statisticians such as Minitab, SAS and Matlab. It is aimed at the level of
  graphing and scientific calculators.
+diff --git a/Doc/library/struct.rst b/Doc/library/struct.rst
+index 9c0e32ba16..78fd6e397a 100644
+--- a/Doc/library/struct.rst
++++ b/Doc/library/struct.rst
+@@ -602,4 +602,4 @@ The :mod:`struct` module also defines the following type:
+ 
+ .. _ieee 754 standard: https://en.wikipedia.org/wiki/IEEE_754-2008_revision
+ 
+-.. _IETF RFC 1700: https://tools.ietf.org/html/rfc1700
++.. _IETF RFC 1700: https://datatracker.ietf.org/doc/html/rfc1700
 diff --git a/Doc/library/sys.rst b/Doc/library/sys.rst
-index e37d57edce..e452d57467 100644
+index 7324f3113e..bfcce73bc4 100644
 --- a/Doc/library/sys.rst
 +++ b/Doc/library/sys.rst
-@@ -785,7 +785,7 @@ always available.
+@@ -792,7 +792,7 @@ always available.
     additional garbage collector overhead if the object is managed by the garbage
     collector.
  
@@ -260,7 +305,7 @@ index f9a207bad6..895b9f9f07 100644
  
  ``Mock`` (in all its flavours) uses a method called ``_get_child_mock`` to create
 diff --git a/Doc/library/unittest.rst b/Doc/library/unittest.rst
-index a7c74cfa4f..aa22650c2b 100644
+index c70153dfcd..b26e6c0e6b 100644
 --- a/Doc/library/unittest.rst
 +++ b/Doc/library/unittest.rst
 @@ -72,7 +72,7 @@ test runner
@@ -312,7 +357,7 @@ index 005d048b6e..816658b73d 100644
  specifically to own Python-related Intellectual Property.  Zope Corporation is a
  sponsoring member of the PSF.
 diff --git a/Doc/reference/datamodel.rst b/Doc/reference/datamodel.rst
-index 9f91ade35e..1b59aec548 100644
+index 55431f1951..c35bf4016a 100644
 --- a/Doc/reference/datamodel.rst
 +++ b/Doc/reference/datamodel.rst
 @@ -1564,7 +1564,7 @@ Basic customization
@@ -364,7 +409,7 @@ index 9ae0270eae..69cd5c92d8 100644
  
  To run your script from the Terminal window you must make sure that
 diff --git a/Doc/using/windows.rst b/Doc/using/windows.rst
-index 1c4e41c0e0..f98beb7139 100644
+index 380950eb50..43e3c72f3e 100644
 --- a/Doc/using/windows.rst
 +++ b/Doc/using/windows.rst
 @@ -541,7 +541,7 @@ Besides the standard CPython distribution, there are modified packages including
@@ -481,7 +526,7 @@ index 4ee2aacb10..84bb651e68 100644
    environments.  TIPC addresses are 4- or 5-tuples.
    (Contributed by Alberto Bertogli; :issue:`1646`.)
 diff --git a/Doc/whatsnew/3.11.rst b/Doc/whatsnew/3.11.rst
-index 10fcfb6a0b..9a3457e609 100644
+index 10fcfb6a0b..aae59f88e7 100644
 --- a/Doc/whatsnew/3.11.rst
 +++ b/Doc/whatsnew/3.11.rst
 @@ -74,7 +74,7 @@ New built-in features:
@@ -502,15 +547,6 @@ index 10fcfb6a0b..9a3457e609 100644
  
  When using ``-V:`` selectors, either company or tag can be omitted, but all
  installs will be searched. For example, ``-V:OtherPython/`` will select the
-@@ -553,7 +553,7 @@ Other CPython Implementation Changes
- New Modules
- ===========
- 
--* :mod:`tomllib`: For parsing `TOML <https://toml.io/>`_.
-+* :mod:`tomllib`: For parsing `TOML <https://toml.io>`_.
-   See :pep:`680` for more details.
-   (Contributed by Taneli Hukkinen in :issue:`40059`.)
- 
 @@ -2489,7 +2489,7 @@ Porting to Python 3.11
        #endif
  
