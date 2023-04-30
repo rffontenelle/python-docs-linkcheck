@@ -74,7 +74,7 @@ jobs:
       # Exclude other reported issues, to get e.g. W605 invalid escape sequence '\d'
       - name: Flake8 on Doc/conf.py
         run: |
-          flake8 Doc/conf.py --ignore E122,E501,E401,E402,F401,W291
+          flake8 cpython/Doc/conf.py --ignore E122,E501,E401,E402,F401,W291 --output-file ${{ matrix.branch }}-flake8.txt
       
       - name: Make virtual environment
         run: |
@@ -109,7 +109,9 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: ${{ matrix.branch }}-logs
-          path: ${{ matrix.branch }}-*.txt
+          path: |
+            ${{ matrix.branch }}-*.txt
+            ${{ matrix.branch }}-flake8.txt
 
   push:
     runs-on: ubuntu-latest
