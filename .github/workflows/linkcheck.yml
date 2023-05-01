@@ -26,10 +26,10 @@ jobs:
         include:
           - branch: 'main'
             fix-redir-permanently: 'fix-redir-permanently.diff'
-            #fix-redir-with-found:
+            fix-redir-with-found: 'fix-redir-with-found.diff'
           - branch: '3.11'
             fix-redir-permanently: 'fix-redir-permanently-311.diff'
-            #fix-redir-with-found:
+            fix-redir-with-found: 'fix-redir-with-found-311.diff'
       fail-fast: false
     steps:
       - name: Check out this repo
