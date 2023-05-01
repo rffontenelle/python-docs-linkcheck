@@ -1,0 +1,247 @@
+diff --git a/Doc/conf.py b/Doc/conf.py
+index ace6936777..1e2baabbf4 100644
+--- a/Doc/conf.py
++++ b/Doc/conf.py
+@@ -274,6 +274,8 @@
+     r'https://www.sqlite.org': 'https://www.sqlite.org/index.html',
+     r'https://mitpress.mit.edu/sicp$': 'https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/',
+     r'https://www.python.org/psf/': 'https://www.python.org/psf-landing/',
++    # docs.python.org (with/out language code) to docs.python.org/3/
++    r'https://docs.python.org(/[a-z]{2}(-[a-z]{2})?)?': r'https://docs.python.org(/[a-z]{2}(-[a-z]{2})?)?(/3/)?',
+ }
+ 
+ linkcheck_anchors_ignore = [
+diff --git a/Doc/distributing/index.rst b/Doc/distributing/index.rst
+index 8e70c24e70..b1bba6c6a8 100644
+--- a/Doc/distributing/index.rst
++++ b/Doc/distributing/index.rst
+@@ -61,7 +61,7 @@ Key terms
+   extensions, to be installed on a system without needing to be built
+   locally.
+ 
+-.. _setuptools: https://setuptools.readthedocs.io/en/latest/
++.. _setuptools: https://setuptools.pypa.io/en/latest/
+ .. _wheel: https://wheel.readthedocs.io/
+ 
+ Open source licensing and collaboration
+diff --git a/Doc/howto/isolating-extensions.rst b/Doc/howto/isolating-extensions.rst
+index 2eddb582da..33939aafc2 100644
+--- a/Doc/howto/isolating-extensions.rst
++++ b/Doc/howto/isolating-extensions.rst
+@@ -201,7 +201,7 @@ require some work and make the code longer; this is the price for
+ modules which can be unloaded cleanly.
+ 
+ An example of a module with per-module state is currently available as
+-`xxlimited <https://github.com/python/cpython/blob/master/Modules/xxlimited.c>`__;
++:source:`xxlimited <Modules/xxlimited.c>`;
+ example module initialization shown at the bottom of the file.
+ 
+ 
+diff --git a/Doc/library/importlib.metadata.rst b/Doc/library/importlib.metadata.rst
+index a768e93458..8175bbc2bb 100644
+--- a/Doc/library/importlib.metadata.rst
++++ b/Doc/library/importlib.metadata.rst
+@@ -395,6 +395,6 @@ a custom finder, return instances of this derived ``Distribution`` in the
+ ``find_distributions()`` method.
+ 
+ 
+-.. _`entry point API`: https://setuptools.readthedocs.io/en/latest/pkg_resources.html#entry-points
+-.. _`metadata API`: https://setuptools.readthedocs.io/en/latest/pkg_resources.html#metadata-api
++.. _`entry point API`: https://setuptools.pypa.io/en/latest/pkg_resources.html#entry-points
++.. _`metadata API`: https://setuptools.pypa.io/en/latest/pkg_resources.html#metadata-api
+ .. _`finders`: https://docs.python.org/3/reference/import.html#finders-and-loaders
+diff --git a/Doc/library/importlib.resources.rst b/Doc/library/importlib.resources.rst
+index 827e7d8d5a..098e3623e3 100644
+--- a/Doc/library/importlib.resources.rst
++++ b/Doc/library/importlib.resources.rst
+@@ -24,9 +24,9 @@ for example, a package and its resources can be imported from a zip file using
+ .. note::
+ 
+    This module provides functionality similar to `pkg_resources
+-   <https://setuptools.readthedocs.io/en/latest/pkg_resources.html>`_ `Basic
++   <https://setuptools.pypa.io/en/latest/pkg_resources.html>`_ `Basic
+    Resource Access
+-   <https://setuptools.readthedocs.io/en/latest/pkg_resources.html#basic-resource-access>`_
++   <https://setuptools.pypa.io/en/latest/pkg_resources.html#basic-resource-access>`_
+    without the performance overhead of that package.  This makes reading
+    resources included in packages easier, with more stable and consistent
+    semantics.
+diff --git a/Doc/library/random.rst b/Doc/library/random.rst
+index c7620b0328..6f1a863948 100644
+--- a/Doc/library/random.rst
++++ b/Doc/library/random.rst
+@@ -548,14 +548,14 @@ Simulation of arrival times and service deliveries for a multiserver queue::
+    including simulation, sampling, shuffling, and cross-validation.
+ 
+    `Economics Simulation
+-   <https://nbviewer.jupyter.org/url/norvig.com/ipython/Economics.ipynb>`_
++   <https://nbviewer.org/url/norvig.com/ipython/Economics.ipynb>`_
+    a simulation of a marketplace by
+    `Peter Norvig <https://norvig.com/bio.html>`_ that shows effective
+    use of many of the tools and distributions provided by this module
+    (gauss, uniform, sample, betavariate, choice, triangular, and randrange).
+ 
+    `A Concrete Introduction to Probability (using Python)
+-   <https://nbviewer.jupyter.org/url/norvig.com/ipython/Probability.ipynb>`_
++   <https://nbviewer.org/url/norvig.com/ipython/Probability.ipynb>`_
+    a tutorial by `Peter Norvig <https://norvig.com/bio.html>`_ covering
+    the basics of probability theory, how to write simulations, and
+    how to perform data analysis using Python.
+diff --git a/Doc/library/tkinter.rst b/Doc/library/tkinter.rst
+index c8e4317be7..658b348c32 100644
+--- a/Doc/library/tkinter.rst
++++ b/Doc/library/tkinter.rst
+@@ -42,12 +42,12 @@ details that are unchanged.
+       Extensive tutorial on creating user interfaces with Tkinter.  Explains key concepts,
+       and illustrates recommended approaches using the modern API.
+ 
+-   * `Tkinter 8.5 reference: a GUI for Python <https://www.tkdocs.com/shipman/>`_
++   * `Tkinter 8.5 reference: a GUI for Python <https://tkdocs.com/shipman/>`_
+       Reference documentation for Tkinter 8.5 detailing available classes, methods, and options.
+ 
+    Tcl/Tk Resources:
+ 
+-   * `Tk commands <https://www.tcl.tk/man/tcl8.6/TkCmd/contents.htm>`_
++   * `Tk commands <https://www.tcl.tk/man/tcl8.6/TkCmd/contents.html>`_
+       Comprehensive reference to each of the underlying Tcl/Tk commands used by Tkinter.
+ 
+    * `Tcl/Tk Home Page <https://www.tcl.tk>`_
+@@ -447,7 +447,7 @@ is helpful.
+ Navigating the Tcl/Tk Reference Manual
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+-As noted, the official `Tk commands <https://www.tcl.tk/man/tcl8.6/TkCmd/contents.htm>`_
++As noted, the official `Tk commands <https://www.tcl.tk/man/tcl8.6/TkCmd/contents.html>`_
+ reference manual (man pages) is often the most accurate description of what
+ specific operations on widgets do. Even when you know the name of the option
+ or method that you need, you may still have a few places to look.
+@@ -476,20 +476,20 @@ name of a method to call).
+ In the official Tcl/Tk reference documentation, you'll find most operations
+ that look like method calls on the man page for a specific widget (e.g.,
+ you'll find the :meth:`invoke` method on the
+-`ttk::button <https://www.tcl.tk/man/tcl8.6/TkCmd/ttk_button.htm>`_
++`ttk::button <https://www.tcl.tk/man/tcl8.6/TkCmd/ttk_button.html>`_
+ man page), while functions that take a widget as a parameter often have
+ their own man page (e.g.,
+-`grid <https://www.tcl.tk/man/tcl8.6/TkCmd/grid.htm>`_).
++`grid <https://www.tcl.tk/man/tcl8.6/TkCmd/grid.html>`_).
+ 
+ You'll find many common options and methods in the
+-`options <https://www.tcl.tk/man/tcl8.6/TkCmd/options.htm>`_ or
+-`ttk::widget <https://www.tcl.tk/man/tcl8.6/TkCmd/ttk_widget.htm>`_ man
++`options <https://www.tcl.tk/man/tcl8.6/TkCmd/options.html>`_ or
++`ttk::widget <https://www.tcl.tk/man/tcl8.6/TkCmd/ttk_widget.html>`_ man
+ pages, while others are found in the man page for a specific widget class.
+ 
+ You'll also find that many Tkinter methods have compound names, e.g.,
+ :func:`winfo_x`, :func:`winfo_height`, :func:`winfo_viewable`. You'd find
+ documentation for all of these in the
+-`winfo <https://www.tcl.tk/man/tcl8.6/TkCmd/winfo.htm>`_ man page.
++`winfo <https://www.tcl.tk/man/tcl8.6/TkCmd/winfo.html>`_ man page.
+ 
+ .. note::
+    Somewhat confusingly, there are also methods on all Tkinter widgets
+diff --git a/Doc/library/tkinter.ttk.rst b/Doc/library/tkinter.ttk.rst
+index 4ff2b2159c..7c17f241d5 100644
+--- a/Doc/library/tkinter.ttk.rst
++++ b/Doc/library/tkinter.ttk.rst
+@@ -24,7 +24,7 @@ appearance.
+ 
+ .. seealso::
+ 
+-   `Tk Widget Styling Support <https://core.tcl.tk/tips/doc/trunk/tip/48.md>`_
++   `Tk Widget Styling Support <https://core.tcl-lang.org/tips/doc/trunk/tip/48.md>`_
+       A document introducing theming support for Tk
+ 
+ 
+diff --git a/Doc/library/xmlrpc.client.rst b/Doc/library/xmlrpc.client.rst
+index 146c4fd768..4a1c86ead2 100644
+--- a/Doc/library/xmlrpc.client.rst
++++ b/Doc/library/xmlrpc.client.rst
+@@ -168,7 +168,7 @@ between conformable Python objects and XML on the wire.
+    `XML-RPC Introspection <https://xmlrpc-c.sourceforge.net/introspection.html>`_
+       Describes the XML-RPC protocol extension for introspection.
+ 
+-   `XML-RPC Specification <http://xmlrpc.scripting.com/spec.html>`_
++   `XML-RPC Specification <http://xmlrpc.com/spec.html>`_
+       The official specification.
+ 
+ .. _serverproxy-objects:
+diff --git a/Doc/whatsnew/2.2.rst b/Doc/whatsnew/2.2.rst
+index 82aff0be1e..9ebf8358a4 100644
+--- a/Doc/whatsnew/2.2.rst
++++ b/Doc/whatsnew/2.2.rst
+@@ -957,7 +957,7 @@ New and Improved Modules
+      #   'title': 'html2fo 0.3 (Default)'}, ... ]
+ 
+   The :mod:`SimpleXMLRPCServer` module makes it easy to create straightforward
+-  XML-RPC servers.  See http://xmlrpc.scripting.com/ for more information about XML-RPC.
++  XML-RPC servers.  See http://xmlrpc.com/ for more information about XML-RPC.
+ 
+ * The new :mod:`hmac` module implements the HMAC algorithm described by
+   :rfc:`2104`. (Contributed by Gerhard Häring.)
+diff --git a/Doc/whatsnew/2.4.rst b/Doc/whatsnew/2.4.rst
+index 98dc83fe93..9c5e423a52 100644
+--- a/Doc/whatsnew/2.4.rst
++++ b/Doc/whatsnew/2.4.rst
+@@ -687,7 +687,7 @@ includes a quick-start tutorial and a reference.
+       The article uses Fortran code to illustrate many of the problems that
+       floating-point inaccuracy can cause.
+ 
+-   http://speleotrove.com/decimal/
++   https://speleotrove.com/decimal/
+       A description of a decimal-based representation.  This representation is being
+       proposed as a standard, and underlies the new Python decimal type.  Much of this
+       material was written by Mike Cowlishaw, designer of the Rexx language.
+diff --git a/Doc/whatsnew/2.7.rst b/Doc/whatsnew/2.7.rst
+index 1acb09cf92..1c892c2c6f 100644
+--- a/Doc/whatsnew/2.7.rst
++++ b/Doc/whatsnew/2.7.rst
+@@ -1807,7 +1807,7 @@ on being added to Tcl/Tck release 8.5.
+ To learn more, read the :mod:`ttk` module documentation.  You may also
+ wish to read the Tcl/Tk manual page describing the
+ Ttk theme engine, available at
+-https://www.tcl.tk/man/tcl8.5/TkCmd/ttk_intro.htm. Some
++https://www.tcl.tk/man/tcl8.5/TkCmd/ttk_intro.html. Some
+ screenshots of the Python/Ttk code in use are at
+ https://code.google.com/archive/p/python-ttk/wikis/Screenshots.wiki.
+ 
+diff --git a/Doc/whatsnew/3.2.rst b/Doc/whatsnew/3.2.rst
+index 8e2f9e2716..414fe5307c 100644
+--- a/Doc/whatsnew/3.2.rst
++++ b/Doc/whatsnew/3.2.rst
+@@ -2517,7 +2517,7 @@ members of the community to create and share external changesets.  See
+ :pep:`385` for details.
+ 
+ To learn to use the new version control system, see the `Quick Start
+-<https://www.mercurial-scm.org/wiki/QuickStart>`_ or the `Guide to
++<https://wiki.mercurial-scm.org/QuickStart>`_ or the `Guide to
+ Mercurial Workflows <https://www.mercurial-scm.org/guide>`_.
+ 
+ 
+diff --git a/Doc/whatsnew/3.5.rst b/Doc/whatsnew/3.5.rst
+index fb64135e1e..7e499cb73d 100644
+--- a/Doc/whatsnew/3.5.rst
++++ b/Doc/whatsnew/3.5.rst
+@@ -2212,7 +2212,7 @@ for details.)
+ The :c:member:`PyTypeObject.tp_finalize` slot is now part of the stable ABI.
+ 
+ Windows builds now require Microsoft Visual C++ 14.0, which
+-is available as part of `Visual Studio 2015 <https://visualstudio.microsoft.com/en/vs/older-downloads/#visual-studio-2015-and-other-products>`_.
++is available as part of `Visual Studio 2015 <https://visualstudio.microsoft.com/vs/older-downloads/#visual-studio-2015-and-other-products>`_.
+ 
+ Extension modules now include a platform information tag in their filename on
+ some platforms (the tag is optional, and CPython will import extensions without
+diff --git a/Misc/NEWS.d/3.11.0b1.rst b/Misc/NEWS.d/3.11.0b1.rst
+index d8c2ec0a79..0a1b8a0432 100644
+--- a/Misc/NEWS.d/3.11.0b1.rst
++++ b/Misc/NEWS.d/3.11.0b1.rst
+@@ -1801,7 +1801,7 @@ The documentation now lists which members of C structs are part of the
+ 
+ All docstrings in code snippets are now wrapped into :func:`PyDoc_STR` to
+ follow the guideline of `PEP 7's Documentation Strings paragraph
+-<https://www.python.org/dev/peps/pep-0007/#documentation-strings>`_. Patch
++<https://peps.python.org/pep-0007/#documentation-strings>`_. Patch
+ by Oleg Iarygin.
+ 
+ ..
