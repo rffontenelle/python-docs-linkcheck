@@ -1,5 +1,4 @@
 about.rst:6: [redirected with Found] https://www.sphinx-doc.org/ to https://www.sphinx-doc.org/en/master/
-c-api/unicode.rst:23: [broken] https://peps.python.org/pep-0623/: 502 Server Error: Gateway Error for url: https://peps.python.org/pep-0623/
 distributing/index.rst:110: [redirected with Found] https://packaging.python.org/guides/tool-recommendations/#packaging-tool-recommendations to https://packaging.python.org/en/latest/guides/tool-recommendations/#packaging-tool-recommendations
 distributing/index.rst:127: [redirected with Found] https://packaging.python.org/tutorials/packaging-projects/#packaging-python-projects to https://packaging.python.org/en/latest/tutorials/packaging-projects/#packaging-python-projects
 distributing/index.rst:128: [redirected with Found] https://packaging.python.org/tutorials/packaging-projects/#creating-the-package-files to https://packaging.python.org/en/latest/tutorials/packaging-projects/#creating-the-package-files
@@ -14,14 +13,12 @@ extending/newtypes_tutorial.rst:223: [redirected with Found] https://packaging.p
 faq/library.rst:181: [redirected with Found] https://www.sphinx-doc.org to https://www.sphinx-doc.org/en/master/
 faq/library.rst:626: [redirected with Found] https://groups.google.com/groups?selm=34A04430.CF9@ohioee.com to https://groups.google.com/g/comp.lang.python/c/LJPQHowhlsQ/m/OsoXBiShALIJ
 faq/programming.rst:100: [redirected with Found] https://pyinstaller.org/ to https://pyinstaller.org/en/stable/
-glossary.rst:965: [broken] https://peps.python.org/pep-0519/: 502 Server Error: Gateway Error for url: https://peps.python.org/pep-0519/
 howto/functional.rst:1238: [redirected with Found] https://developer.ibm.com/articles/l-prog/ to https://developer.ibm.com/technologies/linux/articles/
 howto/functional.rst:1238: [redirected with Found] https://developer.ibm.com/tutorials/l-prog2/ to https://developer.ibm.com/technologies/linux/tutorials/
 howto/functional.rst:1238: [redirected with Found] https://developer.ibm.com/tutorials/l-prog3/ to https://developer.ibm.com/technologies/linux/tutorials/
 howto/logging-cookbook.rst:1923: [redirected with Found] https://docs.djangoproject.com/en/stable/topics/logging/#configuring-logging to https://docs.djangoproject.com/en/4.2/topics/logging/#configuring-logging
 howto/pyporting.rst:36: [redirected with Found] https://python-modernize.readthedocs.io/ to https://python-modernize.readthedocs.io/en/latest/
 howto/pyporting.rst:376: [redirected with Found] https://caniusepython3.com to https://pypi.org/project/caniusepython3/
-howto/pyporting.rst:39: [broken] https://pypi.org/project/caniusepython3: 502 Server Error: Gateway Error for url: https://pypi.org/project/caniusepython3
 howto/unicode.rst:42: [redirected with Found] https://www.unicode.org/versions/latest/#Summary to https://www.unicode.org/versions/Unicode15.0.0/#Summary
 install/index.rst:34: [redirected with Found] https://packaging.python.org/guides/tool-recommendations/ to https://packaging.python.org/en/latest/guides/tool-recommendations/
 installing/index.rst:107: [redirected with Found] https://packaging.python.org to https://packaging.python.org/en/latest/
@@ -37,7 +34,6 @@ library/__main__.rst:193: [redirected with Found] https://packaging.python.org/ 
 library/ast.rst:2272: [redirected with Found] https://greentreesnakes.readthedocs.io/ to https://greentreesnakes.readthedocs.io/en/latest/
 library/ast.rst:2289: [redirected with Found] https://parso.readthedocs.io to https://parso.readthedocs.io/en/latest/
 library/gettext.rst:444: [redirected with Found] https://babel.pocoo.org/ to https://babel.pocoo.org/en/latest/
-library/imghdr.rst:13: [broken] https://peps.python.org/pep-0594/#imghdr: 502 Server Error: Gateway Error for url: https://peps.python.org/pep-0594/
 library/importlib.metadata.rst:62: [redirected with Found] https://importlib-metadata.readthedocs.io/ to https://importlib-metadata.readthedocs.io/en/latest/
 library/intro.rst:89: [redirected with Found] https://pyodide.org/ to https://pyodide.org/en/stable/
 library/sqlite3.rst:1104: [broken] https://www.sqlite.org/loadext.html#loading_an_extension_: Anchor 'loading_an_extension_' not found
@@ -58,5 +54,4 @@ whatsnew/2.5.rst:333: [redirected with Found] https://pylib.readthedocs.io/ to h
 whatsnew/2.7.rst:1834: [redirected with Found] https://nose.readthedocs.io/ to https://nose.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1834: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/7.3.x/
 whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https://openexr.com/en/latest/
-whatsnew/3.5.rst:953: [broken] https://pypi.org/project/backports_abc: 502 Server Error: Gateway Error for url: https://pypi.org/project/backports_abc/
-whatsnew/changelog.rst:1959: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
+whatsnew/changelog.rst:1990: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/

@@ -1,6 +1,1 @@
-c-api/unicode.rst:23: [broken] https://peps.python.org/pep-0623/: 502 Server Error: Gateway Error for url: https://peps.python.org/pep-0623/
-glossary.rst:965: [broken] https://peps.python.org/pep-0519/: 502 Server Error: Gateway Error for url: https://peps.python.org/pep-0519/
-howto/pyporting.rst:39: [broken] https://pypi.org/project/caniusepython3: 502 Server Error: Gateway Error for url: https://pypi.org/project/caniusepython3
-library/imghdr.rst:13: [broken] https://peps.python.org/pep-0594/#imghdr: 502 Server Error: Gateway Error for url: https://peps.python.org/pep-0594/
 library/sqlite3.rst:1104: [broken] https://www.sqlite.org/loadext.html#loading_an_extension_: Anchor 'loading_an_extension_' not found
-whatsnew/3.5.rst:953: [broken] https://pypi.org/project/backports_abc: 502 Server Error: Gateway Error for url: https://pypi.org/project/backports_abc/
