@@ -25,10 +25,8 @@ jobs:
         branch: ['main', '3.11']
         include:
           - branch: 'main'
-            fix-redir-permanently: 'fix-redir-permanently.diff'
             fix-redir-with-found: 'fix-redir-with-found.diff'
           - branch: '3.11'
-            fix-redir-permanently: 'fix-redir-permanently-311.diff'
             fix-redir-with-found: 'fix-redir-with-found-311.diff'
       fail-fast: false
     steps:
@@ -57,13 +55,6 @@ jobs:
           pip install -U pip
           pip install flake8
       
-      - name: Apply fix-redir-permanently
-        if: matrix.fix-redir-permanently != 0
-        run: |
-          cd cpython
-          cat ../${{ matrix.fix-redir-permanently }}
-          git apply ../${{ matrix.fix-redir-permanently }}
-
       - name: Apply fix-redir-with-found
         if: matrix.fix-redir-with-found != 0
         run: |
