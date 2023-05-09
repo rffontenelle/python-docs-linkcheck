@@ -1,1 +1,0 @@
-library/sqlite3.rst:1104: [broken] https://www.sqlite.org/loadext.html#loading_an_extension_: Anchor 'loading_an_extension_' not found

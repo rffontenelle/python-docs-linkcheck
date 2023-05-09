@@ -1,2 +1,1 @@
 howto/logging.rst:336: [broken] https://groups.google.com/forum/#!forum/comp.lang.python: Anchor '!forum/comp.lang.python' not found
-library/unittest.mock.rst:1943: [broken] https://web.archive.org/web/20200603181648/http://www.voidspace.org.uk/python/weblog/arch_d7_2010_12_04.shtml#e1198: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))

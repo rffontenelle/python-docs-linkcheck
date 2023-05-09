@@ -36,17 +36,14 @@ library/ast.rst:2289: [redirected with Found] https://parso.readthedocs.io to ht
 library/gettext.rst:444: [redirected with Found] https://babel.pocoo.org/ to https://babel.pocoo.org/en/latest/
 library/importlib.metadata.rst:62: [redirected with Found] https://importlib-metadata.readthedocs.io/ to https://importlib-metadata.readthedocs.io/en/latest/
 library/intro.rst:89: [redirected with Found] https://pyodide.org/ to https://pyodide.org/en/stable/
-library/sqlite3.rst:1104: [broken] https://www.sqlite.org/loadext.html#loading_an_extension_: Anchor 'loading_an_extension_' not found
 library/tkinter.rst:93: [redirected with Found] https://wiki.tcl-lang.org/37432 to https://wiki.tcl-lang.org/page/Tcl+Package+User+Guide
 library/trace.rst:19: [redirected with Found] https://coverage.readthedocs.io/ to https://coverage.readthedocs.io/en/7.2.5/
 library/typing.rst:47: [redirected with Found] https://mypy.readthedocs.io/ to https://mypy.readthedocs.io/en/stable/
 library/typing.rst:52: [redirected with Found] https://typing.readthedocs.io/ to https://typing.readthedocs.io/en/latest/
 library/unittest.mock-examples.rst:1317: [redirected with Found] https://pyhamcrest.readthedocs.io/ to https://pyhamcrest.readthedocs.io/en/latest/
 library/unittest.rst:61: [redirected with Found] https://docs.pytest.org/ to https://docs.pytest.org/en/7.3.x/
-library/urllib.request.rst:21: [redirected with Found] https://requests.readthedocs.io/en/master/ to https://requests.readthedocs.io/en/latest/
 library/venv.rst:37: [redirected with Found] https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment to https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment
 library/wsgiref.rst:32: [redirected with Found] https://wsgi.readthedocs.io/ to https://wsgi.readthedocs.io/en/latest/
-library/xmlrpc.client.rst:171: [redirected with Found] http://xmlrpc.com/spec.html to http://xmlrpc.com/spec.md
 license.rst:13: [redirected with Found] https://www.cwi.nl/ to https://www.cwi.nl/en/
 license.rst:189: [redirected with Found] http://hdl.handle.net/1895.22/1013 to http://www.handle.net/python_licenses/python1.6.1-2-23-01.html
 license.rst:305: [redirected with Found] http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/MT2002/emt19937ar.html to http://www.math.sci.hiroshima-u.ac.jp/m-mat/MT/MT2002/emt19937ar.html
@@ -54,4 +51,4 @@ whatsnew/2.5.rst:333: [redirected with Found] https://pylib.readthedocs.io/ to h
 whatsnew/2.7.rst:1834: [redirected with Found] https://nose.readthedocs.io/ to https://nose.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1834: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/7.3.x/
 whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https://openexr.com/en/latest/
-whatsnew/changelog.rst:1990: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
+whatsnew/changelog.rst:2203: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
