@@ -1,12 +1,12 @@
 diff --git a/Doc/conf.py b/Doc/conf.py
-index 6a3c01cd91..0a6c5f1c29 100644
+index 485c0bdf84..2fdaad85ad 100644
 --- a/Doc/conf.py
 +++ b/Doc/conf.py
-@@ -287,6 +287,8 @@
+@@ -292,6 +292,8 @@
      r'https://www.sqlite.org': 'https://www.sqlite.org/index.html',
      r'https://mitpress.mit.edu/sicp$': 'https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/',
      r'https://www.python.org/psf/': 'https://www.python.org/psf-landing/',
-+    # docs.python.org (with/out language code) to docs.python.org/3/
++    # docs.python.org to docs.python.org/3/ (with/out language code)
 +    r'https://docs.python.org(/[a-z]{2}(-[a-z]{2})?)?': r'https://docs.python.org(/[a-z]{2}(-[a-z]{2})?)?(/3/)?',
  }
  
@@ -62,7 +62,7 @@ index ab581d785e..008027b6c1 100644
  
  .. note::
 diff --git a/Doc/library/importlib.metadata.rst b/Doc/library/importlib.metadata.rst
-index 3097bcf47b..a2c27a1620 100644
+index d2cc769e2c..dbe025c85a 100644
 --- a/Doc/library/importlib.metadata.rst
 +++ b/Doc/library/importlib.metadata.rst
 @@ -398,5 +398,5 @@ a custom finder, return instances of this derived ``Distribution`` in the
@@ -74,7 +74,7 @@ index 3097bcf47b..a2c27a1620 100644
 +.. _`entry point API`: https://setuptools.pypa.io/en/latest/pkg_resources.html#entry-points
 +.. _`metadata API`: https://setuptools.pypa.io/en/latest/pkg_resources.html#metadata-api
 diff --git a/Doc/library/importlib.resources.rst b/Doc/library/importlib.resources.rst
-index 4c6aa59bf9..8247604eba 100644
+index 755693840f..a40359b080 100644
 --- a/Doc/library/importlib.resources.rst
 +++ b/Doc/library/importlib.resources.rst
 @@ -33,9 +33,9 @@ for example, a package and its resources can be imported from a zip file using
@@ -110,6 +110,19 @@ index c192919ac6..d75b108ab5 100644
     a tutorial by `Peter Norvig <https://norvig.com/bio.html>`_ covering
     the basics of probability theory, how to write simulations, and
     how to perform data analysis using Python.
+diff --git a/Doc/library/sqlite3.rst b/Doc/library/sqlite3.rst
+index 89673b8006..1c190a74e1 100644
+--- a/Doc/library/sqlite3.rst
++++ b/Doc/library/sqlite3.rst
+@@ -1102,7 +1102,7 @@ Connection objects
+       .. versionadded:: 3.12
+          The *entrypoint* parameter.
+ 
+-   .. _Loading an Extension: https://www.sqlite.org/loadext.html#loading_an_extension_
++   .. _Loading an Extension: https://www.sqlite.org/loadext.html#loading_an_extension
+ 
+    .. method:: iterdump
+ 
 diff --git a/Doc/library/tkinter.rst b/Doc/library/tkinter.rst
 index c8e4317be7..658b348c32 100644
 --- a/Doc/library/tkinter.rst
@@ -177,8 +190,21 @@ index 4ff2b2159c..7c17f241d5 100644
        A document introducing theming support for Tk
  
  
+diff --git a/Doc/library/urllib.request.rst b/Doc/library/urllib.request.rst
+index 1b05458280..9ddee5048c 100644
+--- a/Doc/library/urllib.request.rst
++++ b/Doc/library/urllib.request.rst
+@@ -18,7 +18,7 @@ authentication, redirections, cookies and more.
+ 
+ .. seealso::
+ 
+-    The `Requests package <https://requests.readthedocs.io/en/master/>`_
++    The `Requests package <https://requests.readthedocs.io/en/latest/>`_
+     is recommended for a higher-level HTTP client interface.
+ 
+ .. include:: ../includes/wasm-notavail.rst
 diff --git a/Doc/library/xmlrpc.client.rst b/Doc/library/xmlrpc.client.rst
-index 146c4fd768..4a1c86ead2 100644
+index 146c4fd768..5f8f865003 100644
 --- a/Doc/library/xmlrpc.client.rst
 +++ b/Doc/library/xmlrpc.client.rst
 @@ -168,7 +168,7 @@ between conformable Python objects and XML on the wire.
@@ -186,7 +212,7 @@ index 146c4fd768..4a1c86ead2 100644
        Describes the XML-RPC protocol extension for introspection.
  
 -   `XML-RPC Specification <http://xmlrpc.scripting.com/spec.html>`_
-+   `XML-RPC Specification <http://xmlrpc.com/spec.html>`_
++   `XML-RPC Specification <http://xmlrpc.com/spec.md>`_
        The official specification.
  
  .. _serverproxy-objects:
@@ -230,7 +256,7 @@ index 36afcb163f..37b0a9d7d3 100644
  https://code.google.com/archive/p/python-ttk/wikis/Screenshots.wiki.
  
 diff --git a/Doc/whatsnew/3.2.rst b/Doc/whatsnew/3.2.rst
-index 8dbe2a1d82..e2dd6b6f94 100644
+index 7af0c02883..cb3caca270 100644
 --- a/Doc/whatsnew/3.2.rst
 +++ b/Doc/whatsnew/3.2.rst
 @@ -2519,7 +2519,7 @@ members of the community to create and share external changesets.  See

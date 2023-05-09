@@ -1,12 +1,12 @@
 diff --git a/Doc/conf.py b/Doc/conf.py
-index ace6936777..1e2baabbf4 100644
+index 3bd828f8ce..ce63c4d04d 100644
 --- a/Doc/conf.py
 +++ b/Doc/conf.py
-@@ -274,6 +274,8 @@
+@@ -288,6 +288,8 @@
      r'https://www.sqlite.org': 'https://www.sqlite.org/index.html',
      r'https://mitpress.mit.edu/sicp$': 'https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/',
      r'https://www.python.org/psf/': 'https://www.python.org/psf-landing/',
-+    # docs.python.org (with/out language code) to docs.python.org/3/
++    # docs.python.org to docs.python.org/3/ (with/out language code)
 +    r'https://docs.python.org(/[a-z]{2}(-[a-z]{2})?)?': r'https://docs.python.org(/[a-z]{2}(-[a-z]{2})?)?(/3/)?',
  }
  
@@ -154,8 +154,21 @@ index 4ff2b2159c..7c17f241d5 100644
        A document introducing theming support for Tk
  
  
+diff --git a/Doc/library/urllib.request.rst b/Doc/library/urllib.request.rst
+index 64cc9c388e..a6369f8901 100644
+--- a/Doc/library/urllib.request.rst
++++ b/Doc/library/urllib.request.rst
+@@ -18,7 +18,7 @@ authentication, redirections, cookies and more.
+ 
+ .. seealso::
+ 
+-    The `Requests package <https://requests.readthedocs.io/en/master/>`_
++    The `Requests package <https://requests.readthedocs.io/en/latest/>`_
+     is recommended for a higher-level HTTP client interface.
+ 
+ .. include:: ../includes/wasm-notavail.rst
 diff --git a/Doc/library/xmlrpc.client.rst b/Doc/library/xmlrpc.client.rst
-index 146c4fd768..4a1c86ead2 100644
+index 146c4fd768..5f8f865003 100644
 --- a/Doc/library/xmlrpc.client.rst
 +++ b/Doc/library/xmlrpc.client.rst
 @@ -168,7 +168,7 @@ between conformable Python objects and XML on the wire.
@@ -163,7 +176,7 @@ index 146c4fd768..4a1c86ead2 100644
        Describes the XML-RPC protocol extension for introspection.
  
 -   `XML-RPC Specification <http://xmlrpc.scripting.com/spec.html>`_
-+   `XML-RPC Specification <http://xmlrpc.com/spec.html>`_
++   `XML-RPC Specification <http://xmlrpc.com/spec.md>`_
        The official specification.
  
  .. _serverproxy-objects:
