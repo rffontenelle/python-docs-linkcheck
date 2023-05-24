@@ -20,7 +20,6 @@ howto/functional.rst:1236: [redirected with Found] https://developer.ibm.com/art
 howto/functional.rst:1236: [redirected with Found] https://developer.ibm.com/tutorials/l-prog2/ to https://developer.ibm.com/technologies/linux/tutorials/
 howto/functional.rst:1236: [redirected with Found] https://developer.ibm.com/tutorials/l-prog3/ to https://developer.ibm.com/technologies/linux/tutorials/
 howto/logging-cookbook.rst:1923: [redirected with Found] https://docs.djangoproject.com/en/stable/topics/logging/#configuring-logging to https://docs.djangoproject.com/en/4.2/topics/logging/#configuring-logging
-howto/logging.rst:336: [broken] https://groups.google.com/forum/#!forum/comp.lang.python: Anchor '!forum/comp.lang.python' not found
 howto/pyporting.rst:36: [redirected with Found] https://python-modernize.readthedocs.io/ to https://python-modernize.readthedocs.io/en/latest/
 howto/pyporting.rst:376: [redirected with Found] https://caniusepython3.com to https://pypi.org/project/caniusepython3/
 howto/unicode.rst:42: [redirected with Found] https://www.unicode.org/versions/latest/#Summary to https://www.unicode.org/versions/Unicode15.0.0/#Summary
@@ -43,7 +42,7 @@ library/importlib.metadata.rst:62: [redirected with Found] https://importlib-met
 library/intro.rst:89: [redirected with Found] https://pyodide.org/ to https://pyodide.org/en/stable/
 library/smtpd.rst:23: [redirected with Found] https://aiosmtpd.readthedocs.io/ to https://aiosmtpd.readthedocs.io/en/latest/
 library/tkinter.rst:93: [redirected with Found] https://wiki.tcl-lang.org/37432 to https://wiki.tcl-lang.org/page/Tcl+Package+User+Guide
-library/trace.rst:19: [redirected with Found] https://coverage.readthedocs.io/ to https://coverage.readthedocs.io/en/7.2.5/
+library/trace.rst:19: [redirected with Found] https://coverage.readthedocs.io/ to https://coverage.readthedocs.io/en/7.2.6/
 library/typing.rst:47: [redirected with Found] https://mypy.readthedocs.io/ to https://mypy.readthedocs.io/en/stable/
 library/typing.rst:52: [redirected with Found] https://typing.readthedocs.io/ to https://typing.readthedocs.io/en/latest/
 library/unittest.mock-examples.rst:1317: [redirected with Found] https://pyhamcrest.readthedocs.io/ to https://pyhamcrest.readthedocs.io/en/latest/
@@ -57,4 +56,5 @@ whatsnew/2.5.rst:333: [redirected with Found] https://pylib.readthedocs.io/ to h
 whatsnew/2.7.rst:1833: [redirected with Found] https://nose.readthedocs.io/ to https://nose.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1833: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/7.3.x/
 whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https://openexr.com/en/latest/
-whatsnew/changelog.rst:536: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
+whatsnew/3.8.rst:2225: [redirected permanently] https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html to https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i74960hq-processor-6m-cache-up-to-3-80-ghz.html
+whatsnew/changelog.rst:638: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
