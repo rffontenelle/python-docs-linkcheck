@@ -33,8 +33,8 @@ library/2to3.rst:482: [redirected with Found] https://libcst.readthedocs.io/ to 
 library/2to3.rst:482: [redirected with Found] https://parso.readthedocs.io/ to https://parso.readthedocs.io/en/latest/
 library/__main__.rst:167: [redirected with Found] https://pip.pypa.io/ to https://pip.pypa.io/en/stable/
 library/__main__.rst:193: [redirected with Found] https://packaging.python.org/ to https://packaging.python.org/en/latest/
-library/ast.rst:2271: [redirected with Found] https://greentreesnakes.readthedocs.io/ to https://greentreesnakes.readthedocs.io/en/latest/
-library/ast.rst:2288: [redirected with Found] https://parso.readthedocs.io to https://parso.readthedocs.io/en/latest/
+library/ast.rst:2268: [redirected with Found] https://greentreesnakes.readthedocs.io/ to https://greentreesnakes.readthedocs.io/en/latest/
+library/ast.rst:2285: [redirected with Found] https://parso.readthedocs.io to https://parso.readthedocs.io/en/latest/
 library/distutils.rst:22: [redirected with Found] https://setuptools.readthedocs.io/en/latest/ to https://setuptools.pypa.io/en/latest/
 library/gettext.rst:444: [redirected with Found] https://babel.pocoo.org/ to https://babel.pocoo.org/en/latest/
 library/http.client.rst:23: [redirected with Found] https://requests.readthedocs.io/en/master/ to https://requests.readthedocs.io/en/latest/
@@ -42,9 +42,9 @@ library/importlib.metadata.rst:62: [redirected with Found] https://importlib-met
 library/intro.rst:89: [redirected with Found] https://pyodide.org/ to https://pyodide.org/en/stable/
 library/smtpd.rst:23: [redirected with Found] https://aiosmtpd.readthedocs.io/ to https://aiosmtpd.readthedocs.io/en/latest/
 library/tkinter.rst:93: [redirected with Found] https://wiki.tcl-lang.org/37432 to https://wiki.tcl-lang.org/page/Tcl+Package+User+Guide
-library/trace.rst:19: [redirected with Found] https://coverage.readthedocs.io/ to https://coverage.readthedocs.io/en/7.2.6/
-library/typing.rst:47: [redirected with Found] https://mypy.readthedocs.io/ to https://mypy.readthedocs.io/en/stable/
-library/typing.rst:52: [redirected with Found] https://typing.readthedocs.io/ to https://typing.readthedocs.io/en/latest/
+library/trace.rst:19: [redirected with Found] https://coverage.readthedocs.io/ to https://coverage.readthedocs.io/en/7.2.7/
+library/typing.rst:53: [redirected with Found] https://mypy.readthedocs.io/ to https://mypy.readthedocs.io/en/stable/
+library/typing.rst:58: [redirected with Found] https://typing.readthedocs.io/ to https://typing.readthedocs.io/en/latest/
 library/unittest.mock-examples.rst:1317: [redirected with Found] https://pyhamcrest.readthedocs.io/ to https://pyhamcrest.readthedocs.io/en/latest/
 library/unittest.rst:61: [redirected with Found] https://docs.pytest.org/ to https://docs.pytest.org/en/7.3.x/
 library/venv.rst:37: [redirected with Found] https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment to https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment
@@ -56,4 +56,4 @@ whatsnew/2.5.rst:333: [redirected with Found] https://pylib.readthedocs.io/ to h
 whatsnew/2.7.rst:1833: [redirected with Found] https://nose.readthedocs.io/ to https://nose.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1833: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/7.3.x/
 whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https://openexr.com/en/latest/
-whatsnew/changelog.rst:638: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
+whatsnew/changelog.rst:675: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
