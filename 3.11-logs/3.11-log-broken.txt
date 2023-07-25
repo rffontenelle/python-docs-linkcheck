@@ -1,0 +1,2 @@
+tutorial/floatingpoint.rst:128: [broken] https://www.lahey.com/float.htm: 404 Client Error: Not Found for url: https://www.lahey.com/float.htm
+whatsnew/2.4.rst:688: [broken] http://www.lahey.com/float.htm: 404 Client Error: Not Found for url: http://www.lahey.com/float.htm

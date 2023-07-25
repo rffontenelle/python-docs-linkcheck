@@ -1,1 +1,6 @@
+library/hashlib.rst:23: [redirected permanently] https://csrc.nist.gov/publications/detail/fips/180/4/final to https://csrc.nist.gov/pubs/fips/180-4/upd1/final
+library/hashlib.rst:23: [redirected permanently] https://csrc.nist.gov/publications/detail/fips/202/final to https://csrc.nist.gov/pubs/fips/202/final
+library/hashlib.rst:657: [redirected permanently] https://csrc.nist.gov/publications/detail/sp/800-106/archive/2009-02-25 to https://csrc.nist.gov/pubs/sp/800/106/final
 library/os.path.rst:315: [redirected permanently] https://learn.microsoft.com/windows/dev-drive/ to https://learn.microsoft.com/en-us/windows/dev-drive/
+library/xmlrpc.client.rst:169: [redirected permanently] https://xmlrpc-c.sourceforge.net/introspection.html to https://xmlrpc-c.sourceforge.io/introspection.html
+whatsnew/3.8.rst:2228: [redirected permanently] https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html to https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i74960hq-processor-6m-cache-up-to-3-80-ghz.html

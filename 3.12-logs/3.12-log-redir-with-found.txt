@@ -13,6 +13,7 @@ extending/newtypes_tutorial.rst:223: [redirected with Found] https://packaging.p
 faq/library.rst:181: [redirected with Found] https://www.sphinx-doc.org to https://www.sphinx-doc.org/en/master/
 faq/library.rst:626: [redirected with Found] https://groups.google.com/groups?selm=34A04430.CF9@ohioee.com to https://groups.google.com/g/comp.lang.python/c/LJPQHowhlsQ/m/OsoXBiShALIJ
 faq/programming.rst:100: [redirected with Found] https://pyinstaller.org/ to https://pyinstaller.org/en/stable/
+howto/argparse.rst:820: [redirected with Found] https://babel.pocoo.org/ to https://babel.pocoo.org/en/latest/
 howto/functional.rst:1238: [redirected with Found] https://developer.ibm.com/articles/l-prog/ to https://developer.ibm.com/technologies/linux/articles/
 howto/functional.rst:1238: [redirected with Found] https://developer.ibm.com/tutorials/l-prog2/ to https://developer.ibm.com/technologies/linux/tutorials/
 howto/functional.rst:1238: [redirected with Found] https://developer.ibm.com/tutorials/l-prog3/ to https://developer.ibm.com/technologies/linux/tutorials/
@@ -31,17 +32,14 @@ library/2to3.rst:482: [redirected with Found] https://libcst.readthedocs.io/ to 
 library/2to3.rst:482: [redirected with Found] https://parso.readthedocs.io/ to https://parso.readthedocs.io/en/latest/
 library/__main__.rst:167: [redirected with Found] https://pip.pypa.io/ to https://pip.pypa.io/en/stable/
 library/__main__.rst:193: [redirected with Found] https://packaging.python.org/ to https://packaging.python.org/en/latest/
-library/ast.rst:2370: [redirected with Found] https://greentreesnakes.readthedocs.io/ to https://greentreesnakes.readthedocs.io/en/latest/
-library/ast.rst:2387: [redirected with Found] https://parso.readthedocs.io to https://parso.readthedocs.io/en/latest/
-library/gettext.rst:444: [redirected with Found] https://babel.pocoo.org/ to https://babel.pocoo.org/en/latest/
+library/ast.rst:2471: [redirected with Found] https://greentreesnakes.readthedocs.io/ to https://greentreesnakes.readthedocs.io/en/latest/
+library/ast.rst:2488: [redirected with Found] https://parso.readthedocs.io to https://parso.readthedocs.io/en/latest/
 library/importlib.metadata.rst:62: [redirected with Found] https://importlib-metadata.readthedocs.io/ to https://importlib-metadata.readthedocs.io/en/latest/
 library/intro.rst:89: [redirected with Found] https://pyodide.org/ to https://pyodide.org/en/stable/
 library/tkinter.rst:93: [redirected with Found] https://wiki.tcl-lang.org/37432 to https://wiki.tcl-lang.org/page/Tcl+Package+User+Guide
 library/trace.rst:19: [redirected with Found] https://coverage.readthedocs.io/ to https://coverage.readthedocs.io/en/7.2.7/
-library/typing.rst:53: [redirected with Found] https://mypy.readthedocs.io/ to https://mypy.readthedocs.io/en/stable/
-library/typing.rst:58: [redirected with Found] https://typing.readthedocs.io/ to https://typing.readthedocs.io/en/latest/
 library/unittest.mock-examples.rst:1317: [redirected with Found] https://pyhamcrest.readthedocs.io/ to https://pyhamcrest.readthedocs.io/en/latest/
-library/unittest.rst:61: [redirected with Found] https://docs.pytest.org/ to https://docs.pytest.org/en/7.3.x/
+library/unittest.rst:61: [redirected with Found] https://docs.pytest.org/ to https://docs.pytest.org/en/7.4.x/
 library/venv.rst:37: [redirected with Found] https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment to https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment
 library/wsgiref.rst:32: [redirected with Found] https://wsgi.readthedocs.io/ to https://wsgi.readthedocs.io/en/latest/
 license.rst:13: [redirected with Found] https://www.cwi.nl/ to https://www.cwi.nl/en/
@@ -49,6 +47,6 @@ license.rst:189: [redirected with Found] http://hdl.handle.net/1895.22/1013 to h
 license.rst:305: [redirected with Found] http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/MT2002/emt19937ar.html to http://www.math.sci.hiroshima-u.ac.jp/m-mat/MT/MT2002/emt19937ar.html
 whatsnew/2.5.rst:333: [redirected with Found] https://pylib.readthedocs.io/ to https://pylib.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1834: [redirected with Found] https://nose.readthedocs.io/ to https://nose.readthedocs.io/en/latest/
-whatsnew/2.7.rst:1834: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/7.3.x/
+whatsnew/2.7.rst:1834: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/7.4.x/
 whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https://openexr.com/en/latest/
-whatsnew/changelog.rst:2722: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
+whatsnew/changelog.rst:3144: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
