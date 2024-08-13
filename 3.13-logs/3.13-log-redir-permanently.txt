@@ -8,7 +8,7 @@ library/hashlib.rst:657: [redirected permanently] https://csrc.nist.gov/publicat
 library/http.cookiejar.rst:140: [redirected permanently] http://kristol.org/cookie/errata.html to https://kristol.org/cookie/errata.html
 library/importlib.metadata.rst:182: [redirected permanently] https://pypi.org/project/backports.entry_points_selectable/ to https://pypi.org/project/backports.entry-points-selectable/
 library/json.rst:14: [redirected permanently] https://www.ecma-international.org/publications-and-standards/standards/ecma-404/ to https://ecma-international.org/publications-and-standards/standards/ecma-404/
-library/os.rst:4513: [redirected permanently] https://discuss.python.org/t/33555 to https://discuss.python.org/t/concerns-regarding-deprecation-of-fork-with-alive-threads/33555
+library/os.rst:4483: [redirected permanently] https://discuss.python.org/t/33555 to https://discuss.python.org/t/concerns-regarding-deprecation-of-fork-with-alive-threads/33555
 library/ssl.rst:1566: [redirected permanently] https://www.openssl.org/docs/manmaster/man3/SSL_CTX_load_verify_locations.html to https://docs.openssl.org/master/man3/SSL_CTX_load_verify_locations/
 library/ssl.rst:1642: [redirected permanently] https://www.openssl.org/docs/manmaster/man1/ciphers.html to https://docs.openssl.org/master/man1/ciphers/
 library/ssl.rst:1876: [redirected permanently] https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_sess_number.html to https://docs.openssl.org/1.1.1/man3/SSL_CTX_sess_number/
@@ -26,6 +26,6 @@ whatsnew/2.4.rst:687: [redirected permanently] http://www.lahey.com/float.htm to
 whatsnew/2.4.rst:691: [redirected permanently] http://speleotrove.com/decimal/ to https://speleotrove.com/decimal/
 whatsnew/2.7.rst:1547: [redirected permanently] https://www.openssl.org/docs/man1.0.2/man1/ciphers.html to https://docs.openssl.org/1.0.2/man1/ciphers/
 whatsnew/3.11.rst:2045: [redirected permanently] https://pypi.org/project/Pynche/ to https://pypi.org/project/pynche/
-whatsnew/3.13.rst:1315: [redirected permanently] https://pypi.org/project/crypt_r/ to https://pypi.org/project/crypt-r/
-whatsnew/changelog.rst:19200: [redirected permanently] https://www.openssl.org/docs/man1.1.1/man7/proxy-certificates.html to https://docs.openssl.org/1.1.1/man7/proxy-certificates/
-whatsnew/changelog.rst:8710: [redirected permanently] https://www.openssl.org/news/secadv/20230207.txt to https://openssl-library.org/news/secadv/20230207.txt
+whatsnew/3.13.rst:1303: [redirected permanently] https://pypi.org/project/crypt_r/ to https://pypi.org/project/crypt-r/
+whatsnew/changelog.rst:18769: [redirected permanently] https://www.openssl.org/docs/man1.1.1/man7/proxy-certificates.html to https://docs.openssl.org/1.1.1/man7/proxy-certificates/
+whatsnew/changelog.rst:8278: [redirected permanently] https://www.openssl.org/news/secadv/20230207.txt to https://openssl-library.org/news/secadv/20230207.txt

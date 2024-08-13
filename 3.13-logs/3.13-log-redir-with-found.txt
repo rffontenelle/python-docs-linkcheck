@@ -5,7 +5,7 @@ extending/extending.rst:25: [redirected with Found] https://cffi.readthedocs.io/
 extending/index.rst:28: [redirected with Found] https://cffi.readthedocs.io to https://cffi.readthedocs.io/en/stable/
 extending/index.rst:37: [redirected with Found] https://packaging.python.org/guides/packaging-binary-extensions/ to https://packaging.python.org/en/latest/guides/packaging-binary-extensions/
 faq/library.rst:181: [redirected with Found] https://www.sphinx-doc.org to https://www.sphinx-doc.org/en/master/
-faq/library.rst:553: [redirected with Found] https://groups.google.com/groups?selm=34A04430.CF9@ohioee.com to https://groups.google.com/g/comp.lang.python/c/LJPQHowhlsQ/m/OsoXBiShALIJ
+faq/library.rst:631: [redirected with Found] https://groups.google.com/groups?selm=34A04430.CF9@ohioee.com to https://groups.google.com/g/comp.lang.python/c/LJPQHowhlsQ/m/OsoXBiShALIJ
 faq/programming.rst:100: [redirected with Found] https://pyinstaller.org/ to https://pyinstaller.org/en/stable/
 howto/argparse.rst:820: [redirected with Found] https://babel.pocoo.org/ to https://babel.pocoo.org/en/latest/
 howto/functional.rst:1240: [redirected with Found] https://developer.ibm.com/articles/l-prog/ to https://developer.ibm.com/technologies/linux/articles/
@@ -24,9 +24,9 @@ installing/index.rst:241: [redirected with Found] https://packaging.python.org/e
 installing/index.rst:52: [redirected with Found] https://www.pypa.io/ to https://www.pypa.io/en/latest/
 installing/index.rst:71: [redirected with Found] https://packaging.python.org/installing/#creating-virtual-environments to https://packaging.python.org/en/latest/tutorials/installing-packages/
 library/__main__.rst:167: [redirected with Found] https://pip.pypa.io/ to https://pip.pypa.io/en/stable/
-library/ast.rst:2540: [redirected with Found] https://greentreesnakes.readthedocs.io/ to https://greentreesnakes.readthedocs.io/en/latest/
-library/ast.rst:2553: [redirected with Found] https://libcst.readthedocs.io/ to https://libcst.readthedocs.io/en/latest/
-library/ast.rst:2558: [redirected with Found] https://parso.readthedocs.io to https://parso.readthedocs.io/en/latest/
+library/ast.rst:2526: [redirected with Found] https://greentreesnakes.readthedocs.io/ to https://greentreesnakes.readthedocs.io/en/latest/
+library/ast.rst:2539: [redirected with Found] https://libcst.readthedocs.io/ to https://libcst.readthedocs.io/en/latest/
+library/ast.rst:2544: [redirected with Found] https://parso.readthedocs.io to https://parso.readthedocs.io/en/latest/
 library/importlib.metadata.rst:16: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#entry-points to https://setuptools.pypa.io/en/latest/pkg_resources.html
 library/importlib.metadata.rst:16: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#metadata-api to https://setuptools.pypa.io/en/latest/pkg_resources.html
 library/importlib.metadata.rst:55: [redirected with Found] https://importlib-metadata.readthedocs.io/ to https://importlib-metadata.readthedocs.io/en/latest/
@@ -56,7 +56,7 @@ whatsnew/2.2.rst:959: [redirected with Found] http://xmlrpc.scripting.com/ to ht
 whatsnew/2.5.rst:333: [redirected with Found] https://pylib.readthedocs.io/ to https://pylib.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1836: [redirected with Found] https://nose.readthedocs.io/ to https://nose.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1836: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/stable/
-whatsnew/3.13.rst:1342: [redirected with Found] https://www.pygame.org/ to https://www.pygame.org/news
+whatsnew/3.13.rst:1330: [redirected with Found] https://www.pygame.org/ to https://www.pygame.org/news
 whatsnew/3.2.rst:2522: [redirected with Found] https://www.mercurial-scm.org/wiki/QuickStart to https://wiki.mercurial-scm.org/QuickStart
 whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https://openexr.com/en/latest/
 whatsnew/3.5.rst:2215: [redirected with Found] https://visualstudio.microsoft.com/en/vs/older-downloads/#visual-studio-2015-and-other-products to https://visualstudio.microsoft.com/vs/older-downloads/
@@ -64,6 +64,6 @@ whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/fr/ to htt
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ja/ to https://docs.python.org/ja/3/
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ko/ to https://docs.python.org/ko/3/
 whatsnew/3.9.rst:934: [redirected with Found] https://parso.readthedocs.io/ to https://parso.readthedocs.io/en/latest/
-whatsnew/changelog.rst:13310: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/
-whatsnew/changelog.rst:27700: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
-whatsnew/changelog.rst:9924: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
+whatsnew/changelog.rst:12879: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/
+whatsnew/changelog.rst:27269: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
+whatsnew/changelog.rst:9492: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/

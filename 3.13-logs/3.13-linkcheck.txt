@@ -11,17 +11,17 @@ extending/index.rst:37: [redirected with Found] https://packaging.python.org/gui
 faq/design.rst:330: [redirected permanently] https://www.nuitka.net/ to https://nuitka.net/
 faq/design.rst:347: [redirected permanently] https://www.pypy.org to https://pypy.org/
 faq/library.rst:181: [redirected with Found] https://www.sphinx-doc.org to https://www.sphinx-doc.org/en/master/
-faq/library.rst:625: [redirected with Found] https://groups.google.com/groups?selm=34A04430.CF9@ohioee.com to https://groups.google.com/g/comp.lang.python/c/LJPQHowhlsQ/m/OsoXBiShALIJ
+faq/library.rst:631: [redirected with Found] https://groups.google.com/groups?selm=34A04430.CF9@ohioee.com to https://groups.google.com/g/comp.lang.python/c/LJPQHowhlsQ/m/OsoXBiShALIJ
 faq/programming.rst:100: [redirected with Found] https://pyinstaller.org/ to https://pyinstaller.org/en/stable/
 howto/argparse.rst:820: [redirected with Found] https://babel.pocoo.org/ to https://babel.pocoo.org/en/latest/
 howto/curses.rst:38: [redirected permanently] https://pypi.org/project/Urwid/ to https://pypi.org/project/urwid/
 howto/curses.rst:541: [broken] https://linux.die.net/man/3/ncurses: 403 Client Error: Forbidden for url: https://linux.die.net/man/3/ncurses
-howto/functional.rst:1238: [redirected with Found] https://developer.ibm.com/articles/l-prog/ to https://developer.ibm.com/technologies/linux/articles/
-howto/functional.rst:1238: [redirected with Found] https://developer.ibm.com/tutorials/l-prog2/ to https://developer.ibm.com/technologies/linux/tutorials/
-howto/functional.rst:1238: [redirected with Found] https://developer.ibm.com/tutorials/l-prog3/ to https://developer.ibm.com/technologies/linux/tutorials/
+howto/functional.rst:1240: [redirected with Found] https://developer.ibm.com/articles/l-prog/ to https://developer.ibm.com/technologies/linux/articles/
+howto/functional.rst:1240: [redirected with Found] https://developer.ibm.com/tutorials/l-prog2/ to https://developer.ibm.com/technologies/linux/tutorials/
+howto/functional.rst:1240: [redirected with Found] https://developer.ibm.com/tutorials/l-prog3/ to https://developer.ibm.com/technologies/linux/tutorials/
 howto/isolating-extensions.rst:205: [redirected with Found] https://github.com/python/cpython/blob/master/Modules/xxlimited.c to https://github.com/python/cpython/blob/main/Modules/xxlimited.c
 howto/logging-cookbook.rst:2100: [redirected with Found] https://docs.djangoproject.com/en/stable/topics/logging/#configuring-logging to https://docs.djangoproject.com/en/5.1/topics/logging/
-howto/mro.rst:13: [timeout] https://www.phyast.pitt.edu/~micheles/: HTTPSConnectionPool(host='www.phyast.pitt.edu', port=443): Max retries exceeded with url: /~micheles/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f5e53943590>, 'Connection to www.phyast.pitt.edu timed out. (connect timeout=30)'))
+howto/mro.rst:13: [timeout] https://www.phyast.pitt.edu/~micheles/: HTTPSConnectionPool(host='www.phyast.pitt.edu', port=443): Max retries exceeded with url: /~micheles/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f5910b21220>, 'Connection to www.phyast.pitt.edu timed out. (connect timeout=30)'))
 howto/mro.rst:667: [redirected with Found] https://doi.org/10.1145/236337.236343 to https://dl.acm.org/doi/10.1145/236337.236343
 howto/pyporting.rst:31: [redirected with Found] https://portingguide.readthedocs.io to https://portingguide.readthedocs.io/en/latest/
 howto/unicode.rst:42: [redirected with Found] https://www.unicode.org/versions/latest/#Summary to https://www.unicode.org/versions/Unicode15.1.0/
@@ -32,45 +32,49 @@ installing/index.rst:152: [redirected with Found] https://packaging.python.org/s
 installing/index.rst:241: [redirected with Found] https://packaging.python.org/extensions/ to https://packaging.python.org/en/latest/guides/packaging-binary-extensions/
 installing/index.rst:52: [redirected with Found] https://www.pypa.io/ to https://www.pypa.io/en/latest/
 installing/index.rst:71: [redirected with Found] https://packaging.python.org/installing/#creating-virtual-environments to https://packaging.python.org/en/latest/tutorials/installing-packages/
-library/2to3.rst:482: [redirected with Found] https://libcst.readthedocs.io/ to https://libcst.readthedocs.io/en/latest/
-library/2to3.rst:482: [redirected with Found] https://parso.readthedocs.io/ to https://parso.readthedocs.io/en/latest/
 library/__main__.rst:167: [redirected with Found] https://pip.pypa.io/ to https://pip.pypa.io/en/stable/
-library/ast.rst:2519: [redirected with Found] https://greentreesnakes.readthedocs.io/ to https://greentreesnakes.readthedocs.io/en/latest/
-library/ast.rst:2537: [redirected with Found] https://parso.readthedocs.io to https://parso.readthedocs.io/en/latest/
-library/crypt.rst:27: [redirected temporarily] https://manpages.debian.org/crypt(3) to https://manpages.debian.org/bookworm/libcrypt-dev/crypt.3.en.html
-library/ctypes.rst:1443: [redirected temporarily] https://manpages.debian.org/dlopen(3) to https://manpages.debian.org/bookworm/manpages-dev/dlopen.3.en.html
-library/datetime.rst:2484: [redirected temporarily] https://manpages.debian.org/strftime(3) to https://manpages.debian.org/bookworm/manpages-dev/strftime.3.en.html
+library/ast.rst:2526: [redirected with Found] https://greentreesnakes.readthedocs.io/ to https://greentreesnakes.readthedocs.io/en/latest/
+library/ast.rst:2539: [redirected with Found] https://libcst.readthedocs.io/ to https://libcst.readthedocs.io/en/latest/
+library/ast.rst:2544: [redirected with Found] https://parso.readthedocs.io to https://parso.readthedocs.io/en/latest/
+library/ctypes.rst:1448: [redirected temporarily] https://manpages.debian.org/dlopen(3) to https://manpages.debian.org/bookworm/manpages-dev/dlopen.3.en.html
+library/datetime.rst:2531: [redirected temporarily] https://manpages.debian.org/strftime(3) to https://manpages.debian.org/bookworm/manpages-dev/strftime.3.en.html
 library/datetime.rst:40: [redirected permanently] https://pypi.org/project/DateType/ to https://pypi.org/project/datetype/
-library/fcntl.rst:141: [redirected temporarily] https://manpages.debian.org/flock(2) to https://manpages.debian.org/bookworm/manpages-dev/flock.2.en.html
+library/fcntl.rst:162: [redirected temporarily] https://manpages.debian.org/flock(2) to https://manpages.debian.org/bookworm/manpages-dev/flock.2.en.html
 library/fcntl.rst:16: [redirected temporarily] https://manpages.debian.org/fcntl(2) to https://manpages.debian.org/bookworm/manpages-dev/fcntl.2.en.html
 library/fcntl.rst:16: [redirected temporarily] https://manpages.debian.org/ioctl(2) to https://manpages.debian.org/bookworm/manpages-dev/ioctl.2.en.html
 library/functools.rst:220: [broken] https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU): Anchor 'Least_recently_used_%28LRU%29' not found
 library/hashlib.rst:23: [redirected permanently] https://csrc.nist.gov/publications/detail/fips/180/4/final to https://csrc.nist.gov/pubs/fips/180-4/upd1/final
 library/hashlib.rst:23: [redirected permanently] https://csrc.nist.gov/publications/detail/fips/202/final to https://csrc.nist.gov/pubs/fips/202/final
-library/hashlib.rst:655: [redirected permanently] https://csrc.nist.gov/publications/detail/sp/800-106/archive/2009-02-25 to https://csrc.nist.gov/pubs/sp/800/106/final
+library/hashlib.rst:657: [redirected permanently] https://csrc.nist.gov/publications/detail/sp/800-106/archive/2009-02-25 to https://csrc.nist.gov/pubs/sp/800/106/final
 library/http.cookiejar.rst:140: [redirected permanently] http://kristol.org/cookie/errata.html to https://kristol.org/cookie/errata.html
 library/importlib.metadata.rst:16: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#entry-points to https://setuptools.pypa.io/en/latest/pkg_resources.html
 library/importlib.metadata.rst:16: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#metadata-api to https://setuptools.pypa.io/en/latest/pkg_resources.html
-library/importlib.metadata.rst:176: [redirected permanently] https://pypi.org/project/backports.entry_points_selectable/ to https://pypi.org/project/backports.entry-points-selectable/
+library/importlib.metadata.rst:182: [redirected permanently] https://pypi.org/project/backports.entry_points_selectable/ to https://pypi.org/project/backports.entry-points-selectable/
 library/importlib.metadata.rst:55: [redirected with Found] https://importlib-metadata.readthedocs.io/ to https://importlib-metadata.readthedocs.io/en/latest/
 library/importlib.resources.rst:35: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html to https://setuptools.pypa.io/en/latest/pkg_resources.html
 library/importlib.resources.rst:35: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#basic-resource-access to https://setuptools.pypa.io/en/latest/pkg_resources.html
 library/intro.rst:89: [redirected with Found] https://pyodide.org/ to https://pyodide.org/en/stable/
 library/io.rst:1164: [redirected temporarily] https://manpages.debian.org/read(2) to https://manpages.debian.org/bookworm/manpages-dev/read.2.en.html
 library/json.rst:14: [redirected permanently] https://www.ecma-international.org/publications-and-standards/standards/ecma-404/ to https://ecma-international.org/publications-and-standards/standards/ecma-404/
-library/os.path.rst:313: [redirected with Found] https://learn.microsoft.com/windows/dev-drive/ to https://learn.microsoft.com/en-us/windows/dev-drive/
-library/os.rst:1265: [redirected temporarily] https://manpages.debian.org/open(2) to https://manpages.debian.org/bookworm/manpages-dev/open.2.en.html
-library/os.rst:1913: [redirected temporarily] https://manpages.debian.org/access(2) to https://manpages.debian.org/bookworm/manpages-dev/access.2.en.html
-library/os.rst:3697: [redirected temporarily] https://manpages.debian.org/eventfd(2) to https://manpages.debian.org/bookworm/manpages-dev/eventfd.2.en.html
-library/os.rst:4198: [redirected permanently] https://discuss.python.org/t/33555 to https://discuss.python.org/t/concerns-regarding-deprecation-of-fork-with-alive-threads/33555
-library/os.rst:4286: [redirected temporarily] https://manpages.debian.org/pidfd_open(2) to https://manpages.debian.org/bookworm/manpages-dev/pidfd_open.2.en.html
-library/os.rst:4293: [redirected temporarily] https://manpages.debian.org/waitid(2) to https://manpages.debian.org/bookworm/manpages-dev/waitid.2.en.html
-library/os.rst:4694: [redirected temporarily] https://manpages.debian.org/times(2) to https://manpages.debian.org/bookworm/manpages-dev/times.2.en.html
-library/os.rst:4999: [redirected temporarily] https://manpages.debian.org/ptrace(2) to https://manpages.debian.org/bookworm/manpages-dev/ptrace.2.en.html
+library/os.path.rst:320: [redirected with Found] https://learn.microsoft.com/windows/dev-drive/ to https://learn.microsoft.com/en-us/windows/dev-drive/
+library/os.rst:1287: [redirected temporarily] https://manpages.debian.org/open(2) to https://manpages.debian.org/bookworm/manpages-dev/open.2.en.html
+library/os.rst:1979: [redirected temporarily] https://manpages.debian.org/access(2) to https://manpages.debian.org/bookworm/manpages-dev/access.2.en.html
+library/os.rst:3771: [redirected temporarily] https://manpages.debian.org/eventfd(2) to https://manpages.debian.org/bookworm/manpages-dev/eventfd.2.en.html
+library/os.rst:3928: [redirected temporarily] https://manpages.debian.org/timerfd_create(2) to https://manpages.debian.org/bookworm/manpages-dev/timerfd_create.2.en.html
+library/os.rst:3989: [redirected temporarily] https://manpages.debian.org/clock_settime(2) to https://manpages.debian.org/bookworm/manpages-dev/clock_settime.2.en.html
+library/os.rst:3989: [redirected temporarily] https://manpages.debian.org/date(1) to https://manpages.debian.org/bookworm/coreutils/date.1.en.html
+library/os.rst:3989: [redirected temporarily] https://manpages.debian.org/settimeofday(2) to https://manpages.debian.org/bookworm/manpages-dev/settimeofday.2.en.html
+library/os.rst:3989: [redirected temporarily] https://manpages.debian.org/timerfd_settime(2) to https://manpages.debian.org/bookworm/manpages-dev/timerfd_settime.2.en.html
+library/os.rst:4019: [redirected temporarily] https://manpages.debian.org/timerfd_gettime(2) to https://manpages.debian.org/bookworm/manpages-dev/timerfd_gettime.2.en.html
+library/os.rst:4483: [redirected permanently] https://discuss.python.org/t/33555 to https://discuss.python.org/t/concerns-regarding-deprecation-of-fork-with-alive-threads/33555
+library/os.rst:4571: [redirected temporarily] https://manpages.debian.org/pidfd_open(2) to https://manpages.debian.org/bookworm/manpages-dev/pidfd_open.2.en.html
+library/os.rst:4578: [redirected temporarily] https://manpages.debian.org/waitid(2) to https://manpages.debian.org/bookworm/manpages-dev/waitid.2.en.html
+library/os.rst:4992: [redirected temporarily] https://manpages.debian.org/times(2) to https://manpages.debian.org/bookworm/manpages-dev/times.2.en.html
+library/os.rst:5297: [redirected temporarily] https://manpages.debian.org/ptrace(2) to https://manpages.debian.org/bookworm/manpages-dev/ptrace.2.en.html
 library/os.rst:611: [redirected temporarily] https://manpages.debian.org/namespaces(7) to https://manpages.debian.org/bookworm/manpages/namespaces.7.en.html
 library/os.rst:611: [redirected temporarily] https://manpages.debian.org/setns(2) to https://manpages.debian.org/bookworm/manpages-dev/setns.2.en.html
-library/os.rst:815: [redirected temporarily] https://manpages.debian.org/unshare(2) to https://manpages.debian.org/bookworm/manpages-dev/unshare.2.en.html
-library/platform.rst:269: [redirected with Found] https://www.freedesktop.org/software/systemd/man/os-release.html to https://www.freedesktop.org/software/systemd/man/latest/os-release.html
+library/os.rst:820: [redirected temporarily] https://manpages.debian.org/unshare(2) to https://manpages.debian.org/bookworm/manpages-dev/unshare.2.en.html
+library/platform.rst:295: [redirected with Found] https://www.freedesktop.org/software/systemd/man/os-release.html to https://www.freedesktop.org/software/systemd/man/latest/os-release.html
 library/pty.rst:93: [redirected temporarily] https://manpages.debian.org/script(1) to https://manpages.debian.org/bookworm/bsdutils/script.1.en.html
 library/resource.rst:307: [redirected temporarily] https://manpages.debian.org/getrusage(2) to https://manpages.debian.org/bookworm/manpages-dev/getrusage.2.en.html
 library/resource.rst:43: [redirected temporarily] https://manpages.debian.org/getrlimit(2) to https://manpages.debian.org/bookworm/manpages-dev/getrlimit.2.en.html
@@ -89,41 +93,40 @@ library/signal.rst:620: [redirected temporarily] https://manpages.debian.org/sig
 library/signal.rst:646: [redirected temporarily] https://manpages.debian.org/sigwaitinfo(2) to https://manpages.debian.org/bookworm/manpages-dev/sigwaitinfo.2.en.html
 library/signal.rst:666: [redirected temporarily] https://manpages.debian.org/sigtimedwait(2) to https://manpages.debian.org/bookworm/manpages-dev/sigtimedwait.2.en.html
 library/signal.rst:709: [redirected temporarily] https://manpages.debian.org/head(1) to https://manpages.debian.org/bookworm/coreutils/head.1.en.html
-library/socket.rst:1039: [redirected temporarily] https://manpages.debian.org/getnameinfo(3) to https://manpages.debian.org/bookworm/manpages-dev/getnameinfo.3.en.html
-library/socket.rst:1123: [redirected temporarily] https://manpages.debian.org/inet(3) to https://manpages.debian.org/bookworm/manpages-dev/inet.3.en.html
-library/socket.rst:1519: [redirected temporarily] https://manpages.debian.org/getsockopt(2) to https://manpages.debian.org/bookworm/manpages-dev/getsockopt.2.en.html
-library/socket.rst:1607: [redirected temporarily] https://manpages.debian.org/recv(2) to https://manpages.debian.org/bookworm/manpages-dev/recv.2.en.html
+library/socket.rst:1044: [redirected temporarily] https://manpages.debian.org/getnameinfo(3) to https://manpages.debian.org/bookworm/manpages-dev/getnameinfo.3.en.html
+library/socket.rst:1128: [redirected temporarily] https://manpages.debian.org/inet(3) to https://manpages.debian.org/bookworm/manpages-dev/inet.3.en.html
+library/socket.rst:1524: [redirected temporarily] https://manpages.debian.org/getsockopt(2) to https://manpages.debian.org/bookworm/manpages-dev/getsockopt.2.en.html
+library/socket.rst:1612: [redirected temporarily] https://manpages.debian.org/recv(2) to https://manpages.debian.org/bookworm/manpages-dev/recv.2.en.html
 library/socket.rst:183: [redirected temporarily] https://manpages.debian.org/vsock(7) to https://manpages.debian.org/bookworm/manpages/vsock.7.en.html
-library/socket.rst:1941: [redirected temporarily] https://manpages.debian.org/setsockopt(2) to https://manpages.debian.org/bookworm/manpages-dev/setsockopt.2.en.html
-library/socket.rst:546: [redirected temporarily] https://manpages.debian.org/packet(7) to https://manpages.debian.org/bookworm/manpages/packet.7.en.html
-library/ssl.rst:1522: [redirected permanently] https://www.openssl.org/docs/manmaster/man3/SSL_CTX_load_verify_locations.html to https://docs.openssl.org/master/man3/SSL_CTX_load_verify_locations/
-library/ssl.rst:1598: [redirected permanently] https://www.openssl.org/docs/manmaster/man1/ciphers.html to https://docs.openssl.org/master/man1/ciphers/
-library/ssl.rst:1831: [redirected permanently] https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_sess_number.html to https://docs.openssl.org/1.1.1/man3/SSL_CTX_sess_number/
-library/ssl.rst:1974: [redirected permanently] https://www.openssl.org/docs/manmaster/man3/SSL_CTX_get_security_level.html to https://docs.openssl.org/master/man3/SSL_CTX_get_security_level/
-library/ssl.rst:2616: [broken] https://www.openssl.org/docs/man1.1.1/man1/ciphers.html#CIPHER-LIST-FORMAT: Anchor 'CIPHER-LIST-FORMAT' not found
-library/stat.rst:401: [redirected temporarily] https://manpages.debian.org/chflags(2) to https://manpages.debian.org/bookworm/freebsd-manpages/chflags.2freebsd.en.html
-library/statistics.rst:908: [broken] https://www.statisticshowto.com/probability-and-statistics/z-score/: 403 Client Error: Forbidden for url: https://www.statisticshowto.com/probability-and-statistics/z-score/
+library/socket.rst:1946: [redirected temporarily] https://manpages.debian.org/setsockopt(2) to https://manpages.debian.org/bookworm/manpages-dev/setsockopt.2.en.html
+library/socket.rst:551: [redirected temporarily] https://manpages.debian.org/packet(7) to https://manpages.debian.org/bookworm/manpages/packet.7.en.html
+library/ssl.rst:1566: [redirected permanently] https://www.openssl.org/docs/manmaster/man3/SSL_CTX_load_verify_locations.html to https://docs.openssl.org/master/man3/SSL_CTX_load_verify_locations/
+library/ssl.rst:1642: [redirected permanently] https://www.openssl.org/docs/manmaster/man1/ciphers.html to https://docs.openssl.org/master/man1/ciphers/
+library/ssl.rst:1876: [redirected permanently] https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_sess_number.html to https://docs.openssl.org/1.1.1/man3/SSL_CTX_sess_number/
+library/ssl.rst:2019: [redirected permanently] https://www.openssl.org/docs/manmaster/man3/SSL_CTX_get_security_level.html to https://docs.openssl.org/master/man3/SSL_CTX_get_security_level/
+library/ssl.rst:2757: [broken] https://www.openssl.org/docs/man1.1.1/man1/ciphers.html#CIPHER-LIST-FORMAT: Anchor 'CIPHER-LIST-FORMAT' not found
+library/stat.rst:459: [redirected temporarily] https://manpages.debian.org/chflags(2) to https://manpages.debian.org/bookworm/freebsd-manpages/chflags.2freebsd.en.html
+library/statistics.rst:995: [broken] https://www.statisticshowto.com/probability-and-statistics/z-score/: 403 Client Error: Forbidden for url: https://www.statisticshowto.com/probability-and-statistics/z-score/
 library/termios.rst:14: [redirected temporarily] https://manpages.debian.org/termios(3) to https://manpages.debian.org/bookworm/manpages-dev/termios.3.en.html
 library/time.rst:151: [redirected temporarily] https://manpages.debian.org/pthread_getcpuclockid(3) to https://manpages.debian.org/bookworm/manpages-dev/pthread_getcpuclockid.3.en.html
-library/time.rst:776: [redirected temporarily] https://manpages.debian.org/tzfile(5) to https://manpages.debian.org/bookworm/manpages/tzfile.5.en.html
+library/time.rst:805: [redirected temporarily] https://manpages.debian.org/tzfile(5) to https://manpages.debian.org/bookworm/manpages/tzfile.5.en.html
 library/tkinter.rst:45: [redirected with Found] https://www.tkdocs.com/shipman/ to https://tkdocs.com/shipman/
-library/tkinter.rst:590: [redirected temporarily] https://manpages.debian.org/options(3) to https://manpages.debian.org/bookworm/libcvc4-dev/options.3cvc.en.html
+library/tkinter.rst:586: [redirected temporarily] https://manpages.debian.org/options(3) to https://manpages.debian.org/bookworm/libcvc4-dev/options.3cvc.en.html
 library/tkinter.rst:61: [redirected permanently] https://www.packtpub.com/product/python-gui-programming-with-tkinter/9781788835886 to https://www.packtpub.com/en-us/product/python-gui-programming-with-tkinter-9781788835886
-library/tkinter.rst:883: [redirected temporarily] https://manpages.debian.org/bind(3tk) to https://manpages.debian.org/bookworm/tk8.6-doc/bind.3tk.en.html
+library/tkinter.rst:879: [redirected temporarily] https://manpages.debian.org/bind(3tk) to https://manpages.debian.org/bookworm/tk8.6-doc/bind.3tk.en.html
 library/tkinter.rst:93: [redirected with Found] https://wiki.tcl-lang.org/37432 to https://wiki.tcl-lang.org/page/Tcl+Package+User+Guide
 library/tkinter.ttk.rst:27: [redirected with Found] https://core.tcl.tk/tips/doc/trunk/tip/48.md to https://core.tcl-lang.org/tips/doc/trunk/tip/48.md
 library/trace.rst:18: [redirected with Found] https://coverage.readthedocs.io/ to https://coverage.readthedocs.io/en/7.6.1/
-library/typing.rst:2517: [redirected permanently] https://typing.readthedocs.io/en/latest/source/unreachable.html to https://typing.readthedocs.io/en/latest/guides/unreachable.html
+library/typing.rst:2711: [redirected permanently] https://typing.readthedocs.io/en/latest/source/unreachable.html to https://typing.readthedocs.io/en/latest/guides/unreachable.html
 library/typing.rst:42: [redirected permanently] https://pypi.org/project/typing_extensions/ to https://pypi.org/project/typing-extensions/
-library/unittest.mock-examples.rst:1342: [redirected with Found] https://pyhamcrest.readthedocs.io/ to https://pyhamcrest.readthedocs.io/en/latest/
+library/unittest.mock-examples.rst:1345: [redirected with Found] https://pyhamcrest.readthedocs.io/ to https://pyhamcrest.readthedocs.io/en/latest/
 library/unittest.rst:59: [redirected with Found] https://docs.pytest.org/ to https://docs.pytest.org/en/stable/
-library/unittest.rst:67: [timeout] http://lists.idyll.org/listinfo/testing-in-python: HTTPConnectionPool(host='lists.idyll.org', port=80): Max retries exceeded with url: /listinfo/testing-in-python (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f5e4b389760>, 'Connection to lists.idyll.org timed out. (connect timeout=30)'))
+library/unittest.rst:67: [timeout] http://lists.idyll.org/listinfo/testing-in-python: HTTPConnectionPool(host='lists.idyll.org', port=80): Max retries exceeded with url: /listinfo/testing-in-python (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f5910f86240>, 'Connection to lists.idyll.org timed out. (connect timeout=30)'))
 library/urllib.request.rst:21: [redirected with Found] https://requests.readthedocs.io/en/master/ to https://requests.readthedocs.io/en/latest/
 library/venv.rst:56: [redirected with Found] https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments to https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 library/wsgiref.rst:32: [redirected with Found] https://wsgi.readthedocs.io/ to https://wsgi.readthedocs.io/en/latest/
 library/xmlrpc.client.rst:168: [redirected permanently] https://xmlrpc-c.sourceforge.net/introspection.html to https://xmlrpc-c.sourceforge.io/introspection.html
 library/xmlrpc.client.rst:171: [redirected with Found] http://xmlrpc.scripting.com/spec.html to http://xmlrpc.com/spec.md
-license.rst:1048: [redirected permanently] https://sourceforge.net/projects/sox/files/sox/12.17.7/sox-12.17.7.tar.gz to https://sourceforge.net/projects/sox/files/sox/12.17.7/sox-12.17.7.tar.gz/download
 license.rst:13: [redirected with Found] https://www.cwi.nl/ to https://www.cwi.nl/en/
 license.rst:189: [redirected with Found] http://hdl.handle.net/1895.22/1013 to http://www.handle.net/python_licenses/python1.6.1-2-23-01.html
 license.rst:305: [redirected with Found] http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/MT2002/emt19937ar.html to http://www.math.sci.hiroshima-u.ac.jp/m-mat/MT/MT2002/emt19937ar.html
@@ -132,20 +135,24 @@ tutorial/whatnow.rst:36: [redirected with Found] https://docs.python.org to http
 using/mac.rst:157: [redirected permanently] https://qt.io to https://www.qt.io/
 using/mac.rst:166: [redirected with Found] https://toga.readthedocs.io to https://toga.readthedocs.io/en/stable/
 using/mac.rst:183: [redirected with Found] https://briefcase.readthedocs.io to https://briefcase.readthedocs.io/en/stable/
-using/windows.rst:1220: [redirected permanently] https://pypi.org/project/PyWin32/ to https://pypi.org/project/pywin32/
-using/windows.rst:1240: [redirected permanently] http://timgolden.me.uk/python/win32_how_do_i.html to https://timgolden.me.uk/python/win32_how_do_i.html
-using/windows.rst:1280: [redirected with Found] https://pythonce.sourceforge.net/ to https://sourceforge.net/projects/pythonce/
-using/windows.rst:551: [redirected permanently] https://www.enthought.com/edm/ to https://assets.enthought.com/downloads/edm/
+using/windows.rst:1288: [redirected permanently] https://pypi.org/project/PyWin32/ to https://pypi.org/project/pywin32/
+using/windows.rst:1308: [redirected permanently] http://timgolden.me.uk/python/win32_how_do_i.html to https://timgolden.me.uk/python/win32_how_do_i.html
+using/windows.rst:1348: [redirected with Found] https://pythonce.sourceforge.net/ to https://sourceforge.net/projects/pythonce/
+using/windows.rst:611: [redirected permanently] https://www.enthought.com/edm/ to https://assets.enthought.com/downloads/edm/
 whatsnew/2.2.rst:959: [redirected with Found] http://xmlrpc.scripting.com/ to http://xmlrpc.com/
 whatsnew/2.4.rst:687: [redirected permanently] http://www.lahey.com/float.htm to https://sierraweb.com
 whatsnew/2.4.rst:691: [redirected permanently] http://speleotrove.com/decimal/ to https://speleotrove.com/decimal/
-whatsnew/2.4.rst:759: [broken] https://developer-old.gnome.org/glib/2.26/: HTTPSConnectionPool(host='developer-old.gnome.org', port=443): Max retries exceeded with url: /glib/2.26/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f5e4b662420>: Failed to resolve 'developer-old.gnome.org' ([Errno -2] Name or service not known)"))
+whatsnew/2.4.rst:759: [broken] https://developer-old.gnome.org/glib/2.26/: HTTPSConnectionPool(host='developer-old.gnome.org', port=443): Max retries exceeded with url: /glib/2.26/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f59125652b0>: Failed to resolve 'developer-old.gnome.org' ([Errno -2] Name or service not known)"))
 whatsnew/2.5.rst:333: [redirected with Found] https://pylib.readthedocs.io/ to https://pylib.readthedocs.io/en/latest/
 whatsnew/2.6.rst:191: [broken] https://svn.python.org/view/tracker/importer/: unauthorized
 whatsnew/2.7.rst:1547: [redirected permanently] https://www.openssl.org/docs/man1.0.2/man1/ciphers.html to https://docs.openssl.org/1.0.2/man1/ciphers/
 whatsnew/2.7.rst:1836: [redirected with Found] https://nose.readthedocs.io/ to https://nose.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1836: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/stable/
 whatsnew/3.11.rst:2045: [redirected permanently] https://pypi.org/project/Pynche/ to https://pypi.org/project/pynche/
+whatsnew/3.12.rst:361: [broken] https://github.com/python/cpython/tree/3.13/Modules/_xxsubinterpretersmodule.c: 404 Client Error: Not Found for url: https://github.com/python/cpython/tree/3.13/Modules/_xxsubinterpretersmodule.c
+whatsnew/3.13.rst:1303: [redirected permanently] https://pypi.org/project/crypt_r/ to https://pypi.org/project/crypt-r/
+whatsnew/3.13.rst:1303: [redirected temporarily] https://manpages.debian.org/crypt_r(3) to https://manpages.debian.org/bookworm/libcrypt-dev/crypt_r.3.en.html
+whatsnew/3.13.rst:1330: [redirected with Found] https://www.pygame.org/ to https://www.pygame.org/news
 whatsnew/3.2.rst:1650: [broken] https://www.openssl.org/docs/man1.0.2/man1/ciphers.html#CIPHER-LIST-FORMAT: Anchor 'CIPHER-LIST-FORMAT' not found
 whatsnew/3.2.rst:2522: [redirected with Found] https://www.mercurial-scm.org/wiki/QuickStart to https://wiki.mercurial-scm.org/QuickStart
 whatsnew/3.4.rst:1962: [broken] https://ltp.sourceforge.net/coverage/lcov.php: 404 Client Error: Not Found for url: https://ltp.sourceforge.net/coverage/lcov.php
@@ -155,8 +162,9 @@ whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/fr/ to htt
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ja/ to https://docs.python.org/ja/3/
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ko/ to https://docs.python.org/ko/3/
 whatsnew/3.8.rst:2228: [broken] https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html: 403 Client Error: Forbidden for url: https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html
-whatsnew/changelog.rst:14918: [redirected permanently] https://www.openssl.org/docs/man1.1.1/man7/proxy-certificates.html to https://docs.openssl.org/1.1.1/man7/proxy-certificates/
-whatsnew/changelog.rst:23418: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
-whatsnew/changelog.rst:4427: [redirected permanently] https://www.openssl.org/news/secadv/20230207.txt to https://openssl-library.org/news/secadv/20230207.txt
-whatsnew/changelog.rst:5641: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
-whatsnew/changelog.rst:9028: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/
+whatsnew/3.9.rst:934: [redirected with Found] https://parso.readthedocs.io/ to https://parso.readthedocs.io/en/latest/
+whatsnew/changelog.rst:12879: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/
+whatsnew/changelog.rst:18769: [redirected permanently] https://www.openssl.org/docs/man1.1.1/man7/proxy-certificates.html to https://docs.openssl.org/1.1.1/man7/proxy-certificates/
+whatsnew/changelog.rst:27269: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
+whatsnew/changelog.rst:8278: [redirected permanently] https://www.openssl.org/news/secadv/20230207.txt to https://openssl-library.org/news/secadv/20230207.txt
+whatsnew/changelog.rst:9492: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
