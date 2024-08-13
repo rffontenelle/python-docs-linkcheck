@@ -94,12 +94,15 @@ jobs:
           grep ' \[redirected temporarily] ' | sort > ${BRANCH}-log-redir-temporarily.txt || true
           grep ' \[redirected permanently] ' ${SRCFILE} | sort > ${BRANCH}-log-redir-permanently.txt || true
           grep ' \[redirected with Found] ' ${SRCFILE} | sort > ${BRANCH}-log-redir-with-found.txt || true
-          sed '/\[broken]/d;/\[redirected temporarily]/d;/\[redirected with Found]/d;/\[redirected permanently]/d' ${SRCFILE} | sort > ${BRANCH}-log-others.txt
+          grep ' \[timeout] ' ${SRCFILE} | sort > ${BRANCH}-log-timeout.txt || true
+          sed '/\[broken]/d;/\[redirected temporarily]/d;/\[redirected with Found]/d;/\[redirected permanently]/d;/\[timeout]/d' ${SRCFILE} | sort > ${BRANCH}-log-others.txt
           sort ${SRCFILE} > ${BRANCH}-linkcheck.txt
 
       - run: cat ${{ matrix.branch }}-log-broken.txt
+      - run: cat ${{ matrix.branch }}-log-redir-temporarily.txt
       - run: cat ${{ matrix.branch }}-log-redir-permanently.txt
       - run: cat ${{ matrix.branch }}-log-redir-with-found.txt
+      - run: cat ${{ matrix.branch }}-log-timeout.txt
       - run: cat ${{ matrix.branch }}-log-others.txt
 
       - name: Upload output as artifact
