@@ -101,7 +101,7 @@ jobs:
           SRCFILE="cpython/Doc/build/linkcheck/output.txt"
           touch ${BRANCH}-log-broken.txt ${BRANCH}-log-redir-permanently.txt ${BRANCH}-log-redir-with-found.txt          
           grep ' \[broken] ' ${SRCFILE} | sort > ${BRANCH}-log-broken.txt || true
-          grep ' \[redirected temporarily] ' | sort > ${BRANCH}-log-redir-temporarily.txt || true
+          grep ' \[redirected temporarily] ' ${SRCFILE} | sort > ${BRANCH}-log-redir-temporarily.txt || true
           grep ' \[redirected permanently] ' ${SRCFILE} | sort > ${BRANCH}-log-redir-permanently.txt || true
           grep ' \[redirected with Found] ' ${SRCFILE} | sort > ${BRANCH}-log-redir-with-found.txt || true
           grep ' \[timeout] ' ${SRCFILE} | sort > ${BRANCH}-log-timeout.txt || true
