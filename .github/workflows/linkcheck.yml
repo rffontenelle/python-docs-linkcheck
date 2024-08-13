@@ -18,11 +18,15 @@ jobs:
     strategy:
       matrix:
         branch: ['main', '3.13', '3.12']
-        #include:
-        #  - branch: 'main'
-        #    fix-redir-with-found: 'fix-redir-with-found.diff'
-        #  - branch: '3.12'
-        #    fix-redir-with-found: 'fix-redir-with-found.diff'
+        include:
+          - branch: 'main'
+            fix-broken: 'fix-broken.diff'
+            #fix-redir-with-found: 'fix-redir-with-found.diff'
+          - branch: '3.13'
+            fix-broken: 'fix-broken.diff'
+          - branch: '3.12'
+            fix-broken: 'fix-broken.diff'
+            #fix-redir-with-found: 'fix-redir-with-found.diff'
       fail-fast: false
     steps:
       - name: Check out this repo
@@ -49,14 +53,21 @@ jobs:
         run: |
           pip install -U pip
           pip install flake8
-      
+
+      - name: Apply fix-broken
+        if: matrix.fix-broken != 0
+        run: |
+          cd cpython
+          cat ../${{ matrix.fix-broken }}
+          git apply ../${{ matrix.fix-broken }}
+
       - name: Apply fix-redir-with-found
         if: matrix.fix-redir-with-found != 0
         run: |
           cd cpython
           cat ../${{ matrix.fix-redir-with-found }}
           git apply ../${{ matrix.fix-redir-with-found }}
-      
+
       # Exclude other reported issues, to get e.g. W605 invalid escape sequence '\d'
       - name: Flake8 on Doc/conf.py
         run: |
@@ -80,9 +91,10 @@ jobs:
           SRCFILE="cpython/Doc/build/linkcheck/output.txt"
           touch ${BRANCH}-log-broken.txt ${BRANCH}-log-redir-permanently.txt ${BRANCH}-log-redir-with-found.txt          
           grep ' \[broken] ' ${SRCFILE} | sort > ${BRANCH}-log-broken.txt || true
+          grep ' \[redirected temporarily] ' | sort > ${BRANCH}-log-redir-temporarily.txt || true
           grep ' \[redirected permanently] ' ${SRCFILE} | sort > ${BRANCH}-log-redir-permanently.txt || true
           grep ' \[redirected with Found] ' ${SRCFILE} | sort > ${BRANCH}-log-redir-with-found.txt || true
-          sed '/\[broken]/d;/\[redirected with Found]/d;/\[redirected permanently]/d' ${SRCFILE} | sort > ${BRANCH}-log-others.txt
+          sed '/\[broken]/d;/\[redirected temporarily]/d;/\[redirected with Found]/d;/\[redirected permanently]/d' ${SRCFILE} | sort > ${BRANCH}-log-others.txt
           sort ${SRCFILE} > ${BRANCH}-linkcheck.txt
 
       - run: cat ${{ matrix.branch }}-log-broken.txt

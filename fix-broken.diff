@@ -1,0 +1,78 @@
+diff --git a/Doc/library/functools.rst b/Doc/library/functools.rst
+index 9d5c728..f32b59e 100644
+--- a/Doc/library/functools.rst
++++ b/Doc/library/functools.rst
+@@ -218,7 +218,7 @@ The :mod:`functools` module defines the following functions:
+    cache.  See :ref:`faq-cache-method-calls`
+ 
+    An `LRU (least recently used) cache
+-   <https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU)>`_
++   <https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_Recently_Used_(LRU)>`_
+    works best when the most recent calls are the best predictors of upcoming
+    calls (for example, the most popular articles on a news server tend to
+    change each day).  The cache's size limit assures that the cache does not
+diff --git a/Doc/library/ssl.rst b/Doc/library/ssl.rst
+index ad441c5..8892efd 100644
+--- a/Doc/library/ssl.rst
++++ b/Doc/library/ssl.rst
+@@ -2759,7 +2759,7 @@ enabled when negotiating a SSL session is possible through the
+ :meth:`SSLContext.set_ciphers` method.  Starting from Python 3.2.3, the
+ ssl module disables certain weak ciphers by default, but you may want
+ to further restrict the cipher choice. Be sure to read OpenSSL's documentation
+-about the `cipher list format <https://www.openssl.org/docs/man1.1.1/man1/ciphers.html#CIPHER-LIST-FORMAT>`_.
++about the `cipher list format <https://docs.openssl.org/1.1.1/man1/ciphers/#CIPHER-LIST-FORMAT>`_.
+ If you want to check which ciphers are enabled by a given cipher list, use
+ :meth:`SSLContext.get_ciphers` or the ``openssl ciphers`` command on your
+ system.
+diff --git a/Doc/whatsnew/2.4.rst b/Doc/whatsnew/2.4.rst
+index 7e235d4..46d42d0 100644
+--- a/Doc/whatsnew/2.4.rst
++++ b/Doc/whatsnew/2.4.rst
+@@ -757,7 +757,7 @@ API that perform ASCII-only conversions, ignoring the locale setting:
+   :c:expr:`double` to an ASCII string.
+ 
+ The code for these functions came from the GLib library
+-(https://developer-old.gnome.org/glib/2.26/), whose developers kindly
++(`https://developer-old.gnome.org/glib/2.26/ <http://web.archive.org/web/20210306104320/https://developer.gnome.org/glib/2.26/>`), whose developers kindly
+ relicensed the relevant functions and donated them to the Python Software
+ Foundation.  The :mod:`locale` module  can now change the numeric locale,
+ letting extensions such as GTK+  produce the correct results.
+diff --git a/Doc/whatsnew/3.12.rst b/Doc/whatsnew/3.12.rst
+index 3821ee3..cc2edc1 100644
+--- a/Doc/whatsnew/3.12.rst
++++ b/Doc/whatsnew/3.12.rst
+@@ -359,7 +359,7 @@ create an interpreter with its own GIL:
+    /* The new interpreter is now active in the current thread. */
+ 
+ For further examples how to use the C-API for sub-interpreters with a
+-per-interpreter GIL, see :source:`Modules/_xxsubinterpretersmodule.c`.
++per-interpreter GIL, see :source:`Modules/_interpretersmodule.c`.
+ 
+ (Contributed by Eric Snow in :gh:`104210`, etc.)
+ 
+diff --git a/Doc/whatsnew/3.2.rst b/Doc/whatsnew/3.2.rst
+index ac05b59..b550408 100644
+--- a/Doc/whatsnew/3.2.rst
++++ b/Doc/whatsnew/3.2.rst
+@@ -1650,7 +1650,7 @@ for secure (encrypted, authenticated) internet connections:
+ * The :func:`ssl.wrap_socket() <ssl.SSLContext.wrap_socket>` constructor function now takes a *ciphers*
+   argument.  The *ciphers* string lists the allowed encryption algorithms using
+   the format described in the `OpenSSL documentation
+-  <https://www.openssl.org/docs/man1.0.2/man1/ciphers.html#CIPHER-LIST-FORMAT>`__.
++  <https://docs.openssl.org/1.0.2/man1/ciphers/#CIPHER-LIST-FORMAT>`__.
+ 
+ * When linked against recent versions of OpenSSL, the :mod:`ssl` module now
+   supports the Server Name Indication extension to the TLS protocol, allowing
+diff --git a/Doc/whatsnew/3.4.rst b/Doc/whatsnew/3.4.rst
+index 938dd27..43e432a 100644
+--- a/Doc/whatsnew/3.4.rst
++++ b/Doc/whatsnew/3.4.rst
+@@ -1963,7 +1963,7 @@ Other Improvements
+   <https://devguide.python.org/coverage/#measuring-coverage-of-c-code-with-gcov-and-lcov>`_
+   will build python, run the test suite, and generate an HTML coverage report
+   for the C codebase using ``gcov`` and `lcov
+-  <https://ltp.sourceforge.net/coverage/lcov.php>`_.
++  <https://linux-test-project.readthedocs.io>`_.
+ 
+ * The ``-R`` option to the :ref:`python regression test suite <regrtest>` now
+   also checks for memory allocation leaks, using
