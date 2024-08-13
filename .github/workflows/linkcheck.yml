@@ -28,12 +28,12 @@ jobs:
       fail-fast: false
     steps:
       - name: Check out this repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           persist-credentials: false
 
       - name: Check out CPython
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: python/cpython
           persist-credentials: false
@@ -41,7 +41,7 @@ jobs:
           path: cpython
 
       - name: Set up Python 3
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3'
           cache: 'pip'
@@ -94,7 +94,7 @@ jobs:
 
       - name: Upload output as artifact
         if: ${{ always() }}
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.branch }}-logs
           path: |
@@ -108,10 +108,10 @@ jobs:
       contents: write
     steps:
       - name: Check out this repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       - name: Download logs
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         
       - name: Commit and push logs
         run: |
