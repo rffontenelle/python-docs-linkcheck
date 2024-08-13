@@ -25,7 +25,7 @@ jobs:
           - branch: '3.13'
             fix-broken: 'fix-broken.diff'
           - branch: '3.12'
-            fix-broken: 'fix-broken.diff'
+            fix-broken: 'fix-broken-3.12.diff'
             #fix-redir-with-found: 'fix-redir-with-found.diff'
       fail-fast: false
     steps:

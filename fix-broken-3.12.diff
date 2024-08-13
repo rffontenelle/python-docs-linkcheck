@@ -37,19 +37,6 @@ index 7e235d4..6bf0774 100644
  relicensed the relevant functions and donated them to the Python Software
  Foundation.  The :mod:`locale` module  can now change the numeric locale,
  letting extensions such as GTK+  produce the correct results.
-diff --git a/Doc/whatsnew/3.12.rst b/Doc/whatsnew/3.12.rst
-index 3821ee3..cc2edc1 100644
---- a/Doc/whatsnew/3.12.rst
-+++ b/Doc/whatsnew/3.12.rst
-@@ -359,7 +359,7 @@ create an interpreter with its own GIL:
-    /* The new interpreter is now active in the current thread. */
- 
- For further examples how to use the C-API for sub-interpreters with a
--per-interpreter GIL, see :source:`Modules/_xxsubinterpretersmodule.c`.
-+per-interpreter GIL, see :source:`Modules/_interpretersmodule.c`.
- 
- (Contributed by Eric Snow in :gh:`104210`, etc.)
- 
 diff --git a/Doc/whatsnew/3.2.rst b/Doc/whatsnew/3.2.rst
 index ac05b59..b550408 100644
 --- a/Doc/whatsnew/3.2.rst
