@@ -73,6 +73,7 @@ library/os.rst:611: [redirected temporarily] https://manpages.debian.org/namespa
 library/os.rst:611: [redirected temporarily] https://manpages.debian.org/setns(2) to https://manpages.debian.org/bookworm/manpages-dev/setns.2.en.html
 library/os.rst:820: [redirected temporarily] https://manpages.debian.org/unshare(2) to https://manpages.debian.org/bookworm/manpages-dev/unshare.2.en.html
 library/platform.rst:295: [redirected with Found] https://www.freedesktop.org/software/systemd/man/os-release.html to https://www.freedesktop.org/software/systemd/man/latest/os-release.html
+library/poplib.rst:104: [timeout] http://www.catb.org/~esr/fetchmail/fetchmail-FAQ.html: HTTPConnectionPool(host='www.catb.org', port=80): Max retries exceeded with url: /~esr/fetchmail/fetchmail-FAQ.html (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f318e02bbc0>, 'Connection to www.catb.org timed out. (connect timeout=30)'))
 library/pty.rst:93: [redirected temporarily] https://manpages.debian.org/script(1) to https://manpages.debian.org/bookworm/bsdutils/script.1.en.html
 library/resource.rst:307: [redirected temporarily] https://manpages.debian.org/getrusage(2) to https://manpages.debian.org/bookworm/manpages-dev/getrusage.2.en.html
 library/resource.rst:43: [redirected temporarily] https://manpages.debian.org/getrlimit(2) to https://manpages.debian.org/bookworm/manpages-dev/getrlimit.2.en.html
@@ -147,7 +148,6 @@ whatsnew/3.11.rst:2045: [redirected permanently] https://pypi.org/project/Pynche
 whatsnew/3.13.rst:1303: [redirected permanently] https://pypi.org/project/crypt_r/ to https://pypi.org/project/crypt-r/
 whatsnew/3.13.rst:1303: [redirected temporarily] https://manpages.debian.org/crypt_r(3) to https://manpages.debian.org/bookworm/libcrypt-dev/crypt_r.3.en.html
 whatsnew/3.13.rst:1330: [redirected with Found] https://www.pygame.org/ to https://www.pygame.org/news
-whatsnew/3.2.rst:1650: [broken] https://docs.openssl.org/1.0.2/man1/ciphers/#CIPHER-LIST-FORMAT: Anchor 'CIPHER-LIST-FORMAT' not found
 whatsnew/3.2.rst:2522: [redirected with Found] https://www.mercurial-scm.org/wiki/QuickStart to https://wiki.mercurial-scm.org/QuickStart
 whatsnew/3.4.rst:1962: [redirected with Found] https://linux-test-project.readthedocs.io to https://linux-test-project.readthedocs.io/en/latest/
 whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https://openexr.com/en/latest/

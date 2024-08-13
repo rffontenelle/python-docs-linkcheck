@@ -104,7 +104,6 @@ library/ssl.rst:1642: [redirected permanently] https://www.openssl.org/docs/manm
 library/ssl.rst:1876: [redirected permanently] https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_sess_number.html to https://docs.openssl.org/1.1.1/man3/SSL_CTX_sess_number/
 library/ssl.rst:2019: [redirected permanently] https://www.openssl.org/docs/manmaster/man3/SSL_CTX_get_security_level.html to https://docs.openssl.org/master/man3/SSL_CTX_get_security_level/
 library/stat.rst:459: [redirected temporarily] https://manpages.debian.org/chflags(2) to https://manpages.debian.org/bookworm/freebsd-manpages/chflags.2freebsd.en.html
-library/statistics.rst:267: [timeout] https://www.itm-conferences.org/articles/itmconf/pdf/2018/08/itmconf_sam2018_00037.pdf: HTTPSConnectionPool(host='www.itm-conferences.org', port=443): Max retries exceeded with url: /articles/itmconf/pdf/2018/08/itmconf_sam2018_00037.pdf (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f45906bdd00>, 'Connection to www.itm-conferences.org timed out. (connect timeout=30)'))
 library/statistics.rst:995: [broken] https://www.statisticshowto.com/probability-and-statistics/z-score/: 403 Client Error: Forbidden for url: https://www.statisticshowto.com/probability-and-statistics/z-score/
 library/termios.rst:14: [redirected temporarily] https://manpages.debian.org/termios(3) to https://manpages.debian.org/bookworm/manpages-dev/termios.3.en.html
 library/time.rst:151: [redirected temporarily] https://manpages.debian.org/pthread_getcpuclockid(3) to https://manpages.debian.org/bookworm/manpages-dev/pthread_getcpuclockid.3.en.html
@@ -149,7 +148,6 @@ whatsnew/3.11.rst:2045: [redirected permanently] https://pypi.org/project/Pynche
 whatsnew/3.13.rst:1315: [redirected permanently] https://pypi.org/project/crypt_r/ to https://pypi.org/project/crypt-r/
 whatsnew/3.13.rst:1315: [redirected temporarily] https://manpages.debian.org/crypt_r(3) to https://manpages.debian.org/bookworm/libcrypt-dev/crypt_r.3.en.html
 whatsnew/3.13.rst:1342: [redirected with Found] https://www.pygame.org/ to https://www.pygame.org/news
-whatsnew/3.2.rst:1650: [broken] https://docs.openssl.org/1.0.2/man1/ciphers/#CIPHER-LIST-FORMAT: Anchor 'CIPHER-LIST-FORMAT' not found
 whatsnew/3.2.rst:2522: [redirected with Found] https://www.mercurial-scm.org/wiki/QuickStart to https://wiki.mercurial-scm.org/QuickStart
 whatsnew/3.4.rst:1962: [redirected with Found] https://linux-test-project.readthedocs.io to https://linux-test-project.readthedocs.io/en/latest/
 whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https://openexr.com/en/latest/
