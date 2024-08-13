@@ -21,7 +21,6 @@ howto/functional.rst:1240: [redirected with Found] https://developer.ibm.com/tut
 howto/functional.rst:1240: [redirected with Found] https://developer.ibm.com/tutorials/l-prog3/ to https://developer.ibm.com/technologies/linux/tutorials/
 howto/isolating-extensions.rst:205: [redirected with Found] https://github.com/python/cpython/blob/master/Modules/xxlimited.c to https://github.com/python/cpython/blob/main/Modules/xxlimited.c
 howto/logging-cookbook.rst:2100: [redirected with Found] https://docs.djangoproject.com/en/stable/topics/logging/#configuring-logging to https://docs.djangoproject.com/en/5.1/topics/logging/
-howto/mro.rst:13: [timeout] https://www.phyast.pitt.edu/~micheles/: HTTPSConnectionPool(host='www.phyast.pitt.edu', port=443): Max retries exceeded with url: /~micheles/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f744affa4e0>, 'Connection to www.phyast.pitt.edu timed out. (connect timeout=30)'))
 howto/mro.rst:667: [redirected with Found] https://doi.org/10.1145/236337.236343 to https://dl.acm.org/doi/10.1145/236337.236343
 howto/pyporting.rst:31: [redirected with Found] https://portingguide.readthedocs.io to https://portingguide.readthedocs.io/en/latest/
 howto/unicode.rst:42: [redirected with Found] https://www.unicode.org/versions/latest/#Summary to https://www.unicode.org/versions/Unicode15.1.0/
@@ -105,6 +104,7 @@ library/ssl.rst:1642: [redirected permanently] https://www.openssl.org/docs/manm
 library/ssl.rst:1876: [redirected permanently] https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_sess_number.html to https://docs.openssl.org/1.1.1/man3/SSL_CTX_sess_number/
 library/ssl.rst:2019: [redirected permanently] https://www.openssl.org/docs/manmaster/man3/SSL_CTX_get_security_level.html to https://docs.openssl.org/master/man3/SSL_CTX_get_security_level/
 library/stat.rst:459: [redirected temporarily] https://manpages.debian.org/chflags(2) to https://manpages.debian.org/bookworm/freebsd-manpages/chflags.2freebsd.en.html
+library/statistics.rst:267: [timeout] https://www.itm-conferences.org/articles/itmconf/pdf/2018/08/itmconf_sam2018_00037.pdf: HTTPSConnectionPool(host='www.itm-conferences.org', port=443): Max retries exceeded with url: /articles/itmconf/pdf/2018/08/itmconf_sam2018_00037.pdf (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f45906bdd00>, 'Connection to www.itm-conferences.org timed out. (connect timeout=30)'))
 library/statistics.rst:995: [broken] https://www.statisticshowto.com/probability-and-statistics/z-score/: 403 Client Error: Forbidden for url: https://www.statisticshowto.com/probability-and-statistics/z-score/
 library/termios.rst:14: [redirected temporarily] https://manpages.debian.org/termios(3) to https://manpages.debian.org/bookworm/manpages-dev/termios.3.en.html
 library/time.rst:151: [redirected temporarily] https://manpages.debian.org/pthread_getcpuclockid(3) to https://manpages.debian.org/bookworm/manpages-dev/pthread_getcpuclockid.3.en.html
@@ -120,7 +120,6 @@ library/typing.rst:2711: [redirected permanently] https://typing.readthedocs.io/
 library/typing.rst:42: [redirected permanently] https://pypi.org/project/typing_extensions/ to https://pypi.org/project/typing-extensions/
 library/unittest.mock-examples.rst:1345: [redirected with Found] https://pyhamcrest.readthedocs.io/ to https://pyhamcrest.readthedocs.io/en/latest/
 library/unittest.rst:59: [redirected with Found] https://docs.pytest.org/ to https://docs.pytest.org/en/stable/
-library/unittest.rst:67: [timeout] http://lists.idyll.org/listinfo/testing-in-python: HTTPConnectionPool(host='lists.idyll.org', port=80): Max retries exceeded with url: /listinfo/testing-in-python (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f744a44aae0>, 'Connection to lists.idyll.org timed out. (connect timeout=30)'))
 library/urllib.request.rst:21: [redirected with Found] https://requests.readthedocs.io/en/master/ to https://requests.readthedocs.io/en/latest/
 library/venv.rst:56: [redirected with Found] https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments to https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 library/wsgiref.rst:32: [redirected with Found] https://wsgi.readthedocs.io/ to https://wsgi.readthedocs.io/en/latest/
@@ -152,7 +151,6 @@ whatsnew/3.13.rst:1315: [redirected temporarily] https://manpages.debian.org/cry
 whatsnew/3.13.rst:1342: [redirected with Found] https://www.pygame.org/ to https://www.pygame.org/news
 whatsnew/3.2.rst:1650: [broken] https://docs.openssl.org/1.0.2/man1/ciphers/#CIPHER-LIST-FORMAT: Anchor 'CIPHER-LIST-FORMAT' not found
 whatsnew/3.2.rst:2522: [redirected with Found] https://www.mercurial-scm.org/wiki/QuickStart to https://wiki.mercurial-scm.org/QuickStart
-whatsnew/3.2.rst:978: [timeout] https://osl.cs.illinois.edu/media/papers/karmani-2009-barrier_synchronization_pattern.pdf: HTTPSConnectionPool(host='osl.cs.illinois.edu', port=443): Max retries exceeded with url: /media/papers/karmani-2009-barrier_synchronization_pattern.pdf (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f744ac17d10>, 'Connection to osl.cs.illinois.edu timed out. (connect timeout=30)'))
 whatsnew/3.4.rst:1962: [redirected with Found] https://linux-test-project.readthedocs.io to https://linux-test-project.readthedocs.io/en/latest/
 whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https://openexr.com/en/latest/
 whatsnew/3.5.rst:2215: [redirected with Found] https://visualstudio.microsoft.com/en/vs/older-downloads/#visual-studio-2015-and-other-products to https://visualstudio.microsoft.com/vs/older-downloads/
