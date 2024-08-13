@@ -22,13 +22,16 @@ jobs:
           - branch: 'main'
             fix-broken: 'fix-broken.diff'
             #fix-redir-with-found: 'fix-redir-with-found.diff'
+            fix-redir-permanently: 'fix-redir-permanently.diff'
             fix-timeout: 'fix-timeout.diff'
           - branch: '3.13'
             fix-broken: 'fix-broken.diff'
+            fix-redir-permanently: 'fix-redir-permanently.diff'
             fix-timeout: 'fix-timeout.diff'
           - branch: '3.12'
             fix-broken: 'fix-broken-3.12.diff'
             #fix-redir-with-found: 'fix-redir-with-found.diff'
+            fix-redir-permanently: 'fix-redir-permanently.diff'
             fix-timeout: 'fix-timeout.diff'
       fail-fast: false
     steps:
@@ -70,6 +73,13 @@ jobs:
           cd cpython
           cat ../${{ matrix.fix-redir-with-found }}
           git apply ../${{ matrix.fix-redir-with-found }}
+
+      - name: Apply fix-redir-permanently
+        if: matrix.fix-redir-permanently != 0
+        run: |
+          cd cpython
+          cat ../${{ matrix.fix-redir-permanently }}
+          git apply ../${{ matrix.fix-redir-permanently }}
 
       - name: Apply fix-timeout
         if: matrix.fix-timeout != 0

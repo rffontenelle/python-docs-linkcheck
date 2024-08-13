@@ -1,0 +1,13 @@
+diff --git a/Doc/conf.py b/Doc/conf.py
+index 3860d14..dd0b540 100644
+--- a/Doc/conf.py
++++ b/Doc/conf.py
+@@ -584,7 +584,7 @@
+ extlinks = {
+     "cve": ("https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-%s", "CVE-%s"),
+     "cwe": ("https://cwe.mitre.org/data/definitions/%s.html", "CWE-%s"),
+-    "pypi": ("https://pypi.org/project/%s/", "%s"),
++    "pypi": ("https://pypi.org/project/%s/".lower(), "%s"),
+     "source": (SOURCE_URI, "%s"),
+ }
+ extlinks_detect_hardcoded_links = True
