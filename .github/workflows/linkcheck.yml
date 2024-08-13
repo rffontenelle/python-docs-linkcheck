@@ -22,11 +22,14 @@ jobs:
           - branch: 'main'
             fix-broken: 'fix-broken.diff'
             #fix-redir-with-found: 'fix-redir-with-found.diff'
+            fix-timeout: 'fix-timeout.diff'
           - branch: '3.13'
             fix-broken: 'fix-broken.diff'
+            fix-timeout: 'fix-timeout.diff'
           - branch: '3.12'
             fix-broken: 'fix-broken-3.12.diff'
             #fix-redir-with-found: 'fix-redir-with-found.diff'
+            fix-timeout: 'fix-timeout.diff'
       fail-fast: false
     steps:
       - name: Check out this repo
@@ -67,6 +70,13 @@ jobs:
           cd cpython
           cat ../${{ matrix.fix-redir-with-found }}
           git apply ../${{ matrix.fix-redir-with-found }}
+
+      - name: Apply fix-timeout
+        if: matrix.fix-timeout != 0
+        run: |
+          cd cpython
+          cat ../${{ matrix.fix-timeout }}
+          git apply ../${{ matrix.fix-timeout }}
 
       # Exclude other reported issues, to get e.g. W605 invalid escape sequence '\d'
       - name: Flake8 on Doc/conf.py

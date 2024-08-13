@@ -1,0 +1,41 @@
+diff --git a/Doc/howto/mro.rst b/Doc/howto/mro.rst
+index f44b4f9..9804da7 100644
+--- a/Doc/howto/mro.rst
++++ b/Doc/howto/mro.rst
+@@ -10,7 +10,7 @@ The Python 2.3 Method Resolution Order
+    The Method Resolution Order discussed here was *introduced* in Python 2.3,
+    but it is still used in later versions -- including Python 3.
+ 
+-By `Michele Simionato <https://www.phyast.pitt.edu/~micheles/>`__.
++By `Michele Simionato <https://web.archive.org/web/20240526190539/https://www.phyast.pitt.edu/~micheles/>`__.
+ 
+ :Abstract:
+ 
+diff --git a/Doc/library/unittest.rst b/Doc/library/unittest.rst
+index dc76374..d15b0d4 100644
+--- a/Doc/library/unittest.rst
++++ b/Doc/library/unittest.rst
+@@ -64,8 +64,8 @@ test runner
+       An extensive list of Python testing tools including functional testing
+       frameworks and mock object libraries.
+ 
+-   `Testing in Python Mailing List <http://lists.idyll.org/listinfo/testing-in-python>`_
+-      A special-interest-group for discussion of testing, and testing tools,
++   `Testing in Python Mailing List <http://web.archive.org/web/20200918231058/http://lists.idyll.org/pipermail/testing-in-python/>`_
++      The archive of a special-interest-group for discussion of testing, and testing tools,
+       in Python.
+ 
+    The script :file:`Tools/unittestgui/unittestgui.py` in the Python source distribution is
+diff --git a/Doc/whatsnew/3.2.rst b/Doc/whatsnew/3.2.rst
+index ac05b59..d61ab18 100644
+--- a/Doc/whatsnew/3.2.rst
++++ b/Doc/whatsnew/3.2.rst
+@@ -976,7 +976,7 @@ sites do not finish before midnight, the barrier times-out and the ballots are
+ sealed and deposited in a queue for later handling.
+ 
+ See `Barrier Synchronization Patterns
+-<https://osl.cs.illinois.edu/media/papers/karmani-2009-barrier_synchronization_pattern.pdf>`_
++<http://web.archive.org/web/20240619120512/https://osl.cs.illinois.edu/media/papers/karmani-2009-barrier_synchronization_pattern.pdf>`_
+ for more examples of how barriers can be used in parallel computing.  Also, there is
+ a simple but thorough explanation of barriers in `The Little Book of Semaphores
+ <https://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf>`_, *section 3.6*.
