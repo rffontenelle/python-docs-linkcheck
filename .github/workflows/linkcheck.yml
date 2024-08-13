@@ -18,11 +18,11 @@ jobs:
     strategy:
       matrix:
         branch: ['main', '3.13', '3.12']
-        include:
-          - branch: 'main'
-            fix-redir-with-found: 'fix-redir-with-found.diff'
-          - branch: '3.12'
-            fix-redir-with-found: 'fix-redir-with-found.diff'
+        #include:
+        #  - branch: 'main'
+        #    fix-redir-with-found: 'fix-redir-with-found.diff'
+        #  - branch: '3.12'
+        #    fix-redir-with-found: 'fix-redir-with-found.diff'
       fail-fast: false
     steps:
       - name: Check out this repo
