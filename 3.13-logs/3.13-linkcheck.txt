@@ -21,7 +21,7 @@ howto/functional.rst:1240: [redirected with Found] https://developer.ibm.com/tut
 howto/functional.rst:1240: [redirected with Found] https://developer.ibm.com/tutorials/l-prog3/ to https://developer.ibm.com/technologies/linux/tutorials/
 howto/isolating-extensions.rst:205: [redirected with Found] https://github.com/python/cpython/blob/master/Modules/xxlimited.c to https://github.com/python/cpython/blob/main/Modules/xxlimited.c
 howto/logging-cookbook.rst:2100: [redirected with Found] https://docs.djangoproject.com/en/stable/topics/logging/#configuring-logging to https://docs.djangoproject.com/en/5.1/topics/logging/
-howto/mro.rst:13: [timeout] https://www.phyast.pitt.edu/~micheles/: HTTPSConnectionPool(host='www.phyast.pitt.edu', port=443): Max retries exceeded with url: /~micheles/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f5910b21220>, 'Connection to www.phyast.pitt.edu timed out. (connect timeout=30)'))
+howto/mro.rst:13: [timeout] https://www.phyast.pitt.edu/~micheles/: HTTPSConnectionPool(host='www.phyast.pitt.edu', port=443): Max retries exceeded with url: /~micheles/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f661d52a510>, 'Connection to www.phyast.pitt.edu timed out. (connect timeout=30)'))
 howto/mro.rst:667: [redirected with Found] https://doi.org/10.1145/236337.236343 to https://dl.acm.org/doi/10.1145/236337.236343
 howto/pyporting.rst:31: [redirected with Found] https://portingguide.readthedocs.io to https://portingguide.readthedocs.io/en/latest/
 howto/unicode.rst:42: [redirected with Found] https://www.unicode.org/versions/latest/#Summary to https://www.unicode.org/versions/Unicode15.1.0/
@@ -42,7 +42,6 @@ library/datetime.rst:40: [redirected permanently] https://pypi.org/project/DateT
 library/fcntl.rst:162: [redirected temporarily] https://manpages.debian.org/flock(2) to https://manpages.debian.org/bookworm/manpages-dev/flock.2.en.html
 library/fcntl.rst:16: [redirected temporarily] https://manpages.debian.org/fcntl(2) to https://manpages.debian.org/bookworm/manpages-dev/fcntl.2.en.html
 library/fcntl.rst:16: [redirected temporarily] https://manpages.debian.org/ioctl(2) to https://manpages.debian.org/bookworm/manpages-dev/ioctl.2.en.html
-library/functools.rst:220: [broken] https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU): Anchor 'Least_recently_used_%28LRU%29' not found
 library/hashlib.rst:23: [redirected permanently] https://csrc.nist.gov/publications/detail/fips/180/4/final to https://csrc.nist.gov/pubs/fips/180-4/upd1/final
 library/hashlib.rst:23: [redirected permanently] https://csrc.nist.gov/publications/detail/fips/202/final to https://csrc.nist.gov/pubs/fips/202/final
 library/hashlib.rst:657: [redirected permanently] https://csrc.nist.gov/publications/detail/sp/800-106/archive/2009-02-25 to https://csrc.nist.gov/pubs/sp/800/106/final
@@ -104,7 +103,7 @@ library/ssl.rst:1566: [redirected permanently] https://www.openssl.org/docs/manm
 library/ssl.rst:1642: [redirected permanently] https://www.openssl.org/docs/manmaster/man1/ciphers.html to https://docs.openssl.org/master/man1/ciphers/
 library/ssl.rst:1876: [redirected permanently] https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_sess_number.html to https://docs.openssl.org/1.1.1/man3/SSL_CTX_sess_number/
 library/ssl.rst:2019: [redirected permanently] https://www.openssl.org/docs/manmaster/man3/SSL_CTX_get_security_level.html to https://docs.openssl.org/master/man3/SSL_CTX_get_security_level/
-library/ssl.rst:2757: [broken] https://www.openssl.org/docs/man1.1.1/man1/ciphers.html#CIPHER-LIST-FORMAT: Anchor 'CIPHER-LIST-FORMAT' not found
+library/ssl.rst:2757: [broken] https://docs.openssl.org/1.1.1/man1/ciphers/#CIPHER-LIST-FORMAT: Anchor 'CIPHER-LIST-FORMAT' not found
 library/stat.rst:459: [redirected temporarily] https://manpages.debian.org/chflags(2) to https://manpages.debian.org/bookworm/freebsd-manpages/chflags.2freebsd.en.html
 library/statistics.rst:995: [broken] https://www.statisticshowto.com/probability-and-statistics/z-score/: 403 Client Error: Forbidden for url: https://www.statisticshowto.com/probability-and-statistics/z-score/
 library/termios.rst:14: [redirected temporarily] https://manpages.debian.org/termios(3) to https://manpages.debian.org/bookworm/manpages-dev/termios.3.en.html
@@ -121,7 +120,7 @@ library/typing.rst:2711: [redirected permanently] https://typing.readthedocs.io/
 library/typing.rst:42: [redirected permanently] https://pypi.org/project/typing_extensions/ to https://pypi.org/project/typing-extensions/
 library/unittest.mock-examples.rst:1345: [redirected with Found] https://pyhamcrest.readthedocs.io/ to https://pyhamcrest.readthedocs.io/en/latest/
 library/unittest.rst:59: [redirected with Found] https://docs.pytest.org/ to https://docs.pytest.org/en/stable/
-library/unittest.rst:67: [timeout] http://lists.idyll.org/listinfo/testing-in-python: HTTPConnectionPool(host='lists.idyll.org', port=80): Max retries exceeded with url: /listinfo/testing-in-python (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f5910f86240>, 'Connection to lists.idyll.org timed out. (connect timeout=30)'))
+library/unittest.rst:67: [timeout] http://lists.idyll.org/listinfo/testing-in-python: HTTPConnectionPool(host='lists.idyll.org', port=80): Max retries exceeded with url: /listinfo/testing-in-python (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f661abb5010>, 'Connection to lists.idyll.org timed out. (connect timeout=30)'))
 library/urllib.request.rst:21: [redirected with Found] https://requests.readthedocs.io/en/master/ to https://requests.readthedocs.io/en/latest/
 library/venv.rst:56: [redirected with Found] https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments to https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 library/wsgiref.rst:32: [redirected with Found] https://wsgi.readthedocs.io/ to https://wsgi.readthedocs.io/en/latest/
@@ -142,20 +141,18 @@ using/windows.rst:611: [redirected permanently] https://www.enthought.com/edm/ t
 whatsnew/2.2.rst:959: [redirected with Found] http://xmlrpc.scripting.com/ to http://xmlrpc.com/
 whatsnew/2.4.rst:687: [redirected permanently] http://www.lahey.com/float.htm to https://sierraweb.com
 whatsnew/2.4.rst:691: [redirected permanently] http://speleotrove.com/decimal/ to https://speleotrove.com/decimal/
-whatsnew/2.4.rst:759: [broken] https://developer-old.gnome.org/glib/2.26/: HTTPSConnectionPool(host='developer-old.gnome.org', port=443): Max retries exceeded with url: /glib/2.26/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f59125652b0>: Failed to resolve 'developer-old.gnome.org' ([Errno -2] Name or service not known)"))
 whatsnew/2.5.rst:333: [redirected with Found] https://pylib.readthedocs.io/ to https://pylib.readthedocs.io/en/latest/
 whatsnew/2.6.rst:191: [broken] https://svn.python.org/view/tracker/importer/: unauthorized
 whatsnew/2.7.rst:1547: [redirected permanently] https://www.openssl.org/docs/man1.0.2/man1/ciphers.html to https://docs.openssl.org/1.0.2/man1/ciphers/
 whatsnew/2.7.rst:1836: [redirected with Found] https://nose.readthedocs.io/ to https://nose.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1836: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/stable/
 whatsnew/3.11.rst:2045: [redirected permanently] https://pypi.org/project/Pynche/ to https://pypi.org/project/pynche/
-whatsnew/3.12.rst:361: [broken] https://github.com/python/cpython/tree/3.13/Modules/_xxsubinterpretersmodule.c: 404 Client Error: Not Found for url: https://github.com/python/cpython/tree/3.13/Modules/_xxsubinterpretersmodule.c
 whatsnew/3.13.rst:1303: [redirected permanently] https://pypi.org/project/crypt_r/ to https://pypi.org/project/crypt-r/
 whatsnew/3.13.rst:1303: [redirected temporarily] https://manpages.debian.org/crypt_r(3) to https://manpages.debian.org/bookworm/libcrypt-dev/crypt_r.3.en.html
 whatsnew/3.13.rst:1330: [redirected with Found] https://www.pygame.org/ to https://www.pygame.org/news
-whatsnew/3.2.rst:1650: [broken] https://www.openssl.org/docs/man1.0.2/man1/ciphers.html#CIPHER-LIST-FORMAT: Anchor 'CIPHER-LIST-FORMAT' not found
+whatsnew/3.2.rst:1650: [broken] https://docs.openssl.org/1.0.2/man1/ciphers/#CIPHER-LIST-FORMAT: Anchor 'CIPHER-LIST-FORMAT' not found
 whatsnew/3.2.rst:2522: [redirected with Found] https://www.mercurial-scm.org/wiki/QuickStart to https://wiki.mercurial-scm.org/QuickStart
-whatsnew/3.4.rst:1962: [broken] https://ltp.sourceforge.net/coverage/lcov.php: 404 Client Error: Not Found for url: https://ltp.sourceforge.net/coverage/lcov.php
+whatsnew/3.4.rst:1962: [redirected with Found] https://linux-test-project.readthedocs.io to https://linux-test-project.readthedocs.io/en/latest/
 whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https://openexr.com/en/latest/
 whatsnew/3.5.rst:2215: [redirected with Found] https://visualstudio.microsoft.com/en/vs/older-downloads/#visual-studio-2015-and-other-products to https://visualstudio.microsoft.com/vs/older-downloads/
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/fr/ to https://docs.python.org/fr/3/

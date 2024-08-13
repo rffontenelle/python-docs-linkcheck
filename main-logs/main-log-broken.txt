@@ -1,11 +1,7 @@
 howto/curses.rst:541: [broken] https://linux.die.net/man/3/ncurses: 403 Client Error: Forbidden for url: https://linux.die.net/man/3/ncurses
-library/functools.rst:220: [broken] https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU): Anchor 'Least_recently_used_%28LRU%29' not found
 library/select.rst:279: [broken] https://linux.die.net/man/4/epoll: 403 Client Error: Forbidden for url: https://linux.die.net/man/4/epoll
-library/ssl.rst:2757: [broken] https://www.openssl.org/docs/man1.1.1/man1/ciphers.html#CIPHER-LIST-FORMAT: Anchor 'CIPHER-LIST-FORMAT' not found
+library/ssl.rst:2757: [broken] https://docs.openssl.org/1.1.1/man1/ciphers/#CIPHER-LIST-FORMAT: Anchor 'CIPHER-LIST-FORMAT' not found
 library/statistics.rst:995: [broken] https://www.statisticshowto.com/probability-and-statistics/z-score/: 403 Client Error: Forbidden for url: https://www.statisticshowto.com/probability-and-statistics/z-score/
-whatsnew/2.4.rst:759: [broken] https://developer-old.gnome.org/glib/2.26/: HTTPSConnectionPool(host='developer-old.gnome.org', port=443): Max retries exceeded with url: /glib/2.26/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fe9dddce6c0>: Failed to resolve 'developer-old.gnome.org' ([Errno -2] Name or service not known)"))
 whatsnew/2.6.rst:191: [broken] https://svn.python.org/view/tracker/importer/: unauthorized
-whatsnew/3.12.rst:361: [broken] https://github.com/python/cpython/tree/main/Modules/_xxsubinterpretersmodule.c: 404 Client Error: Not Found for url: https://github.com/python/cpython/tree/main/Modules/_xxsubinterpretersmodule.c
-whatsnew/3.2.rst:1650: [broken] https://www.openssl.org/docs/man1.0.2/man1/ciphers.html#CIPHER-LIST-FORMAT: Anchor 'CIPHER-LIST-FORMAT' not found
-whatsnew/3.4.rst:1962: [broken] https://ltp.sourceforge.net/coverage/lcov.php: 404 Client Error: Not Found for url: https://ltp.sourceforge.net/coverage/lcov.php
+whatsnew/3.2.rst:1650: [broken] https://docs.openssl.org/1.0.2/man1/ciphers/#CIPHER-LIST-FORMAT: Anchor 'CIPHER-LIST-FORMAT' not found
 whatsnew/3.8.rst:2228: [broken] https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html: 403 Client Error: Forbidden for url: https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html
