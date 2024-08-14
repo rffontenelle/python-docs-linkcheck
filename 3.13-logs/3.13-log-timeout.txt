@@ -1,1 +1,0 @@
-library/poplib.rst:104: [timeout] http://www.catb.org/~esr/fetchmail/fetchmail-FAQ.html: HTTPConnectionPool(host='www.catb.org', port=80): Max retries exceeded with url: /~esr/fetchmail/fetchmail-FAQ.html (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f318e02bbc0>, 'Connection to www.catb.org timed out. (connect timeout=30)'))

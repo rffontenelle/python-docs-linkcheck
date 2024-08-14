@@ -4,7 +4,6 @@ extending/building.rst:54: [redirected with Found] https://setuptools.readthedoc
 extending/extending.rst:25: [redirected with Found] https://cffi.readthedocs.io/ to https://cffi.readthedocs.io/en/stable/
 extending/index.rst:28: [redirected with Found] https://cffi.readthedocs.io to https://cffi.readthedocs.io/en/stable/
 extending/index.rst:37: [redirected with Found] https://packaging.python.org/guides/packaging-binary-extensions/ to https://packaging.python.org/en/latest/guides/packaging-binary-extensions/
-faq/gui.rst:49: [redirected with Found] https://tix.sourceforge.net/ to https://sourceforge.net/projects/tix/
 faq/library.rst:181: [redirected with Found] https://www.sphinx-doc.org to https://www.sphinx-doc.org/en/master/
 faq/library.rst:625: [redirected with Found] https://groups.google.com/groups?selm=34A04430.CF9@ohioee.com to https://groups.google.com/g/comp.lang.python/c/LJPQHowhlsQ/m/OsoXBiShALIJ
 faq/programming.rst:100: [redirected with Found] https://pyinstaller.org/ to https://pyinstaller.org/en/stable/
@@ -14,6 +13,7 @@ howto/functional.rst:1238: [redirected with Found] https://developer.ibm.com/tut
 howto/functional.rst:1238: [redirected with Found] https://developer.ibm.com/tutorials/l-prog3/ to https://developer.ibm.com/technologies/linux/tutorials/
 howto/isolating-extensions.rst:205: [redirected with Found] https://github.com/python/cpython/blob/master/Modules/xxlimited.c to https://github.com/python/cpython/blob/main/Modules/xxlimited.c
 howto/logging-cookbook.rst:2100: [redirected with Found] https://docs.djangoproject.com/en/stable/topics/logging/#configuring-logging to https://docs.djangoproject.com/en/5.1/topics/logging/
+howto/mro.rst:13: [redirected with Found] https://web.archive.org/web/20240526190539/https://www.phyast.pitt.edu/~micheles/ to https://web.archive.org/web/20171206213351/http://www.phyast.pitt.edu/~micheles/
 howto/mro.rst:667: [redirected with Found] https://doi.org/10.1145/236337.236343 to https://dl.acm.org/doi/10.1145/236337.236343
 howto/pyporting.rst:31: [redirected with Found] https://portingguide.readthedocs.io to https://portingguide.readthedocs.io/en/latest/
 howto/unicode.rst:42: [redirected with Found] https://www.unicode.org/versions/latest/#Summary to https://www.unicode.org/versions/Unicode15.1.0/
@@ -55,6 +55,7 @@ using/mac.rst:166: [redirected with Found] https://toga.readthedocs.io to https:
 using/mac.rst:183: [redirected with Found] https://briefcase.readthedocs.io to https://briefcase.readthedocs.io/en/stable/
 using/windows.rst:1280: [redirected with Found] https://pythonce.sourceforge.net/ to https://sourceforge.net/projects/pythonce/
 whatsnew/2.2.rst:959: [redirected with Found] http://xmlrpc.scripting.com/ to http://xmlrpc.com/
+whatsnew/2.5.rst:2068: [redirected with Found] https://web.archive.org/web/20160331090247/http://wsgi.readthedocs.org/en/latest/ to https://web.archive.org/web/20160402000224/http://wsgi.readthedocs.org/en/latest/
 whatsnew/2.5.rst:333: [redirected with Found] https://pylib.readthedocs.io/ to https://pylib.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1836: [redirected with Found] https://nose.readthedocs.io/ to https://nose.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1836: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/stable/
