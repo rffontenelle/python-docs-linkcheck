@@ -1,13 +1,267 @@
-diff --git a/Doc/conf.py b/Doc/conf.py
-index 3860d14..dd0b540 100644
---- a/Doc/conf.py
-+++ b/Doc/conf.py
-@@ -584,7 +584,7 @@
- extlinks = {
-     "cve": ("https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-%s", "CVE-%s"),
-     "cwe": ("https://cwe.mitre.org/data/definitions/%s.html", "CWE-%s"),
--    "pypi": ("https://pypi.org/project/%s/", "%s"),
-+    "pypi": ("https://pypi.org/project/%s/".lower(), "%s"),
-     "source": (SOURCE_URI, "%s"),
- }
- extlinks_detect_hardcoded_links = True
+diff --git a/Doc/faq/design.rst b/Doc/faq/design.rst
+index ebb6d5e..e2710fa 100644
+--- a/Doc/faq/design.rst
++++ b/Doc/faq/design.rst
+@@ -328,7 +328,7 @@ Can Python be compiled to machine code, C or some other language?
+ -----------------------------------------------------------------
+ 
+ `Cython <https://cython.org/>`_ compiles a modified version of Python with
+-optional annotations into C extensions.  `Nuitka <https://www.nuitka.net/>`_ is
++optional annotations into C extensions.  `Nuitka <https://nuitka.net/>`_ is
+ an up-and-coming compiler of Python into C++ code, aiming to support the full
+ Python language.
+ 
+@@ -345,7 +345,7 @@ to perform a garbage collection, obtain debugging statistics, and tune the
+ collector's parameters.
+ 
+ Other implementations (such as `Jython <https://www.jython.org>`_ or
+-`PyPy <https://www.pypy.org>`_), however, can rely on a different mechanism
++`PyPy <https://pypy.org>`_), however, can rely on a different mechanism
+ such as a full-blown garbage collector.  This difference can cause some
+ subtle porting problems if your Python code depends on the behavior of the
+ reference counting implementation.
+diff --git a/Doc/library/hashlib.rst b/Doc/library/hashlib.rst
+index 5d24b77..5dd802a 100644
+--- a/Doc/library/hashlib.rst
++++ b/Doc/library/hashlib.rst
+@@ -655,7 +655,7 @@ on the hash function used in digital signatures.
+     by the signer.
+ 
+     (`NIST SP-800-106 "Randomized Hashing for Digital Signatures"
+-    <https://csrc.nist.gov/publications/detail/sp/800-106/archive/2009-02-25>`_)
++    <https://csrc.nist.gov/pubs/sp/800/106/final>`_)
+ 
+ In BLAKE2 the salt is processed as a one-time input to the hash function during
+ initialization, rather than as an input to each compression function.
+@@ -810,7 +810,7 @@ Domain Dedication 1.0 Universal:
+ .. _stackexchange pbkdf2 iterations question: https://security.stackexchange.com/questions/3959/recommended-of-iterations-when-using-pbkdf2-sha256/
+ .. _Attacks on cryptographic hash algorithms: https://en.wikipedia.org/wiki/Cryptographic_hash_function#Attacks_on_cryptographic_hash_algorithms
+ .. _the FIPS 180-4 standard: https://csrc.nist.gov/publications/detail/fips/180/4/final
+-.. _the FIPS 202 standard: https://csrc.nist.gov/publications/detail/fips/202/final
++.. _the FIPS 202 standard: https://csrc.nist.gov/pubs/fips/202/final
+ .. _HACL\* project: https://github.com/hacl-star/hacl-star
+ 
+ 
+diff --git a/Doc/library/http.cookiejar.rst b/Doc/library/http.cookiejar.rst
+index 31ac8ba..23ddecf 100644
+--- a/Doc/library/http.cookiejar.rst
++++ b/Doc/library/http.cookiejar.rst
+@@ -137,7 +137,7 @@ The following classes are provided:
+       The Netscape protocol with the bugs fixed.  Uses :mailheader:`Set-Cookie2` in
+       place of :mailheader:`Set-Cookie`.  Not widely used.
+ 
+-   http://kristol.org/cookie/errata.html
++   https://kristol.org/cookie/errata.html
+       Unfinished errata to :rfc:`2965`.
+ 
+    :rfc:`2964` - Use of HTTP State Management
+diff --git a/Doc/library/json.rst b/Doc/library/json.rst
+index 42cb1f8..bf2e05e 100644
+--- a/Doc/library/json.rst
++++ b/Doc/library/json.rst
+@@ -13,7 +13,7 @@
+ 
+ `JSON (JavaScript Object Notation) <https://json.org>`_, specified by
+ :rfc:`7159` (which obsoletes :rfc:`4627`) and by
+-`ECMA-404 <https://www.ecma-international.org/publications-and-standards/standards/ecma-404/>`_,
++`ECMA-404 <https://ecma-international.org/publications-and-standards/standards/ecma-404/>`_,
+ is a lightweight data interchange format inspired by
+ `JavaScript <https://en.wikipedia.org/wiki/JavaScript>`_ object literal syntax
+ (although it is not a strict subset of JavaScript [#rfc-errata]_ ).
+diff --git a/Doc/library/os.rst b/Doc/library/os.rst
+index b0ff811..d703b75 100644
+--- a/Doc/library/os.rst
++++ b/Doc/library/os.rst
+@@ -4511,7 +4511,7 @@ written in Python, such as a mail server's external command delivery program.
+       already more likely to experience deadlocks running such code.
+ 
+       See `this discussion on fork being incompatible with threads
+-      <https://discuss.python.org/t/33555>`_
++      <https://discuss.python.org/t/concerns-regarding-deprecation-of-fork-with-alive-threads/33555>`_
+       for technical details of why we're surfacing this longstanding
+       platform compatibility problem to developers.
+ 
+diff --git a/Doc/library/ssl.rst b/Doc/library/ssl.rst
+index ad441c5..b94bc0b 100644
+--- a/Doc/library/ssl.rst
++++ b/Doc/library/ssl.rst
+@@ -1566,7 +1566,7 @@ to speed up repeated connections from the same clients.
+    The *capath* string, if present, is
+    the path to a directory containing several CA certificates in PEM format,
+    following an `OpenSSL specific layout
+-   <https://www.openssl.org/docs/manmaster/man3/SSL_CTX_load_verify_locations.html>`_.
++   <https://docs.openssl.org/master/man3/SSL_CTX_load_verify_locations/>`_.
+ 
+    The *cadata* object, if present, is either an ASCII string of one or more
+    PEM-encoded certificates or a :term:`bytes-like object` of DER-encoded
+@@ -1641,7 +1641,7 @@ to speed up repeated connections from the same clients.
+ 
+    Set the available ciphers for sockets created with this context.
+    It should be a string in the `OpenSSL cipher list format
+-   <https://www.openssl.org/docs/manmaster/man1/ciphers.html>`_.
++   <https://docs.openssl.org/master/man1/ciphers/>`_.
+    If no cipher can be selected (because compile-time options or other
+    configuration forbids use of all the specified ciphers), an
+    :class:`SSLError` will be raised.
+@@ -1874,7 +1874,7 @@ to speed up repeated connections from the same clients.
+ .. method:: SSLContext.session_stats()
+ 
+    Get statistics about the SSL sessions created or managed by this context.
+-   A dictionary is returned which maps the names of each `piece of information <https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_sess_number.html>`_ to their
++   A dictionary is returned which maps the names of each `piece of information <https://docs.openssl.org/1.1.1/man3/SSL_CTX_sess_number/>`_ to their
+    numeric values.  For example, here is the total number of hits and misses
+    in the session cache since the context was created::
+ 
+@@ -2017,7 +2017,7 @@ to speed up repeated connections from the same clients.
+ .. attribute:: SSLContext.security_level
+ 
+    An integer representing the `security level
+-   <https://www.openssl.org/docs/manmaster/man3/SSL_CTX_get_security_level.html>`_
++   <https://docs.openssl.org/master/man3/SSL_CTX_get_security_level/>`_
+    for the context. This attribute is read-only.
+ 
+    .. versionadded:: 3.10
+diff --git a/Doc/library/tkinter.rst b/Doc/library/tkinter.rst
+index f40790c..ea83d32 100644
+--- a/Doc/library/tkinter.rst
++++ b/Doc/library/tkinter.rst
+@@ -58,7 +58,7 @@ details that are unchanged.
+    * `Modern Tkinter for Busy Python Developers <https://tkdocs.com/book.html>`_
+       By Mark Roseman. (ISBN 978-1999149567)
+ 
+-   * `Python GUI programming with Tkinter <https://www.packtpub.com/product/python-gui-programming-with-tkinter/9781788835886>`_
++   * `Python GUI programming with Tkinter <https://www.packtpub.com/en-us/product/python-gui-programming-with-tkinter-9781788835886>`_
+       By Alan D. Moore. (ISBN 978-1788835886)
+ 
+    * `Programming Python <https://learning-python.com/about-pp4e.html>`_
+diff --git a/Doc/library/typing.rst b/Doc/library/typing.rst
+index 7d1d317..772b687 100644
+--- a/Doc/library/typing.rst
++++ b/Doc/library/typing.rst
+@@ -2709,7 +2709,7 @@ Functions and decorators
+ 
+    .. seealso::
+       `Unreachable Code and Exhaustiveness Checking
+-      <https://typing.readthedocs.io/en/latest/source/unreachable.html>`__ has more
++      <https://typing.readthedocs.io/en/latest/guides/unreachable.html>`__ has more
+       information about exhaustiveness checking with static typing.
+ 
+    .. versionadded:: 3.11
+diff --git a/Doc/library/xmlrpc.client.rst b/Doc/library/xmlrpc.client.rst
+index 614fb19..c57f433 100644
+--- a/Doc/library/xmlrpc.client.rst
++++ b/Doc/library/xmlrpc.client.rst
+@@ -165,7 +165,7 @@ between conformable Python objects and XML on the wire.
+       A good description of XML-RPC operation and client software in several languages.
+       Contains pretty much everything an XML-RPC client developer needs to know.
+ 
+-   `XML-RPC Introspection <https://xmlrpc-c.sourceforge.net/introspection.html>`_
++   `XML-RPC Introspection <https://xmlrpc-c.sourceforge.io/introspection.html>`_
+       Describes the XML-RPC protocol extension for introspection.
+ 
+    `XML-RPC Specification <http://xmlrpc.scripting.com/spec.html>`_
+diff --git a/Doc/reference/introduction.rst b/Doc/reference/introduction.rst
+index cf18670..b7b70e6 100644
+--- a/Doc/reference/introduction.rst
++++ b/Doc/reference/introduction.rst
+@@ -74,7 +74,7 @@ PyPy
+    and a Just in Time compiler. One of the goals of the project is to encourage
+    experimentation with the language itself by making it easier to modify the
+    interpreter (since it is written in Python).  Additional information is
+-   available on `the PyPy project's home page <https://www.pypy.org/>`_.
++   available on `the PyPy project's home page <https://pypy.org/>`_.
+ 
+ Each of these implementations varies in some way from the language as documented
+ in this manual, or introduces specific information beyond what's covered in the
+diff --git a/Doc/using/mac.rst b/Doc/using/mac.rst
+index 44fb00d..2dfac07 100644
+--- a/Doc/using/mac.rst
++++ b/Doc/using/mac.rst
+@@ -155,7 +155,7 @@ https://www.activestate.com; it can also be built from source.
+ A number of alternative macOS GUI toolkits are available:
+ 
+ * `PySide <https://www.qt.io/qt-for-python>`__: Official Python bindings to the
+-  `Qt GUI toolkit <https://qt.io>`__.
++  `Qt GUI toolkit <https://www.qt.io>`__.
+ 
+ * `PyQt <https://riverbankcomputing.com/software/pyqt/intro>`__: Alternative
+   Python bindings to Qt.
+diff --git a/Doc/using/windows.rst b/Doc/using/windows.rst
+index ef98d32..136236f 100644
+--- a/Doc/using/windows.rst
++++ b/Doc/using/windows.rst
+@@ -608,7 +608,7 @@ key features:
+     Popular scientific modules (such as numpy, scipy and pandas) and the
+     ``conda`` package manager.
+ 
+-`Enthought Deployment Manager <https://www.enthought.com/edm/>`_
++`Enthought Deployment Manager <https://assets.enthought.com/downloads/edm/>`_
+     "The Next Generation Python Environment and Package Manager".
+ 
+     Previously Enthought provided Canopy, but it `reached end of life in 2016
+@@ -1305,7 +1305,7 @@ shipped with PyWin32.  It is an embeddable IDE with a built-in debugger.
+ 
+ .. seealso::
+ 
+-   `Win32 How Do I...? <http://timgolden.me.uk/python/win32_how_do_i.html>`_
++   `Win32 How Do I...? <https://timgolden.me.uk/python/win32_how_do_i.html>`_
+       by Tim Golden
+ 
+    `Python and COM <https://www.boddie.org.uk/python/COM.html>`_
+diff --git a/Doc/whatsnew/2.4.rst b/Doc/whatsnew/2.4.rst
+index 7e235d4..2695b53 100644
+--- a/Doc/whatsnew/2.4.rst
++++ b/Doc/whatsnew/2.4.rst
+@@ -684,11 +684,11 @@ includes a quick-start tutorial and a reference.
+       Written by Facundo Batista and implemented by Facundo Batista, Eric Price,
+       Raymond Hettinger, Aahz, and Tim Peters.
+ 
+-   http://www.lahey.com/float.htm
++   `http://www.lahey.com/float.htm <https://web.archive.org/web/20230604072523/http://www.lahey.com/float.htm>`
+       The article uses Fortran code to illustrate many of the problems that
+       floating-point inaccuracy can cause.
+ 
+-   http://speleotrove.com/decimal/
++   https://speleotrove.com/decimal/
+       A description of a decimal-based representation.  This representation is being
+       proposed as a standard, and underlies the new Python decimal type.  Much of this
+       material was written by Mike Cowlishaw, designer of the Rexx language.
+diff --git a/Doc/whatsnew/2.7.rst b/Doc/whatsnew/2.7.rst
+index 857b6bb..66df1a9 100644
+--- a/Doc/whatsnew/2.7.rst
++++ b/Doc/whatsnew/2.7.rst
+@@ -1548,7 +1548,7 @@ changes, or look through the Subversion logs for all the details.
+   *ciphers* argument that's a string listing the encryption algorithms
+   to be allowed; the format of the string is described
+   `in the OpenSSL documentation
+-  <https://www.openssl.org/docs/man1.0.2/man1/ciphers.html>`__.
++  <https://docs.openssl.org/1.0.2/man1/ciphers/>`__.
+   (Added by Antoine Pitrou; :issue:`8322`.)
+ 
+   Another change makes the extension load all of OpenSSL's ciphers and
+diff --git a/Misc/NEWS.d/3.10.0a7.rst b/Misc/NEWS.d/3.10.0a7.rst
+index 32ee34d..6a11344 100644
+--- a/Misc/NEWS.d/3.10.0a7.rst
++++ b/Misc/NEWS.d/3.10.0a7.rst
+@@ -715,7 +715,7 @@ this situation.  Also ensures that the :func:`tempfile.gettempdir()` and
+ Expose ``X509_V_FLAG_ALLOW_PROXY_CERTS`` as
+ :const:`~ssl.VERIFY_ALLOW_PROXY_CERTS` to allow proxy certificate validation
+ as explained in
+-https://www.openssl.org/docs/man1.1.1/man7/proxy-certificates.html.
++https://docs.openssl.org/1.1.1/man7/proxy-certificates/.
+ 
+ ..
+ 
+diff --git a/Misc/NEWS.d/3.12.0a6.rst b/Misc/NEWS.d/3.12.0a6.rst
+index 382dae3..bc708d1 100644
+--- a/Misc/NEWS.d/3.12.0a6.rst
++++ b/Misc/NEWS.d/3.12.0a6.rst
+@@ -17,7 +17,7 @@ from the HACL* project.
+ Updated the OpenSSL version used in Windows and macOS binary release builds
+ to 1.1.1t to address :cve:`2023-0286`, :cve:`2022-4303`, and :cve:`2022-4303` per
+ `the OpenSSL 2023-02-07 security advisory
+-<https://www.openssl.org/news/secadv/20230207.txt>`_.
++<https://openssl-library.org/news/secadv/20230207.txt>`_.
+ 
+ ..
+ 
