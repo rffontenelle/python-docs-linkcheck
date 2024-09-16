@@ -17,7 +17,7 @@ howto/isolating-extensions.rst:205: [redirected with Found] https://github.com/p
 howto/logging-cookbook.rst:2100: [redirected with Found] https://docs.djangoproject.com/en/stable/topics/logging/#configuring-logging to https://docs.djangoproject.com/en/5.1/topics/logging/
 howto/mro.rst:667: [redirected with Found] https://doi.org/10.1145/236337.236343 to https://dl.acm.org/doi/10.1145/236337.236343
 howto/pyporting.rst:31: [redirected with Found] https://portingguide.readthedocs.io to https://portingguide.readthedocs.io/en/latest/
-howto/unicode.rst:42: [redirected with Found] https://www.unicode.org/versions/latest/#Summary to https://www.unicode.org/versions/Unicode15.1.0/
+howto/unicode.rst:42: [redirected with Found] https://www.unicode.org/versions/latest/#Summary to https://www.unicode.org/versions/Unicode16.0.0/
 installing/index.rst:109: [redirected with Found] https://packaging.python.org to https://packaging.python.org/en/latest/
 installing/index.rst:118: [redirected with Found] https://packaging.python.org/installing/ to https://packaging.python.org/en/latest/tutorials/installing-packages/
 installing/index.rst:136: [redirected with Found] https://packaging.python.org/installing/#requirements-for-installing-packages to https://packaging.python.org/en/latest/tutorials/installing-packages/
@@ -41,6 +41,7 @@ library/os.path.rst:320: [redirected with Found] https://learn.microsoft.com/win
 library/platform.rst:295: [redirected with Found] https://www.freedesktop.org/software/systemd/man/os-release.html to https://www.freedesktop.org/software/systemd/man/latest/os-release.html
 library/select.rst:279: [broken] https://linux.die.net/man/4/epoll: 403 Client Error: Forbidden for url: https://linux.die.net/man/4/epoll
 library/statistics.rst:995: [broken] https://www.statisticshowto.com/probability-and-statistics/z-score/: 403 Client Error: Forbidden for url: https://www.statisticshowto.com/probability-and-statistics/z-score/
+library/time.rst:905: [broken] https://www.nist.gov/pml/time-and-frequency-division/nist-time-frequently-asked-questions-faq#tai: Anchor 'tai' not found
 library/tkinter.rst:45: [redirected with Found] https://www.tkdocs.com/shipman/ to https://tkdocs.com/shipman/
 library/tkinter.rst:93: [redirected with Found] https://wiki.tcl-lang.org/37432 to https://wiki.tcl-lang.org/page/Tcl+Package+User+Guide
 library/tkinter.ttk.rst:27: [redirected with Found] https://core.tcl.tk/tips/doc/trunk/tip/48.md to https://core.tcl-lang.org/tips/doc/trunk/tip/48.md
@@ -66,8 +67,7 @@ whatsnew/2.6.rst:191: [broken] https://svn.python.org/view/tracker/importer/: un
 whatsnew/2.7.rst:1836: [redirected with Found] https://nose.readthedocs.io/ to https://nose.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1836: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/stable/
 whatsnew/3.11.rst:2045: [redirected permanently] https://pypi.org/project/Pynche/ to https://pypi.org/project/pynche/
-whatsnew/3.13.rst:1376: [redirected permanently] https://pypi.org/project/crypt_r/ to https://pypi.org/project/crypt-r/
-whatsnew/3.13.rst:1403: [redirected with Found] https://www.pygame.org/ to https://www.pygame.org/news
+whatsnew/3.13.rst:1591: [redirected permanently] https://pypi.org/project/crypt_r/ to https://pypi.org/project/crypt-r/
 whatsnew/3.2.rst:2522: [redirected with Found] https://www.mercurial-scm.org/wiki/QuickStart to https://wiki.mercurial-scm.org/QuickStart
 whatsnew/3.4.rst:1962: [redirected with Found] https://linux-test-project.readthedocs.io to https://linux-test-project.readthedocs.io/en/latest/
 whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https://openexr.com/en/latest/
@@ -77,6 +77,6 @@ whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ja/ to htt
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ko/ to https://docs.python.org/ko/3/
 whatsnew/3.8.rst:2228: [broken] https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html: 403 Client Error: Forbidden for url: https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html
 whatsnew/3.9.rst:934: [redirected with Found] https://parso.readthedocs.io/ to https://parso.readthedocs.io/en/latest/
-whatsnew/changelog.rst:13336: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/
-whatsnew/changelog.rst:27726: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
-whatsnew/changelog.rst:9950: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
+whatsnew/changelog.rst:10339: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
+whatsnew/changelog.rst:13725: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/
+whatsnew/changelog.rst:28113: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/

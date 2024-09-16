@@ -15,7 +15,7 @@ howto/isolating-extensions.rst:205: [redirected with Found] https://github.com/p
 howto/logging-cookbook.rst:2100: [redirected with Found] https://docs.djangoproject.com/en/stable/topics/logging/#configuring-logging to https://docs.djangoproject.com/en/5.1/topics/logging/
 howto/mro.rst:667: [redirected with Found] https://doi.org/10.1145/236337.236343 to https://dl.acm.org/doi/10.1145/236337.236343
 howto/pyporting.rst:31: [redirected with Found] https://portingguide.readthedocs.io to https://portingguide.readthedocs.io/en/latest/
-howto/unicode.rst:42: [redirected with Found] https://www.unicode.org/versions/latest/#Summary to https://www.unicode.org/versions/Unicode15.1.0/
+howto/unicode.rst:42: [redirected with Found] https://www.unicode.org/versions/latest/#Summary to https://www.unicode.org/versions/Unicode16.0.0/
 installing/index.rst:109: [redirected with Found] https://packaging.python.org to https://packaging.python.org/en/latest/
 installing/index.rst:118: [redirected with Found] https://packaging.python.org/installing/ to https://packaging.python.org/en/latest/tutorials/installing-packages/
 installing/index.rst:136: [redirected with Found] https://packaging.python.org/installing/#requirements-for-installing-packages to https://packaging.python.org/en/latest/tutorials/installing-packages/
@@ -56,7 +56,6 @@ whatsnew/2.2.rst:959: [redirected with Found] http://xmlrpc.scripting.com/ to ht
 whatsnew/2.5.rst:333: [redirected with Found] https://pylib.readthedocs.io/ to https://pylib.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1836: [redirected with Found] https://nose.readthedocs.io/ to https://nose.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1836: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/stable/
-whatsnew/3.13.rst:1403: [redirected with Found] https://www.pygame.org/ to https://www.pygame.org/news
 whatsnew/3.2.rst:2522: [redirected with Found] https://www.mercurial-scm.org/wiki/QuickStart to https://wiki.mercurial-scm.org/QuickStart
 whatsnew/3.4.rst:1962: [redirected with Found] https://linux-test-project.readthedocs.io to https://linux-test-project.readthedocs.io/en/latest/
 whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https://openexr.com/en/latest/
@@ -65,6 +64,6 @@ whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/fr/ to htt
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ja/ to https://docs.python.org/ja/3/
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ko/ to https://docs.python.org/ko/3/
 whatsnew/3.9.rst:934: [redirected with Found] https://parso.readthedocs.io/ to https://parso.readthedocs.io/en/latest/
-whatsnew/changelog.rst:13336: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/
-whatsnew/changelog.rst:27726: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
-whatsnew/changelog.rst:9950: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
+whatsnew/changelog.rst:10339: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
+whatsnew/changelog.rst:13725: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/
+whatsnew/changelog.rst:28113: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
