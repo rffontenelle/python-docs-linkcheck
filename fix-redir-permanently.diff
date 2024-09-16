@@ -1,3 +1,16 @@
+diff --git a/Doc/conf.py b/Doc/conf.py
+index 92cc938..5d3a725 100644
+--- a/Doc/conf.py
++++ b/Doc/conf.py
+@@ -560,6 +560,8 @@
+     r'https://www.sqlite.org': 'https://www.sqlite.org/index.html',
+     r'https://mitpress.mit.edu/sicp$': 'https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/',
+     r'https://www.python.org/psf/': 'https://www.python.org/psf-landing/',
++    # pypi.org project name normalization (upper to lowercase, underscore to hyphen)
++    r'https://pypi.org/project/[A-Za-z\d_\-\.]+/', r'https://pypi.org/project/[a-z\d\-\.]+/',
+ }
+ 
+ linkcheck_anchors_ignore = [
 diff --git a/Doc/faq/design.rst b/Doc/faq/design.rst
 index ebb6d5e..e2710fa 100644
 --- a/Doc/faq/design.rst
@@ -67,7 +80,7 @@ index 31ac8ba..23ddecf 100644
  
     :rfc:`2964` - Use of HTTP State Management
 diff --git a/Doc/library/json.rst b/Doc/library/json.rst
-index 26f85b5..c566f58 100644
+index f0c3794..758d474 100644
 --- a/Doc/library/json.rst
 +++ b/Doc/library/json.rst
 @@ -13,7 +13,7 @@
@@ -79,7 +92,7 @@ index 26f85b5..c566f58 100644
  is a lightweight data interchange format inspired by
  `JavaScript <https://en.wikipedia.org/wiki/JavaScript>`_ object literal syntax
  (although it is not a strict subset of JavaScript [#rfc-errata]_ ).
-@@ -559,7 +559,7 @@ Standard Compliance and Interoperability
+@@ -557,7 +557,7 @@ Standard Compliance and Interoperability
  ----------------------------------------
  
  The JSON format is specified by :rfc:`7159` and by
@@ -89,10 +102,10 @@ index 26f85b5..c566f58 100644
  For simplicity, :class:`JSONEncoder` and :class:`JSONDecoder` subclasses, and
  parameters other than those explicitly mentioned, are not considered.
 diff --git a/Doc/library/os.rst b/Doc/library/os.rst
-index b0ff811..d703b75 100644
+index 035c71d..6ff4785 100644
 --- a/Doc/library/os.rst
 +++ b/Doc/library/os.rst
-@@ -4511,7 +4511,7 @@ written in Python, such as a mail server's external command delivery program.
+@@ -4513,7 +4513,7 @@ written in Python, such as a mail server's external command delivery program.
        already more likely to experience deadlocks running such code.
  
        See `this discussion on fork being incompatible with threads
@@ -102,7 +115,7 @@ index b0ff811..d703b75 100644
        platform compatibility problem to developers.
  
 diff --git a/Doc/library/ssl.rst b/Doc/library/ssl.rst
-index ad441c5..b94bc0b 100644
+index 7e14fc8..64ff9a4 100644
 --- a/Doc/library/ssl.rst
 +++ b/Doc/library/ssl.rst
 @@ -1566,7 +1566,7 @@ to speed up repeated connections from the same clients.
@@ -142,7 +155,7 @@ index ad441c5..b94bc0b 100644
  
     .. versionadded:: 3.10
 diff --git a/Doc/library/tkinter.rst b/Doc/library/tkinter.rst
-index f40790c..ea83d32 100644
+index 70d4b30..f284988 100644
 --- a/Doc/library/tkinter.rst
 +++ b/Doc/library/tkinter.rst
 @@ -58,7 +58,7 @@ details that are unchanged.
@@ -155,10 +168,10 @@ index f40790c..ea83d32 100644
  
     * `Programming Python <https://learning-python.com/about-pp4e.html>`_
 diff --git a/Doc/library/typing.rst b/Doc/library/typing.rst
-index 7d1d317..772b687 100644
+index fa79320..075c58d 100644
 --- a/Doc/library/typing.rst
 +++ b/Doc/library/typing.rst
-@@ -2709,7 +2709,7 @@ Functions and decorators
+@@ -2866,7 +2866,7 @@ Functions and decorators
  
     .. seealso::
        `Unreachable Code and Exhaustiveness Checking
@@ -247,7 +260,7 @@ index 7e235d4..2695b53 100644
        proposed as a standard, and underlies the new Python decimal type.  Much of this
        material was written by Mike Cowlishaw, designer of the Rexx language.
 diff --git a/Doc/whatsnew/2.7.rst b/Doc/whatsnew/2.7.rst
-index 857b6bb..66df1a9 100644
+index 0e5c3b9..ca5dfd2 100644
 --- a/Doc/whatsnew/2.7.rst
 +++ b/Doc/whatsnew/2.7.rst
 @@ -1548,7 +1548,7 @@ changes, or look through the Subversion logs for all the details.
@@ -260,7 +273,7 @@ index 857b6bb..66df1a9 100644
  
    Another change makes the extension load all of OpenSSL's ciphers and
 diff --git a/Doc/whatsnew/3.12.rst b/Doc/whatsnew/3.12.rst
-index 3821ee3..1488187 100644
+index 27b5e2f..99bb393 100644
 --- a/Doc/whatsnew/3.12.rst
 +++ b/Doc/whatsnew/3.12.rst
 @@ -1254,7 +1254,7 @@ Deprecated
@@ -273,10 +286,10 @@ index 3821ee3..1488187 100644
  
    When this warning appears due to usage of :mod:`multiprocessing` or
 diff --git a/Misc/NEWS.d/3.10.0a7.rst b/Misc/NEWS.d/3.10.0a7.rst
-index 32ee34d..6a11344 100644
+index 53185d3..d866e80 100644
 --- a/Misc/NEWS.d/3.10.0a7.rst
 +++ b/Misc/NEWS.d/3.10.0a7.rst
-@@ -715,7 +715,7 @@ this situation.  Also ensures that the :func:`tempfile.gettempdir()` and
+@@ -715,7 +715,7 @@ this situation.  Also ensures that the :func:`tempfile.gettempdir` and
  Expose ``X509_V_FLAG_ALLOW_PROXY_CERTS`` as
  :const:`~ssl.VERIFY_ALLOW_PROXY_CERTS` to allow proxy certificate validation
  as explained in
