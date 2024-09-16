@@ -1,7 +1,0 @@
-howto/curses.rst:38: [redirected permanently] https://pypi.org/project/Urwid/ to https://pypi.org/project/urwid/
-library/datetime.rst:40: [redirected permanently] https://pypi.org/project/DateType/ to https://pypi.org/project/datetype/
-library/importlib.metadata.rst:182: [redirected permanently] https://pypi.org/project/backports.entry_points_selectable/ to https://pypi.org/project/backports.entry-points-selectable/
-library/typing.rst:42: [redirected permanently] https://pypi.org/project/typing_extensions/ to https://pypi.org/project/typing-extensions/
-using/windows.rst:1288: [redirected permanently] https://pypi.org/project/PyWin32/ to https://pypi.org/project/pywin32/
-whatsnew/3.11.rst:2045: [redirected permanently] https://pypi.org/project/Pynche/ to https://pypi.org/project/pynche/
-whatsnew/3.13.rst:1591: [redirected permanently] https://pypi.org/project/crypt_r/ to https://pypi.org/project/crypt-r/

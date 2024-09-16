@@ -1,7 +1,1 @@
-howto/curses.rst:38: [redirected permanently] https://pypi.org/project/Urwid/ to https://pypi.org/project/urwid/
-library/datetime.rst:40: [redirected permanently] https://pypi.org/project/DateType/ to https://pypi.org/project/datetype/
-library/importlib.metadata.rst:176: [redirected permanently] https://pypi.org/project/backports.entry_points_selectable/ to https://pypi.org/project/backports.entry-points-selectable/
-library/typing.rst:42: [redirected permanently] https://pypi.org/project/typing_extensions/ to https://pypi.org/project/typing-extensions/
 license.rst:1048: [redirected permanently] https://sourceforge.net/projects/sox/files/sox/12.17.7/sox-12.17.7.tar.gz to https://sourceforge.net/projects/sox/files/sox/12.17.7/sox-12.17.7.tar.gz/download
-using/windows.rst:1220: [redirected permanently] https://pypi.org/project/PyWin32/ to https://pypi.org/project/pywin32/
-whatsnew/3.11.rst:2045: [redirected permanently] https://pypi.org/project/Pynche/ to https://pypi.org/project/pynche/
