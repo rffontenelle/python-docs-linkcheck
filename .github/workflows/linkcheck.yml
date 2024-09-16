@@ -37,7 +37,6 @@ jobs:
           - branch: '3.12'
             fix-broken: 'fix-broken-3.12.diff'
             fix-redir-permanently: 'fix-redir-permanently.diff'
-            fix-redir-temporarily: 'fix-redir-temporarily.diff'
             #fix-redir-with-found: 'fix-redir-with-found.diff'
             fix-timeout: 'fix-timeout.diff'
       fail-fast: false
