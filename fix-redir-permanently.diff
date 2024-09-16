@@ -1,5 +1,5 @@
 diff --git a/Doc/conf.py b/Doc/conf.py
-index 92cc938..5d3a725 100644
+index 92cc938..cb0759e 100644
 --- a/Doc/conf.py
 +++ b/Doc/conf.py
 @@ -560,6 +560,8 @@
@@ -7,7 +7,7 @@ index 92cc938..5d3a725 100644
      r'https://mitpress.mit.edu/sicp$': 'https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/',
      r'https://www.python.org/psf/': 'https://www.python.org/psf-landing/',
 +    # pypi.org project name normalization (upper to lowercase, underscore to hyphen)
-+    r'https://pypi.org/project/[A-Za-z\d_\-\.]+/', r'https://pypi.org/project/[a-z\d\-\.]+/',
++    r'https://pypi.org/project/[A-Za-z\d_\-\.]+/': r'https://pypi.org/project/[a-z\d\-\.]+/',
  }
  
  linkcheck_anchors_ignore = [
