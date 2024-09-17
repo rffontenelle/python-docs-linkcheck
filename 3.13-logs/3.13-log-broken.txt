@@ -3,5 +3,6 @@ library/select.rst:279: [broken] https://linux.die.net/man/4/epoll: 403 Client E
 library/statistics.rst:995: [broken] https://www.statisticshowto.com/probability-and-statistics/z-score/: 403 Client Error: Forbidden for url: https://www.statisticshowto.com/probability-and-statistics/z-score/
 library/time.rst:905: [broken] https://www.nist.gov/pml/time-and-frequency-division/nist-time-frequently-asked-questions-faq#tai: Anchor 'tai' not found
 whatsnew/2.6.rst:191: [broken] https://svn.python.org/view/tracker/importer/: unauthorized
+whatsnew/3.12.rst:361: [broken] https://github.com/python/cpython/tree/3.13/!Modules/_xxsubinterpretersmodule.c: 404 Client Error: Not Found for url: https://github.com/python/cpython/tree/3.13/!Modules/_xxsubinterpretersmodule.c
 whatsnew/3.13.rst:1603: [broken] https://pypi.org/project/nntplib/: 404 Client Error: Not Found for url: https://pypi.org/project/nntplib/
 whatsnew/3.8.rst:2228: [broken] https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html: 403 Client Error: Forbidden for url: https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html

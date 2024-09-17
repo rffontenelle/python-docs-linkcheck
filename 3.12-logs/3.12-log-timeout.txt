@@ -1,0 +1,1 @@
+library/colorsys.rst:23: [timeout] https://poynton.ca/ColorFAQ.html: HTTPSConnectionPool(host='poynton.ca', port=443): Max retries exceeded with url: /ColorFAQ.html (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f4c1bf81040>, 'Connection to poynton.ca timed out. (connect timeout=30)'))

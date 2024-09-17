@@ -24,9 +24,9 @@ installing/index.rst:241: [redirected with Found] https://packaging.python.org/e
 installing/index.rst:52: [redirected with Found] https://www.pypa.io/ to https://www.pypa.io/en/latest/
 installing/index.rst:71: [redirected with Found] https://packaging.python.org/installing/#creating-virtual-environments to https://packaging.python.org/en/latest/tutorials/installing-packages/
 library/__main__.rst:167: [redirected with Found] https://pip.pypa.io/ to https://pip.pypa.io/en/stable/
-library/ast.rst:2540: [redirected with Found] https://greentreesnakes.readthedocs.io/ to https://greentreesnakes.readthedocs.io/en/latest/
-library/ast.rst:2553: [redirected with Found] https://libcst.readthedocs.io/ to https://libcst.readthedocs.io/en/latest/
-library/ast.rst:2558: [redirected with Found] https://parso.readthedocs.io to https://parso.readthedocs.io/en/latest/
+library/ast.rst:2539: [redirected with Found] https://greentreesnakes.readthedocs.io/ to https://greentreesnakes.readthedocs.io/en/latest/
+library/ast.rst:2552: [redirected with Found] https://libcst.readthedocs.io/ to https://libcst.readthedocs.io/en/latest/
+library/ast.rst:2557: [redirected with Found] https://parso.readthedocs.io to https://parso.readthedocs.io/en/latest/
 library/importlib.metadata.rst:16: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#entry-points to https://setuptools.pypa.io/en/latest/pkg_resources.html
 library/importlib.metadata.rst:16: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#metadata-api to https://setuptools.pypa.io/en/latest/pkg_resources.html
 library/importlib.metadata.rst:55: [redirected with Found] https://importlib-metadata.readthedocs.io/ to https://importlib-metadata.readthedocs.io/en/latest/
@@ -64,5 +64,4 @@ whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ja/ to htt
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ko/ to https://docs.python.org/ko/3/
 whatsnew/3.9.rst:934: [redirected with Found] https://parso.readthedocs.io/ to https://parso.readthedocs.io/en/latest/
 whatsnew/changelog.rst:10345: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
-whatsnew/changelog.rst:13731: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/
-whatsnew/changelog.rst:28119: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
+whatsnew/changelog.rst:28118: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/

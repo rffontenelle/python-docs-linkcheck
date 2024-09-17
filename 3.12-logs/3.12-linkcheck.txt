@@ -27,8 +27,9 @@ installing/index.rst:71: [redirected with Found] https://packaging.python.org/in
 library/2to3.rst:482: [redirected with Found] https://libcst.readthedocs.io/ to https://libcst.readthedocs.io/en/latest/
 library/2to3.rst:482: [redirected with Found] https://parso.readthedocs.io/ to https://parso.readthedocs.io/en/latest/
 library/__main__.rst:167: [redirected with Found] https://pip.pypa.io/ to https://pip.pypa.io/en/stable/
-library/ast.rst:2519: [redirected with Found] https://greentreesnakes.readthedocs.io/ to https://greentreesnakes.readthedocs.io/en/latest/
-library/ast.rst:2537: [redirected with Found] https://parso.readthedocs.io to https://parso.readthedocs.io/en/latest/
+library/ast.rst:2518: [redirected with Found] https://greentreesnakes.readthedocs.io/ to https://greentreesnakes.readthedocs.io/en/latest/
+library/ast.rst:2536: [redirected with Found] https://parso.readthedocs.io to https://parso.readthedocs.io/en/latest/
+library/colorsys.rst:23: [timeout] https://poynton.ca/ColorFAQ.html: HTTPSConnectionPool(host='poynton.ca', port=443): Max retries exceeded with url: /ColorFAQ.html (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f4c1bf81040>, 'Connection to poynton.ca timed out. (connect timeout=30)'))
 library/importlib.metadata.rst:16: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#entry-points to https://setuptools.pypa.io/en/latest/pkg_resources.html
 library/importlib.metadata.rst:16: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#metadata-api to https://setuptools.pypa.io/en/latest/pkg_resources.html
 library/importlib.metadata.rst:55: [redirected with Found] https://importlib-metadata.readthedocs.io/ to https://importlib-metadata.readthedocs.io/en/latest/
@@ -71,6 +72,5 @@ whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/fr/ to htt
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ja/ to https://docs.python.org/ja/3/
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ko/ to https://docs.python.org/ko/3/
 whatsnew/3.8.rst:2228: [broken] https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html: 403 Client Error: Forbidden for url: https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html
-whatsnew/changelog.rst:23561: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
+whatsnew/changelog.rst:23560: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
 whatsnew/changelog.rst:5786: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
-whatsnew/changelog.rst:9173: [redirected with Found] https://www.python.org/dev/peps/pep-0007/#documentation-strings to https://peps.python.org/pep-0007/
