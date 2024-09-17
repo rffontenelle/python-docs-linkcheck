@@ -37,10 +37,8 @@ library/intro.rst:89: [redirected with Found] https://pyodide.org/ to https://py
 library/os.path.rst:320: [redirected with Found] https://learn.microsoft.com/windows/dev-drive/ to https://learn.microsoft.com/en-us/windows/dev-drive/
 library/platform.rst:295: [redirected with Found] https://www.freedesktop.org/software/systemd/man/os-release.html to https://www.freedesktop.org/software/systemd/man/latest/os-release.html
 library/select.rst:279: [broken] https://linux.die.net/man/4/epoll: 403 Client Error: Forbidden for url: https://linux.die.net/man/4/epoll
-library/statistics.rst:267: [timeout] https://www.itm-conferences.org/articles/itmconf/pdf/2018/08/itmconf_sam2018_00037.pdf: HTTPSConnectionPool(host='www.itm-conferences.org', port=443): Max retries exceeded with url: /articles/itmconf/pdf/2018/08/itmconf_sam2018_00037.pdf (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fe970826870>, 'Connection to www.itm-conferences.org timed out. (connect timeout=30)'))
 library/statistics.rst:995: [broken] https://www.statisticshowto.com/probability-and-statistics/z-score/: 403 Client Error: Forbidden for url: https://www.statisticshowto.com/probability-and-statistics/z-score/
 library/time.rst:905: [broken] https://www.nist.gov/pml/time-and-frequency-division/nist-time-frequently-asked-questions-faq#tai: Anchor 'tai' not found
-library/tkinter.rst:41: [timeout] https://tkdocs.com/: HTTPSConnectionPool(host='tkdocs.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fe96f104470>, 'Connection to tkdocs.com timed out. (connect timeout=30)'))
 library/tkinter.rst:45: [redirected with Found] https://www.tkdocs.com/shipman/ to https://tkdocs.com/shipman/
 library/tkinter.rst:93: [redirected with Found] https://wiki.tcl-lang.org/37432 to https://wiki.tcl-lang.org/page/Tcl+Package+User+Guide
 library/tkinter.ttk.rst:27: [redirected with Found] https://core.tcl.tk/tips/doc/trunk/tip/48.md to https://core.tcl-lang.org/tips/doc/trunk/tip/48.md
@@ -63,7 +61,6 @@ whatsnew/2.5.rst:333: [redirected with Found] https://pylib.readthedocs.io/ to h
 whatsnew/2.6.rst:191: [broken] https://svn.python.org/view/tracker/importer/: unauthorized
 whatsnew/2.7.rst:1836: [redirected with Found] https://nose.readthedocs.io/ to https://nose.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1836: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/stable/
-whatsnew/3.12.rst:361: [broken] https://github.com/python/cpython/tree/3.13/!Modules/_xxsubinterpretersmodule.c: 404 Client Error: Not Found for url: https://github.com/python/cpython/tree/3.13/!Modules/_xxsubinterpretersmodule.c
 whatsnew/3.13.rst:1603: [broken] https://pypi.org/project/nntplib/: 404 Client Error: Not Found for url: https://pypi.org/project/nntplib/
 whatsnew/3.2.rst:2522: [redirected with Found] https://www.mercurial-scm.org/wiki/QuickStart to https://wiki.mercurial-scm.org/QuickStart
 whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https://openexr.com/en/latest/

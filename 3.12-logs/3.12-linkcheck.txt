@@ -29,7 +29,6 @@ library/2to3.rst:482: [redirected with Found] https://parso.readthedocs.io/ to h
 library/__main__.rst:167: [redirected with Found] https://pip.pypa.io/ to https://pip.pypa.io/en/stable/
 library/ast.rst:2518: [redirected with Found] https://greentreesnakes.readthedocs.io/ to https://greentreesnakes.readthedocs.io/en/latest/
 library/ast.rst:2536: [redirected with Found] https://parso.readthedocs.io to https://parso.readthedocs.io/en/latest/
-library/colorsys.rst:23: [timeout] https://poynton.ca/ColorFAQ.html: HTTPSConnectionPool(host='poynton.ca', port=443): Max retries exceeded with url: /ColorFAQ.html (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f4c1bf81040>, 'Connection to poynton.ca timed out. (connect timeout=30)'))
 library/importlib.metadata.rst:16: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#entry-points to https://setuptools.pypa.io/en/latest/pkg_resources.html
 library/importlib.metadata.rst:16: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#metadata-api to https://setuptools.pypa.io/en/latest/pkg_resources.html
 library/importlib.metadata.rst:55: [redirected with Found] https://importlib-metadata.readthedocs.io/ to https://importlib-metadata.readthedocs.io/en/latest/
@@ -60,11 +59,11 @@ using/mac.rst:166: [redirected with Found] https://toga.readthedocs.io to https:
 using/mac.rst:183: [redirected with Found] https://briefcase.readthedocs.io to https://briefcase.readthedocs.io/en/stable/
 using/windows.rst:1280: [redirected with Found] https://pythonce.sourceforge.net/ to https://sourceforge.net/projects/pythonce/
 whatsnew/2.2.rst:959: [redirected with Found] http://xmlrpc.scripting.com/ to http://xmlrpc.com/
+whatsnew/2.4.rst:759: [redirected with Found] http://web.archive.org/web/20210306104320/https://developer.gnome.org/glib/2.26/ to http://web.archive.org/web/20210306060400/https://developer.gnome.org/glib/2.26/
 whatsnew/2.5.rst:333: [redirected with Found] https://pylib.readthedocs.io/ to https://pylib.readthedocs.io/en/latest/
 whatsnew/2.6.rst:191: [broken] https://svn.python.org/view/tracker/importer/: unauthorized
 whatsnew/2.7.rst:1836: [redirected with Found] https://nose.readthedocs.io/ to https://nose.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1836: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/stable/
-whatsnew/3.2.rst:1650: [broken] https://docs.openssl.org/1.0.2/man1/ciphers/#CIPHER-LIST-FORMAT: Anchor 'CIPHER-LIST-FORMAT' not found
 whatsnew/3.2.rst:2522: [redirected with Found] https://www.mercurial-scm.org/wiki/QuickStart to https://wiki.mercurial-scm.org/QuickStart
 whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https://openexr.com/en/latest/
 whatsnew/3.5.rst:2215: [redirected with Found] https://visualstudio.microsoft.com/en/vs/older-downloads/#visual-studio-2015-and-other-products to https://visualstudio.microsoft.com/vs/older-downloads/

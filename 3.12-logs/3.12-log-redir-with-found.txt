@@ -54,6 +54,7 @@ using/mac.rst:166: [redirected with Found] https://toga.readthedocs.io to https:
 using/mac.rst:183: [redirected with Found] https://briefcase.readthedocs.io to https://briefcase.readthedocs.io/en/stable/
 using/windows.rst:1280: [redirected with Found] https://pythonce.sourceforge.net/ to https://sourceforge.net/projects/pythonce/
 whatsnew/2.2.rst:959: [redirected with Found] http://xmlrpc.scripting.com/ to http://xmlrpc.com/
+whatsnew/2.4.rst:759: [redirected with Found] http://web.archive.org/web/20210306104320/https://developer.gnome.org/glib/2.26/ to http://web.archive.org/web/20210306060400/https://developer.gnome.org/glib/2.26/
 whatsnew/2.5.rst:333: [redirected with Found] https://pylib.readthedocs.io/ to https://pylib.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1836: [redirected with Found] https://nose.readthedocs.io/ to https://nose.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1836: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/stable/
