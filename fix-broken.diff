@@ -72,7 +72,7 @@ index 938dd27..43e432a 100644
    will build python, run the test suite, and generate an HTML coverage report
    for the C codebase using ``gcov`` and `lcov
 -  <https://ltp.sourceforge.net/coverage/lcov.php>`_.
-+  <https://linux-test-project.readthedocs.io>`_.
++  <https://github.com/linux-test-project/lcov>`_.
  
  * The ``-R`` option to the :ref:`python regression test suite <regrtest>` now
    also checks for memory allocation leaks, using
