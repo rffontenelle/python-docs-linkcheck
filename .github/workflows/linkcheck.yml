@@ -26,7 +26,6 @@ jobs:
         include:
           - branch: 'main'
             fix-broken: 'fix-broken.diff'
-            fix-redir-permanently: 'fix-redir-permanently.diff'
             #fix-redir-with-found: 'fix-redir-with-found.diff'
             fix-timeout: 'fix-timeout.diff'
           - branch: '3.13'
@@ -36,7 +35,6 @@ jobs:
             fix-timeout: 'fix-timeout.diff'
           - branch: '3.12'
             fix-broken: 'fix-broken-3.12.diff'
-            fix-redir-permanently: 'fix-redir-permanently.diff'
             #fix-redir-with-found: 'fix-redir-with-found.diff'
             fix-timeout: 'fix-timeout.diff'
       fail-fast: false
