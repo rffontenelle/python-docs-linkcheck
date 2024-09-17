@@ -39,6 +39,7 @@ library/os.path.rst:313: [redirected with Found] https://learn.microsoft.com/win
 library/platform.rst:269: [redirected with Found] https://www.freedesktop.org/software/systemd/man/os-release.html to https://www.freedesktop.org/software/systemd/man/latest/os-release.html
 library/select.rst:279: [broken] https://linux.die.net/man/4/epoll: 403 Client Error: Forbidden for url: https://linux.die.net/man/4/epoll
 library/statistics.rst:908: [broken] https://www.statisticshowto.com/probability-and-statistics/z-score/: 403 Client Error: Forbidden for url: https://www.statisticshowto.com/probability-and-statistics/z-score/
+library/statistics.rst:957: [timeout] https://nces.ed.gov/programs/digest/d17/tables/dt17_226.40.asp: HTTPSConnectionPool(host='nces.ed.gov', port=443): Read timed out. (read timeout=30)
 library/time.rst:867: [broken] https://www.nist.gov/pml/time-and-frequency-division/nist-time-frequently-asked-questions-faq#tai: Anchor 'tai' not found
 library/tkinter.rst:45: [redirected with Found] https://www.tkdocs.com/shipman/ to https://tkdocs.com/shipman/
 library/tkinter.rst:93: [redirected with Found] https://wiki.tcl-lang.org/37432 to https://wiki.tcl-lang.org/page/Tcl+Package+User+Guide
