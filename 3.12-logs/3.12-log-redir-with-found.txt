@@ -58,7 +58,6 @@ whatsnew/2.5.rst:333: [redirected with Found] https://pylib.readthedocs.io/ to h
 whatsnew/2.7.rst:1836: [redirected with Found] https://nose.readthedocs.io/ to https://nose.readthedocs.io/en/latest/
 whatsnew/2.7.rst:1836: [redirected with Found] https://pytest.org to https://docs.pytest.org/en/stable/
 whatsnew/3.2.rst:2522: [redirected with Found] https://www.mercurial-scm.org/wiki/QuickStart to https://wiki.mercurial-scm.org/QuickStart
-whatsnew/3.4.rst:1962: [redirected with Found] https://linux-test-project.readthedocs.io to https://linux-test-project.readthedocs.io/en/latest/
 whatsnew/3.5.rst:1255: [redirected with Found] https://www.openexr.com to https://openexr.com/en/latest/
 whatsnew/3.5.rst:2215: [redirected with Found] https://visualstudio.microsoft.com/en/vs/older-downloads/#visual-studio-2015-and-other-products to https://visualstudio.microsoft.com/vs/older-downloads/
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/fr/ to https://docs.python.org/fr/3/
