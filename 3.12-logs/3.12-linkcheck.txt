@@ -1,4 +1,5 @@
 about.rst:6: [redirected with Found] https://www.sphinx-doc.org/ to https://www.sphinx-doc.org/en/master/
+c-api/perfmaps.rst:8: [redirected permanently] https://perf.wiki.kernel.org/index.php/Main_Page to https://perfwiki.github.io/
 distributing/index.rst:14: [redirected with Found] https://packaging.python.org/ to https://packaging.python.org/en/latest/
 extending/building.rst:54: [redirected with Found] https://setuptools.readthedocs.io/en/latest/setuptools.html to https://setuptools.pypa.io/en/latest/setuptools.html
 extending/extending.rst:25: [redirected with Found] https://cffi.readthedocs.io/ to https://cffi.readthedocs.io/en/stable/
@@ -7,6 +8,8 @@ extending/index.rst:37: [redirected with Found] https://packaging.python.org/gui
 faq/library.rst:181: [redirected with Found] https://www.sphinx-doc.org to https://www.sphinx-doc.org/en/master/
 faq/library.rst:625: [redirected with Found] https://groups.google.com/groups?selm=34A04430.CF9@ohioee.com to https://groups.google.com/g/comp.lang.python/c/LJPQHowhlsQ/m/OsoXBiShALIJ
 faq/programming.rst:100: [redirected with Found] https://pyinstaller.org/ to https://pyinstaller.org/en/stable/
+faq/programming.rst:32: [redirected permanently] https://www.activestate.com/products/python/ to https://www.activestate.com/platform/supported-languages/python/
+faq/programming.rst:42: [redirected permanently] https://github.com/rocky/python3-trepan/ to https://github.com/Trepan-Debuggers/python3-trepan
 howto/argparse.rst:820: [redirected with Found] https://babel.pocoo.org/ to https://babel.pocoo.org/en/latest/
 howto/curses.rst:541: [broken] https://linux.die.net/man/3/ncurses: 403 Client Error: Forbidden for url: https://linux.die.net/man/3/ncurses
 howto/functional.rst:1238: [redirected with Found] https://developer.ibm.com/articles/l-prog/ to https://developer.ibm.com/technologies/linux/articles/
@@ -15,6 +18,7 @@ howto/functional.rst:1238: [redirected with Found] https://developer.ibm.com/tut
 howto/isolating-extensions.rst:205: [redirected with Found] https://github.com/python/cpython/blob/master/Modules/xxlimited.c to https://github.com/python/cpython/blob/main/Modules/xxlimited.c
 howto/logging-cookbook.rst:2100: [redirected with Found] https://docs.djangoproject.com/en/stable/topics/logging/#configuring-logging to https://docs.djangoproject.com/en/5.1/topics/logging/
 howto/mro.rst:667: [redirected with Found] https://doi.org/10.1145/236337.236343 to https://dl.acm.org/doi/10.1145/236337.236343
+howto/perf_profiling.rst:11: [redirected permanently] https://perf.wiki.kernel.org to https://perfwiki.github.io/
 howto/pyporting.rst:31: [redirected with Found] https://portingguide.readthedocs.io to https://portingguide.readthedocs.io/en/latest/
 howto/unicode.rst:42: [redirected with Found] https://www.unicode.org/versions/latest/#Summary to https://www.unicode.org/versions/Unicode16.0.0/
 installing/index.rst:109: [redirected with Found] https://packaging.python.org to https://packaging.python.org/en/latest/
@@ -29,36 +33,48 @@ library/2to3.rst:482: [redirected with Found] https://parso.readthedocs.io/ to h
 library/__main__.rst:167: [redirected with Found] https://pip.pypa.io/ to https://pip.pypa.io/en/stable/
 library/ast.rst:2518: [redirected with Found] https://greentreesnakes.readthedocs.io/ to https://greentreesnakes.readthedocs.io/en/latest/
 library/ast.rst:2536: [redirected with Found] https://parso.readthedocs.io to https://parso.readthedocs.io/en/latest/
+library/asyncio-eventloop.rst:1752: [redirected with Found] https://learn.microsoft.com/windows/win32/fileio/i-o-completion-ports to https://learn.microsoft.com/en-us/windows/win32/fileio/i-o-completion-ports
 library/importlib.metadata.rst:16: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#entry-points to https://setuptools.pypa.io/en/latest/pkg_resources.html
 library/importlib.metadata.rst:16: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#metadata-api to https://setuptools.pypa.io/en/latest/pkg_resources.html
 library/importlib.metadata.rst:55: [redirected with Found] https://importlib-metadata.readthedocs.io/ to https://importlib-metadata.readthedocs.io/en/latest/
 library/importlib.resources.rst:35: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html to https://setuptools.pypa.io/en/latest/pkg_resources.html
 library/importlib.resources.rst:35: [redirected with Found] https://setuptools.readthedocs.io/en/latest/pkg_resources.html#basic-resource-access to https://setuptools.pypa.io/en/latest/pkg_resources.html
 library/intro.rst:89: [redirected with Found] https://pyodide.org/ to https://pyodide.org/en/stable/
+library/itertools.rst:788: [broken] https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf: 404 Client Error: Not Found for url: https://www.cs.kent.ac.uk/people/former_staff/index.html
 library/os.path.rst:313: [redirected with Found] https://learn.microsoft.com/windows/dev-drive/ to https://learn.microsoft.com/en-us/windows/dev-drive/
 library/platform.rst:269: [redirected with Found] https://www.freedesktop.org/software/systemd/man/os-release.html to https://www.freedesktop.org/software/systemd/man/latest/os-release.html
 library/select.rst:279: [broken] https://linux.die.net/man/4/epoll: 403 Client Error: Forbidden for url: https://linux.die.net/man/4/epoll
 library/statistics.rst:908: [broken] https://www.statisticshowto.com/probability-and-statistics/z-score/: 403 Client Error: Forbidden for url: https://www.statisticshowto.com/probability-and-statistics/z-score/
-library/time.rst:867: [broken] https://www.nist.gov/pml/time-and-frequency-division/nist-time-frequently-asked-questions-faq#tai: Anchor 'tai' not found
+library/time.rst:370: [redirected with Found] https://learn.microsoft.com/windows-hardware/drivers/kernel/high-resolution-timers to https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/high-resolution-timers
+library/time.rst:880: [broken] https://www.nist.gov/pml/time-and-frequency-division/nist-time-frequently-asked-questions-faq#tai: 404 Client Error: Not Found for url: https://www.nist.gov/pml/time-and-frequency-division/nist-time-frequently-asked-questions-faq
 library/tkinter.rst:45: [redirected with Found] https://www.tkdocs.com/shipman/ to https://tkdocs.com/shipman/
 library/tkinter.rst:93: [redirected with Found] https://wiki.tcl-lang.org/37432 to https://wiki.tcl-lang.org/page/Tcl+Package+User+Guide
 library/tkinter.ttk.rst:27: [redirected with Found] https://core.tcl.tk/tips/doc/trunk/tip/48.md to https://core.tcl-lang.org/tips/doc/trunk/tip/48.md
-library/trace.rst:18: [redirected with Found] https://coverage.readthedocs.io/ to https://coverage.readthedocs.io/en/7.6.1/
+library/trace.rst:18: [redirected with Found] https://coverage.readthedocs.io/ to https://coverage.readthedocs.io/en/7.6.8/
 library/unittest.mock-examples.rst:1342: [redirected with Found] https://pyhamcrest.readthedocs.io/ to https://pyhamcrest.readthedocs.io/en/latest/
 library/unittest.rst:59: [redirected with Found] https://docs.pytest.org/ to https://docs.pytest.org/en/stable/
 library/urllib.request.rst:21: [redirected with Found] https://requests.readthedocs.io/en/master/ to https://requests.readthedocs.io/en/latest/
 library/venv.rst:56: [redirected with Found] https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments to https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 library/wsgiref.rst:32: [redirected with Found] https://wsgi.readthedocs.io/ to https://wsgi.readthedocs.io/en/latest/
 library/xmlrpc.client.rst:171: [redirected with Found] http://xmlrpc.scripting.com/spec.html to http://xmlrpc.com/spec.md
-license.rst:1048: [redirected permanently] https://sourceforge.net/projects/sox/files/sox/12.17.7/sox-12.17.7.tar.gz to https://sourceforge.net/projects/sox/files/sox/12.17.7/sox-12.17.7.tar.gz/download
+license.rst:1048: [broken] https://sourceforge.net/projects/sox/files/sox/12.17.7/sox-12.17.7.tar.gz: 403 Client Error: Forbidden for url: https://sourceforge.net/projects/sox/files/sox/12.17.7/sox-12.17.7.tar.gz
 license.rst:13: [redirected with Found] https://www.cwi.nl/ to https://www.cwi.nl/en/
-license.rst:189: [redirected with Found] http://hdl.handle.net/1895.22/1013 to http://www.handle.net/python_licenses/python1.6.1-2-23-01.html
+license.rst:189: [redirected permanently] http://hdl.handle.net/1895.22/1013 to https://www.handle.net/python_licenses/python1.6.1-2-23-01.html
 license.rst:305: [redirected with Found] http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/MT2002/emt19937ar.html to http://www.math.sci.hiroshima-u.ac.jp/m-mat/MT/MT2002/emt19937ar.html
+license.rst:30: [broken] https://opensource.org/: 403 Client Error: Forbidden for url: https://opensource.org/
 tutorial/whatnow.rst:36: [redirected with Found] https://docs.python.org to https://docs.python.org/3/
 using/mac.rst:166: [redirected with Found] https://toga.readthedocs.io to https://toga.readthedocs.io/en/stable/
 using/mac.rst:183: [redirected with Found] https://briefcase.readthedocs.io to https://briefcase.readthedocs.io/en/stable/
-using/windows.rst:1280: [redirected with Found] https://pythonce.sourceforge.net/ to https://sourceforge.net/projects/pythonce/
-whatsnew/2.2.rst:959: [redirected with Found] http://xmlrpc.scripting.com/ to http://xmlrpc.com/
+using/windows.rst:1224: [redirected with Found] https://learn.microsoft.com/windows/win32/com/component-object-model--com--portal to https://learn.microsoft.com/en-us/windows/win32/com/component-object-model--com--portal
+using/windows.rst:1230: [redirected with Found] https://learn.microsoft.com/cpp/mfc/mfc-desktop-applications to https://learn.microsoft.com/en-us/cpp/mfc/mfc-desktop-applications
+using/windows.rst:1280: [broken] https://pythonce.sourceforge.net/: 403 Client Error: Forbidden for url: https://sourceforge.net/projects/pythonce/
+using/windows.rst:394: [redirected with Found] https://learn.microsoft.com/windows/msix/desktop/desktop-to-uwp-behind-the-scenes to https://learn.microsoft.com/en-us/windows/msix/desktop/desktop-to-uwp-behind-the-scenes
+using/windows.rst:477: [redirected permanently] https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist#visual-studio-2015-2017-2019-and-2022 to https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
+using/windows.rst:621: [redirected with Found] https://learn.microsoft.com/windows/win32/procthread/environment-variables to https://learn.microsoft.com/en-us/windows/win32/procthread/environment-variables
+using/windows.rst:624: [redirected with Found] https://learn.microsoft.com/windows-server/administration/windows-commands/set_1 to https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/set_1
+using/windows.rst:627: [redirected with Found] https://learn.microsoft.com/windows-server/administration/windows-commands/setx to https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/setx
+whatsnew/2.0.rst:59: [broken] https://sourceforge.net/projects/python/: 403 Client Error: Forbidden for url: https://sourceforge.net/projects/python/
+whatsnew/2.2.rst:960: [redirected with Found] http://xmlrpc.scripting.com/ to http://xmlrpc.com/
 whatsnew/2.4.rst:759: [redirected with Found] http://web.archive.org/web/20210306104320/https://developer.gnome.org/glib/2.26/ to http://web.archive.org/web/20210306060400/https://developer.gnome.org/glib/2.26/
 whatsnew/2.5.rst:333: [redirected with Found] https://pylib.readthedocs.io/ to https://pylib.readthedocs.io/en/latest/
 whatsnew/2.6.rst:191: [broken] https://svn.python.org/view/tracker/importer/: unauthorized
@@ -70,6 +86,7 @@ whatsnew/3.5.rst:2215: [redirected with Found] https://visualstudio.microsoft.co
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/fr/ to https://docs.python.org/fr/3/
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ja/ to https://docs.python.org/ja/3/
 whatsnew/3.7.rst:116: [redirected with Found] https://docs.python.org/ko/ to https://docs.python.org/ko/3/
-whatsnew/3.8.rst:2228: [broken] https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html: 403 Client Error: Forbidden for url: https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html
-whatsnew/changelog.rst:23560: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
-whatsnew/changelog.rst:5786: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/
+whatsnew/3.8.rst:2228: [broken] https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html: 403 Client Error: Forbidden for url: https://corpredirect.intel.com/Redirector/404Redirector.aspx?404;https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html
+whatsnew/changelog.rst:24088: [redirected with Found] https://docs.python.org/zh-cn/ to https://docs.python.org/zh-cn/3/
+whatsnew/changelog.rst:30381: [broken] https://sourceforge.net/p/expat/bugs/537/: 403 Client Error: Forbidden for url: https://sourceforge.net/p/expat/bugs/537/
+whatsnew/changelog.rst:6314: [redirected with Found] https://sphinxext-opengraph.readthedocs.io/ to https://sphinxext-opengraph.readthedocs.io/en/latest/

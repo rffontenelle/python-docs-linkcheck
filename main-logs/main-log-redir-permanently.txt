@@ -1,0 +1,7 @@
+c-api/perfmaps.rst:8: [redirected permanently] https://perf.wiki.kernel.org/index.php/Main_Page to https://perfwiki.github.io/
+faq/programming.rst:32: [redirected permanently] https://www.activestate.com/products/python/ to https://www.activestate.com/platform/supported-languages/python/
+faq/programming.rst:42: [redirected permanently] https://github.com/rocky/python3-trepan/ to https://github.com/Trepan-Debuggers/python3-trepan
+howto/perf_profiling.rst:11: [redirected permanently] https://perf.wiki.kernel.org to https://perfwiki.github.io/
+license.rst:189: [redirected permanently] http://hdl.handle.net/1895.22/1013 to https://www.handle.net/python_licenses/python1.6.1-2-23-01.html
+using/mac.rst:117: [redirected permanently] https://support.apple.com/en-us/HT201732 to https://support.apple.com/guide/mac-help/organize-your-files-in-the-finder-mchlp2605/mac
+using/windows.rst:538: [redirected permanently] https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist#visual-studio-2015-2017-2019-and-2022 to https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170

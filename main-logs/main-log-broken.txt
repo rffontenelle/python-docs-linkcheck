@@ -1,7 +1,19 @@
+faq/gui.rst:20: [broken] https://www.tcl.tk: 521 Server Error:  for url: https://www.tcl.tk/
 howto/curses.rst:541: [broken] https://linux.die.net/man/3/ncurses: 403 Client Error: Forbidden for url: https://linux.die.net/man/3/ncurses
+howto/free-threading-extensions.rst:250: [broken] https://cibuildwheel.pypa.io/en/stable/options/#free-threaded-support: Anchor 'free-threaded-support' not found
+library/intro.rst:141: [broken] https://issuetracker.google.com/issues/128554619#comment4: Anchor 'comment4' not found
+library/itertools.rst:836: [broken] https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf: 404 Client Error: Not Found for url: https://www.cs.kent.ac.uk/people/former_staff/index.html
 library/select.rst:279: [broken] https://linux.die.net/man/4/epoll: 403 Client Error: Forbidden for url: https://linux.die.net/man/4/epoll
 library/statistics.rst:995: [broken] https://www.statisticshowto.com/probability-and-statistics/z-score/: 403 Client Error: Forbidden for url: https://www.statisticshowto.com/probability-and-statistics/z-score/
-library/time.rst:905: [broken] https://www.nist.gov/pml/time-and-frequency-division/nist-time-frequently-asked-questions-faq#tai: Anchor 'tai' not found
+library/time.rst:918: [broken] https://www.nist.gov/pml/time-and-frequency-division/nist-time-frequently-asked-questions-faq#tai: 404 Client Error: Not Found for url: https://www.nist.gov/pml/time-and-frequency-division/nist-time-frequently-asked-questions-faq
+library/tkinter.rst:475: [broken] https://www.tcl.tk/man/tcl8.6/TkCmd/grid.htm: 521 Server Error:  for url: https://www.tcl.tk/man/tcl8.6/TkCmd/grid.htm
+library/tkinter.rst:475: [broken] https://www.tcl.tk/man/tcl8.6/TkCmd/ttk_button.htm: 521 Server Error:  for url: https://www.tcl.tk/man/tcl8.6/TkCmd/ttk_button.htm
+library/tkinter.rst:483: [broken] https://www.tcl.tk/man/tcl8.6/TkCmd/options.htm: 521 Server Error:  for url: https://www.tcl.tk/man/tcl8.6/TkCmd/options.htm
+library/tkinter.rst:483: [broken] https://www.tcl.tk/man/tcl8.6/TkCmd/ttk_widget.htm: 521 Server Error:  for url: https://www.tcl.tk/man/tcl8.6/TkCmd/ttk_widget.htm
+library/tkinter.rst:488: [broken] https://www.tcl.tk/man/tcl8.6/TkCmd/winfo.htm: 523 Server Error:  for url: https://www.tcl.tk/man/tcl8.6/TkCmd/winfo.htm
+license.rst:30: [broken] https://opensource.org/: 403 Client Error: Forbidden for url: https://opensource.org/
+using/windows.rst:1349: [broken] https://pythonce.sourceforge.net/: 403 Client Error: Forbidden for url: https://sourceforge.net/projects/pythonce/
+whatsnew/2.0.rst:59: [broken] https://sourceforge.net/projects/python/: 403 Client Error: Forbidden for url: https://sourceforge.net/projects/python/
 whatsnew/2.6.rst:191: [broken] https://svn.python.org/view/tracker/importer/: unauthorized
-whatsnew/3.13.rst:1606: [broken] https://pypi.org/project/nntplib/: 404 Client Error: Not Found for url: https://pypi.org/project/nntplib/
-whatsnew/3.8.rst:2228: [broken] https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html: 403 Client Error: Forbidden for url: https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html
+whatsnew/3.8.rst:2228: [broken] https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html: 403 Client Error: Forbidden for url: https://corpredirect.intel.com/Redirector/404Redirector.aspx?404;https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html
+whatsnew/changelog.rst:35853: [broken] https://sourceforge.net/p/expat/bugs/537/: 403 Client Error: Forbidden for url: https://sourceforge.net/p/expat/bugs/537/

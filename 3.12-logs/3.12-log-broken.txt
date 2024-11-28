@@ -1,6 +1,12 @@
 howto/curses.rst:541: [broken] https://linux.die.net/man/3/ncurses: 403 Client Error: Forbidden for url: https://linux.die.net/man/3/ncurses
+library/itertools.rst:788: [broken] https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf: 404 Client Error: Not Found for url: https://www.cs.kent.ac.uk/people/former_staff/index.html
 library/select.rst:279: [broken] https://linux.die.net/man/4/epoll: 403 Client Error: Forbidden for url: https://linux.die.net/man/4/epoll
 library/statistics.rst:908: [broken] https://www.statisticshowto.com/probability-and-statistics/z-score/: 403 Client Error: Forbidden for url: https://www.statisticshowto.com/probability-and-statistics/z-score/
-library/time.rst:867: [broken] https://www.nist.gov/pml/time-and-frequency-division/nist-time-frequently-asked-questions-faq#tai: Anchor 'tai' not found
+library/time.rst:880: [broken] https://www.nist.gov/pml/time-and-frequency-division/nist-time-frequently-asked-questions-faq#tai: 404 Client Error: Not Found for url: https://www.nist.gov/pml/time-and-frequency-division/nist-time-frequently-asked-questions-faq
+license.rst:1048: [broken] https://sourceforge.net/projects/sox/files/sox/12.17.7/sox-12.17.7.tar.gz: 403 Client Error: Forbidden for url: https://sourceforge.net/projects/sox/files/sox/12.17.7/sox-12.17.7.tar.gz
+license.rst:30: [broken] https://opensource.org/: 403 Client Error: Forbidden for url: https://opensource.org/
+using/windows.rst:1280: [broken] https://pythonce.sourceforge.net/: 403 Client Error: Forbidden for url: https://sourceforge.net/projects/pythonce/
+whatsnew/2.0.rst:59: [broken] https://sourceforge.net/projects/python/: 403 Client Error: Forbidden for url: https://sourceforge.net/projects/python/
 whatsnew/2.6.rst:191: [broken] https://svn.python.org/view/tracker/importer/: unauthorized
-whatsnew/3.8.rst:2228: [broken] https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html: 403 Client Error: Forbidden for url: https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html
+whatsnew/3.8.rst:2228: [broken] https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html: 403 Client Error: Forbidden for url: https://corpredirect.intel.com/Redirector/404Redirector.aspx?404;https://ark.intel.com/content/www/us/en/ark/products/76088/intel-core-i7-4960hq-processor-6m-cache-up-to-3-80-ghz.html
+whatsnew/changelog.rst:30381: [broken] https://sourceforge.net/p/expat/bugs/537/: 403 Client Error: Forbidden for url: https://sourceforge.net/p/expat/bugs/537/
